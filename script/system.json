@@ -2410,7 +2410,7 @@
  {
   "id": "21:E215",
   "jp": "{pos:0304}（コンフィグ）{pos:0407}メッセ―ジスピ―ド：{pos:050A}はやい  1  2  3  4  5  おそい{pos:040D}サウンドセット：   ステレオ    モノラル{pos:0410}カ―ソルいち ：   もどす     きおく{pos:0413}コントロ―ラ―：   ノ―マル    カスタム{pos:0416}いどうモ―ド ：   ノ―マル    オ―ト{end}",
-  "en": "{pos:0304}(Config){pos:0407}Message Speed:{pos:050A}Fast__1__2__3__4__5__Slow{pos:040D}Sound:______Stereo___Mono{pos:0410}Cursor:______Reset____Remember{pos:0413}Controller:____Normal___Custom{pos:0416}Move Mode:___Normal___Auto{end}",
+  "en": "{pos:0304}(Config){pos:0407}Message Speed:{pos:050A}Fast__1__2__3__4__5__Slow{pos:040D}Sound:______Stereo___Mono{pos:0410}Cursor:______Reset____Keep{pos:0413}Controller:____Normal___Custom{pos:0416}Move Mode:___Normal___Auto{end}",
   "block": "menu: config",
   "refs": [
    "b3 10DD4A"

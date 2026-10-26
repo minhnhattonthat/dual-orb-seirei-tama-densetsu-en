@@ -52,6 +52,9 @@ org $00AF41
 org $00AF60
 	jsr names_rby
 
+org $20A50F               ; battle panel, third field (weapon/spell/item/skill name): column $17 -> $14, 88 px
+	db $14                    ; (LDX #$0017 at $20:A50E; the command field before it keeps 40 px)
+
 org $00A98F               ; glyph path of the interpreter (A 8-bit, Y = $0DF9): code DF = jump
 	jsr names_glyph
 

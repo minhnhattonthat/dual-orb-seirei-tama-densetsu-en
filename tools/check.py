@@ -9,6 +9,7 @@ steps = [[sys.executable, "-X", "utf8", "-m", "pytest", "-q", str(ROOT / "tests"
 lint = ROOT / "tools" / "lint.py"
 if lint.is_file():
     steps.append([sys.executable, "-X", "utf8", str(lint)])
+steps.append([sys.executable, "-X", "utf8", str(ROOT / "tools" / "fieldfit.py")])  # menu/battle field budgets
 
 for cmd in steps:
     r = subprocess.run(cmd, cwd=ROOT)

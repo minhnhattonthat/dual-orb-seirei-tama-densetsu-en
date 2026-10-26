@@ -38,6 +38,8 @@ incsrc "../build/vwf/defs.asm"
 !BUDGET   = $F826
 !NMIBYTES = $0400         ; pool tiles uploaded per frame (32 cells), after the game's own DMA
 !CHUNKMAX = $0040         ; bytes per DMA, so one never runs far past the end of vblank
+!MEMO     = $7F8900       ; byte per cell of $7F:F000-$F7FF (offset >> 1): the pool pair it last showed, FF none
+!OWNER    = $7F8D00       ; word per pool pair (to $8E6B): the cell it was last handed to (blanked-and-redrawn rows reuse it)
 !QV       = $FA00         ; VRAM word address
 !QS       = $FC00         ; source (bank $7E)
 !QN       = $FE00         ; bytes left (a multiple of 32: whole pairs)
@@ -333,7 +335,55 @@ getpair:
 	rep #$20
 	lda.w !TILE
 	bra .have
-.alloc
+.alloc                     ; the cell shows no pool pair (e.g. its row was blanked): the pair it showed last, if
+	lda.w !CELLX              ; no other cell has been handed it since, else a free one (top 32x32 screen only)
+	and #$0FFF
+	cmp #$0800
+	bcs .plain
+	lsr
+	tax
+	lda.l !MEMO,x
+	and #$00FF
+	cmp #$00FF
+	beq .free
+	tay
+	asl
+	tax
+	lda.l !OWNER,x
+	cmp.w !CELLX
+	bne .free
+	tyx
+	sep #$20
+	lda #$01
+	sta.w !USED,x
+	rep #$20
+	txa
+	asl
+	tax
+	lda.l vwf_pairs,x
+	sta.w !TILE
+	bra .have
+.free
+	jsr alloc
+	sta.w !TILE
+	tax
+	lda.l vwf_tilepair,x      ; remember: cell -> pair, pair -> cell
+	and #$00FF
+	pha
+	asl
+	tax
+	lda.w !CELLX
+	sta.l !OWNER,x
+	and #$0FFF
+	lsr
+	tax
+	pla
+	sep #$20
+	sta.l !MEMO,x
+	rep #$20
+	lda.w !TILE               ; clearpair takes the tile
+	bra .have
+.plain
 	jsr alloc
 	sta.w !TILE
 .have
@@ -688,6 +738,12 @@ init:
 	cpx.w #!POOL_N
 	bne -
 	rep #$20
+	lda #$FFFF                ; no cell remembers a pair yet
+	ldx #$03FE
+-	sta.l !MEMO,x
+	dex
+	dex
+	bpl -
 	stz.w !ROVER
 	stz.w !PENSUB
 	stz.w !QHEAD

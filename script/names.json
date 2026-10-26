@@ -3347,7 +3347,7 @@
  {
   "id": "3C5:03",
   "jp": "ふしぎな まりょくをもつ ナイフ{end}",
-  "en": "A knife with strange magic power{end}"
+  "en": "A knife of strange magic power{end}"
  },
  {
   "id": "3C5:04",
@@ -3392,7 +3392,7 @@
  {
   "id": "3C5:0C",
   "jp": "いまでは めずらしい ダイヤのけん{end}",
-  "en": "A diamond sword, rare these days{end}"
+  "en": "A rare sword of diamond{end}"
  },
  {
   "id": "3C5:0D",
@@ -3402,7 +3402,7 @@
  {
   "id": "3C5:0E",
   "jp": "ラ―ゼスの うろこで つくられた けん{end}",
-  "en": "A sword made of Larzes's scales{end}"
+  "en": "A sword of Larzes's scales{end}"
  },
  {
   "id": "3C5:0F",
@@ -3437,7 +3437,7 @@
  {
   "id": "3C5:15",
   "jp": "セントバッカスの せんしがもつ おの{end}",
-  "en": "Axe of the warriors of St. Bacchus{end}"
+  "en": "Axe of St. Bacchus's warriors{end}"
  },
  {
   "id": "3C5:16",
@@ -3482,7 +3482,7 @@
  {
   "id": "3C5:1E",
   "jp": "かりに つかう きょうりょくな ゆみ{end}",
-  "en": "A powerful bow used for hunting{end}"
+  "en": "A powerful hunting bow{end}"
  },
  {
   "id": "3C5:1F",
@@ -3587,7 +3587,7 @@
  {
   "id": "3C6:08",
   "jp": "いまでは めずらしい ダイヤのたて{end}",
-  "en": "A diamond shield, rare these days{end}"
+  "en": "A rare shield of diamond{end}"
  },
  {
   "id": "3C6:09",
@@ -3607,7 +3607,7 @@
  {
   "id": "3C6:0C",
   "jp": "ラ―ゼスのうろこで つくった たて{end}",
-  "en": "A shield made of Larzes's scales{end}"
+  "en": "A shield of Larzes's scales{end}"
  },
  {
   "id": "3C6:0D",
@@ -3687,7 +3687,7 @@
  {
   "id": "3C7:0C",
   "jp": "いまでは めずらしい ダイヤのかぶと{end}",
-  "en": "A diamond helm, rare these days{end}"
+  "en": "A rare helm of diamond{end}"
  },
  {
   "id": "3C8:01",
@@ -3752,7 +3752,7 @@
  {
   "id": "3C8:0D",
   "jp": "いまでは めずらしい ダイヤのよろい{end}",
-  "en": "Diamond armor, rare these days{end}"
+  "en": "Rare armor of diamond{end}"
  },
  {
   "id": "3C8:0E",
@@ -3772,7 +3772,7 @@
  {
   "id": "3C8:11",
   "jp": "ラ―ゼスの うろこで できた よろい{end}",
-  "en": "Armor made of Larzes's scales{end}"
+  "en": "Armor of Larzes's scales{end}"
  },
  {
   "id": "3C8:12",
@@ -3802,7 +3802,7 @@
  {
   "id": "3C9:01",
   "jp": "うごきやすい かわでできた くつ{end}",
-  "en": "Leather shoes, easy to move in{end}"
+  "en": "Light leather shoes{end}"
  },
  {
   "id": "3C9:02",
@@ -3822,7 +3822,7 @@
  {
   "id": "3C9:05",
   "jp": "つよい かわで あしもとを まもる{end}",
-  "en": "Tough leather guards your feet{end}"
+  "en": "Tough leather for the feet{end}"
  },
  {
   "id": "3C9:06",
@@ -3847,7 +3847,7 @@
  {
   "id": "3C9:0A",
   "jp": "りゅうの うろこで できた グリ―ブ{end}",
-  "en": "Greaves made of dragon scales{end}"
+  "en": "Greaves of dragon scales{end}"
  },
  {
   "id": "3C9:0B",
@@ -3862,6 +3862,6 @@
  {
   "id": "3C9:0D",
   "jp": "いまでは めずらしい ダイヤのグリ―ブ{end}",
-  "en": "Diamond greaves, rare these days{end}"
+  "en": "Rare greaves of diamond{end}"
  }
 ]

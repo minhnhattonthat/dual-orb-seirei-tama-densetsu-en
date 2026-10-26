@@ -20,7 +20,8 @@ from maps import off, w16  # noqa: E402
 
 ORIG = ROM.read_bytes()
 HOOKS = [(0x2EB6, 0x2EE0), (0x00A9, 0x00AD),  # $00:AEB6 stub, NMI JSL $00E388 -> vwf_nmi
-         (0x298F, 0x2992), (0x2A30, 0x2F63), (0x5680, 0x5753)]  # asm/names.asm: jump, handlers, helpers
+         (0x298F, 0x2992), (0x2A30, 0x2F63), (0x5680, 0x5753),  # asm/names.asm: jump, handlers, helpers
+         (0x10250F, 0x102510)]  # battle panel field column
 NAME_ARRAYS = (0x3422, 0x5680)  # pointer arrays rewritten by insert.names_far (strings now in bank $3F)
 
 

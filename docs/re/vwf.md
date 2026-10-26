@@ -39,6 +39,10 @@ box; the VWF (about 5.5 px a letter) fits ~35, close to the JP line count (D4: e
   (the wait on `$60` at `$00:897B`). `enqueue` sets `$F82E` (busy) so the NMI never retires an entry mid-merge.
 - Static codes (28 ・, 2F ▲, 30 ▼, 38 ▶, 3F cell space `_`) keep their original tiles, snap to the next cell,
   advance 8. `40` word space (4 px) draws nothing and blanks cells it enters.
+- A cell that shows no pool pair (its row was blanked) takes back the pair it showed last if no other cell got it
+  since (`!MEMO` byte per cell of the top screen `$7F:F000-$F7FF` at `$7F:8900`, `!OWNER` word per pair at
+  `$7F:8D00`; `$7F:8900-$8FFF` is never written in 9 scenes, `tools/lua/wramuse.lua`): the battle panel blanks and
+  redraws its row every 3 frames, and fresh pairs each time left the VRAM uploads behind (stale text, phase 7).
 - Allocation is round-robin; when no pair is free, a sweep of `$7F:F000-$FFFF` frees pairs no cell shows.
 - FastROM: code in `$B0`, writes `$420D = 1` on entry (the game's own banks are $00-$3F, unaffected).
 - Unknown codes (kana) render as a hollow box (tofu), so leftover Japanese is visible.
