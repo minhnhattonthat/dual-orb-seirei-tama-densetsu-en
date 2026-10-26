@@ -1,2 +1,2 @@
-# SHA-1 of the supported dump, in sha1sum format (`sha1sum -c rom.sha1` works too). One line per file for discs.
-<sha1>  rom/<file>
+# SHA-1 of the supported dump, in sha1sum format (`sha1sum -c rom.sha1` works too). No-Intro: Dual Orb - Seirei Tama Densetsu (Japan), 1572864 bytes, CRC32 9d7bd920.
+25fe4c1af89a7d09ffefab7d568d15865f153467  rom/Dual Orb - Seirei Tama Densetsu (Japan).sfc
