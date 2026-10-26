@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6 (translation) done 2026-10-27; next is phase 7 (relocate names/system text, fit menus).
+- **Phase:** 7 (insert, fit) in progress 2026-10-27: relocation done, menus partly fitted.
   `tools/build.py` builds VWF + script (`--marker` for the marker build, `--identity` for the byte-identical ROM).
 - **Done:**
   - Step 0: MesenCE 2.2.1 in `tools/mesen/`, guard hook verified (blocks `sed -i`), pre-commit runs `tools/check.py`
@@ -32,12 +32,18 @@ Updated at the end of every session. Keep it to what the next session needs; his
     `tools/lint.py` in `check.py` (3055 entries, 0 errors). Every batch reviewed (reviewer agents); Critical/Important
     fixed; Minors in `docs/polish.md`. Glossary, `docs/synopsis.md`, `docs/style-reference.md`, briefs written.
     `{tEC}` tokens may be written out (EC = names + phrase fragments). In-game: English dialogue renders (opening).
-- **Next (phase 7):** relocate names/system text: 912 in-place entries are longer than the JP and are left Japanese
-  by the build for now (`insert.LONG`; they show as tofu inside English text). Names need a far-pointer hook in the
-  E4-F9 handler; chest messages MVN-copied with fixed length into `$1C19`; EC phrase tokens used in shops must stay
-  within one line (192 px) or the line breaks. Measure menu field budgets from shots (system text widths: lint WARNs,
-  e.g. intro crawl 0C:D8AE 205 px, story-so-far up to 210 px). Cap the name-entry screen at 42 px (`wrap.HERO_PX`).
-  Name-entry chart (grid) is still Japanese. Then the polish pass (`docs/polish.md`).
+  - Phase 7 (in progress): names in bank $3F via patched table handlers, insert buffer 256 B at `$7F:EF00`,
+    `{jump}` (DF) far text in bank $3E for every over-long system piece (`asm/names.asm`, `docs/re/text.md`
+    §Names relocated). 0 entries left Japanese. Battle `00` name slots kept at JP byte offsets (lint error).
+    VWF per-cell pair memo (battle panel churn). Battle name field at column $14. `tools/fieldfit.py` (in check):
+    info line 232 px, battle fields. 111/111 warps ok; checked shop, menus, status, rename, battle, battle_win,
+    intro, credits, places. Debug probes: `tools/lua/{jumplog,textdump,bblog}.lua`.
+- **Next (phase 7 rest):** name-entry chart (`21:ECD5` grid) still Japanese -> English letters; cap typed names at
+  42 px (`wrap.HERO_PX`). Look at remaining lint width WARNs (597, mostly names in dialogue = fine) by screen:
+  field magic menu (spell list?), battle target/magic/item selection lists, save menu ("Record 1..." +56 px),
+  treasure-box game, church, story-so-far (+49 px lines), intro crawl. `romdiff.py` with allowed ranges. Then
+  phase 8 (QA tours + visual-QA gate) and the polish pass (`docs/polish.md`). Battle command buttons
+  (アタック/オートバトル/にげる) are graphics: phase 8 graphics list.
 - **Risks:** other `find_lists` refs may be false like `$13:E69B` (only those read by the map loader `$0C:B40A` are
   proven; probe: `work/tmp_refs.lua` idea, log reads of each ref site). Shadow `$7E:E000` is free in the scenes
   measured, not proven everywhere. A full screen of new VWF cells takes a few frames to appear.
