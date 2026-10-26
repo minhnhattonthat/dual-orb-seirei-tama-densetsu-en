@@ -68,18 +68,32 @@ Inserted strings go through the 32-byte buffer `$0E11` (FF-terminated): a name l
   The same banks laid out back to front (`test_reversed_layout_shows_same_text`) show the same text in the
   emulator (`opening` warp, `work/qa/rev_rev` vs `rev_orig`).
 
-## Other text sites
-- 226 code sites store a text pointer to `$B3` (172 as `LDA #lo / STA $B3 / LDA #bank / STA $B5` immediates):
-  banks $01 (shops), $0C (intro, events), $20/$21 (battle, menus, save), $00, $24.
-- Name tables in bank $00 (file 0x3400-0x5800): items, magic, people, places, monsters (lists above).
-- Intro crawl: bank $0C, from file 0x656CD, drawn by its own routine `$0C:D685` (table `$0C:D696`).
-- Credits: bank $00 file 0xF245-0xF560 (mostly English already; Japanese nicknames MUくん, はらへりぞぉー, ぽんた,
-  ぱあくん, いちごやすいか), then `（あなたのプレイきろく）` play record. Sound-test song titles at file 0x66880 (English).
+## Other text sites (verified: `tests/test_extract.py`)
+- **Name tables** (`tools/names.py`): 13 code tables (E4-F9) + 10 `{dict}` sub-tables (pointer list `$00:AA64`), each
+  16-bit pointers then FF strings; together they tile `$00:B422-$D753` exactly (773 strings). EC is a general
+  name/phrase table (170 entries), 3C0-3C9 hold item/magic/equipment descriptions.
+- **System text** (`tools/systext.py`, 30 blocks, 288 pieces): shops ($01), credits + play record ($01:F252, not
+  bank $00), SRAM warning ($00:FCAE), intro crawl, story-so-far, sound test, treasure-box game ($0C), chest messages
+  ($10:A15C, copied to WRAM by `LDX #src / LDY #$1C19 / MVN`), battle ($20), menus, config, rename, save ($21).
+  Pointer forms found: `LDA #lo / STA $B3 / LDA #bank / STA $B5` (every target in the ROM is a piece start),
+  10 pointer tables (`TABLES`), status-message word pairs at `$20:D939` (party/enemy wording, `LDA $D939`/`$D93B`),
+  MVN sources, `LDA $EF9B,X` (default names). 28 pieces have no known pointer (battle messages picked by index or
+  reached by stepping; party-name list `$21:C56D` indexed as `$B3 + 2n`): keep them in place and in order.
+- **FA** ends a battle message (the battle printer stops there; `$20:9364-$9612` is a run of FA messages, each with
+  its own immediate). In menu/credits strings the routine reads on past FA, so pieces split at FA stay in order.
+  Battle text writes `00` (two 00 bytes) where the engine inserts a monster/actor/item name.
+- **Default hero names** `$21:EF9B`, 4 x 8 bytes FF-padded (ラルフ テオ リズ ルミエス), copied to `$0E3B + $40n`.
+- **Name-entry chart** `$21:ECD5-$ED9D` (200 glyph codes: katakana, hiragana, A-Z, digits, in screen order).
 - Battle/menu strings in banks $20/$21 are space-padded fixed-width fields (`こうげき   `).
+- Not text (census false hits in text banks): `$00:8FAC` (code), `$21:83B3` (flag table). Banks with no text
+  pointer (02-0B, 0D, 0E, 13, 14, 16-1F, 22-2F) have only random census hits.
 
-## Text ranges (census, `tools/census.py`)
-Real text by bank (bytes): $00 ~4.4K (names, credits), $01 shop, $0C 0.7K intro, $0F 16.8K, $11 19.4K, $12 18.6K,
-$15 20.2K, $20/$21 menus and battle (short fixed strings the census undercounts). ~85 KB total.
+## Script files (phase 4, `tools/extract.py`)
+`script/dialogue_{0F,11,12,15}.json` (2257 strings), `script/names.json` (773), `script/system.json` (288).
+Each entry: `id`, `jp` (exact bytes through tbl), `en`; system entries also `block`, `refs`, and `kind`/`size` for
+fixed/grid. Tests: every jp re-encodes to the ROM bytes, names tile their region, every pointer target is a piece
+start, every census run in a text-pointer bank is inside an item. Re-running the extractor keeps `en` while `jp`
+is unchanged.
 
 ## Free space (FF runs at bank ends, candidates only; trap-test before use)
 $0F:E531 (6.8K), $11:F7AD (2.1K), $12:F22E (3.5K), $15:FC88 (0.9K), $0D:F279 (3.4K), $01:F746 (2.2K),
