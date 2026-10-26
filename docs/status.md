@@ -2,7 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 2 (debug tool) done 2026-10-27; next is phase 3 (identity build). No build yet.
+- **Phase:** 3 (identity build) done 2026-10-27; next is phase 4 (extract). `tools/build.py` builds
+  `build/dual_orb_en.sfc`, byte-identical to the original (sha1 25fe4c1a...), smoke ok.
 - **Done:**
   - Step 0: MesenCE 2.2.1 in `tools/mesen/`, guard hook verified (blocks `sed -i`), pre-commit runs `tools/check.py`
     (a failing test was rejected), `rom.sha1` pinned, original ROM smoke-boots, Start/Lua probes work.
@@ -14,8 +15,15 @@ Updated at the end of every session. Keep it to what the next session needs; his
     `tools/debug/warp_all.py` = 111/111 ok, shots in `work/qa/warp_all/`, states `work/states/<scene>.mss`.
     `tools/debug/doors.py` walks the door graph. Addresses: `docs/re/debug.md`. graphics.md G6-G12 filled in:
     no name entry, no game-over screen; battle command buttons look like graphic tiles.
-- **Next (phase 3, identity build):** unpack then repack with no edits, byte-identical as a test
-  (`references/pipeline.md` §Identity). Sources: map packages (`tools/maps.py`), code text sites (`docs/re/text.md`).
+  - Phase 3: `tools/textmap.py` tiles the 4 text banks into 376 NPC lists / 2257 records / 2257 strings (no gaps);
+    `tools/build.py` re-lays them out and rewrites map-entry pointers -> identical (`tests/test_identity.py`, also a
+    reversed-layout test and the tbl roundtrip of every bank string). Reversed layout shows the same opening text
+    in the emulator. Details: `docs/re/text.md` §Item model.
+- **Next (phase 4, extract):** dump `script/*.json` (one file per text bank, id = `BB:AAAA`, `jp`, `en`, plus a
+  `dead` flag for records past an unconditional one) from `textmap.scan`; add the other text: bank $00 name tables
+  (control codes E4-F9 tables), code-pointer strings (226 `$B3` sites, banks $01 $0C $20 $21 $24), credits, intro.
+  Roundtrip + coverage tests. Plan for insertion: relocate packages to banks $30-$3F (header already says 2 MB),
+  rewrite map entry +10; confirm the `EXTRA` 24-bit sites are real code/data pointers first.
 - **Debug-tool limits:** scenes are by place, not story chapter (story flags `$7FCF83+n` not mapped; set with
   `flags = {n}` once known). Final boss can't be won (1 damage even at STATS=255); ending reached by steps 41/42.
   Battle-time HP copy not found (GOD clears the dead flags instead).

@@ -55,6 +55,19 @@ Inserted strings go through the 32-byte buffer `$0E11` (FF-terminated): a name l
 - `tools/maps.py`: 379 packages, 2216 strings reached by records; 31 strings in the text banks reached otherwise
   (shops, inns, event scripts; to resolve in the extractor).
 
+## Item model and identity build (verified: `tests/test_identity.py`)
+- `tools/textmap.py` splits each text bank into NPC lists, records and strings that tile it with no gap or overlap:
+  $0F:8000-E532, $11:8000-F7AE, $12:8000-F22F, $15:8000-FC89 (2257 records, 2257 strings, 376 lists).
+- Roots: 381 map-entry refs (+10) from `find_lists`, less 3 false hits (`FALSE_LISTS`), plus `EXTRA`: records
+  $12:E11F, $15:C900 and string $12:D000, reached by 24-bit pointers outside map entries (sites in the source;
+  not yet confirmed as code, check before relocating).
+- The game walks an NPC's records until one matches; no terminator. Records after an unconditional one are dead but
+  kept as items. Quirk: `$11:A334` (list $11:A332) is conditional and last, so on a miss the game reads its string as
+  a record: a layout keeps runs of records, and the item after a conditional last record, together.
+- `tools/build.py` lays every bank out again from the model and rewrites the map-entry pointers: byte-identical.
+  The same banks laid out back to front (`test_reversed_layout_shows_same_text`) show the same text in the
+  emulator (`opening` warp, `work/qa/rev_rev` vs `rev_orig`).
+
 ## Other text sites
 - 226 code sites store a text pointer to `$B3` (172 as `LDA #lo / STA $B3 / LDA #bank / STA $B5` immediates):
   banks $01 (shops), $0C (intro, events), $20/$21 (battle, menus, save), $00, $24.
