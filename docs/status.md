@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 4 (extract) done 2026-10-27; next is phase 5 (engine spike + marker build). `tools/build.py` still
-  builds the identity ROM (sha1 25fe4c1a...).
+- **Phase:** 5 (engine spike + marker build) done 2026-10-27; next is phase 6 (translation batches).
+  `tools/build.py` builds VWF + script (`--marker` for the marker build, `--identity` for the byte-identical ROM).
 - **Done:**
   - Step 0: MesenCE 2.2.1 in `tools/mesen/`, guard hook verified (blocks `sed -i`), pre-commit runs `tools/check.py`
     (a failing test was rejected), `rom.sha1` pinned, original ROM smoke-boots, Start/Lua probes work.
@@ -20,16 +20,19 @@ Updated at the end of every session. Keep it to what the next session needs; his
     `tests/test_extract.py`: jp roundtrip to ROM bytes, names tile `$00:B422-$D753`, every `$B3`/table pointer
     target is a piece start, every census run in a text-pointer bank is covered, re-extract keeps `en`.
     Notes: `docs/re/text.md` §Other text sites, §Script files.
-- **Next (phase 5, engine spike + marker build):**
-  - Font/VWF decision: glyphs are 8x16 fixed (one BG3 column per byte, dakuten in the glyph). English needs
-    lowercase: font is compressed at `$0D:BCA5` (format not decoded; unpacked to `$7E:8000` by `$00:8AE6`).
-    Options: decode/replace the compressed font, or patch the unpack to read an uncompressed English font from an
-    expanded bank. Free glyph codes: kana 40-DF all become free for English letters.
-  - Insertion: dialogue banks relocate to expanded banks $30-$3F (header already 2 MB), rewrite map entry +10;
-    check the `EXTRA` 24-bit sites (`tools/textmap.py`) are real pointers first. Names: re-lay `$00:B422-$D753`
-    (bank $00 only; overflow needs a far-pointer hook in the E4-F9 handler). System pieces: patch `refs`; the 28
-    without refs stay in place, in order. Chest messages are MVN-copied with a fixed length into `$1C19`.
-  - Marker build: every entry -> `[id]` marker, every box variant's width measured in-game (the width gate).
+  - Phase 5: VWF (`asm/vwf.asm`, asar 1.91; font `fonts/vwf.txt` -> `tools/font.py`; `tbl/en.tbl`): glyphs drawn
+    into the old glyph tiles (182 pairs) via a hook at `$00:AEB6`, uploaded by an NMI hook at `$00:80A9` in small
+    vblank-checked chunks (`docs/re/vwf.md`). Insertion `tools/insert.py`: dialogue re-laid with overflow into
+    banks $31-$3F; names/system text in place (byte limit). Marker build: 111/111 warp scenes ok, pool cells
+    VRAM == shadow on menus/shops (`tools/vwfcheck.py`). Width gate `docs/re/windows.md`: dialogue 192 px x 3 lines
+    measured, torture line ok (`tools/widthgate.py`). False map ref `$13:E69B` (`textmap.FALSE_REFS`) crashed boss07.
+- **Next (phase 6, translation):** batches of `script/dialogue_*.json` to translator agents with the 192 px budget;
+  glossary first (D2 names). Then phase 7: relocate names/system text (now in place, byte-limited; names need a
+  far-pointer hook in the E4-F9 handler; chest messages MVN-copied with fixed length into `$1C19`) and measure
+  menu field budgets from shots.
+- **Risks:** other `find_lists` refs may be false like `$13:E69B` (only those read by the map loader `$0C:B40A` are
+  proven; probe: `work/tmp_refs.lua` idea, log reads of each ref site). Shadow `$7E:E000` is free in the scenes
+  measured, not proven everywhere. A full screen of new VWF cells takes a few frames to appear.
 - **Debug-tool limits:** scenes are by place, not story chapter (story flags `$7FCF83+n` not mapped). Final boss
   can't be won; ending reached by steps 41/42. Battle-time HP copy not found (GOD clears the dead flags instead).
 - **Open bugs:** none.

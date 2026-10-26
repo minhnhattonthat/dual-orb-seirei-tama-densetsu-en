@@ -20,6 +20,10 @@ FALSE_LISTS = {
     0x11BD14: "door records at $14:8759; would split the list at $11:BCF4",
     0x159E54: "bytes at $14:8968; inside the string $15:9E4E",
 }
+# sites (file offsets) find_lists takes for map-entry refs to a real list but that are other data: never rewritten
+FALSE_REFS = {
+    0x09E69B: "$13:E69B, read by $00:8BC7 (not the map loader $0C:B40A); rewriting it crashed boss07 (phase 5)",
+}
 # items no NPC list reaches: (kind, addr24)
 EXTRA = [
     ("rec", 0x12E11F),  # 24-bit at file 0x46FA6
@@ -90,7 +94,7 @@ def scan(d):
                 if nxt in firsts or (nxt in items and items[nxt]["kind"] != "rec"):
                     break
     banks = {b: sorted((it for k, it in items.items() if k >> 16 == b), key=lambda it: it["addr"]) for b in TEXT_BANKS}
-    refs = {i: k for k, offs in lists.items() for i in offs}
+    refs = {i: k for k, offs in lists.items() for i in offs if i not in FALSE_REFS}
     return banks, refs
 
 

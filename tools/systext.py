@@ -19,6 +19,7 @@ ARGC = {0x3C: 2, 0xE4: 1, 0xE5: 1, 0xE6: 1, 0xE7: 1, 0xE8: 1, 0xE9: 1, 0xEA: 1, 
         0xEE: 2, 0xEF: 2, 0xF2: 1, 0xF3: 1, 0xF4: 2, 0xF6: 1, 0xF8: 1, 0xF9: 1, 0xFC: 1}
 
 BLOCKS = [  # (start, end exclusive, kind, note); 24-bit CPU addresses
+    (0x00AA97, 0x00AAA1, "text", "yes/no choice (F0 copies it with LDA $AA97,X; cursor at cells 1 and 5)"),
     (0x00FCAE, 0x00FD46, "text", "SRAM clear warning"),
     (0x01A56A, 0x01A5DD, "text", "shop: list"),
     (0x01B375, 0x01B44E, "text", "shop: buy"),

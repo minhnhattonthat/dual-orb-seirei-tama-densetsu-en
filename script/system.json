@@ -1,5 +1,11 @@
 [
  {
+  "id": "00:AA97",
+  "jp": "  はい  いいえ{end}",
+  "en": "",
+  "block": "yes/no choice (F0 copies it with LDA $AA97,X; cursor at cells 1 and 5)"
+ },
+ {
   "id": "00:FCAE",
   "jp": "（ちゅうい！！！）{n}  バッテリ―バックアップのないようを{n}             しょうきょしてもよろしいですか？{n}{n}しょうきょしてもいいのなら、なにかのボタンをおしてください{n}           そうでなければ、リセットしてください{n}{n}                     BY I゛MAX{fa}",
   "en": "",

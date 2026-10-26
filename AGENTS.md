@@ -3,7 +3,7 @@
 Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.json; other agents: `~/.claude/plugins/marketplaces/retro-translation/skills/translate-retro-game/SKILL.md`; `$SKILL` = that directory, `python tools/skill.py` prints it). Read it before ROM, text or QA work.
 
 ## Commands (run from repo root)
-- Build:    `python -X utf8 tools/build.py`        -> build/dual_orb_en.sfc (checks the dump against `rom.sha1` first)
+- Build:    `python -X utf8 tools/build.py [--marker]` -> build/dual_orb_en.sfc (or dual_orb_marker.sfc); VWF asm needs asar 1.91 in `tools/asar/` (`gh release download v1.91 -R RPGHacker/asar`, unzip asar.exe there)
 - Extract:  `python -X utf8 tools/extract.py`      -> script/*.json from the original ROM (keeps `en` while `jp` is unchanged)
 - Check:    `python -X utf8 tools/check.py`  (tests + lint; the pre-commit hook runs this)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/dual_orb_en.sfc --out work/qa/smoke --route tools/routes/boot.txt --smoke`
@@ -13,7 +13,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 
 ## Paths
 - Original ROM: `rom/Dual Orb - Seirei Tama Densetsu (Japan).sfc` (LoROM, 1.5 MB, SRAM 8 KB; gitignored; SHA-1 in `rom.sha1`, checked by `tools/check_rom.py`). Emulator: this repo's own copy in `tools/mesen/` (MesenCE 2.2.1, `https://github.com/nesdev-org/MesenCE/releases/download/2.2.1/Mesen_2.2.1_Windows.zip`, fetch with `$SKILL/scripts/fetch_emu.py mesen`; gitignored; settings in `tools/emu-config/`). Savestates: `work/states/`.
-- Text: `script/` (JSON). Tables: `tbl/`. Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
+- Text: `script/` (JSON). Tables: `tbl/` (`en.tbl`: `_` = 8 px cell space, ` ` = word space). VWF: `asm/vwf.asm`, font `fonts/vwf.txt` (`docs/re/vwf.md`). Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
 
 ## Rulings
 - Edit source files (.py .lua .asm .tbl .json) only with the file-edit tool; scripts here read and analyse, never `.replace()` and write back.

@@ -25,9 +25,9 @@ def scene_names(text):
     return re.findall(r"(\w+)\s*=", body)
 
 
-def run(rom, name, out):
+def run(rom, name, out, states):
     d = out / name
-    state = ROOT / "work/states" / f"{name}.mss"
+    state = states / f"{name}.mss"
     cmd = [sys.executable, "-X", "utf8", str(SKILL / "scripts/emu.py"), rom, "--out", str(d),
            "--script", str(DEBUG / "scenes.lua"), "--script", str(DEBUG / "warp.lua"),
            "--var", f"SCENE='{name}'", "--var", "WARP_STOP=1", "--var", f"WARP_STATE=[[{state}]]",
@@ -44,15 +44,17 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--rom", default=str(ROOT / "rom/Dual Orb - Seirei Tama Densetsu (Japan).sfc"))
     ap.add_argument("--jobs", type=int, default=4)
+    ap.add_argument("--out", default=str(ROOT / "work/qa/warp_all"), help="shots and logs (other builds: elsewhere)")
+    ap.add_argument("--states", default=str(ROOT / "work/states"), help="savestates (default: the original-ROM set)")
     ap.add_argument("scenes", nargs="*")
     a = ap.parse_args()
     names = scene_names((DEBUG / "scenes.lua").read_text(encoding="utf-8"))
     assert len(names) == len(set(names)) and "home" in names and "place73" in names, names
     names = a.scenes or names
-    out = ROOT / "work/qa/warp_all"
-    (ROOT / "work/states").mkdir(parents=True, exist_ok=True)
+    out, states = Path(a.out).resolve(), Path(a.states).resolve()  # Mesen doesn't run in the repo dir
+    states.mkdir(parents=True, exist_ok=True)
     with ThreadPoolExecutor(a.jobs) as ex:
-        results = list(ex.map(lambda n: run(a.rom, n, out), names))
+        results = list(ex.map(lambda n: run(a.rom, n, out, states), names))
     for name, ok, why in results:
         print(f"{'ok  ' if ok else 'FAIL'} {name} {why}")
     shots = [str(out / n / "warp.png") for n, ok, _ in results if (out / n / "warp.png").exists()]

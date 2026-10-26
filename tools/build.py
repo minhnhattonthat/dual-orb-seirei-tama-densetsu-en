@@ -8,7 +8,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
+import asm  # noqa: E402
 import check_rom  # noqa: E402
+import insert  # noqa: E402
 from maps import ROM, off  # noqa: E402
 from textmap import layout, scan  # noqa: E402
 
@@ -29,10 +31,23 @@ def build(orig: bytes) -> bytes:
     return bytes(d)
 
 
+def patched(orig: bytes, mode="en") -> bytes:
+    """VWF engine (asm/vwf.asm) + script text (tools/insert.py); mode "marker" = the phase-5 marker build."""
+    return insert.insert(asm.patch(orig), mode)
+
+
 if __name__ == "__main__":
     check_rom.check()
     orig = ROM.read_bytes()
-    out = build(orig)
-    OUT.parent.mkdir(exist_ok=True)
-    OUT.write_bytes(out)
-    print(OUT.relative_to(ROOT), hashlib.sha1(out).hexdigest(), "identical" if out == orig else "patched")
+    mode = "marker" if "--marker" in sys.argv else "en"
+    for i, a in enumerate(sys.argv):  # --qa ID=text (repeatable): override one entry, e.g. a width-gate line
+        if a == "--qa":
+            k, _, v = sys.argv[i + 1].partition("=")
+            insert.QA[k] = v
+    out = patched(orig, mode) if "--identity" not in sys.argv else build(orig)
+    path = OUT.with_name("dual_orb_marker.sfc") if mode == "marker" else OUT
+    if "--out" in sys.argv:
+        path = (ROOT / sys.argv[sys.argv.index("--out") + 1]).resolve()
+    path.parent.mkdir(exist_ok=True)
+    path.write_bytes(out)
+    print(path.relative_to(ROOT), hashlib.sha1(out).hexdigest(), "identical" if out == orig else "patched")
