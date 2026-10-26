@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5 (engine spike + marker build) done 2026-10-27; next is phase 6 (translation batches).
+- **Phase:** 6 (translation) done 2026-10-27; next is phase 7 (relocate names/system text, fit menus).
   `tools/build.py` builds VWF + script (`--marker` for the marker build, `--identity` for the byte-identical ROM).
 - **Done:**
   - Step 0: MesenCE 2.2.1 in `tools/mesen/`, guard hook verified (blocks `sed -i`), pre-commit runs `tools/check.py`
@@ -26,10 +26,18 @@ Updated at the end of every session. Keep it to what the next session needs; his
     banks $31-$3F; names/system text in place (byte limit). Marker build: 111/111 warp scenes ok, pool cells
     VRAM == shadow on menus/shops (`tools/vwfcheck.py`). Width gate `docs/re/windows.md`: dialogue 192 px x 3 lines
     measured, torture line ok (`tools/widthgate.py`). False map ref `$13:E69B` (`textmap.FALSE_REFS`) crashed boss07.
-- **Next (phase 6, translation):** batches of `script/dialogue_*.json` to translator agents with the 192 px budget;
-  glossary first (D2 names). Then phase 7: relocate names/system text (now in place, byte-limited; names need a
-  far-pointer hook in the E4-F9 handler; chest messages MVN-copied with fixed length into `$1C19`) and measure
-  menu field budgets from shots.
+  - Phase 6: every entry translated (dialogue 2257 incl. 645 exact repeats copied on merge, names 773, system 289;
+    28 batches b001-b028 in `work/tl/`, gitignored). Pipeline `tools/batches.py` (split/check/merge/pairs), wrap at
+    build `tools/wrap.py` (192 px x 3, extra pages auto, party names budgeted 42 px), whole-script gate
+    `tools/lint.py` in `check.py` (3055 entries, 0 errors). Every batch reviewed (reviewer agents); Critical/Important
+    fixed; Minors in `docs/polish.md`. Glossary, `docs/synopsis.md`, `docs/style-reference.md`, briefs written.
+    `{tEC}` tokens may be written out (EC = names + phrase fragments). In-game: English dialogue renders (opening).
+- **Next (phase 7):** relocate names/system text: 912 in-place entries are longer than the JP and are left Japanese
+  by the build for now (`insert.LONG`; they show as tofu inside English text). Names need a far-pointer hook in the
+  E4-F9 handler; chest messages MVN-copied with fixed length into `$1C19`; EC phrase tokens used in shops must stay
+  within one line (192 px) or the line breaks. Measure menu field budgets from shots (system text widths: lint WARNs,
+  e.g. intro crawl 0C:D8AE 205 px, story-so-far up to 210 px). Cap the name-entry screen at 42 px (`wrap.HERO_PX`).
+  Name-entry chart (grid) is still Japanese. Then the polish pass (`docs/polish.md`).
 - **Risks:** other `find_lists` refs may be false like `$13:E69B` (only those read by the map loader `$0C:B40A` are
   proven; probe: `work/tmp_refs.lua` idea, log reads of each ref site). Shadow `$7E:E000` is free in the scenes
   measured, not proven everywhere. A full screen of new VWF cells takes a few frames to appear.

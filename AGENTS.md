@@ -6,6 +6,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 - Build:    `python -X utf8 tools/build.py [--marker]` -> build/dual_orb_en.sfc (or dual_orb_marker.sfc); VWF asm needs asar 1.91 in `tools/asar/` (`gh release download v1.91 -R RPGHacker/asar`, unzip asar.exe there)
 - Extract:  `python -X utf8 tools/extract.py`      -> script/*.json from the original ROM (keeps `en` while `jp` is unchanged)
 - Check:    `python -X utf8 tools/check.py`  (tests + lint; the pre-commit hook runs this)
+- Translate: `python -X utf8 tools/batches.py split|check|merge|pairs` (work/tl/bNNN; briefs `docs/translator-brief.md`, `docs/reviewer-brief.md`; dialogue wrapped at build by `tools/wrap.py`)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/dual_orb_en.sfc --out work/qa/smoke --route tools/routes/boot.txt --smoke`
 - Warp:     `python -X utf8 $SKILL/scripts/emu.py build/dual_orb_en.sfc --out work/qa/warp --script tools/debug/warp.lua --var "SCENE='<name>'" --frames 900 --sheet` (scenes: `tools/debug/scenes.lua`; never ask the user to play to a scene)
 - Release:  `python -X utf8 tools/release.py` (patch + verify; never publish without the user)

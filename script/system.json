@@ -2,13 +2,13 @@
  {
   "id": "00:AA97",
   "jp": "  はい  いいえ{end}",
-  "en": "",
+  "en": "__Yes_No{end}",
   "block": "yes/no choice (F0 copies it with LDA $AA97,X; cursor at cells 1 and 5)"
  },
  {
   "id": "00:FCAE",
   "jp": "（ちゅうい！！！）{n}  バッテリ―バックアップのないようを{n}             しょうきょしてもよろしいですか？{n}{n}しょうきょしてもいいのなら、なにかのボタンをおしてください{n}           そうでなければ、リセットしてください{n}{n}                     BY I゛MAX{fa}",
-  "en": "",
+  "en": "(WARNING!!!){n}   Is it all right to erase the{n}                         battery-backed save data?{n}{n}If it is all right to erase it, press any button.{n}                    Otherwise, please press Reset.{n}{n}                                                BY I'MAX{fa}",
   "block": "SRAM clear warning",
   "refs": [
    "b3 0075D6"
@@ -17,7 +17,7 @@
  {
   "id": "01:A56A",
   "jp": "（しなものリスト）{pos:0F09}（かいもの）{fa}",
-  "en": "",
+  "en": "(Wares){pos:0F09}(Buy){fa}",
   "block": "shop: list",
   "refs": [
    "b3 00A4C8"
@@ -26,7 +26,7 @@
  {
   "id": "01:A57D",
   "jp": "しょじきん・・・・・・・・/G{left}{left}{rstr:B11C}{end}",
-  "en": "",
+  "en": "Money_._._._._/G{left}{left}{rstr:B11C}{end}",
   "block": "shop: list",
   "refs": [
    "b3 00A210"
@@ -35,7 +35,7 @@
  {
   "id": "01:A592",
   "jp": "ごうけい・・・・・・・・・/G{left}{left}{rstr:B11C}{end}",
-  "en": "",
+  "en": "Total_._._._._/G{left}{left}{rstr:B11C}{end}",
   "block": "shop: list",
   "refs": [
    "b3 00A2A1"
@@ -44,7 +44,7 @@
  {
   "id": "01:A5A7",
   "jp": "・・・・・・/G{left}{left}{rstr:B11C}{end}",
-  "en": "",
+  "en": "._._._/G{left}{left}{rstr:B11C}{end}",
   "block": "shop: list",
   "refs": [
    "b3 00A12E",
@@ -54,7 +54,7 @@
  {
   "id": "01:A5B5",
   "jp": "×  {rstr:B11C}{end}",
-  "en": "",
+  "en": "x__{rstr:B11C}{end}",
   "block": "shop: list",
   "refs": [
    "b3 00A1D1"
@@ -72,7 +72,7 @@
  {
   "id": "01:A5D9",
   "jp": "▲{end}",
-  "en": "",
+  "en": "▲{end}",
   "block": "shop: list",
   "refs": [
    "b3 00A43F"
@@ -81,7 +81,7 @@
  {
   "id": "01:A5DB",
   "jp": "▼{end}",
-  "en": "",
+  "en": "▼{end}",
   "block": "shop: list",
   "refs": [
    "b3 00A44D"
@@ -90,7 +90,7 @@
  {
   "id": "01:B375",
   "jp": "{pos:050D}おしはらい{pos:0511}おとりけし{pos:0F09}（かいもの）{fa}",
-  "en": "",
+  "en": "{pos:050D}Pay{pos:0511}Cancel{pos:0F09}(Buy){fa}",
   "block": "shop: buy",
   "refs": [
    "b3 00B2C0"
@@ -99,7 +99,7 @@
  {
   "id": "01:B38F",
   "jp": "しょじきん・・・・・・・・/G{left}{left}{rstr:B11C}{end}",
-  "en": "",
+  "en": "Money_._._._._/G{left}{left}{rstr:B11C}{end}",
   "block": "shop: buy",
   "refs": [
    "b3 00B090"
@@ -108,7 +108,7 @@
  {
   "id": "01:B3A4",
   "jp": "ごうけい・・・・・・・・・/G{left}{left}{rstr:B11C}{end}",
-  "en": "",
+  "en": "Total_._._._._/G{left}{left}{rstr:B11C}{end}",
   "block": "shop: buy",
   "refs": [
    "b3 00B121"
@@ -117,7 +117,7 @@
  {
   "id": "01:B3B9",
   "jp": "・・・・・・/G{left}{left}{rstr:B11C}{end}",
-  "en": "",
+  "en": "._._._/G{left}{left}{rstr:B11C}{end}",
   "block": "shop: buy",
   "refs": [
    "b3 00B024"
@@ -126,7 +126,7 @@
  {
   "id": "01:B3C7",
   "jp": "×  {rstr:B11C}{end}",
-  "en": "",
+  "en": "x__{rstr:B11C}{end}",
   "block": "shop: buy",
   "refs": [
    "b3 00B051"
@@ -144,7 +144,7 @@
  {
   "id": "01:B3EB",
   "jp": "そうがく {str:B11C}G になります。よろしいですか？{end}",
-  "en": "",
+  "en": "That comes to {str:B11C}G. All right?{end}",
   "block": "shop: buy",
   "refs": [
    "tab 00AF2E"
@@ -153,7 +153,7 @@
  {
   "id": "01:B404",
   "jp": "えらんだもの すべてを おとりけしになりますか？{end}",
-  "en": "",
+  "en": "Cancel everything you have chosen?{end}",
   "block": "shop: buy",
   "refs": [
    "tab 00AF32"
@@ -162,7 +162,7 @@
  {
   "id": "01:B41D",
   "jp": "ごうけいきんがくが オ―バ―しています{end}",
-  "en": "",
+  "en": "The total is more than you have.{end}",
   "block": "shop: buy",
   "refs": [
    "tab 00AF36"
@@ -171,7 +171,7 @@
  {
   "id": "01:B431",
   "jp": "しょうひんをえらんできてから、またきてください。{end}",
-  "en": "",
+  "en": "Please choose some goods, then come back.{end}",
   "block": "shop: buy",
   "refs": [
    "tab 00AF3A"
@@ -180,7 +180,7 @@
  {
   "id": "01:B44A",
   "jp": "▲{end}",
-  "en": "",
+  "en": "▲{end}",
   "block": "shop: buy",
   "refs": [
    "b3 00B237"
@@ -189,7 +189,7 @@
  {
   "id": "01:B44C",
   "jp": "▼{end}",
-  "en": "",
+  "en": "▼{end}",
   "block": "shop: buy",
   "refs": [
    "b3 00B245"
@@ -198,7 +198,7 @@
  {
   "id": "01:BF60",
   "jp": "{pos:020A}（しょじひんリスト）{end}",
-  "en": "",
+  "en": "{pos:020A}(Your Items){end}",
   "block": "shop: sell",
   "refs": [
    "b3 00BE9C"
@@ -207,7 +207,7 @@
  {
   "id": "01:BF6E",
   "jp": "しょじきん・・・・・・・・/G{left}{left}{rstr:B11C}{end}",
-  "en": "",
+  "en": "Money_._._._._/G{left}{left}{rstr:B11C}{end}",
   "block": "shop: sell",
   "refs": [
    "b3 00BD31"
@@ -216,7 +216,7 @@
  {
   "id": "01:BF83",
   "jp": "×  {rstr:B11C}{end}",
-  "en": "",
+  "en": "x__{rstr:B11C}{end}",
   "block": "shop: sell",
   "refs": [
    "b3 00B53B"
@@ -236,7 +236,7 @@
  {
   "id": "01:BFA7",
   "jp": "それなら {str:B11C} G で、ひきとるけどいいかい？{end}",
-  "en": "",
+  "en": "I'll take it for {str:B11C}G. All right?{end}",
   "block": "shop: sell",
   "refs": [
    "b3 00B4F8"
@@ -245,7 +245,7 @@
  {
   "id": "01:BFC0",
   "jp": "だれの そうびひんをひきとりますか？{end}",
-  "en": "",
+  "en": "Whose equipment will you sell?{end}",
   "block": "shop: sell",
   "refs": [
    "b3 00B8E4"
@@ -254,7 +254,7 @@
  {
   "id": "01:BFD3",
   "jp": "▲{end}",
-  "en": "",
+  "en": "▲{end}",
   "block": "shop: sell",
   "refs": [
    "b3 00BE33"
@@ -263,7 +263,7 @@
  {
   "id": "01:BFD5",
   "jp": "▼{end}",
-  "en": "",
+  "en": "▼{end}",
   "block": "shop: sell",
   "refs": [
    "b3 00BE41"
@@ -272,7 +272,7 @@
  {
   "id": "01:F252",
   "jp": "{clear}{n}     ー EXECUTIVE PRODUCER ー{n}{n}           K・IMANARI{n}{n}{n}{n}          ー PRODUCER ー{n}{n}           N・MUNEKIYO{n}{n}{n}{n}          ー SCENARIO ー{n}{n}            KITAYAN{fa}",
-  "en": "",
+  "en": "{clear}{n}               - EXECUTIVE PRODUCER -{n}{n}                        K. IMANARI{n}{n}{n}{n}                       - PRODUCER -{n}{n}                        N. MUNEKIYO{n}{n}{n}{n}                       - SCENARIO -{n}{n}                         KITAYAN{fa}",
   "block": "credits, play record, thank-you",
   "refs": [
    "tab 00F204"
@@ -281,7 +281,7 @@
  {
   "id": "01:F2E6",
   "jp": "{clear}{n}{n}{n}         ー PROGRAMMER ー{n}{n}              MUくん{n}             BEATくん{n}{n}{n}{n}      ー GRAPHIC DESIGNER ー{n}{n}             エウノスYN{n}             J・DIBO{n}{n}{fa}",
-  "en": "",
+  "en": "{clear}{n}{n}{n}                     - PROGRAMMER -{n}{n}                           MU-KUN{n}                         BEAT-KUN{n}{n}{n}{n}                 - GRAPHIC DESIGNER -{n}{n}                         EUNOS YN{n}                           J. DIBO{n}{n}{fa}",
   "block": "credits, play record, thank-you",
   "refs": [
    "tab 00F206"
@@ -290,7 +290,7 @@
  {
   "id": "01:F373",
   "jp": "{clear}{n}           ー MUSIC ー{n}{n}            LUCKYー7{n}{n}{n}{n}      ー SOUND PROGRAMMER ー{n}{n}             NEKOKO{n}{n}{n}{n}       ー SOUND EFFECTER ー{n}{n}            はらへりぞぉ―{fa}",
-  "en": "",
+  "en": "{clear}{n}                         - MUSIC -{n}{n}                         LUCKY-7{n}{n}{n}{n}                - SOUND PROGRAMMER -{n}{n}                           NEKOKO{n}{n}{n}{n}                  - SOUND EFFECTER -{n}{n}                      HARAHERIZOO{fa}",
   "block": "credits, play record, thank-you",
   "refs": [
    "tab 00F208"
@@ -299,7 +299,7 @@
  {
   "id": "01:F404",
   "jp": "{clear}{n}{n}  ー CHARACTER DESIGN SUPPORT ー{n}{n}        SATOH AND SATOH{n}{n}{n}{n}   ー GRAPHIC DESIGN SUPPORT ー{n}{n}           Y・HATTORI{n}{n}{n}{n}       ー SPECIAL THANKS ー{n}{fa}",
-  "en": "",
+  "en": "{clear}{n}{n}          - CHARACTER DESIGN SUPPORT -{n}{n}                  SATOH AND SATOH{n}{n}{n}{n}            - GRAPHIC DESIGN SUPPORT -{n}{n}                       Y. HATTORI{n}{n}{n}{n}                  - SPECIAL THANKS -{n}{fa}",
   "block": "credits, play record, thank-you",
   "refs": [
    "tab 00F20A"
@@ -308,7 +308,7 @@
  {
   "id": "01:F494",
   "jp": "{clear}           PAL KOHNO{n}              ぽんた{n}              ぱあくん{n}            HIMAJIN{n}{n}           MICRONYAN{n}            いちごやすいか{n}{n}{n}{n}{n}{n}{n}{n}{n}{fa}",
-  "en": "",
+  "en": "{clear}                        PAL KOHNO{n}                          PONTA{n}                          PAA-KUN{n}                          HIMAJIN{n}{n}                       MICRONYAN{n}                    ICHIGO YA SUIKA{n}{n}{n}{n}{n}{n}{n}{n}{n}{fa}",
   "block": "credits, play record, thank-you",
   "refs": [
    "tab 00F20C"
@@ -317,7 +317,7 @@
  {
   "id": "01:F516",
   "jp": "{clear}{n}{n}{n}{n}{n}{n}{n}{n}{n}          PRESENTED BY{n}{n}             I゛MAX{fa}",
-  "en": "",
+  "en": "{clear}{n}{n}{n}{n}{n}{n}{n}{n}{n}                      PRESENTED BY{n}{n}                           I'MAX{fa}",
   "block": "credits, play record, thank-you",
   "refs": [
    "tab 00F20E"
@@ -326,7 +326,7 @@
  {
   "id": "01:F54B",
   "jp": "{clear}  （あなたのプレイきろく）{pos:0306}うえ  ：{pos:0F06}{rstr:0002}{pos:1106}した  ：{pos:1D06}{rstr:0802}{pos:0308}ひだり ：{pos:0F08}{rstr:1002}{pos:1108}みぎ  ：{pos:1D08}{rstr:1802}{pos:030A}Aボタン：{pos:0F0A}{rstr:2002}{pos:110A}Bボタン：{pos:1D0A}{rstr:2802}{pos:030C}Xボタン：{pos:0F0C}{rstr:3002}{pos:110C}Yボタン：{pos:1D0C}{rstr:3802}{pos:030E}Lボタン：{pos:0F0E}{rstr:4002}{pos:110E}Rボタン：{pos:1D0E}{rstr:4802}{pos:0310}スタ―ト：{pos:0F10}{rstr:5002}{pos:1110}セレクト：{pos:1D10}{rstr:5802}{fa}",
-  "en": "",
+  "en": "{clear}__(Your Play Record){pos:0306}Up:{pos:0F06}{rstr:0002}{pos:1106}Down:{pos:1D06}{rstr:0802}{pos:0308}Left:{pos:0F08}{rstr:1002}{pos:1108}Right:{pos:1D08}{rstr:1802}{pos:030A}A Button:{pos:0F0A}{rstr:2002}{pos:110A}B Button:{pos:1D0A}{rstr:2802}{pos:030C}X Button:{pos:0F0C}{rstr:3002}{pos:110C}Y Button:{pos:1D0C}{rstr:3802}{pos:030E}L Button:{pos:0F0E}{rstr:4002}{pos:110E}R Button:{pos:1D0E}{rstr:4802}{pos:0310}Start:{pos:0F10}{rstr:5002}{pos:1110}Select:{pos:1D10}{rstr:5802}{fa}",
   "block": "credits, play record, thank-you",
   "refs": [
    "b3 00E9A8"
@@ -335,7 +335,7 @@
  {
   "id": "01:F603",
   "jp": "{clear}  （あなたのプレイきろく）{pos:0506}しんだかいすう{pos:0D06}{hero0}{pos:1306}：{pos:1B06}{rstr:0002}{pos:0D08}{hero1}{pos:1308}：{pos:1B08}{rstr:0802}{pos:0D0A}{hero2}{pos:130A}：{pos:1B0A}{rstr:1002}{pos:0D0C}{hero3}{pos:130C}：{pos:1B0C}{rstr:1802}{pos:050E}てきにそうぐうした かいすう：{pos:1B0E}{rstr:2002}{pos:0510}たおしたてきの かず    ：{pos:1B10}{rstr:2802}{pos:0512}たからばこをあけた かいすう：{pos:1B12}{rstr:3002}{pos:0514}セ―ブした かいすう    ：{pos:1B14}{rstr:3802}{pos:0516}やどやにとまった かいすう ：{pos:1B16}{rstr:4002}{fa}",
-  "en": "",
+  "en": "{clear}__(Your Play Record){pos:0506}Deaths{pos:0D06}{hero0}{pos:1306}:{pos:1B06}{rstr:0002}{pos:0D08}{hero1}{pos:1308}:{pos:1B08}{rstr:0802}{pos:0D0A}{hero2}{pos:130A}:{pos:1B0A}{rstr:1002}{pos:0D0C}{hero3}{pos:130C}:{pos:1B0C}{rstr:1802}{pos:050E}Enemies encountered:{pos:1B0E}{rstr:2002}{pos:0510}Enemies defeated__:{pos:1B10}{rstr:2802}{pos:0512}Chests opened____:{pos:1B12}{rstr:3002}{pos:0514}Games saved_____:{pos:1B14}{rstr:3802}{pos:0516}Nights at inns_____:{pos:1B16}{rstr:4002}{fa}",
   "block": "credits, play record, thank-you",
   "refs": [
    "b3 00E9E0"
@@ -344,7 +344,7 @@
  {
   "id": "01:F6CD",
   "jp": "{clear}                    {pos:0208}THANK YOU{pos:030A}FOR YOUR PLAYING 「DUAL ORB」{pos:020E}ー「デュアル オ―ブ」を{pos:0C10}プレイしてくれて どうもありがとうー{n}{n}{pos:1816}I゛MAX{pos:1618}ーアイマックスー{fa}",
-  "en": "",
+  "en": "{clear}____________________{pos:0208}THANK YOU{pos:030A}FOR YOUR PLAYING \"DUAL ORB\"{pos:020E}- Thank you very much for{pos:0C10}playing \"Dual Orb\"! -{n}{n}{pos:1816}I'MAX{pos:1618}- I-MAX -{fa}",
   "block": "credits, play record, thank-you",
   "refs": [
    "b3 00EA1D"
@@ -353,7 +353,7 @@
  {
   "id": "0C:D6CD",
   "jp": "   ここは とおい、 べつの せかい。{n}{n}   その せかいには ひとがすんでおり、{n}    おなじように どうぶつがすみ、{n}    ようせいがすみ、 まものがすみ{n}      ドラゴンが すんでいた。{n}{n}  にんげんは にんげんとして いきていた。{n}   そして どうぶつは どうぶつとして、{n}     ようせいは ようせいとして、{n}   まものは まものとして いきていた。{n}{n}  ドラゴンの ちからは あまりに つよく、{n}   ひとまえに すがたを あらわすことは{n}       ほとんど なかった。{n} でんせつの なかでしか かたられなかった。{end}",
-  "en": "",
+  "en": "  This is a distant, different world.{n}{n}    In that world there lived people,{n}   and likewise there lived animals,{n}there lived fairies, there lived monsters,{n}        and there lived dragons.{n}{n}        Humans lived as humans.{n}      And animals lived as animals,{n}             fairies as fairies,{n}      and monsters as monsters.{n}{n}The power of the dragons was so great{n}    that they almost never showed{n}       themselves before others.{n}They were spoken of only in legend.{end}",
   "block": "intro crawl",
   "refs": [
    "tab 065696"
@@ -362,7 +362,7 @@
  {
   "id": "0C:D7E3",
   "jp": "{n} そして ドラゴンの その あまりの つよさを{n}   すべての いきものは おそれていた。{n}{n}     ドラゴンの いかりにふれ、{n}   ほろぼされてしまった しゅぞくは、{n}      かぞえれば きりがない。{n}{n}   すべての いきものの うんめいは、{n}    ドラゴンの てのなかに あった。{n}{n}それほどまでに おそろしい ドラゴンの いかりに{n} もし、 にんげんが ふれてしまったら・・・。{n}{n}{n}{end}",
-  "en": "",
+  "en": "{n}   And every living creature feared{n} the dragons for their terrible might.{n}{n}The races that roused a dragon's wrath{n}          and were wiped out{n}         are too many to count.{n}{n}      The fate of all living things{n}   lay in the hands of the dragons.{n}{n}If a human should ever rouse the wrath{n}       of a dragon so fearsome...{n}{n}{n}{end}",
   "block": "intro crawl",
   "refs": [
    "tab 065698"
@@ -371,7 +371,7 @@
  {
   "id": "0C:D8AE",
   "jp": "{n} あるいみで ドラゴンは すべての いきものの{n}    いしきの かたまりとも いえる。{n}{n}  そのいしきは かならずしも 1つではなく、{n} 「せい」と「じゃ」、 「おもて」と「うら」、{n} 「ゆう」と「む」、 かならず 2つのかおで{n}    ひとの こころを まどわせる。{n}{n}にんげんは、 かずおおくの いきものの なかの{n}    1つの しゅぞくに すぎない。{n}    しかし、 みずからの みらいを{n}  みずからの いしで きめることができる{n}    ゆいいつの しゅぞくであるはず。{n}{n}{end}",
-  "en": "",
+  "en": "{n} In a sense, a dragon could be called{n}the gathered mind of all living things.{n}{n}       That mind is not always one.{n}\"Holy\" and \"evil\", \"outward\" and \"hidden\",{n}\"being\" and \"nothing\": with two faces{n}it always leads human hearts astray.{n}{n}Humans are no more than one race{n}    among countless living things.{n}And yet they should be the only race{n}   able to decide their own future{n}             by their own will.{n}{n}{end}",
   "block": "intro crawl",
   "refs": [
    "tab 06569A"
@@ -380,7 +380,7 @@
  {
   "id": "0C:D9A6",
   "jp": "ひとりの わかものが、 ドラゴンと であった。{n}{n}   そして でんせつが はじまった・・・。{n}{n}{n}{n}{n}{n}{n}{n}{n}{n}{n}{n}{n}{n}{end}",
-  "en": "",
+  "en": "      A young man met a dragon.{n}{n}        And so the legend began...{n}{n}{n}{n}{n}{n}{n}{n}{n}{n}{n}{n}{n}{n}{end}",
   "block": "intro crawl",
   "refs": [
    "tab 06569C"
@@ -389,7 +389,7 @@
  {
   "id": "0C:DCE9",
   "jp": "ぜんかいまでのスト―リ―{fa}",
-  "en": "",
+  "en": "The Story So Far{fa}",
   "block": "story so far (continue)",
   "refs": [
    "b3 065BBC"
@@ -398,7 +398,7 @@
  {
   "id": "0C:DCF6",
   "jp": "{tED:01}で でんせつのドラゴンである{n}{tEC:01}に あった {hero0}は{n}じゃあくの みなもと {tEC:33}を{n}ふういんする という しめいを うけた。{n}{n}そして、 その しめいを まっとうするために{n}3にんの なかまを もとめて たびだった。{fa}",
-  "en": "",
+  "en": "On {tED:01}, {hero0} met{n}{tEC:01}, the dragon of legend, and{n}was given the mission to seal{n}{tEC:33}, the source of evil.{n}{n}To carry out that mission, he{n}set out to find three companions.{fa}",
   "block": "story so far (continue)",
   "refs": [
    "tab 065CC5"
@@ -407,7 +407,7 @@
  {
   "id": "0C:DD64",
   "jp": "{tED:01}で でんせつのドラゴンである{n}{tEC:01}に あった {hero0}は{n}じゃあくの みなもと {tEC:33}を{n}ふういんする という しめいを うけた。{n}{n}そして、 その しめいを まっとうするために{n}なかまを さがしていた {hero0}は{n}{hero1}とであい{n}のこる ふたりの なかまを さがしていた。{fa}",
-  "en": "",
+  "en": "On {tED:01}, {hero0} met{n}{tEC:01}, the dragon of legend, and{n}was given the mission to seal{n}{tEC:33}, the source of evil.{n}{n}To carry out that mission, {hero0}{n}searched for companions and met{n}{hero1}. Now he was looking for{n}the two remaining companions.{fa}",
   "block": "story so far (continue)",
   "refs": [
    "tab 065CC7"
@@ -416,7 +416,7 @@
  {
   "id": "0C:DDE7",
   "jp": "{tED:01}で でんせつのドラゴンである{n}{tEC:01}に あった {hero0}は{n}じゃあくの みなもと {tEC:33}を{n}ふういんする という しめいを うけた。{n}{n}そして、 その しめいを まっとうするために{n}なかまを さがしていた {hero0}は{n}{hero1}、 {hero2}と であい、{n}のこる さいごの なかまを さがしていた。{fa}",
-  "en": "",
+  "en": "On {tED:01}, {hero0} met{n}{tEC:01}, the dragon of legend, and{n}was given the mission to seal{n}{tEC:33}, the source of evil.{n}{n}To carry out that mission, {hero0}{n}searched for companions and met{n}{hero1} and {hero2}, and was now{n}seeking the last companion.{fa}",
   "block": "story so far (continue)",
   "refs": [
    "tab 065CC9"
@@ -425,7 +425,7 @@
  {
   "id": "0C:DE6F",
   "jp": "ドラゴン・{tEC:01}にあい、{n}{tEC:33}を ふういんする という{n}しめいを うけた {hero0}たち 4にんは、{n}はかいされた {tEC:08}の なぞをおって{n}たびだつのである。{fa}",
-  "en": "",
+  "en": "Having met Dragon {tEC:01} and been{n}given the mission to seal {tEC:33},{n}{hero0}'s party of four set out{n}to follow the mystery of{n}ruined {tEC:08}.{fa}",
   "block": "story so far (continue)",
   "refs": [
    "tab 065CCB"
@@ -434,7 +434,7 @@
  {
   "id": "0C:DEB9",
   "jp": "{hero0}たち4にんは {tEC:A7}スにあい{n}じゃあくの みなもと {tEC:33}を{n}ふういんする という しめいを うけた。{n}{n}{tED:09}を はかいした ゴ―リアという{n}おとこを たおすために 「{tE5:05}」に{n}ひみつが あるということを きき{n}それを もとめて たびを していた。{fa}",
-  "en": "",
+  "en": "{hero0}'s party of four met Dragon{n}Larzes and was given the mission{n}to seal {tEC:33}, the source of evil.{n}{n}They heard that the secret to{n}defeating Goria, who destroyed{n}{tED:09}, lay in the{n}\"{tE5:05}\", and set out to find it.{fa}",
   "block": "story so far (continue)",
   "refs": [
    "tab 065CCD"
@@ -443,7 +443,7 @@
  {
   "id": "0C:DF35",
   "jp": "{tEC:A7}スにあい、 {tEC:33}を{n}ふういんする という しめいを うけた{n}{hero0}たち 4にんは、{n}{tED:09}を はかいした ゴ―リアを{n}たおすために {tEC:49}のしなじなをそろえ{n}{tEC:4A}たましいを しずめ、{n}そして 「{tE5:05}」を てにいれようと{n}しているのであった。{fa}",
-  "en": "",
+  "en": "Having met Dragon Larzes and been{n}given the mission to seal {tEC:33},{n}{hero0}'s party of four gathered{n}Saladin's relics to defeat Goria,{n}the man who destroyed {tED:09},{n}laid Saladin's soul to rest,{n}and now sought to obtain{n}the \"{tE5:05}\".{fa}",
   "block": "story so far (continue)",
   "refs": [
    "tab 065CCF"
@@ -452,7 +452,7 @@
  {
   "id": "0C:DFAC",
   "jp": "ドラゴン・{tEC:01}にあい、 せかいを{n}すくうという じゅうような しめいを うけた{n}{hero0}たち 4にんは、{n}パンジェをもち {tED:09}を はかいした{n}{tEC:0D}という おとことの たたかいに{n}そなえるのであった。{fa}",
-  "en": "",
+  "en": "Having met Dragon {tEC:01} and been{n}given the vital mission of saving{n}the world, {hero0}'s party of four{n}prepared to fight {tEC:0D}, who held a{n}Panje and destroyed {tED:09}.{fa}",
   "block": "story so far (continue)",
   "refs": [
    "tab 065CD1"
@@ -461,7 +461,7 @@
  {
   "id": "0C:E00D",
   "jp": "ドラゴン・ラ―ゼスから じゅうような しめいを{n}うけた {hero0}たち 4にんは、 かれらの{n}みしらぬ ちかせかいへ たびだつことになった。{n}{n}つらい たたかいの はじまりであった。{fa}",
-  "en": "",
+  "en": "Given a vital mission by Dragon{n}Larzes, {hero0}'s party of four{n}set out for the underground world,{n}a land unknown to them.{n}{n}It was the start of a hard fight.{fa}",
   "block": "story so far (continue)",
   "refs": [
    "tab 065CD3"
@@ -470,7 +470,7 @@
  {
   "id": "0C:E065",
   "jp": "ドラゴン・ラ―ゼスから じゅうような しめいを{n}うけた {hero0}たちは、 ちかせかいにきた。{n}せかいを ほろぼそうとしている {hero2}の{n}ちちおや、{tEC:02}は {tED:44}で{n}ドラゴン・{tEC:11}の オ―ブによる{n}けっかいを はっていた。{n}{n}{hero0}たちは、 ガルバと たたかうため{n}{tEC:10}との たたかいを けついした。{fa}",
-  "en": "",
+  "en": "Given a vital mission by Dragon{n}Larzes, {hero0}'s party reached the{n}underground world. {hero2}'s father,{n}{tEC:02}, bent on destroying the world,{n}raised a barrier at {tED:44}{n}with the Orb of Dragon {tEC:11}.{n}{n}To fight Galba, {hero0}'s party{n}resolved to battle the {tEC:10}.{fa}",
   "block": "story so far (continue)",
   "refs": [
    "tab 065CD5"
@@ -479,7 +479,7 @@
  {
   "id": "0C:E0F3",
   "jp": "ラ―ゼスのしめいをうけ、 ちかせかいにきた{n}{hero0}たちは、パンジェをふういんするために{n}{tEC:10}との たたかいを かいしした。{n}{n}ゴ―リアを たおしたときに パンジェを{n}うばっていった {tEC:0F}が{n}{tED:27}に いることをしり{n}{tE5:0D}をてにいれ、 {tED:27}に{n}のりこもうとしていた。{fa}",
-  "en": "",
+  "en": "Charged with a mission by Larzes,{n}{hero0}'s party reached the{n}underground world and began to fight{n}the {tEC:10} to seal the Panje.{n}{n}Learning that {tEC:0F}, who took{n}a Panje when Goria fell, was at{n}{tED:27}, they got the {tE5:0D}{n}to storm {tED:27}.{fa}",
   "block": "story so far (continue)",
   "refs": [
    "tab 065CD7"
@@ -488,7 +488,7 @@
  {
   "id": "0C:E175",
   "jp": "ラ―ゼスのしめいをうけ、 ちかせかいにきた{n}{hero0}たちは、パンジェをふういんするために{n}{tEC:10}との たたかいを はじめた。{n}{n}{hero0}たち 4にんは、 ギ―タ―をたおし{n}のこりの 4つの パンジェを もとめて{n}{tEC:10}との たたかいを つづけていた。{fa}",
-  "en": "",
+  "en": "Charged with a mission by Larzes,{n}{hero0}'s party reached the{n}underground world and began to fight{n}the {tEC:10} to seal the Panje.{n}{n}{hero0}'s party defeated Gieter and{n}fought on against the {tEC:10},{n}seeking the four remaining Panje.{fa}",
   "block": "story so far (continue)",
   "refs": [
    "tab 065CD9"
@@ -497,7 +497,7 @@
  {
   "id": "0C:E1EB",
   "jp": "ラ―ゼスのしめいをうけ、 ちかせかいにきた{n}{hero0}たちは、パンジェをふういんするために{n}{tEC:10}との たたかいを はじめた。{n}{n}{tEC:0F}、ディッシュきょうだいを{n}たおした {hero0}たちは{n}つぎの {tEC:10}に たたかいを{n}いどむのであった。{fa}",
-  "en": "",
+  "en": "Charged with a mission by Larzes,{n}{hero0}'s party reached the{n}underground world and began to fight{n}the {tEC:10} to seal the Panje.{n}{n}Having beaten {tEC:0F} and the Dish{n}brothers, {hero0}'s party now took{n}on the next of the {tEC:10}.{fa}",
   "block": "story so far (continue)",
   "refs": [
    "tab 065CDB"
@@ -506,7 +506,7 @@
  {
   "id": "0C:E258",
   "jp": "ラ―ゼスのしめいをうけ、 ちかせかいにきた{n}{hero0}たちは、パンジェをふういんするために{n}{tEC:10}との たたかいを はじめた。{n}{n}{tEC:0F}、ディッシュきょうだいを{n}たおした {hero0}たちは、{n}ろくましょう・ガッシュと たたかうため{n}{tE5:0F}を とりかえし、{n}たたかいに そなえるのであった。{fa}",
-  "en": "",
+  "en": "Charged with a mission by Larzes,{n}{hero0}'s party reached the{n}underground world and began to fight{n}the {tEC:10} to seal the Panje.{n}{n}Having beaten {tEC:0F} and the Dish{n}brothers, {hero0}'s party recovered{n}the {tE5:0F} and prepared to{n}battle Gash of the Six Generals.{fa}",
   "block": "story so far (continue)",
   "refs": [
    "tab 065CDD"
@@ -515,7 +515,7 @@
  {
   "id": "0C:E2DE",
   "jp": "ラ―ゼスのしめいをうけ、 ちかせかいにきた{n}{hero0}たちは、パンジェをふういんするために{n}{tEC:10}との たたかいを はじめた。{n}{n}{tED:3D}で {tE5:11}を てにいれ{n}てつどうを じゆうにつかって せかいをぼうけんし{n}つぎの {tEC:10}に{n}たたかいをいどむのであった。{fa}",
-  "en": "",
+  "en": "Charged with a mission by Larzes,{n}{hero0}'s party reached the{n}underground world and began to fight{n}the {tEC:10} to seal the Panje.{n}{n}At {tED:3D} they got{n}the {tE5:11}, roamed the world{n}freely by rail, and went on to{n}challenge the next of the {tEC:10}.{fa}",
   "block": "story so far (continue)",
   "refs": [
    "tab 065CDF"
@@ -524,7 +524,7 @@
  {
   "id": "0C:E357",
   "jp": "ラ―ゼスのしめいをうけ、 ちかせかいにきた{n}{hero0}たちは、パンジェをふういんするために{n}{tEC:10}との たたかいを はじめた。{n}{n}つぎつぎと {tEC:10}を たおしていった{n}{hero0}たちは さいごの {tEC:10}{n}{tEC:16}にたたかいを いどむのであった。{fa}",
-  "en": "",
+  "en": "Charged with a mission by Larzes,{n}{hero0}'s party reached the{n}underground world and began to fight{n}the {tEC:10} to seal the Panje.{n}{n}Having beaten the {tEC:10} one{n}after another, {hero0}'s party now{n}challenged the last, {tEC:16}.{fa}",
   "block": "story so far (continue)",
   "refs": [
    "tab 065CE1"
@@ -533,7 +533,7 @@
  {
   "id": "0C:E3C5",
   "jp": "ラ―ゼスのしめいをうけ、 ちかせかいにきた{n}{hero0}たちは、パンジェをふういんするために{n}{tEC:10}との たたかいを はじめた。{n}{n}つぎつぎと {tEC:10}を たおしていった{n}{hero0}たちは さいごの {tEC:10}{n}{tEC:15}にたたかいを いどむのであった。{fa}",
-  "en": "",
+  "en": "Charged with a mission by Larzes,{n}{hero0}'s party reached the{n}underground world and began to fight{n}the {tEC:10} to seal the Panje.{n}{n}Having beaten the {tEC:10} one{n}after another, {hero0}'s party now{n}challenged the last, {tEC:15}.{fa}",
   "block": "story so far (continue)",
   "refs": [
    "tab 065CE3"
@@ -542,7 +542,7 @@
  {
   "id": "0C:E433",
   "jp": "ラ―ゼスのしめいをうけ、 ちかせかいにきた{n}{hero0}たちは、 すべての{tEC:10}を{n}たおし、 パンジェをてにいれ、{n}それらを ふういんするために {tED:42}に{n}むかっていた。{n}{n}まもなく {hero0}たちの ちちおや{n}ガルバとの たたかいが はじまろうとしていた。{fa}",
-  "en": "",
+  "en": "Charged with a mission by Larzes,{n}{hero0}'s party reached the{n}underground world, defeated all of{n}the {tEC:10}, obtained the Panje,{n}and headed for {tED:42}{n}to seal them.{n}{n}Soon they would face Galba, the{n}father of {hero0} and the others.{fa}",
   "block": "story so far (continue)",
   "refs": [
    "tab 065CE5"
@@ -551,7 +551,7 @@
  {
   "id": "0C:E4AA",
   "jp": "ドラゴン・ラ―ゼスの しめいをうけた{n}{hero0}たちは、 パンジェをふういんし{n}ガルバのいる {tED:44}へむかった。{n}{n}{hero0}たちの ちちおや ガルバ、 いや{n}ラ―ザとの さいごのたたかいが はじまった。{fa}",
-  "en": "",
+  "en": "Charged with a mission by Dragon{n}Larzes, {hero0}'s party sealed the{n}Panje and headed for Galba at{n}{tED:44}.{n}{n}The final battle with the father of{n}{hero0} and the others, Galba... no,{n}Larza, had begun.{fa}",
   "block": "story so far (continue)",
   "refs": [
    "tab 065CE7"
@@ -560,7 +560,7 @@
  {
   "id": "0C:E6E5",
   "jp": "STEREO{fa}",
-  "en": "",
+  "en": "STEREO{fa}",
   "block": "sound test",
   "refs": [
    "b3 0665AA"
@@ -569,7 +569,7 @@
  {
   "id": "0C:E6EC",
   "jp": " MONO {fa}",
-  "en": "",
+  "en": "_MONO_{fa}",
   "block": "sound test",
   "refs": [
    "b3 0665B6"
@@ -578,7 +578,7 @@
  {
   "id": "0C:E6F3",
   "jp": "ー サウンドテスト ー{fa}",
-  "en": "",
+  "en": "- SOUND TEST -{fa}",
   "block": "sound test",
   "refs": [
    "b3 066566"
@@ -596,7 +596,7 @@
  {
   "id": "0C:E72B",
   "jp": "「MY NATIVE VILLAGE」{fa}",
-  "en": "",
+  "en": "\"MY NATIVE VILLAGE\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 0665FA"
@@ -605,7 +605,7 @@
  {
   "id": "0C:E73F",
   "jp": "「IN A FESTIVAL MOOD」{fa}",
-  "en": "",
+  "en": "\"IN A FESTIVAL MOOD\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 0665FC"
@@ -614,7 +614,7 @@
  {
   "id": "0C:E754",
   "jp": "「PROUD OF CASTLE」{fa}",
-  "en": "",
+  "en": "\"PROUD OF CASTLE\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 0665FE"
@@ -623,7 +623,7 @@
  {
   "id": "0C:E766",
   "jp": "「DUNGEON」{fa}",
-  "en": "",
+  "en": "\"DUNGEON\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 066600"
@@ -632,7 +632,7 @@
  {
   "id": "0C:E770",
   "jp": "「LAMENTATION」{fa}",
-  "en": "",
+  "en": "\"LAMENTATION\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 066602"
@@ -641,7 +641,7 @@
  {
   "id": "0C:E77E",
   "jp": "「SAILING」{fa}",
-  "en": "",
+  "en": "\"SAILING\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 066604"
@@ -650,7 +650,7 @@
  {
   "id": "0C:E788",
   "jp": "「FORWARDER」{fa}",
-  "en": "",
+  "en": "\"FORWARDER\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 066606"
@@ -659,7 +659,7 @@
  {
   "id": "0C:E794",
   "jp": "「UNSTABLE CASTLE」{fa}",
-  "en": "",
+  "en": "\"UNSTABLE CASTLE\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 066608"
@@ -668,7 +668,7 @@
  {
   "id": "0C:E7A6",
   "jp": "「CANVAS」{fa}",
-  "en": "",
+  "en": "\"CANVAS\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 06660A"
@@ -677,7 +677,7 @@
  {
   "id": "0C:E7AF",
   "jp": "「THE PARTY OF{n}   NIGHT AFTER NIGHT」{fa}",
-  "en": "",
+  "en": "\"THE PARTY OF{n}___NIGHT AFTER NIGHT\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 06660C"
@@ -686,7 +686,7 @@
  {
   "id": "0C:E7D3",
   "jp": "「RESTING MIND」{fa}",
-  "en": "",
+  "en": "\"RESTING MIND\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 06660E"
@@ -695,7 +695,7 @@
  {
   "id": "0C:E7E2",
   "jp": "「GOOD NIGHT」{fa}",
-  "en": "",
+  "en": "\"GOOD NIGHT\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 066610"
@@ -704,7 +704,7 @@
  {
   "id": "0C:E7EF",
   "jp": "「HAPPY TIME」{fa}",
-  "en": "",
+  "en": "\"HAPPY TIME\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 066612"
@@ -713,7 +713,7 @@
  {
   "id": "0C:E7FC",
   "jp": "「PLEASANTEST LIFE」{fa}",
-  "en": "",
+  "en": "\"PLEASANTEST LIFE\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 066614"
@@ -722,7 +722,7 @@
  {
   "id": "0C:E80F",
   "jp": "「DIGNITY」{fa}",
-  "en": "",
+  "en": "\"DIGNITY\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 066616"
@@ -731,7 +731,7 @@
  {
   "id": "0C:E819",
   "jp": "「DANCING MONSTER」{fa}",
-  "en": "",
+  "en": "\"DANCING MONSTER\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 066618"
@@ -740,7 +740,7 @@
  {
   "id": "0C:E82B",
   "jp": "「CRISIS！」{fa}",
-  "en": "",
+  "en": "\"CRISIS!\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 06661A"
@@ -749,7 +749,7 @@
  {
   "id": "0C:E835",
   "jp": "「FANFARE」{fa}",
-  "en": "",
+  "en": "\"FANFARE\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 06661C"
@@ -758,7 +758,7 @@
  {
   "id": "0C:E83F",
   "jp": "「LEVELーUP」{fa}",
-  "en": "",
+  "en": "\"LEVEL-UP\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 06661E"
@@ -767,7 +767,7 @@
  {
   "id": "0C:E84A",
   "jp": "「DELIGHT MOMENT」{fa}",
-  "en": "",
+  "en": "\"DELIGHT MOMENT\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 066620"
@@ -776,7 +776,7 @@
  {
   "id": "0C:E85B",
   "jp": "「STEP FOR FREEDOM」{fa}",
-  "en": "",
+  "en": "\"STEP FOR FREEDOM\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 066622"
@@ -785,7 +785,7 @@
  {
   "id": "0C:E86E",
   "jp": "「CONFUSING RAIL」{fa}",
-  "en": "",
+  "en": "\"CONFUSING RAIL\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 066624"
@@ -794,7 +794,7 @@
  {
   "id": "0C:E87F",
   "jp": "「THE THEME」{fa}",
-  "en": "",
+  "en": "\"THE THEME\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 066626"
@@ -803,7 +803,7 @@
  {
   "id": "0C:E88B",
   "jp": "「LOVE SONG」{fa}",
-  "en": "",
+  "en": "\"LOVE SONG\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 066628"
@@ -812,7 +812,7 @@
  {
   "id": "0C:E897",
   "jp": "「HOLDING ADVENTURE」{fa}",
-  "en": "",
+  "en": "\"HOLDING ADVENTURE\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 06662A"
@@ -821,7 +821,7 @@
  {
   "id": "0C:E8AB",
   "jp": "「COMING BACK！！」{fa}",
-  "en": "",
+  "en": "\"COMING BACK!!\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 06662C"
@@ -830,7 +830,7 @@
  {
   "id": "0C:E8BB",
   "jp": "「LULLABY IN A FOREST」{fa}",
-  "en": "",
+  "en": "\"LULLABY IN A FOREST\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 06662E"
@@ -839,7 +839,7 @@
  {
   "id": "0C:E8D1",
   "jp": "「INVITATION」{fa}",
-  "en": "",
+  "en": "\"INVITATION\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 066630"
@@ -848,7 +848,7 @@
  {
   "id": "0C:E8DE",
   "jp": "「SERENADE{n}    FOR SILENT NIGHT」{fa}",
-  "en": "",
+  "en": "\"SERENADE{n}_____FOR SILENT NIGHT\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 066632"
@@ -857,7 +857,7 @@
  {
   "id": "0C:E8FE",
   "jp": "「THE WALL」{fa}",
-  "en": "",
+  "en": "\"THE WALL\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 066634"
@@ -866,7 +866,7 @@
  {
   "id": "0C:E909",
   "jp": "「LAST MUSIC」{fa}",
-  "en": "",
+  "en": "\"LAST MUSIC\"{fa}",
   "block": "sound test",
   "refs": [
    "tab 066636"
@@ -875,7 +875,7 @@
  {
   "id": "0C:FBD6",
   "jp": "どのランクに ちょうせんしますか？{n} イ―ジ―・ランク     かけきん   10G{n} ノ―マル・ランク     かけきん  100G{n}  ハ―ド・ランク     かけきん 1000G{end}",
-  "en": "",
+  "en": "Which rank will you take on?{n}_Easy Rank______Bet_       10G{n}_Normal Rank_____Bet_      100G{n}_Hard Rank______Bet_    1000G{end}",
   "block": "treasure-box game",
   "refs": [
    "b3 06715A"
@@ -884,7 +884,7 @@
  {
   "id": "0C:FC33",
   "jp": "どのランクに ちょうせんしますか？{n} イ―ジ―・ランク     かけきん   50G{n} ノ―マル・ランク     かけきん  500G{n}  ハ―ド・ランク     かけきん 5000G{end}",
-  "en": "",
+  "en": "Which rank will you take on?{n}_Easy Rank______Bet_       50G{n}_Normal Rank_____Bet_      500G{n}_Hard Rank______Bet_    5000G{end}",
   "block": "treasure-box game",
   "refs": [
    "b3 067166"
@@ -902,7 +902,7 @@
  {
   "id": "0C:FCED",
   "jp": "しょじきん        /G{leftn:02}{rstr:B11C}{end}",
-  "en": "",
+  "en": "Money ________/G{leftn:02}{rstr:B11C}{end}",
   "block": "treasure-box game",
   "refs": [
    "b3 0674BA"
@@ -911,7 +911,7 @@
  {
   "id": "0C:FD02",
   "jp": "よ―く みててくださいよ！{end}",
-  "en": "",
+  "en": "Watch very closely now!{end}",
   "block": "treasure-box game",
   "refs": [
    "b3 067297"
@@ -920,7 +920,7 @@
  {
   "id": "0C:FD10",
   "jp": "さぁ あなたがこれだというのを{n}ひとつ えらんでください{end}",
-  "en": "",
+  "en": "Now, pick the one{n}you think it is.{end}",
   "block": "treasure-box game",
   "refs": [
    "b3 06737A"
@@ -929,7 +929,7 @@
  {
   "id": "0C:FD2D",
   "jp": "かけきんが たりません{end}",
-  "en": "",
+  "en": "Not enough for the bet.{end}",
   "block": "treasure-box game",
   "refs": [
    "b3 0671E0"
@@ -938,7 +938,7 @@
  {
   "id": "0C:FD39",
   "jp": "おめでとうございます！         {n}このしょうひんは あなたのものです！{n}もっと もうけてみませんか？{n}  はい   いいえ{end}",
-  "en": "",
+  "en": "Congratulations!__________{n}This prize is yours!{n}Want to try winning more?{n}___Yes__No{end}",
   "block": "treasure-box game",
   "refs": [
    "b3 0673CA"
@@ -947,7 +947,7 @@
  {
   "id": "0C:FD7B",
   "jp": "ざんねんでした。からばこでした。    {n}もういちど ちょうせんしてみますか？{n}{n}  はい   いいえ{end}",
-  "en": "",
+  "en": "Too bad. The box was empty._{n}Want to try again?{n}{n}___Yes__No{end}",
   "block": "treasure-box game",
   "refs": [
    "b3 0673D6"
@@ -956,7 +956,7 @@
  {
   "id": "10:A15C",
   "jp": "「00」を てにいれた{end}",
-  "en": "",
+  "en": "\"00\" obtained!{end}",
   "block": "treasure chest messages (MVN-copied to WRAM)",
   "refs": [
    "mvn 082463"
@@ -965,7 +965,7 @@
  {
   "id": "10:A168",
   "jp": "「00」を てにいれた{sync}{end}",
-  "en": "",
+  "en": "\"00\" obtained!{sync}{end}",
   "block": "treasure chest messages (MVN-copied to WRAM)",
   "refs": [
    "mvn 082451"
@@ -974,7 +974,7 @@
  {
   "id": "10:A175",
   "jp": "{str:371C}G てにいれた{end}",
-  "en": "",
+  "en": "Got {str:371C}G!{end}",
   "block": "treasure chest messages (MVN-copied to WRAM)",
   "refs": [
    "mvn 08255E"
@@ -983,7 +983,7 @@
  {
   "id": "10:A180",
   "jp": "たからばこは からだった{end}",
-  "en": "",
+  "en": "The chest was empty.{end}",
   "block": "treasure chest messages (MVN-copied to WRAM)",
   "refs": [
    "mvn 082545"
@@ -992,7 +992,7 @@
  {
   "id": "10:A18D",
   "jp": "」を みつけた{fe}しかし これいじょう もてない{end}",
-  "en": "",
+  "en": "\" found.{fe}But you cannot carry any more.{end}",
   "block": "treasure chest messages (MVN-copied to WRAM)",
   "refs": [
    "mvn 0824AF"
@@ -1001,7 +1001,7 @@
  {
   "id": "20:9364",
   "jp": "ー オ―トバトル ー{fa}",
-  "en": "",
+  "en": "- AUTO BATTLE -{fa}",
   "block": "battle: start, results, level up",
   "refs": [
    "b3 10011D"
@@ -1029,7 +1029,7 @@
  {
   "id": "20:937C",
   "jp": "00 が あらわれた{fa}",
-  "en": "",
+  "en": "00 appeared!{fa}",
   "block": "battle: start, results, level up",
   "refs": [
    "mvn 100900"
@@ -1038,7 +1038,7 @@
  {
   "id": "20:9387",
   "jp": "てきがあらわれた。 どうする？{fa}",
-  "en": "",
+  "en": "Enemies appeared! What will you do?{fa}",
   "block": "battle: start, results, level up",
   "refs": [
    "b3 1008B2"
@@ -1047,7 +1047,7 @@
  {
   "id": "20:9397",
   "jp": "{hero0}たちは、たたかいにしょうりした{n}    けいけんち：{str:0313}{n}    ゴ―ルド ：{str:0B13}{n}               を、てにいれた。{fa}",
-  "en": "",
+  "en": "{hero0}'s party won the battle!{n}____Experience: {str:0313}{n}____Gold____: {str:0B13}{n}_______________were obtained.{fa}",
   "block": "battle: start, results, level up",
   "refs": [
    "b3 100CA8"
@@ -1056,7 +1056,7 @@
  {
   "id": "20:93DC",
   "jp": "{clear}{hero0}たちは、にげだした{fa}",
-  "en": "",
+  "en": "{clear}{hero0}'s party fled!{fa}",
   "block": "battle: start, results, level up",
   "refs": [
    "b3 100313"
@@ -1065,7 +1065,7 @@
  {
   "id": "20:93E8",
   "jp": "{hero0}たちは、ちからつきてしまった・・・{fa}",
-  "en": "",
+  "en": "{hero0}'s party has fallen...{fa}",
   "block": "battle: start, results, level up",
   "refs": [
    "b3 100231"
@@ -1074,7 +1074,7 @@
  {
   "id": "20:93FB",
   "jp": "{clear}しかし、てきにまわりこまれてしまった{fa}",
-  "en": "",
+  "en": "{clear}But the enemy cut off the escape!{fa}",
   "block": "battle: start, results, level up",
   "refs": [
    "b3 100349"
@@ -1083,25 +1083,25 @@
  {
   "id": "20:940F",
   "jp": "{hero0}は、たたかいにしょうりした{n}    けいけんち：{str:0313}{n}    ゴ―ルド ：{str:0B13}{n}               を、てにいれた。{fa}",
-  "en": "",
+  "en": "{hero0} won the battle!{n}____Experience: {str:0313}{n}____Gold____: {str:0B13}{n}_______________were obtained.{fa}",
   "block": "battle: start, results, level up"
  },
  {
   "id": "20:9452",
   "jp": "{clear}{hero0}は、にげだした{fa}",
-  "en": "",
+  "en": "{clear}{hero0} fled!{fa}",
   "block": "battle: start, results, level up"
  },
  {
   "id": "20:945C",
   "jp": "{hero0}は、ちからつきてしまった・・・{fa}",
-  "en": "",
+  "en": "{hero0} has fallen...{fa}",
   "block": "battle: start, results, level up"
  },
  {
   "id": "20:946D",
   "jp": "00はレベル{str:B11C}にアップした{fa}",
-  "en": "",
+  "en": "00 reached level {str:B11C}!{fa}",
   "block": "battle: start, results, level up",
   "refs": [
    "mvn 100FE6"
@@ -1110,7 +1110,7 @@
  {
   "id": "20:947D",
   "jp": "  さいだいHPが{str:0002}あがって{str:B11C}になった！{fa}",
-  "en": "",
+  "en": "__Max HP rose by {str:0002} to {str:B11C}!{fa}",
   "block": "battle: start, results, level up",
   "refs": [
    "b3 101057"
@@ -1119,7 +1119,7 @@
  {
   "id": "20:9496",
   "jp": "  さいだいTPが{str:0002}あがって{str:B11C}になった！{fa}",
-  "en": "",
+  "en": "__Max TP rose by {str:0002} to {str:B11C}!{fa}",
   "block": "battle: start, results, level up",
   "refs": [
    "b3 1010A9"
@@ -1128,7 +1128,7 @@
  {
   "id": "20:94AF",
   "jp": "  さいだいMPが{str:0002}あがって{str:B11C}になった！{fa}",
-  "en": "",
+  "en": "__Max MP rose by {str:0002} to {str:B11C}!{fa}",
   "block": "battle: start, results, level up",
   "refs": [
    "b3 1010B5"
@@ -1137,7 +1137,7 @@
  {
   "id": "20:94C8",
   "jp": "  ちからが{str:0002}あがって{str:B11C}になった！{fa}",
-  "en": "",
+  "en": "__Power rose by {str:0002} to {str:B11C}!{fa}",
   "block": "battle: start, results, level up",
   "refs": [
    "b3 1010FF"
@@ -1146,7 +1146,7 @@
  {
   "id": "20:94DE",
   "jp": "  すばやさが{str:0002}あがって{str:B11C}になった！{fa}",
-  "en": "",
+  "en": "__Agility rose by {str:0002} to {str:B11C}!{fa}",
   "block": "battle: start, results, level up",
   "refs": [
    "b3 101149"
@@ -1155,7 +1155,7 @@
  {
   "id": "20:94F5",
   "jp": "  ちせいが{str:0002}あがって{str:B11C}になった！{fa}",
-  "en": "",
+  "en": "__Wisdom rose by {str:0002} to {str:B11C}!{fa}",
   "block": "battle: start, results, level up",
   "refs": [
    "b3 101193"
@@ -1164,7 +1164,7 @@
  {
   "id": "20:950B",
   "jp": "  うんが{str:0002}あがって{str:B11C}になった！{fa}",
-  "en": "",
+  "en": "__Luck rose by {str:0002} to {str:B11C}!{fa}",
   "block": "battle: start, results, level up",
   "refs": [
    "b3 1011DD"
@@ -1173,7 +1173,7 @@
  {
   "id": "20:9520",
   "jp": "  00 のまほうを おぼえた！{fa}",
-  "en": "",
+  "en": "__Learned the spell 00!{fa}",
   "block": "battle: start, results, level up",
   "refs": [
    "mvn 1011F0"
@@ -1199,7 +1199,7 @@
  {
   "id": "20:954C",
   "jp": "{pos:0403}しょじきん・・・・・・・・・・・・・・・・・/G{leftn:02}{rstr:B11C}{fa}",
-  "en": "",
+  "en": "{pos:0403}Money_._._._._._._._._./G{leftn:02}{rstr:B11C}{fa}",
   "block": "battle: start, results, level up",
   "refs": [
    "b3 100EE5"
@@ -1208,7 +1208,7 @@
  {
   "id": "20:956D",
   "jp": "{pos:0406}けいけんち{fa}",
-  "en": "",
+  "en": "{pos:0406}Experience{fa}",
   "block": "battle: start, results, level up",
   "refs": [
    "b3 100D53"
@@ -1217,7 +1217,7 @@
  {
   "id": "20:9576",
   "jp": "{pos:0508}・・・・・・・・・・・・・・・・・・・・・・・{rstr:0313}/{left}{rstr:B11C}{pos:0508}{hero0}{fa}",
-  "en": "",
+  "en": "{pos:0508}._._._._._._._._._._._.{rstr:0313}/{left}{rstr:B11C}{pos:0508}{hero0}{fa}",
   "block": "battle: start, results, level up",
   "refs": [
    "b3 100DA7"
@@ -1226,7 +1226,7 @@
  {
   "id": "20:959D",
   "jp": "{pos:050A}・・・・・・・・・・・・・・・・・・・・・・・{rstr:0313}/{left}{rstr:B11C}{pos:050A}{hero1}{fa}",
-  "en": "",
+  "en": "{pos:050A}._._._._._._._._._._._.{rstr:0313}/{left}{rstr:B11C}{pos:050A}{hero1}{fa}",
   "block": "battle: start, results, level up",
   "refs": [
    "b3 100E03"
@@ -1235,7 +1235,7 @@
  {
   "id": "20:95C4",
   "jp": "{pos:050C}・・・・・・・・・・・・・・・・・・・・・・・{rstr:0313}/{left}{rstr:B11C}{pos:050C}{hero2}{fa}",
-  "en": "",
+  "en": "{pos:050C}._._._._._._._._._._._.{rstr:0313}/{left}{rstr:B11C}{pos:050C}{hero2}{fa}",
   "block": "battle: start, results, level up",
   "refs": [
    "b3 100E62"
@@ -1244,7 +1244,7 @@
  {
   "id": "20:95EB",
   "jp": "{pos:050E}・・・・・・・・・・・・・・・・・・・・・・・{rstr:0313}/{left}{rstr:B11C}{pos:050E}{hero3}{fa}",
-  "en": "",
+  "en": "{pos:050E}._._._._._._._._._._._.{rstr:0313}/{left}{rstr:B11C}{pos:050E}{hero3}{fa}",
   "block": "battle: start, results, level up",
   "refs": [
    "b3 100EBE"
@@ -1253,7 +1253,7 @@
  {
   "id": "20:A5DB",
   "jp": "こすう：  {rstr:B11C}{end}",
-  "en": "",
+  "en": "Have:__{rstr:B11C}{end}",
   "block": "battle: item count",
   "refs": [
    "b3 102573"
@@ -1262,7 +1262,7 @@
  {
   "id": "20:A5FD",
   "jp": "TP：  {rstr:B11C}{end}",
-  "en": "",
+  "en": "TP:__{rstr:B11C}{end}",
   "block": "battle: TP/MP cost",
   "refs": [
    "tab 1025F5",
@@ -1272,7 +1272,7 @@
  {
   "id": "20:A606",
   "jp": "MP：  {rstr:B11C}{end}",
-  "en": "",
+  "en": "MP:__{rstr:B11C}{end}",
   "block": "battle: TP/MP cost",
   "refs": [
    "tab 1025F7",
@@ -1318,7 +1318,7 @@
  {
   "id": "20:A64D",
   "jp": "こうげき   {end}",
-  "en": "",
+  "en": "Attack__{end}",
   "block": "battle: commands",
   "refs": [
    "tab 10261F",
@@ -1328,7 +1328,7 @@
  {
   "id": "20:A655",
   "jp": "ぼうぎょ   {end}",
-  "en": "",
+  "en": "Defend__{end}",
   "block": "battle: commands",
   "refs": [
    "tab 102621",
@@ -1338,7 +1338,7 @@
  {
   "id": "20:A65D",
   "jp": "まほう    {end}",
-  "en": "",
+  "en": "Magic___{end}",
   "block": "battle: commands",
   "refs": [
    "tab 10262B"
@@ -1347,7 +1347,7 @@
  {
   "id": "20:A665",
   "jp": "ひっさつわざ {end}",
-  "en": "",
+  "en": "Skill____{end}",
   "block": "battle: commands",
   "refs": [
    "tab 102623"
@@ -1356,7 +1356,7 @@
  {
   "id": "20:A66D",
   "jp": "アイテム   {end}",
-  "en": "",
+  "en": "Item____{end}",
   "block": "battle: commands",
   "refs": [
    "tab 102625",
@@ -1385,7 +1385,7 @@
  {
   "id": "20:BCC2",
   "jp": "{clear}しかし、すでにアイテムはなかった{fa}",
-  "en": "",
+  "en": "{clear}But the item was already gone.{fa}",
   "block": "battle: item/MP/TP, status turns",
   "refs": [
    "b3 103509"
@@ -1394,7 +1394,7 @@
  {
   "id": "20:BCD4",
   "jp": "{clear}しかし、MPがたりない{fa}",
-  "en": "",
+  "en": "{clear}But there is not enough MP.{fa}",
   "block": "battle: item/MP/TP, status turns",
   "refs": [
    "b3 1034DA"
@@ -1403,7 +1403,7 @@
  {
   "id": "20:BCE1",
   "jp": "{clear}しかし、TPがたりない{fa}",
-  "en": "",
+  "en": "{clear}But there is not enough TP.{fa}",
   "block": "battle: item/MP/TP, status turns",
   "refs": [
    "b3 1034EB"
@@ -1412,61 +1412,61 @@
  {
   "id": "20:BCEE",
   "jp": "{clear}00は うごきをふうじられている{fa}",
-  "en": "",
+  "en": "{clear}00 is bound and can't move.{fa}",
   "block": "battle: item/MP/TP, status turns"
  },
  {
   "id": "20:BD00",
   "jp": "{clear}00は ねむっている{fa}",
-  "en": "",
+  "en": "{clear}00 is asleep.{fa}",
   "block": "battle: item/MP/TP, status turns"
  },
  {
   "id": "20:BD0C",
   "jp": "{clear}00は こんらんしている{fa}",
-  "en": "",
+  "en": "{clear}00 is confused.{fa}",
   "block": "battle: item/MP/TP, status turns"
  },
  {
   "id": "20:BD1A",
   "jp": "{clear}00は どくがまわった{fa}",
-  "en": "",
+  "en": "{clear}00 is hurt by the poison!{fa}",
   "block": "battle: item/MP/TP, status turns"
  },
  {
   "id": "20:BD27",
   "jp": "{clear}00は まほうをふうじられている{fa}",
-  "en": "",
+  "en": "{clear}00's magic is sealed.{fa}",
   "block": "battle: item/MP/TP, status turns"
  },
  {
   "id": "20:BD39",
   "jp": "{clear}00は うごけるようになった{fa}",
-  "en": "",
+  "en": "{clear}00 can move again.{fa}",
   "block": "battle: item/MP/TP, status turns"
  },
  {
   "id": "20:BD49",
   "jp": "{clear}00は ねむりからさめた{fa}",
-  "en": "",
+  "en": "{clear}00 woke up.{fa}",
   "block": "battle: item/MP/TP, status turns"
  },
  {
   "id": "20:BD57",
   "jp": "{clear}00は しょうきにもどった{fa}",
-  "en": "",
+  "en": "{clear}00 snapped out of it.{fa}",
   "block": "battle: item/MP/TP, status turns"
  },
  {
   "id": "20:BD66",
   "jp": "{clear}00は まほうがつかえるようになった{fa}",
-  "en": "",
+  "en": "{clear}00 can use magic again.{fa}",
   "block": "battle: item/MP/TP, status turns"
  },
  {
   "id": "20:D763",
   "jp": "{clear}{hero0}たちは、にげだした{fa}",
-  "en": "",
+  "en": "{clear}{hero0}'s party fled!{fa}",
   "block": "battle: actions",
   "refs": [
    "b3 10509F"
@@ -1475,7 +1475,7 @@
  {
   "id": "20:D76F",
   "jp": "{clear}しかし、このてきにはつうようしなかった{fa}",
-  "en": "",
+  "en": "{clear}But it didn't work on this enemy.{fa}",
   "block": "battle: actions",
   "refs": [
    "b3 1050E8"
@@ -1484,7 +1484,7 @@
  {
   "id": "20:D784",
   "jp": "{clear}00は どくをはいた{fa}",
-  "en": "",
+  "en": "{clear}00 breathed poison!{fa}",
   "block": "battle: actions",
   "refs": [
    "mvn 1054FF"
@@ -1493,7 +1493,7 @@
  {
   "id": "20:D790",
   "jp": "{clear}00は ほのおをはいた{fa}",
-  "en": "",
+  "en": "{clear}00 breathed fire!{fa}",
   "block": "battle: actions",
   "refs": [
    "mvn 105636"
@@ -1502,7 +1502,7 @@
  {
   "id": "20:D79D",
   "jp": "{clear}00は にらみつけた{fa}",
-  "en": "",
+  "en": "{clear}00 glared!{fa}",
   "block": "battle: actions",
   "refs": [
    "mvn 105647"
@@ -1511,7 +1511,7 @@
  {
   "id": "20:D7A9",
   "jp": "{clear}00の でんげきこうげき{fa}",
-  "en": "",
+  "en": "{clear}00's lightning attack!{fa}",
   "block": "battle: actions",
   "refs": [
    "mvn 105658"
@@ -1520,7 +1520,7 @@
  {
   "id": "20:D7B7",
   "jp": "{clear}00の かえんこうげき{fa}",
-  "en": "",
+  "en": "{clear}00's flame attack!{fa}",
   "block": "battle: actions",
   "refs": [
    "mvn 105669"
@@ -1529,7 +1529,7 @@
  {
   "id": "20:D7C4",
   "jp": "{clear}00は エネルギ―をチャ―ジした{fa}",
-  "en": "",
+  "en": "{clear}00 charged up energy!{fa}",
   "block": "battle: actions",
   "refs": [
    "mvn 105679"
@@ -1538,7 +1538,7 @@
  {
   "id": "20:D7D6",
   "jp": "{clear}00の ブリザ―ドこうげき{fa}",
-  "en": "",
+  "en": "{clear}00's blizzard attack!{fa}",
   "block": "battle: actions",
   "refs": [
    "mvn 105689"
@@ -1547,7 +1547,7 @@
  {
   "id": "20:D7E5",
   "jp": "{clear}00の めが あやしくひかった{fa}",
-  "en": "",
+  "en": "{clear}00's eyes glowed eerily!{fa}",
   "block": "battle: actions",
   "refs": [
    "mvn 105699"
@@ -1556,7 +1556,7 @@
  {
   "id": "20:D7F6",
   "jp": "{clear}00は ぶきみに ほほえんだ{fa}",
-  "en": "",
+  "en": "{clear}00 smiled creepily.{fa}",
   "block": "battle: actions",
   "refs": [
    "mvn 1056A9"
@@ -1565,7 +1565,7 @@
  {
   "id": "20:D806",
   "jp": "{clear}00は ミサイルを はっしゃした{fa}",
-  "en": "",
+  "en": "{clear}00 fired a missile!{fa}",
   "block": "battle: actions",
   "refs": [
    "mvn 1056B9"
@@ -1574,7 +1574,7 @@
  {
   "id": "20:D818",
   "jp": "{clear}00は あまい かおりをだした{fa}",
-  "en": "",
+  "en": "{clear}00 gave off a sweet scent!{fa}",
   "block": "battle: actions",
   "refs": [
    "mvn 1056C9"
@@ -1583,7 +1583,7 @@
  {
   "id": "20:D829",
   "jp": "{clear}00は ウェ―ブを はっしゃした{fa}",
-  "en": "",
+  "en": "{clear}00 emitted a wave!{fa}",
   "block": "battle: actions",
   "refs": [
    "mvn 1056D9"
@@ -1592,7 +1592,7 @@
  {
   "id": "20:D83B",
   "jp": "{clear}{str:B11C} G うばうことに せいこうした{fa}",
-  "en": "",
+  "en": "{clear}Stole {str:B11C}G!{fa}",
   "block": "battle: actions",
   "refs": [
    "b3 1050DB"
@@ -1601,7 +1601,7 @@
  {
   "id": "20:D850",
   "jp": "{clear}00は「00」をつかった{fa}",
-  "en": "",
+  "en": "{clear}00 used \"00\"!{fa}",
   "block": "battle: actions",
   "refs": [
    "mvn 1054B2"
@@ -1610,7 +1610,7 @@
  {
   "id": "20:D85E",
   "jp": "{clear}00は「00」をとなえた{fa}",
-  "en": "",
+  "en": "{clear}00 cast \"00\"!{fa}",
   "block": "battle: actions",
   "refs": [
    "mvn 10552A"
@@ -1619,7 +1619,7 @@
  {
   "id": "20:D86C",
   "jp": "{clear}00の こうげき{fa}",
-  "en": "",
+  "en": "{clear}00 attacks!{fa}",
   "block": "battle: actions",
   "refs": [
    "mvn 105744"
@@ -1628,7 +1628,7 @@
  {
   "id": "20:D876",
   "jp": "{clear}00：「ひっさつ！00！！」{fa}",
-  "en": "",
+  "en": "{clear}00: \"Deadly strike! 00!!\"{fa}",
   "block": "battle: actions",
   "refs": [
    "mvn 1056FE"
@@ -1637,7 +1637,7 @@
  {
   "id": "20:D886",
   "jp": "{clear}しかし、こうかがなかった{fa}",
-  "en": "",
+  "en": "{clear}But it had no effect.{fa}",
   "block": "battle: actions",
   "refs": [
    "b3 1050F5"
@@ -1646,73 +1646,73 @@
  {
   "id": "20:D894",
   "jp": "{clear}00は ダメ―ジをあたえた！！{fa}",
-  "en": "",
+  "en": "{clear}00 dealt damage!!{fa}",
   "block": "battle: actions"
  },
  {
   "id": "20:D8A5",
   "jp": "{clear}すばやく みをかわされた！{fa}",
-  "en": "",
+  "en": "{clear}It was swiftly dodged!{fa}",
   "block": "battle: actions"
  },
  {
   "id": "20:D8B4",
   "jp": "{clear}あたらなかった！{fa}",
-  "en": "",
+  "en": "{clear}Missed!{fa}",
   "block": "battle: actions"
  },
  {
   "id": "20:D8BE",
   "jp": "{clear}しかし、よけられてしまった！{fa}",
-  "en": "",
+  "en": "{clear}But it was dodged!{fa}",
   "block": "battle: actions"
  },
  {
   "id": "20:D8CE",
   "jp": "{clear}しかし、はずれてしまった！{fa}",
-  "en": "",
+  "en": "{clear}But it missed!{fa}",
   "block": "battle: actions"
  },
  {
   "id": "20:D8DD",
   "jp": "{clear}00の こうげきをうけた！！{fa}",
-  "en": "",
+  "en": "{clear}Took 00's attack!!{fa}",
   "block": "battle: actions"
  },
  {
   "id": "20:D8ED",
   "jp": "{clear}すばやく みをかわした！{fa}",
-  "en": "",
+  "en": "{clear}Swiftly dodged it!{fa}",
   "block": "battle: actions"
  },
  {
   "id": "20:D8FB",
   "jp": "{clear}うまくよけることができた！{fa}",
-  "en": "",
+  "en": "{clear}Managed to dodge it!{fa}",
   "block": "battle: actions"
  },
  {
   "id": "20:D90A",
   "jp": "{clear}うんよく、とどかなかった！{fa}",
-  "en": "",
+  "en": "{clear}Luckily, it fell short!{fa}",
   "block": "battle: actions"
  },
  {
   "id": "20:D919",
   "jp": "{clear}こうげきを うけとめた！{fa}",
-  "en": "",
+  "en": "{clear}Blocked the attack!{fa}",
   "block": "battle: actions"
  },
  {
   "id": "20:D927",
   "jp": "{clear}00の きょうれつなダメ―ジ！！{fa}",
-  "en": "",
+  "en": "{clear}A crushing blow from 00!!{fa}",
   "block": "battle: actions"
  },
  {
   "id": "20:D93D",
   "jp": "{clear}ぼうぎょりょくアップ{fa}",
-  "en": "",
+  "en": "{clear}Defense up!{fa}",
   "block": "battle: status effects",
   "refs": [
    "word 105939",
@@ -1722,7 +1722,7 @@
  {
   "id": "20:D94D",
   "jp": "{clear}ぼうぎょりょくダウン{fa}",
-  "en": "",
+  "en": "{clear}Defense down!{fa}",
   "block": "battle: status effects",
   "refs": [
    "word 105949",
@@ -1732,7 +1732,7 @@
  {
   "id": "20:D95D",
   "jp": "{clear}しをもたらされた{fa}",
-  "en": "",
+  "en": "{clear}Struck dead!{fa}",
   "block": "battle: status effects",
   "refs": [
    "word 105959"
@@ -1741,7 +1741,7 @@
  {
   "id": "20:D967",
   "jp": "{clear}しをもたらした{fa}",
-  "en": "",
+  "en": "{clear}Brought death!{fa}",
   "block": "battle: status effects",
   "refs": [
    "word 10595B"
@@ -1750,7 +1750,7 @@
  {
   "id": "20:D974",
   "jp": "{clear}いきかえらせるのにせいこうした{fa}",
-  "en": "",
+  "en": "{clear}Revived successfully!{fa}",
   "block": "battle: status effects",
   "refs": [
    "word 105970",
@@ -1760,7 +1760,7 @@
  {
   "id": "20:D989",
   "jp": "{clear}どくにおかされてしまった{fa}",
-  "en": "",
+  "en": "{clear}Was poisoned!{fa}",
   "block": "battle: status effects",
   "refs": [
    "word 105985"
@@ -1769,7 +1769,7 @@
  {
   "id": "20:D997",
   "jp": "{clear}てきにどくをあたえた{fa}",
-  "en": "",
+  "en": "{clear}Poisoned the enemy!{fa}",
   "block": "battle: status effects",
   "refs": [
    "word 105987"
@@ -1778,7 +1778,7 @@
  {
   "id": "20:D9A7",
   "jp": "{clear}どくがかいふくした{fa}",
-  "en": "",
+  "en": "{clear}The poison was cured!{fa}",
   "block": "battle: status effects",
   "refs": [
    "word 1059A3",
@@ -1788,7 +1788,7 @@
  {
   "id": "20:D9B6",
   "jp": "{clear}すばやさアップ{fa}",
-  "en": "",
+  "en": "{clear}Agility up!{fa}",
   "block": "battle: status effects",
   "refs": [
    "word 1059B2",
@@ -1798,7 +1798,7 @@
  {
   "id": "20:D9C3",
   "jp": "{clear}すばやさダウン{fa}",
-  "en": "",
+  "en": "{clear}Agility down!{fa}",
   "block": "battle: status effects",
   "refs": [
    "word 1059BF",
@@ -1808,7 +1808,7 @@
  {
   "id": "20:D9D0",
   "jp": "{clear}ねむらされてしまった{fa}",
-  "en": "",
+  "en": "{clear}Was put to sleep!{fa}",
   "block": "battle: status effects",
   "refs": [
    "word 1059CC"
@@ -1817,7 +1817,7 @@
  {
   "id": "20:D9DC",
   "jp": "{clear}ねむらせた{fa}",
-  "en": "",
+  "en": "{clear}Put it to sleep!{fa}",
   "block": "battle: status effects",
   "refs": [
    "word 1059CE"
@@ -1826,7 +1826,7 @@
  {
   "id": "20:D9E7",
   "jp": "{clear}ヒットポイントがかいふくした{fa}",
-  "en": "",
+  "en": "{clear}Hit points restored!{fa}",
   "block": "battle: status effects",
   "refs": [
    "word 1059E3",
@@ -1836,7 +1836,7 @@
  {
   "id": "20:D9FB",
   "jp": "{clear}ヒットポイントをうばわれてしまった{fa}",
-  "en": "",
+  "en": "{clear}Hit points were drained!{fa}",
   "block": "battle: status effects",
   "refs": [
    "word 1059F7"
@@ -1845,7 +1845,7 @@
  {
   "id": "20:DA0E",
   "jp": "{clear}ヒットポイントをうばうことができた{fa}",
-  "en": "",
+  "en": "{clear}Drained hit points!{fa}",
   "block": "battle: status effects",
   "refs": [
    "word 1059F9"
@@ -1854,7 +1854,7 @@
  {
   "id": "20:DA25",
   "jp": "{clear}こんらんさせられてしまった{fa}",
-  "en": "",
+  "en": "{clear}Was confused!{fa}",
   "block": "battle: status effects",
   "refs": [
    "word 105A21"
@@ -1863,7 +1863,7 @@
  {
   "id": "20:DA34",
   "jp": "{clear}こんらんさせた{fa}",
-  "en": "",
+  "en": "{clear}Confused it!{fa}",
   "block": "battle: status effects",
   "refs": [
    "word 105A23"
@@ -1872,7 +1872,7 @@
  {
   "id": "20:DA41",
   "jp": "{clear}こうげきりょくアップ{fa}",
-  "en": "",
+  "en": "{clear}Attack up!{fa}",
   "block": "battle: status effects",
   "refs": [
    "word 105A3D",
@@ -1882,7 +1882,7 @@
  {
   "id": "20:DA51",
   "jp": "{clear}こうげきりょくダウン{fa}",
-  "en": "",
+  "en": "{clear}Attack down!{fa}",
   "block": "battle: status effects",
   "refs": [
    "word 105A4D",
@@ -1892,7 +1892,7 @@
  {
   "id": "20:DA61",
   "jp": "{clear}まほうバリアをはった{fa}",
-  "en": "",
+  "en": "{clear}Raised a magic barrier!{fa}",
   "block": "battle: status effects",
   "refs": [
    "word 105A5D",
@@ -1902,7 +1902,7 @@
  {
   "id": "20:DA71",
   "jp": "{clear}マジックポイントがかいふくした{fa}",
-  "en": "",
+  "en": "{clear}Magic points restored!{fa}",
   "block": "battle: status effects",
   "refs": [
    "word 105A6D",
@@ -1912,7 +1912,7 @@
  {
   "id": "20:DA86",
   "jp": "{clear}マジックポイントをうばうことができた{fa}",
-  "en": "",
+  "en": "{clear}Drained magic points!{fa}",
   "block": "battle: status effects",
   "refs": [
    "word 105A82",
@@ -1922,7 +1922,7 @@
  {
   "id": "20:DA9E",
   "jp": "{clear}まほうをふうじこめた{fa}",
-  "en": "",
+  "en": "{clear}Sealed its magic!{fa}",
   "block": "battle: status effects",
   "refs": [
    "word 105A9A",
@@ -1932,7 +1932,7 @@
  {
   "id": "20:DAAE",
   "jp": "{clear}うごきをふうじこめた{fa}",
-  "en": "",
+  "en": "{clear}Sealed its movement!{fa}",
   "block": "battle: status effects",
   "refs": [
    "word 105AAA",
@@ -1942,7 +1942,7 @@
  {
   "id": "20:DABE",
   "jp": "{clear}しょうきにもどった{fa}",
-  "en": "",
+  "en": "{clear}Snapped out of it!{fa}",
   "block": "battle: status effects",
   "refs": [
    "word 105ABA",
@@ -1952,7 +1952,7 @@
  {
   "id": "20:FC6C",
   "jp": "ぼうけんのきろく{n}ししゃのふっかつ{end}",
-  "en": "",
+  "en": "Save{n}Revive{end}",
   "block": "church",
   "refs": [
    "b3 10791B"
@@ -1970,7 +1970,7 @@
  {
   "id": "20:FC90",
   "jp": "ふっかつのぎしきには {str:B11C}G の{n}   きふきんが ひつようですが、よろしいですか？{n}{f0}{end}",
-  "en": "",
+  "en": "The rite of revival requires an{n}offering of {str:B11C}G. Is that all right?{n}{f0}{end}",
   "block": "church",
   "refs": [
    "b3 107A40"
@@ -1979,7 +1979,7 @@
  {
   "id": "20:FCBE",
   "jp": "ふっかつのぎしきには 10000G の{n}   きふきんが ひつようですが・・・・・・・・・{fe}なんと！ きふする おかねがないのですね。{n}いいでしょう。かみはすべてのひとにびょうどうです。{n}こんかいだけ とくべつに きふきんはけっこうです。{end}",
-  "en": "",
+  "en": "The rite of revival requires an{n}offering of 10000G...{fe}What! You have no money to offer?{n}Very well. God treats all people equally.{n}Just this once, no offering is needed.{end}",
   "block": "church",
   "refs": [
    "b3 107A4C"
@@ -1988,7 +1988,7 @@
  {
   "id": "20:FD36",
   "jp": "おみうけしたところ かみのちからが{n}ひつようなひとは ここには いないようです。{end}",
-  "en": "",
+  "en": "By the look of it, no one here{n}is in need of the power of God.{end}",
   "block": "church",
   "refs": [
    "b3 107ADD"
@@ -2033,7 +2033,7 @@
  {
   "id": "21:9D4C",
   "jp": "まほう{n}アイテム{n}そうび{n}ステ―タス{n}コンフィグ{end}",
-  "en": "",
+  "en": "Magic{n}Item{n}Equip{n}Status{n}Config{end}",
   "block": "field menu",
   "refs": [
    "b3 109290"
@@ -2042,7 +2042,7 @@
  {
   "id": "21:9D65",
   "jp": "まほう{n}アイテム{n}そうび{n}ステ―タス{n}コンフィグ{n}ほうがく{end}",
-  "en": "",
+  "en": "Magic{n}Item{n}Equip{n}Status{n}Config{n}Compass{end}",
   "block": "field menu",
   "refs": [
    "b3 109350"
@@ -2051,7 +2051,7 @@
  {
   "id": "21:9D83",
   "jp": "/G{leftn:02}{rstr:B11C}{end}",
-  "en": "",
+  "en": "/G{leftn:02}{rstr:B11C}{end}",
   "block": "field menu",
   "refs": [
    "b3 109377"
@@ -2069,7 +2069,7 @@
  {
   "id": "21:B36F",
   "jp": "だれがまほうをつかいますか？{end}",
-  "en": "",
+  "en": "Who will use magic?{end}",
   "block": "menu: magic",
   "refs": [
    "b3 109EC4",
@@ -2080,7 +2080,7 @@
  {
   "id": "21:B37E",
   "jp": "  まほうをつかえません  {end}",
-  "en": "",
+  "en": "__Can't use magic_{end}",
   "block": "menu: magic",
   "refs": [
    "b3 10A01E"
@@ -2089,7 +2089,7 @@
  {
   "id": "21:B38D",
   "jp": "（まほう）{end}",
-  "en": "",
+  "en": "(Magic){end}",
   "block": "menu: magic",
   "refs": [
    "b3 10A177"
@@ -2098,7 +2098,7 @@
  {
   "id": "21:B393",
   "jp": "だれにつかいますか？{end}",
-  "en": "",
+  "en": "Use it on whom?{end}",
   "block": "menu: magic",
   "refs": [
    "b3 10A6AA"
@@ -2116,7 +2116,7 @@
  {
   "id": "21:B3A9",
   "jp": "どのまちに{tF2:16}しますか？{end}",
-  "en": "",
+  "en": "{tF2:16} to which town?{end}",
   "block": "menu: magic",
   "refs": [
    "b3 10AC90"
@@ -2125,7 +2125,7 @@
  {
   "id": "21:B3B6",
   "jp": "しょうひMP：{end}",
-  "en": "",
+  "en": "MP cost:{end}",
   "block": "menu: magic",
   "refs": [
    "b3 10A430"
@@ -2143,7 +2143,7 @@
  {
   "id": "21:B3C8",
   "jp": "このばしょではつかえません{end}",
-  "en": "",
+  "en": "Can't use that here.{end}",
   "block": "menu: magic",
   "refs": [
    "b3 10AC65"
@@ -2152,7 +2152,7 @@
  {
   "id": "21:C04F",
   "jp": "{pos:0302}どれをつかいますか？{pos:020B}（アイテム）{pos:060F}×{rightn:06}×{rightn:06}×{rightn:06}×{pos:0613}×{rightn:06}×{rightn:06}×{rightn:06}×{pos:0617}×{rightn:06}×{rightn:06}×{rightn:06}×{end}",
-  "en": "",
+  "en": "{pos:0302}Which will you use?{pos:020B}(Items){pos:060F}x{rightn:06}x{rightn:06}x{rightn:06}x{pos:0613}x{rightn:06}x{rightn:06}x{rightn:06}x{pos:0617}x{rightn:06}x{rightn:06}x{rightn:06}x{end}",
   "block": "menu: items",
   "refs": [
    "b3 10B4CD",
@@ -2163,7 +2163,7 @@
  {
   "id": "21:C08D",
   "jp": "だれにつかいますか？{end}",
-  "en": "",
+  "en": "Use it on whom?{end}",
   "block": "menu: items",
   "refs": [
    "b3 10B986"
@@ -2183,7 +2183,7 @@
  {
   "id": "21:C0A3",
   "jp": "どのまちにいどうしますか？{end}",
-  "en": "",
+  "en": "Go to which town?{end}",
   "block": "menu: items",
   "refs": [
    "b3 10BD19"
@@ -2192,7 +2192,7 @@
  {
   "id": "21:C0B1",
   "jp": "このばしょではつかえません{end}",
-  "en": "",
+  "en": "Can't use that here.{end}",
   "block": "menu: items",
   "refs": [
    "b3 10BCEE"
@@ -2228,7 +2228,7 @@
  {
   "id": "21:CEEC",
   "jp": "だれのそうびをしますか？{end}",
-  "en": "",
+  "en": "Whose equipment?{end}",
   "block": "menu: equip",
   "refs": [
    "b3 10C143",
@@ -2238,7 +2238,7 @@
  {
   "id": "21:CEF9",
   "jp": "          {pos:0206}こうげきりょく・・・・・{rstr:1014}{pos:0F06}まほうこうげきりょく・・・・・{rstr:1814}{n}{pos:0208}ぼうぎょりょく・・・・・{rstr:1414}{pos:0F08}まほうぼうぎょりょく・・・・・{rstr:1C14}{end}",
-  "en": "",
+  "en": "__________{pos:0206}Attack_._._._{rstr:1014}{pos:0F06}Magic Attack_._._.{rstr:1814}{n}{pos:0208}Defense_._._.{rstr:1414}{pos:0F08}Magic Defense_._._{rstr:1C14}{end}",
   "block": "menu: equip",
   "refs": [
    "b3 10C525"
@@ -2247,7 +2247,7 @@
  {
   "id": "21:CF53",
   "jp": "（ぶき） {end}",
-  "en": "",
+  "en": "Weapon{end}",
   "block": "menu: equip",
   "refs": [
    "tab 10C6FC"
@@ -2256,7 +2256,7 @@
  {
   "id": "21:CF59",
   "jp": "（たて） {end}",
-  "en": "",
+  "en": "Shield_{end}",
   "block": "menu: equip",
   "refs": [
    "tab 10C6FE"
@@ -2265,7 +2265,7 @@
  {
   "id": "21:CF5F",
   "jp": "（よろい）{end}",
-  "en": "",
+  "en": "Armor_{end}",
   "block": "menu: equip",
   "refs": [
    "tab 10C700"
@@ -2274,7 +2274,7 @@
  {
   "id": "21:CF65",
   "jp": "（かぶと）{end}",
-  "en": "",
+  "en": "Helm__{end}",
   "block": "menu: equip",
   "refs": [
    "tab 10C702"
@@ -2283,7 +2283,7 @@
  {
   "id": "21:CF6B",
   "jp": "（くつ） {end}",
-  "en": "",
+  "en": "Shoes_{end}",
   "block": "menu: equip",
   "refs": [
    "tab 10C704"
@@ -2292,7 +2292,7 @@
  {
   "id": "21:CF71",
   "jp": "×  {rightn:04}×  {rightn:04}×  {rightn:04}×  {pos:0618}×  {rightn:04}×  {rightn:04}×  {rightn:04}×  {end}",
-  "en": "",
+  "en": "x__{rightn:04}x__{rightn:04}x__{rightn:04}x__{pos:0618}x__{rightn:04}x__{rightn:04}x__{rightn:04}x__{end}",
   "block": "menu: equip",
   "refs": [
    "b3 10C584"
@@ -2310,7 +2310,7 @@
  {
   "id": "21:DB41",
   "jp": "だれのステ―タスをみますか？{end}",
-  "en": "",
+  "en": "Whose status will you view?{end}",
   "block": "menu: status",
   "refs": [
    "b3 10D038",
@@ -2320,7 +2320,7 @@
  {
   "id": "21:DB50",
   "jp": "        レベル・・・・・・・・・・・・・{rstr:D913}{n}        HP・・・・・・・・・・・・・・{rstr:E013}/{left}{rstr:DC13}{n}        TP・・・・・・・・・・・・・・{rstr:E813}/{left}{rstr:E413}{n}けいけんち・・・・・・・・・・・・・・・・・・・{rstr:F413}/{left}{rstr:EC13}{n}しょじきん・・・・・・・・・・・・・・・・・/G{leftn:02}{rstr:FC13}{end}",
-  "en": "",
+  "en": "________Level_._._._._._.{rstr:D913}{n}________HP_._._._._._._.{rstr:E013}/{left}{rstr:DC13}{n}________TP_._._._._._._.{rstr:E813}/{left}{rstr:E413}{n}Experience_._._._._._._._._{rstr:F413}/{left}{rstr:EC13}{n}Money_._._._._._._._._./G{leftn:02}{rstr:FC13}{end}",
   "block": "menu: status",
   "refs": [
    "b3 10D414"
@@ -2329,7 +2329,7 @@
  {
   "id": "21:DBED",
   "jp": "        レベル・・・・・・・・・・・・・{rstr:D913}{n}        HP・・・・・・・・・・・・・・{rstr:E013}/{left}{rstr:DC13}{n}        MP・・・・・・・・・・・・・・{rstr:E813}/{left}{rstr:E413}{n}けいけんち・・・・・・・・・・・・・・・・・・・{rstr:F413}/{left}{rstr:EC13}{n}しょじきん・・・・・・・・・・・・・・・・・/G{leftn:02}{rstr:FC13}{end}",
-  "en": "",
+  "en": "________Level_._._._._._.{rstr:D913}{n}________HP_._._._._._._.{rstr:E013}/{left}{rstr:DC13}{n}________MP_._._._._._._.{rstr:E813}/{left}{rstr:E413}{n}Experience_._._._._._._._._{rstr:F413}/{left}{rstr:EC13}{n}Money_._._._._._._._._./G{leftn:02}{rstr:FC13}{end}",
   "block": "menu: status",
   "refs": [
    "b3 10D420"
@@ -2374,7 +2374,7 @@
  {
   "id": "21:DC92",
   "jp": "{pos:020F}（アビリティ―）{pos:0C10}ちから・・・・・{rstr:0414}{pos:1610}すばやさ・・・・{rstr:0714}{pos:0C12}ちせい・・・・・{rstr:0A14}{pos:1612}うん・・・・・・{rstr:0D14}{pos:0215}こうげきりょく・・・・・{rstr:1014}{pos:0F15}まほうこうげきりょく・・・・・{rstr:1814}{pos:0217}ぼうぎょりょく・・・・・{rstr:1414}{pos:0F17}まほうぼうぎょりょく・・・・・{rstr:1C14}{end}",
-  "en": "",
+  "en": "{pos:020F}(Abilities){pos:0C10}Power_._.{rstr:0414}{pos:1610}Agility_._.{rstr:0714}{pos:0C12}Wisdom_._{rstr:0A14}{pos:1612}Luck_._._{rstr:0D14}{pos:0215}Attack_._._._{rstr:1014}{pos:0F15}Magic Attack_._._.{rstr:1814}{pos:0217}Defense_._._.{rstr:1414}{pos:0F17}Magic Defense_._._{rstr:1C14}{end}",
   "block": "menu: status",
   "refs": [
    "b3 10D571"
@@ -2383,7 +2383,7 @@
  {
   "id": "21:DD24",
   "jp": "（そうび）{end}",
-  "en": "",
+  "en": "(Gear){end}",
   "block": "menu: status",
   "refs": [
    "b3 10D643"
@@ -2392,7 +2392,7 @@
  {
   "id": "21:DD2A",
   "jp": "（ひっさつわざ）{end}",
-  "en": "",
+  "en": "(Skills){end}",
   "block": "menu: status",
   "refs": [
    "b3 10D73F"
@@ -2401,7 +2401,7 @@
  {
   "id": "21:DD33",
   "jp": "（まほう）{end}",
-  "en": "",
+  "en": "(Magic){end}",
   "block": "menu: status",
   "refs": [
    "b3 10D74B"
@@ -2410,7 +2410,7 @@
  {
   "id": "21:E215",
   "jp": "{pos:0304}（コンフィグ）{pos:0407}メッセ―ジスピ―ド：{pos:050A}はやい  1  2  3  4  5  おそい{pos:040D}サウンドセット：   ステレオ    モノラル{pos:0410}カ―ソルいち ：   もどす     きおく{pos:0413}コントロ―ラ―：   ノ―マル    カスタム{pos:0416}いどうモ―ド ：   ノ―マル    オ―ト{end}",
-  "en": "",
+  "en": "{pos:0304}(Config){pos:0407}Message Speed:{pos:050A}Fast__1__2__3__4__5__Slow{pos:040D}Sound:______Stereo___Mono{pos:0410}Cursor:______Reset____Remember{pos:0413}Controller:____Normal___Custom{pos:0416}Move Mode:___Normal___Auto{end}",
   "block": "menu: config",
   "refs": [
    "b3 10DD4A"
@@ -2419,7 +2419,7 @@
  {
   "id": "21:ECC4",
   "jp": "だれのなまえをへんこうしますか？{end}",
-  "en": "",
+  "en": "Whose name will you change?{end}",
   "block": "menu: rename",
   "refs": [
    "b3 10E32F",
@@ -2436,7 +2436,7 @@
  {
   "id": "21:EF9B",
   "jp": "ラルフ",
-  "en": "",
+  "en": "Ralph",
   "block": "default hero names",
   "kind": "fixed",
   "size": 8,
@@ -2447,7 +2447,7 @@
  {
   "id": "21:EFA3",
   "jp": "テオ",
-  "en": "",
+  "en": "Theo",
   "block": "default hero names",
   "kind": "fixed",
   "size": 8,
@@ -2458,7 +2458,7 @@
  {
   "id": "21:EFAB",
   "jp": "リズ",
-  "en": "",
+  "en": "Liz",
   "block": "default hero names",
   "kind": "fixed",
   "size": 8,
@@ -2469,7 +2469,7 @@
  {
   "id": "21:EFB3",
   "jp": "ルミエス",
-  "en": "",
+  "en": "Lumies",
   "block": "default hero names",
   "kind": "fixed",
   "size": 8,
@@ -2480,7 +2480,7 @@
  {
   "id": "21:F723",
   "jp": "はじめから{end}",
-  "en": "",
+  "en": "New Game{end}",
   "block": "save menu",
   "refs": [
    "b3 10F294"
@@ -2489,7 +2489,7 @@
  {
   "id": "21:F729",
   "jp": "どこに きろくを かきとめますか？{fa}",
-  "en": "",
+  "en": "Where will you save your record?{fa}",
   "block": "save menu",
   "refs": [
    "b3 10F2DC"
@@ -2498,7 +2498,7 @@
  {
   "id": "21:F73B",
   "jp": "きろく1{pos:1107}きろく2{pos:0211}きろく3{pos:1111}きろく4{end}",
-  "en": "",
+  "en": "Record 1{pos:1107}Record 2{pos:0211}Record 3{pos:1111}Record 4{end}",
   "block": "save menu",
   "refs": [
    "b3 10F324"
@@ -2507,7 +2507,7 @@
  {
   "id": "21:F755",
   "jp": "きろく{str:0002} で よろしいですか？      はい いいえ{fa}",
-  "en": "",
+  "en": "Record {str:0002}. Is that all right?__Yes No{fa}",
   "block": "save menu",
   "refs": [
    "b3 10F1DB"
@@ -2516,7 +2516,7 @@
  {
   "id": "21:F773",
   "jp": "LV  {rstr:B11C}{end}",
-  "en": "",
+  "en": "LV__{rstr:B11C}{end}",
   "block": "save menu",
   "refs": [
    "b3 10F494"
@@ -2525,7 +2525,7 @@
  {
   "id": "21:F77B",
   "jp": "いま きろくを かきとめています           {fa}",
-  "en": "",
+  "en": "Saving your record now.___________{fa}",
   "block": "save menu",
   "refs": [
    "b3 10F7C5"
@@ -2534,7 +2534,7 @@
  {
   "id": "21:F797",
   "jp": "TIME・・・・・：・・{end}",
-  "en": "",
+  "en": "TIME_____:__{end}",
   "block": "save menu",
   "refs": [
    "mvn 10F539"

@@ -2,272 +2,272 @@
  {
   "id": "0F:8038",
   "jp": "{hero0}さんたち、 さがしましたよ。{n}もう あえないかと おもってました。{n}{tEC:0C}です。 おぼえてますよね。{fe}じつは われわれ レジスタンスのアジトが{n}{tEC:10}に おそわれたのです！{fe}わるい ニュ―スは それだけではありません。{fe}{tED:28}の ひとたちは{n}{tEC:10}・{tEC:0F}を{n}たおした {hero0}さんたちが、{fe}かれらの たいせつな {tEC:13}・{n}{tEC:14}を たおしにくると おもって{n}ようへいを やとったのです。{fe}かれらは {hero0}さんたちの いのちを{n}ねらっています。{fe}わたしには すでに {tEC:1B}たちを{n}すくうほどの ちからは ありません。{n}それが ざんねんです。{fe}もう せかいを すくえるのは{n}{hero0}さんたちしか いません。{n}きをつけて ください。{end}",
-  "en": ""
+  "en": "{hero0}-san! We've been looking all over for you. I was afraid we'd never see you again. It's {tEC:0C}. You remember me, right?{fe}The truth is, our resistance hideout was attacked by the {tEC:10}!{fe}And that's not the only bad news.{fe}The people of {tED:28} believe that you, {hero0}-san, having defeated {tEC:0F} of the {tEC:10},{fe}will come to defeat their precious {tEC:13} and {tEC:14} next. So they've hired mercenaries.{fe}They're out for your lives, {hero0}-san.{fe}I no longer have the strength to save {tEC:1B} and the others. That's what pains me most.{fe}Now only you can save the world, {hero0}-san. Please be careful.{end}"
  },
  {
   "id": "0F:8164",
   "jp": "もう せかいを すくえるのは{n}{hero0}さんたちしか いません。{n}じゆうぶん きをつけて くださいよ。{end}",
-  "en": ""
+  "en": "Now only you can save the world, {hero0}-san. Please be very, very careful.{end}"
  },
  {
   "id": "0F:8194",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "0F:823A",
   "jp": "おおっ！ ありがたい。{n}めずらしいものを てにいれたぞ。{fe}ー {tE5:0A}を てにいれた。{sync}{f1}{end}",
-  "en": ""
+  "en": "Oho! Wonderful. I've gotten my hands on something rare.{fe}- Received the {tE5:0A}.{sync}{f1}{end}"
  },
  {
   "id": "0F:8266",
   "jp": "おおっ！ ありがたい。{n}めずらしいものを てにいれたぞ。{fe}ー {tE5:0A}と、{n}  {tE5:1E}を てにいれた。{sync}{f1}{end}",
-  "en": ""
+  "en": "Oho! Wonderful. I've gotten my hands on something rare.{fe}- Received the {tE5:0A} and the {tE5:1E}.{sync}{f1}{end}"
  },
  {
   "id": "0F:8299",
   "jp": "それは ざんねんだ。{fe}きが かわったら また きてくれ。{n}いつでも こうかんに おうじよう。{end}",
-  "en": ""
+  "en": "That's a shame.{fe}If you change your mind, come back. I'll trade with you anytime.{end}"
  },
  {
   "id": "0F:82C8",
   "jp": "おぬしら、{n}めずらしいものを もっているなぁ。{fe}{tE5:27}と いうのか。{fe}どうだ、{n}この {tE5:0A}と こうかん しないか？{n}{f0}{end}",
-  "en": ""
+  "en": "My, you've got something rare there.{fe}\"{tE5:27},\" is it?{fe}How about it? Will you trade it for this {tE5:0A}?{f0}{end}"
  },
  {
   "id": "0F:8303",
   "jp": "では {tE5:1E}も つけよう。 どうだ？{n}{f0}{end}",
-  "en": ""
+  "en": "Then I'll throw in the {tE5:1E} too. How about it?{f0}{end}"
  },
  {
   "id": "0F:8317",
   "jp": "{tE5:27}を みんなに みせて やるんだ。{n}びっくりするぞぉ。{end}",
-  "en": ""
+  "en": "I'm going to show this {tE5:27} to everyone. They'll be amazed!{end}"
  },
  {
   "id": "0F:8334",
   "jp": "こんな めずらしい {tE5:27}なのに{n}だれも かちを みとめようとせん！{fe}あたまの かたい やつらめ！{end}",
-  "en": ""
+  "en": "Such a rare {tE5:27}, and nobody will admit it's worth anything!{fe}Thickheaded fools!{end}"
  },
  {
   "id": "0F:8365",
   "jp": "こんどは {tEC:1C}の おおきな{n}{tE5:12}を わたしの コレクションに{n}くわえるのだ。{fe}{tE5:27}の かちを みとめない やつらも{n}でっかい {tE5:12}なら びっくりするぞ。{end}",
-  "en": ""
+  "en": "Next, I'll add {tEC:1C}'s big {tE5:12} to my collection.{fe}Those fools who won't admit the {tE5:27} is worth anything will be amazed by a huge {tE5:12}.{end}"
  },
  {
   "id": "0F:83B2",
   "jp": "おっ、おそろしい！{fe}しんだはずの {tEC:1C}が、{n}{tE5:12}を とりにきたのだ。{fe}わたしには しんじられぬ。{fe}わたしは たしかに {tEC:1C}の{n}したいを みたのだ。{fe}わたしは かれの おはかを つくったのだ。{end}",
-  "en": ""
+  "en": "Th-this is terrifying!{fe}{tEC:1C}, who should be dead, has come for the {tE5:12}.{fe}I can't believe it.{fe}I'm sure I saw {tEC:1C}'s body.{fe}I made his grave myself.{end}"
  },
  {
   "id": "0F:8532",
   "jp": "ああっ、{n}いとしの {tEC:1C}おうじさまっ。{end}",
-  "en": ""
+  "en": "Ahh, my beloved Prince {tEC:1C}!{end}"
  },
  {
   "id": "0F:8546",
   "jp": "{tEC:1D}が いなくなって、{n}いまでは わたしが せかいいちの{n}びしょうじょよ。{end}",
-  "en": ""
+  "en": "With {tEC:1D} gone, I'm the most beautiful girl in the world now.{end}"
  },
  {
   "id": "0F:856C",
   "jp": "どうして {tEC:1D}は いなくなって{n}しまったのだろう。{n}おれは さみしい。{fe}どこかに とじこめられている という{n}うわさも あるけど・・・。{end}",
-  "en": ""
+  "en": "Why did {tEC:1D} have to disappear? I'm so lonely.{fe}There's a rumor that she's locked up somewhere, but...{end}"
  },
  {
   "id": "0F:85B1",
   "jp": "{tEC:1D}は この しろで いちばんの{n}いやっ、 せかいで いちばんの じょゆうだった。{end}",
-  "en": ""
+  "en": "{tEC:1D} was the finest actress in this castle... No, in the whole world.{end}"
  },
  {
   "id": "0F:85DB",
   "jp": "{tEC:1D}は かならず いきている。{end}",
-  "en": ""
+  "en": "{tEC:1D} is alive. I know it.{end}"
  },
  {
   "id": "0F:85EB",
   "jp": "{tEC:1D}の うしろすがたに{n}いつも おれは モッコリだったぜ。{end}",
-  "en": ""
+  "en": "Whenever I saw {tEC:1D} from behind, I always got all hot and bothered.{end}"
  },
  {
   "id": "0F:8609",
   "jp": "{tEC:1D}いのち。{n}かのじょが しんでいたら、 おれも しぬ！{end}",
-  "en": ""
+  "en": "{tEC:1D} is my life. If she's dead, I'll die too!{end}"
  },
  {
   "id": "0F:8626",
   "jp": "{tEC:1C}おうじは おやさしいかたです。{n}それに ハンサムだし・・・。{end}",
-  "en": ""
+  "en": "Prince {tEC:1C} is a kind man. And so handsome, too...{end}"
  },
  {
   "id": "0F:8647",
   "jp": "ここは {tED:37}。{n}いま、 {tEC:1C}と {tEC:1D}の{n}はなしで もちきりなんです。{end}",
-  "en": ""
+  "en": "This is {tED:37}. Right now everyone's talking about {tEC:1C} and {tEC:1D}.{end}"
  },
  {
   "id": "0F:866A",
   "jp": "{tEC:15}は {tED:38}しんでんに{n}もどったの。{fe}うつくしい ひとだったけれど、{n}なんとなく こわい かんじのする ひとだったわ。{end}",
-  "en": ""
+  "en": "{tEC:15} went back to the {tED:38} Temple.{fe}She was beautiful, but somehow she gave me the creeps.{end}"
  },
  {
   "id": "0F:86A6",
   "jp": "おれが もっと わかかったら {tEC:1D}を{n}まもって あげられたのに・・・。{end}",
-  "en": ""
+  "en": "If only I were younger, I could have protected {tEC:1D}...{end}"
  },
  {
   "id": "0F:86CA",
   "jp": "{tEC:1D}は もう しんでるって {n}うわさだ。{fe}みんなは そう しんじたく ないだけなのじゃ。{end}",
-  "en": ""
+  "en": "Rumor has it {tEC:1D} is already dead.{fe}Folks just don't want to believe it.{end}"
  },
  {
   "id": "0F:86F7",
   "jp": "{tEC:1D}は {tEC:1C}さまとの{n}けっこんを まえに、 とつぜん すがたを{n}けしてしまったのです。{end}",
-  "en": ""
+  "en": "{tEC:1D} suddenly vanished, just before her wedding to {tEC:1C}-sama.{end}"
  },
  {
   "id": "0F:8723",
   "jp": "{tEC:1C}と {tEC:1D}の{n}けっこんパレ―ドを みたかったのぉ。{n}もう みれないのかのぅ。{end}",
-  "en": ""
+  "en": "I so wanted to see {tEC:1C} and {tEC:1D}'s wedding parade. Will I never get to see it now?{end}"
  },
  {
   "id": "0F:874B",
   "jp": "{tEC:1D}ほど うつくしい じょゆうは{n}もう にどと あらわれないとおもうよ。{fe}それなのに、 いったい かのじょは{n}どうして・・・。{end}",
-  "en": ""
+  "en": "I don't think there'll ever be another actress as beautiful as {tEC:1D}.{fe}And yet, why on earth did she...{end}"
  },
  {
   "id": "0F:878B",
   "jp": "おれが おおきくなったら サラのような{n}きれいなひとと けっこんするんだ。{end}",
-  "en": ""
+  "en": "When I grow up, I'm gonna marry a pretty lady like Sara!{end}"
  },
  {
   "id": "0F:87B1",
   "jp": "{tEC:1C}さまは わたしを{n}あいするべきだったのよ。{fe}そうすれば しあわせに なれた はずよ。{end}",
-  "en": ""
+  "en": "{tEC:1C}-sama should have loved me.{fe}Then he would have been happy.{end}"
  },
  {
   "id": "0F:87DE",
   "jp": "{tEC:1C}さまは {tEC:1D}を{n}さがしに たびだったそうだ。{n}こころから あいして いたんだなぁ。{end}",
-  "en": ""
+  "en": "They say {tEC:1C}-sama set off on a journey to find {tEC:1D}. He must have loved her with all his heart.{end}"
  },
  {
   "id": "0F:8848",
   "jp": "{tEC:1C}さまと {tEC:1D}の{n}けっこんが きまったとき、 {tEC:15}は{n}きが くるわんばかりに おいかりに なりました。{fe}わたしは {tEC:10}・{tEC:15}との{n}けっこんは すばらしいと おもって{n}いたのですが・・・。{end}",
-  "en": ""
+  "en": "When it was decided that {tEC:1C}-sama would marry {tEC:1D}, {tEC:15} flew into a rage that nearly drove her mad.{fe}I thought a marriage to {tEC:15} of the {tEC:10} would have been wonderful, but...{end}"
  },
  {
   "id": "0F:88A7",
   "jp": "{tEC:1C}さまは りっぱな おうに{n}なられると おもっていたのですが・・・。{end}",
-  "en": ""
+  "en": "I thought {tEC:1C}-sama would make a fine king, but...{end}"
  },
  {
   "id": "0F:88CB",
   "jp": "{tEC:1C}さまには おとうとぎみが{n}おられたはずだが、 いまは どこにいるのだろぅ。{end}",
-  "en": ""
+  "en": "{tEC:1C}-sama should have a younger brother. I wonder where he is now.{end}"
  },
  {
   "id": "0F:88F3",
   "jp": "{tEC:1C}さまが ゆくえふめいに なって、{n}おうは たいへん おなげきです。{end}",
-  "en": ""
+  "en": "With {tEC:1C}-sama missing, the king is deep in grief.{end}"
  },
  {
   "id": "0F:89B1",
   "jp": "こんな ことになるなら、 サラとの けっこんを{n}ゆるさなければ よかった。{fe}わしは あいしあう ふたりが いっしょに{n}なることこそ {tEC:1C}のためだと{n}かんがえたのじゃ。{end}",
-  "en": ""
+  "en": "If it was to come to this, I should never have allowed his marriage to Sara.{fe}I believed that for two people in love to be together was what was best for {tEC:1C}.{end}"
  },
  {
   "id": "0F:8A05",
   "jp": "・・・・・・・・・・・・・・・・。{fe}そうかぁ、{n}{tEC:1C}は しんで おったのかぁ。{fe}がっかりじゃ。{fe}{tEC:1E}と いうものが、{n}ほうむって くれたと いったのぅ。{fe}{tEC:1E}に あったら、{n}わしの かわりに れいを いっておいてくれ。{fe}いやっ、 おしえてくれて ありがとう。{n}ほうびを さずけよう。{fe}ー {hero0}と {hero2}の{n}  さいだいTPが ふえた。{sync}{end}",
-  "en": ""
+  "en": "................{fe}I see... So {tEC:1C} was dead.{fe}How disheartening.{fe}And you say someone called {tEC:1E} laid him to rest?{fe}If you meet {tEC:1E}, thank him for me.{fe}No, thank you for telling me. Allow me to reward you.{fe}- {hero0} and {hero2}'s max TP went up.{sync}{end}"
  },
  {
   "id": "0F:8AAB",
   "jp": "{tEC:1C}のことは{n}ひじょうに ざんねんじゃ。{end}",
-  "en": ""
+  "en": "What happened to {tEC:1C} is truly regrettable.{end}"
  },
  {
   "id": "0F:8AC0",
   "jp": "{tEC:1C}は、でんせつの{tEC:03}・{n}{tEC:11}に サラを いきかえらせるよう{n}たのんでくる といって、 たびだちました。{fe}げんきで いれば いいのですが・・・。{end}",
-  "en": ""
+  "en": "{tEC:1C} set out on a journey, saying he would ask the legendary {tEC:03} {tEC:11} to bring Sara back to life.{fe}I hope he is well...{end}"
  },
  {
   "id": "0F:8B09",
   "jp": "なんと、{n}{tEC:1C}は しんでいたのですか！？{fe}いえっ、 それでも{n}{tEC:1C}は いきています。{end}",
-  "en": ""
+  "en": "What? {tEC:1C} is dead!?{fe}No... Even so, {tEC:1C} lives on.{end}"
  },
  {
   "id": "0F:8B34",
   "jp": "わたしの むすこ {tEC:1C}は{n}いま、 どこで どうして いるのかしら。{end}",
-  "en": ""
+  "en": "My son {tEC:1C}... Where could he be now, and what is he doing?{end}"
  },
  {
   "id": "0F:8B56",
   "jp": "{tEC:1C}さまは ちちうえに いただいた{n}{tE6:0B}を もって たびだったのです。{fe}もちろん {tEC:1C}さまの たましいとも{n}いえる、 ルビ―も もって でかけられました。{end}",
-  "en": ""
+  "en": "{tEC:1C}-sama set out carrying the {tE6:0B} his father gave him.{fe}And of course, he also took the Ruby, which you could call {tEC:1C}-sama's very soul.{end}"
  },
  {
   "id": "0F:8BA4",
   "jp": "おうじさまは やはり おなくなりに{n}なっていたのですか。{fe}おいたわしいことです。{end}",
-  "en": ""
+  "en": "So the prince did pass away after all.{fe}How tragic.{end}"
  },
  {
   "id": "0F:8BCD",
   "jp": "このしろから はるか きたに {tED:3A}が{n}あります。{fe}そこには でんせつのドラゴン・ディグバディノンが{n}すんでいると いわれています。{end}",
-  "en": ""
+  "en": "Far to the north of this castle lies the {tED:3A}.{fe}They say the legendary Dragon Digbadinon lives there.{end}"
  },
  {
   "id": "0F:8C0F",
   "jp": "しんでしまっては すべてが おわりです。{n}ごりょうしんより はやく しんでしまうなんて{n}いちばんの おやふこう。{fe}おかわいそうですが、 わたしは そうおもいます。{end}",
-  "en": ""
+  "en": "Once you're dead, it's all over. Dying before your own parents is the worst thing a child can do to them.{fe}I feel sorry for him, but that's what I think.{end}"
  },
  {
   "id": "0F:8C8F",
   "jp": "{tED:38}しんでんの{n}{tEC:15}が、 {tEC:1C}さまの{n}けっこんを おいかりに なったそうです。{end}",
-  "en": ""
+  "en": "They say {tEC:15} of the {tED:38} Temple was furious about {tEC:1C}-sama's marriage.{end}"
  },
  {
   "id": "0F:8CB7",
   "jp": "それにしても {tEC:15}も、{n}かわいそうな ひとだ。{fe}おうは {tEC:15}に{n}{tEC:1C}さまとの けっこんを{n}やくそく されていたのだ。{end}",
-  "en": ""
+  "en": "Still, I pity {tEC:15} too.{fe}The king had promised {tEC:15} that she would marry {tEC:1C}-sama.{end}"
  },
  {
   "id": "0F:8CF2",
   "jp": "{tEC:1C}さまと {tEC:1D}の{n}ほうせきは どこに あるのかしら。{fe}きっと おおきかったのでしょうね。{end}",
-  "en": ""
+  "en": "I wonder where {tEC:1C}-sama and {tEC:1D}'s jewels are.{fe}I bet they were big ones.{end}"
  },
  {
   "id": "0F:8D6C",
   "jp": "{tEC:15}は{n}{tEC:1C}さまの おきさきに、 {n}ということで このしろに まねかれたのです。{fe}しかし {tEC:1C}さまは{n}{tEC:1D}との けっこんを のぞまれた。{fe}{tEC:1C}さまは ふかく{tEC:1D}を{n}あいして おられたようです。{end}",
-  "en": ""
+  "en": "{tEC:15} was invited to this castle to become {tEC:1C}-sama's bride.{fe}But {tEC:1C}-sama wished to marry {tEC:1D}.{fe}It seems {tEC:1C}-sama loved {tEC:1D} deeply.{end}"
  },
  {
   "id": "0F:8DCD",
   "jp": "{tEC:1C}さまが ゆくえふめいに{n}なられたのです。{fe}わたしは しんぱいで しんぱいで・・・。{end}",
-  "en": ""
+  "en": "{tEC:1C}-sama has gone missing.{fe}I'm so worried, so very worried...{end}"
  },
  {
   "id": "0F:8DF9",
   "jp": "{tEC:1C}さまが おなくなりになったと{n}きいて わたしは・・・・。{n}うっ、うっ、うっ。{fe}あこがれて いたのよ。{end}",
-  "en": ""
+  "en": "When I heard {tEC:1C}-sama had passed away, I... Sob, sob, sob.{fe}I adored him.{end}"
  },
  {
   "id": "0F:8E2E",
   "jp": "{tEC:1C}さまが たびだたれてから{n}おきさき さまは そのことばかり・・。{end}",
-  "en": ""
+  "en": "Ever since {tEC:1C}-sama left, the queen thinks of nothing else...{end}"
  },
  {
   "id": "0F:8E51",
   "jp": "おきさき さまは {tEC:1C}さまのことで{n}あたまが おかしくなられた ようなのです。{fe}おいたわしい。{end}",
-  "en": ""
+  "en": "It seems the queen has lost her mind over {tEC:1C}-sama.{fe}How tragic.{end}"
  },
  {
   "id": "0F:8F47",
   "jp": "おきゃくさま、{n}{tEC:97}{end}",
-  "en": ""
+  "en": "Excuse me, customer. {tEC:97}{end}"
  },
  {
   "id": "0F:8F52",
   "jp": "{tEC:5D}{n}{tEC:80}ね。{end}",
-  "en": ""
+  "en": "{tEC:5D} {tEC:80}!{end}"
  },
  {
   "id": "0F:8F5A",
@@ -287,7 +287,7 @@
  {
   "id": "0F:8F6B",
   "jp": "らっしゃい！{n}{tEC:96}んだ。{fe}{tEC:68}{n}{f0}{end}",
-  "en": ""
+  "en": "Hey there! {tEC:96}{fe}{tEC:68}{f0}{end}"
  },
  {
   "id": "0F:8F7D",
@@ -297,22 +297,22 @@
  {
   "id": "0F:8F80",
   "jp": "{tEC:64}{n}{tEC:95}ます。{fe}{tEC:65}{n}{f0}{end}",
-  "en": ""
+  "en": "{tEC:64} {tEC:95}{fe}{tEC:65}{f0}{end}"
  },
  {
   "id": "0F:8F8E",
   "jp": "{tEC:7E}{n}ぜったいよ。{end}",
-  "en": ""
+  "en": "{tEC:7E} Promise!{end}"
  },
  {
   "id": "0F:8F98",
   "jp": "{tEC:64}{n}{tEC:94}ます。{fe}{tEC:65}{n}{f0}{end}",
-  "en": ""
+  "en": "{tEC:64} {tEC:94}{fe}{tEC:65}{f0}{end}"
  },
  {
   "id": "0F:8FA6",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "0F:8FEE",
@@ -337,107 +337,107 @@
  {
   "id": "0F:9075",
   "jp": "「おうこうきぞく」に なった きぶんを{n}あじわいたいときには きてくださいね。{end}",
-  "en": ""
+  "en": "Come by whenever you want to feel like royalty.{end}"
  },
  {
   "id": "0F:909D",
   "jp": "きっと おうさまに なったゆめを{n}ごらんになれますよ。{n}おやすみなさい。{end}",
-  "en": ""
+  "en": "I'm sure you'll dream of being a king. Good night.{end}"
  },
  {
   "id": "0F:90C2",
   "jp": "ゴ―ジャスな きぶんを あじわうには{n}おかねが ひつようです。{n}ざんねんですが、 また おこしください。{end}",
-  "en": ""
+  "en": "To enjoy a gorgeous stay, you need money. I'm sorry, but please come again.{end}"
  },
  {
   "id": "0F:90F7",
   "jp": "おうさまになった きぶんは{n}いかがでしたでしょう？{n}おきをつけて いってらっしゃい。{end}",
-  "en": ""
+  "en": "How did it feel to be a king? Take care out there.{end}"
  },
  {
   "id": "0F:9122",
   "jp": "れきしの おもみを かんじる ゴ―ジャスな{n}おへやは いかが？ ひとり 49Gですよ。{n}{f0}{end}",
-  "en": ""
+  "en": "How about a gorgeous room steeped in history? Only 49G per person.{f0}{end}"
  },
  {
   "id": "0F:9150",
   "jp": "ふたりの あいは ほうせきのいろの ように{n}うつくしく、 どこまでもふかく すんでいると{n}いうことですよ。{end}",
-  "en": ""
+  "en": "They say a couple's love is as beautiful as the color of the jewels, and endlessly deep and clear.{end}"
  },
  {
   "id": "0F:9186",
   "jp": "この ちほうでは、 けっこんのとき こうかんする{n}ほうせきに、 ふたりの たましいが{n}やどっていると しんじられているんだ。{end}",
-  "en": ""
+  "en": "In this region, people believe the jewels a couple exchange when they marry hold both their souls.{end}"
  },
  {
   "id": "0F:91D5",
   "jp": "ねぇねぇ、{n}けっこんすると なにするの？{fe}おしえてよ、 おしえてよ。{end}",
-  "en": ""
+  "en": "Hey, hey, what do you do when you get married?{fe}Tell me, tell me!{end}"
  },
  {
   "id": "0F:9208",
   "jp": "この ちほうでは けっこんのとき、{n}おっとは つまに {tE5:12}を、{n}つまは おっとに {tE5:13}を おくる。{fe}そんな しゅうかんが あるのですよ。{end}",
-  "en": ""
+  "en": "In this region, when a couple marries, the husband's gift to his wife is the {tE5:12}, and the wife's gift to her husband is the {tE5:13}.{fe}That's the custom here.{end}"
  },
  {
   "id": "0F:925D",
   "jp": "うぉぉぉぉぉぉ、サぁっラぁぁぁぁぁぁ！{end}",
-  "en": ""
+  "en": "Waaaaaah! Saaaraaaaaa!{end}"
  },
  {
   "id": "0F:9291",
   "jp": "わしらの わかいころも、 {tEC:1C}と{n}{tEC:1D}のようだったのぉ。{end}",
-  "en": ""
+  "en": "When we were young, we were just like {tEC:1C} and {tEC:1D}, eh?{end}"
  },
  {
   "id": "0F:92AE",
   "jp": "わしらの わかいころも{n}すてきな カップルでしたねぇ。{end}",
-  "en": ""
+  "en": "When we were young, we made a lovely couple too, didn't we?{end}"
  },
  {
   "id": "0F:92DA",
   "jp": "でんせつの {tEC:03}は しんだひとを{n}いきかえらせると いわれて いるのじゃ。{fe}{tEC:1C}は そんな でんせつを しんじて{n}だびだった という はなしじゃ。{end}",
-  "en": ""
+  "en": "They say the legendary {tEC:03} can bring the dead back to life.{fe}The story goes that {tEC:1C} believed that legend and set off on a journey.{end}"
  },
  {
   "id": "0F:9342",
   "jp": "{tEC:1D}が ほかの おとこと{n}いっしょになるなんてよぉ。{fe}{tEC:1C}なんて しんでいれば いいのに。{end}",
-  "en": ""
+  "en": "{tEC:1D} getting together with some other guy...{fe}I wish that {tEC:1C} would just drop dead.{end}"
  },
  {
   "id": "0F:9370",
   "jp": "{tEC:1D}が ほかの おとこと{n}いっしょになるなんてよぉ。{fe}{tEC:1C}なんて しんでいれば いいのに。{fe}えっ！？ ほんとに しんでた！？{end}",
-  "en": ""
+  "en": "{tEC:1D} getting together with some other guy...{fe}I wish that {tEC:1C} would just drop dead.{fe}Huh!? He really is dead!?{end}"
  },
  {
   "id": "0F:93BF",
   "jp": "へんな おにいさんが いってたんだけど{n}モッコリって なあに？{fe}おしえてよ、 おしえてよ。{end}",
-  "en": ""
+  "en": "A weird guy was saying something... What does \"hot and bothered\" mean?{fe}Tell me, tell me!{end}"
  },
  {
   "id": "0F:9441",
   "jp": "ぶたい じょゆうの {tEC:1D}と{n}{tEC:1C}おうじの ならんだ すがたは、{n}おとぎ ばなし そのものでしたわ。{end}",
-  "en": ""
+  "en": "The stage actress {tEC:1D} and Prince {tEC:1C} side by side... It was just like a fairy tale.{end}"
  },
  {
   "id": "0F:9473",
   "jp": "あれほど すてきな カップルだったのに、{n}いまは バラバラ。{fe}うつくしい ひとには かならず ふこうが{n}くるのよ。{end}",
-  "en": ""
+  "en": "They were such a lovely couple, and now they're torn apart.{fe}Misfortune always comes to the beautiful.{end}"
  },
  {
   "id": "0F:94AD",
   "jp": "なぜ わたしは こんなに うつくしいのかしら。{n}わたしにも {tEC:1D}のように{n}ふこうが おとずれるわ。{end}",
-  "en": ""
+  "en": "Why am I so beautiful? Misfortune will come to me too, just like {tEC:1D}.{end}"
  },
  {
   "id": "0F:94DF",
   "jp": "どちらにしても わたしは ようじんしなくちゃ。{end}",
-  "en": ""
+  "en": "Either way, I'd better be careful.{end}"
  },
  {
   "id": "0F:94F7",
   "jp": "うつくしくないって すてきなことね。{n}そう おもわない？{n}{f0}{end}",
-  "en": ""
+  "en": "Not being beautiful is a lovely thing, isn't it? Don't you think so?{f0}{end}"
  },
  {
   "id": "0F:9590",
@@ -447,12 +447,12 @@
  {
   "id": "0F:959B",
   "jp": "なんと {hero0}{tEC:7A}{n}{tEC:9D}{n}{tEC:A2}{end}",
-  "en": ""
+  "en": "What? {hero0}-dono, you do not have the money to donate. {tEC:A2}{end}"
  },
  {
   "id": "0F:95A9",
   "jp": "{tEC:73}。{n}{tEC:90}{end}",
-  "en": ""
+  "en": "{tEC:73}. Come anytime you would turn to the gods.{end}"
  },
  {
   "id": "0F:95B0",
@@ -462,127 +462,127 @@
  {
   "id": "0F:95B8",
   "jp": "ほかに ごようけんは？{n}{f0}{end}",
-  "en": ""
+  "en": "Is there anything else?{f0}{end}"
  },
  {
   "id": "0F:95C6",
   "jp": "{tEC:6F}。{n}{tEC:9B}{n}{f0}{end}",
-  "en": ""
+  "en": "{tEC:6F}. {tEC:9B}{f0}{end}"
  },
  {
   "id": "0F:966B",
   "jp": "めざわりなものを さいだんに おくのは だれ？{fe}{tED:38}の めいきゅうを こえて{n}わたしのもとへ いらっしゃい。{fe}じごくに おとして あげる。{end}",
-  "en": ""
+  "en": "Who dares place such an eyesore on the altar?{fe}Come to me, through the labyrinth of {tED:38}.{fe}I'll send you to hell.{end}"
  },
  {
   "id": "0F:96B1",
   "jp": "ー {hero0}たちは {tEC:A4}いた。{end}",
-  "en": ""
+  "en": "- {hero0} and the others {tEC:A4}.{end}"
  },
  {
   "id": "0F:96BE",
   "jp": "ー {hero0}たちは {tEC:A5}。{end}",
-  "en": ""
+  "en": "- {hero0} and the others {tEC:A5}.{end}"
  },
  {
   "id": "0F:96C9",
   "jp": "ー {hero0}たちは {tEC:A5}。{end}",
-  "en": ""
+  "en": "- {hero0} and the others {tEC:A5}.{end}"
  },
  {
   "id": "0F:96D4",
   "jp": "ー {hero0}たちは {tEC:A4}いた。{end}",
-  "en": ""
+  "en": "- {hero0} and the others {tEC:A4}.{end}"
  },
  {
   "id": "0F:96E1",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "0F:96E3",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "0F:96E5",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "0F:96E7",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "0F:9723",
   "jp": "なぜ、 わたしに たたかいを いどむの？{fe}なぜ、 せかいを へいわに しようとしている{n}{tEC:02}さまに はむかうの？{fe}なぜ・・・、{n}なぜ、 いだいな ドラゴン・{tEC:11}に{n}さからうの？{fe}にんげんは じぶんかってな そんざい。{n}ほろんでこそ やくに たつのよ。{fe}ほろんでこそ やすらぎが えられるのよ。{fe}{tEC:03}の そばに おくってあげるわ。{end}",
-  "en": ""
+  "en": "Why do you challenge me?{fe}Why do you defy {tEC:02}-sama, who seeks to bring peace to the world?{fe}Why... Why do you oppose the great Dragon {tEC:11}?{fe}Humans are selfish creatures. Only in their destruction are they of any use.{fe}Only in destruction will they find peace.{fe}I'll send you to the side of the {tEC:03}.{end}"
  },
  {
   "id": "0F:97C8",
   "jp": "いだいなる ぼうけんしゃたちよ。{n}わたしは {tEC:A7}ス。{fe}わたしの こえが、 なんじの こころに{n}きこえるで あろうか。{fe}{tE5:01}が {tEC:A8}を{n}いちじてきに ふういんした。{fe}なんじが てにいれた {tEC:33}は{n}「しっと」の{tEC:A8}。{fe}ひとが たがいの しあわせを よろこびあうこと。{n}あらたな せかいを つくるために ひつようだ。{fe}いだいなる ぼうけんしゃたちの{n}さらなる かつやくを きたいする。{end}",
-  "en": ""
+  "en": "Great adventurers. I am {tEC:A7}.{fe}Can you hear my voice in your hearts?{fe}The {tE5:01} has sealed the {tEC:A8} for the time being.{fe}The {tEC:33} you have obtained is the {tEC:A8} of \"Jealousy.\"{fe}People rejoicing in one another's happiness is necessary to build a new world.{fe}Great adventurers, I look to you for still greater deeds.{end}"
  },
  {
   "id": "0F:9886",
   "jp": "いだいなる ぼうけんしゃたちよ。{n}わたしは {tEC:A7}ス。{fe}わたしの こえが、 なんじの こころに{n}きこえるで あろうか。{fe}{tE5:01}が {tEC:A8}を{n}いちじてきに ふういんした。{fe}なんじが てにいれた {tEC:33}は{n}「しっと」の{tEC:A8}。{fe}ひとが たがいの しあわせを よろこびあうこと。{n}あらたな せかいを つくるために ひつようだ。{fe}いだいなる ぼうけんしゃたちよ。{n}{tED:42}に むかうがよい。{end}",
-  "en": ""
+  "en": "Great adventurers. I am {tEC:A7}.{fe}Can you hear my voice in your hearts?{fe}The {tE5:01} has sealed the {tEC:A8} for the time being.{fe}The {tEC:33} you have obtained is the {tEC:A8} of \"Jealousy.\"{fe}People rejoicing in one another's happiness is necessary to build a new world.{fe}Great adventurers, go now to the {tED:42}.{end}"
  },
  {
   "id": "0F:99EB",
   "jp": "ここは {tED:38}しんでんを{n}ささえる むら、 {tEC:2C}です。{end}",
-  "en": ""
+  "en": "This is {tEC:2C}, the village that supports the {tED:38} Temple.{end}"
  },
  {
   "id": "0F:9A06",
   "jp": "{tEC:02}さまが こうていの そばに{n}おつかえに なったので、 {tEC:15}さまが{n}いまは しんでんの あるじです。{end}",
-  "en": ""
+  "en": "Since {tEC:02}-sama went to serve at the Emperor's side, {tEC:15}-sama is now the master of the temple.{end}"
  },
  {
   "id": "0F:9A3A",
   "jp": "{tEC:15}さまが おなくなりのあと{n}しんでんの あるじは おりません。{end}",
-  "en": ""
+  "en": "Since {tEC:15}-sama passed away, the temple has had no master.{end}"
  },
  {
   "id": "0F:9A5B",
   "jp": "{tEC:1C}が もっていた{n}{tE5:12}は、 {tEC:1E}が{n}てにいれたとか・・・。 ほんとかしら。{end}",
-  "en": ""
+  "en": "I hear {tEC:1E} got hold of the {tE5:12} that {tEC:1C} had... I wonder if it's true.{end}"
  },
  {
   "id": "0F:9A82",
   "jp": "じょせいの {tED:38}しんでんの あるじは{n}{tEC:15}さまが はじめてなのです。{end}",
-  "en": ""
+  "en": "{tEC:15}-sama is the first woman ever to be master of the {tED:38} Temple.{end}"
  },
  {
   "id": "0F:9AA5",
   "jp": "{tEC:02}さまが ここに きてから、{n}もう 13ねんほど たっています。{end}",
-  "en": ""
+  "en": "It's been about 13 years now since {tEC:02}-sama came here.{end}"
  },
  {
   "id": "0F:9AC7",
   "jp": "{tEC:02}さまは{n}ここで おつかえ するようになったときに、{n}{tEC:02}と なまえを かえたのです。{fe}まえは たしか{tEC:2D}とか。{end}",
-  "en": ""
+  "en": "When {tEC:02}-sama came to serve here, he changed his name to {tEC:02}.{fe}Before that, I believe it was {tEC:2D} or something.{end}"
  },
  {
   "id": "0F:9B01",
   "jp": "せけんで いう {tEC:03}は{n}1ぴきだけでは ありません。{fe}わたしたちは その {tEC:03}のなかでも{n}この せかいを つくったときに かかわった{n}{tEC:11}にたいして いのっているのです。{end}",
-  "en": ""
+  "en": "There isn't just one of what people call the {tEC:03}.{fe}Among those dragons, we pray to {tEC:11}, who had a hand in creating this world.{end}"
  },
  {
   "id": "0F:9B57",
   "jp": "ドラゴン・{tEC:11}が にんげんに{n}なにか つたえたいとき、 {tEC:3F}んの{n}あるじの こころに はなしかけて くるのです。{end}",
-  "en": ""
+  "en": "When Dragon {tEC:11} wishes to tell humans something, it speaks to the heart of the master of the St. Badinon Temple.{end}"
  },
  {
   "id": "0F:9B90",
   "jp": "{tED:38}の いずみは、{n}{tED:38}の あるじの しもべ。{fe}そんなことが いわれています。{end}",
-  "en": ""
+  "en": "They say the spring of {tED:38} is the servant of the master of {tED:38}.{end}"
  },
  {
   "id": "0F:9BB8",
   "jp": "{tED:38}を さらに ひがしにいけば{n}{tEC:33}が ふういんされている{n}ほこらが あります。{end}",
-  "en": ""
+  "en": "Go farther east from {tED:38} and you'll find a shrine where the {tEC:33} is sealed.{end}"
  },
  {
   "id": "0F:9C5B",
@@ -592,12 +592,12 @@
  {
   "id": "0F:9C66",
   "jp": "なんと {hero0}{tEC:7A}{n}{tEC:9E}{n}{tEC:A0}{end}",
-  "en": ""
+  "en": "What? {hero0}-dono, you do not have the money to donate. The thought alone is enough. Do come again.{end}"
  },
  {
   "id": "0F:9C74",
   "jp": "{tEC:73}です。{n}{tEC:60}{n}{tEC:9F}{end}",
-  "en": ""
+  "en": "{tEC:73}. {tEC:60} {tEC:9F}{end}"
  },
  {
   "id": "0F:9C80",
@@ -607,52 +607,52 @@
  {
   "id": "0F:9C88",
   "jp": "ほかに ごようけんは？{n}{f0}{end}",
-  "en": ""
+  "en": "Is there anything else?{f0}{end}"
  },
  {
   "id": "0F:9C96",
   "jp": "{tEC:6F}。{n}{tEC:9B}{n}{f0}{end}",
-  "en": ""
+  "en": "{tEC:6F}. {tEC:9B}{f0}{end}"
  },
  {
   "id": "0F:9D05",
   "jp": "とまりたく なったら また きてくれ。{end}",
-  "en": ""
+  "en": "Come back when you want to stay.{end}"
  },
  {
   "id": "0F:9D19",
   "jp": "ねるまえの おいのりを わすれるなよ。{end}",
-  "en": ""
+  "en": "Don't forget your prayers before bed.{end}"
  },
  {
   "id": "0F:9D2D",
   "jp": "かねが ないようだね。{n}わるいけど また こんど きてくれよ。{end}",
-  "en": ""
+  "en": "Looks like you're short on money. Sorry, but come back another time.{end}"
  },
  {
   "id": "0F:9D4D",
   "jp": "ちゃんと おいのりは したかい？{n}きを つけてな。{end}",
-  "en": ""
+  "en": "Did you say your prayers? Take care.{end}"
  },
  {
   "id": "0F:9D67",
   "jp": "とまって いくかい？{n}ひとり 33Gだ。{n}{f0}{end}",
-  "en": ""
+  "en": "Staying the night? It's 33G per person.{f0}{end}"
  },
  {
   "id": "0F:9D7E",
   "jp": "ここには しんでんに ささげるための{n}おさけしか おいてないのよ。{end}",
-  "en": ""
+  "en": "All we have here is wine to offer to the temple.{end}"
  },
  {
   "id": "0F:9E66",
   "jp": "{tEC:58}{n}{tEC:57} くれなくちゃ。{end}",
-  "en": ""
+  "en": "Hey! You can't do that, customer! You have to pay properly.{end}"
  },
  {
   "id": "0F:9E74",
   "jp": "{tEC:5D}{n}{tEC:80}ね。{end}",
-  "en": ""
+  "en": "{tEC:5D} {tEC:80}!{end}"
  },
  {
   "id": "0F:9E7C",
@@ -667,267 +667,267 @@
  {
   "id": "0F:9E87",
   "jp": "{tEC:7E}{n}まってるわ。{end}",
-  "en": ""
+  "en": "{tEC:7E} I'll be waiting.{end}"
  },
  {
   "id": "0F:9E91",
   "jp": "{tEC:64}{n}{tEC:96}のよ。{fe}{tEC:65}{n}{f0}{end}",
-  "en": ""
+  "en": "{tEC:64} {tEC:96}{fe}{tEC:65}{f0}{end}"
  },
  {
   "id": "0F:9E9F",
   "jp": "また きてくれよ。{end}",
-  "en": ""
+  "en": "Come back again.{end}"
  },
  {
   "id": "0F:9EA9",
   "jp": "らっしゃい！{n}{tEC:95}るんだ。{fe}{tEC:68}{n}{f0}{end}",
-  "en": ""
+  "en": "Hey there! {tEC:95}{fe}{tEC:68}{f0}{end}"
  },
  {
   "id": "0F:9EBC",
   "jp": "{tEC:80}よ。{end}",
-  "en": ""
+  "en": "{tEC:80}!{end}"
  },
  {
   "id": "0F:9EC1",
   "jp": "らっしゃい！{n}{tEC:94}るんだ。{fe}{tEC:68}{n}{f0}{end}",
-  "en": ""
+  "en": "Hey there! {tEC:94}{fe}{tEC:68}{f0}{end}"
  },
  {
   "id": "0F:9ED4",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "0F:9EF4",
   "jp": "{tEC:15}さまは、{n}{tEC:1C}とのことで{n}ふかく おなげきです。{end}",
-  "en": ""
+  "en": "{tEC:15}-sama is in deep grief over {tEC:1C}.{end}"
  },
  {
   "id": "0F:9F0F",
   "jp": "{tEC:15}さまは、{n}{tEC:1C}を ふかく あいして{n}おられたのです。{fe}かわいそうな {tEC:15}さま・・・。{end}",
-  "en": ""
+  "en": "{tEC:15}-sama loved {tEC:1C} deeply.{fe}Poor {tEC:15}-sama...{end}"
  },
  {
   "id": "0F:9F5A",
   "jp": "{tEC:1C}と {tEC:1D}の{n}あいの あかしを {tED:38}の{n}さいだんに ささげれば、{fe}{tEC:15}さまは きっと すがたを{n}あらわすでしょう。{end}",
-  "en": ""
+  "en": "If you offer {tEC:1C} and {tEC:1D}'s token of love on the altar of {tED:38},{fe}{tEC:15}-sama will surely appear.{end}"
  },
  {
   "id": "0F:9F95",
   "jp": "わたしには、{n}せかいが くずれおちて いくように かんじるの。{n}なぜかしら。{end}",
-  "en": ""
+  "en": "I feel as if the world is crumbling away. I wonder why.{end}"
  },
  {
   "id": "0F:9FDA",
   "jp": "{tEC:15}さまは あいの あかしである{n}{tEC:1C}と サラの ほうせきを{n}ほうむり さりたかったのです。{end}",
-  "en": ""
+  "en": "{tEC:15}-sama wanted to bury the jewels of {tEC:1C} and Sara, the token of their love.{end}"
  },
  {
   "id": "0F:A009",
   "jp": "{tEC:15}さまは ふこうな おかた。{end}",
-  "en": ""
+  "en": "{tEC:15}-sama is an unhappy soul.{end}"
  },
  {
   "id": "0F:A037",
   "jp": "{tEC:15}さまは {tEC:1D}を{n}{tED:3B}に とじこめ、{n}しなせて しまったらしいの。{fe}いくら にくんでいても{n}そこまで しなくて よかったのに。{fe}{tED:3B}？{n}てつどうを つかって いくのよ。{end}",
-  "en": ""
+  "en": "It seems {tEC:15}-sama locked {tEC:1D} up in the {tED:3B} and let her die.{fe}No matter how much she hated her, she didn't have to go that far.{fe}The {tED:3B}? You get there by railway.{end}"
  },
  {
   "id": "0F:A08D",
   "jp": "{tED:37}の {tEC:1D}という{n}じょせいも かわいそうですわ。{end}",
-  "en": ""
+  "en": "I feel sorry for that woman {tEC:1D} of {tED:37}, too.{end}"
  },
  {
   "id": "0F:A0C5",
   "jp": "これは {hero2}さま、{n}ごぶさたしています。{fe}おとうさまは こうていに おつかえするように{n}なられて、 たいへんな ごしゅっせですね。{end}",
-  "en": ""
+  "en": "Why, {hero2}-sama, it's been so long.{fe}Your father now serves the Emperor. He's risen very high in the world.{end}"
  },
  {
   "id": "0F:A106",
   "jp": "おききしました。{n}なにも ちちうえと たたかわなくとも・・・。{fe}いえ、{n}りっぱに しんねんを つらぬき ください。{end}",
-  "en": ""
+  "en": "I've heard. Surely you needn't fight your own father...{fe}No, hold true to your convictions.{end}"
  },
  {
   "id": "0F:A19A",
   "jp": "ー {tEC:1C} ここに ねむる。{n} {n}              メイ{tEC:55}{end}",
-  "en": ""
+  "en": "- Here lies {tEC:1C}.{n}{n}{tEC:55}{end}"
  },
  {
   "id": "0F:A1BD",
   "jp": "ー はかのとなりに {tE6:0B}がある。{end}",
-  "en": ""
+  "en": "- There is the {tE6:0B} beside the grave.{end}"
  },
  {
   "id": "0F:A1CE",
   "jp": "ー {hero0}たちは {tE6:0B}を{n}  てにいれた。{sync}{end}",
-  "en": ""
+  "en": "- {hero0} and the others obtained the {tE6:0B}.{sync}{end}"
  },
  {
   "id": "0F:A1E3",
   "jp": "ー {tEC:1C} ここに ねむる。{n} {n}              メイ{tEC:55}{end}",
-  "en": ""
+  "en": "- Here lies {tEC:1C}.{n}{n}{tEC:55}{end}"
  },
  {
   "id": "0F:A206",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "0F:A24E",
   "jp": "とじこめられた わたしの たましいを{n}おすくい ください。{fe}この {tE5:13}を {tED:35}にいる{n}いとしい {tEC:1C}さまに{n}おわたしください。{fe}わたしは {tEC:1C}さまの{n}おそばに いきたい・・・。{end}",
-  "en": ""
+  "en": "Please save my imprisoned soul.{fe}Please give this {tE5:13} to my beloved {tEC:1C}-sama in the {tED:35}.{fe}I want to be by {tEC:1C}-sama's side...{end}"
  },
  {
   "id": "0F:A2A7",
   "jp": "ー {hero0}たちは {tE5:13}を{n}  てにいれた。{sync}{end}",
-  "en": ""
+  "en": "- {hero0} and the others obtained the {tE5:13}.{sync}{end}"
  },
  {
   "id": "0F:A2BC",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "0F:A2BE",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "0F:A2F2",
   "jp": "ちょっとぉ！{n}いま いそがしいんだから{n}はいって こないで ちょうだい。{end}",
-  "en": ""
+  "en": "Hey! I'm busy right now, so don't come in here.{end}"
  },
  {
   "id": "0F:A317",
   "jp": "なんで わたし ひとりで、 {tEC:1D}の{n}なきがらを かたずけなくちゃ ならないのよ。{fe}いま、 きがたってるんだから かえって！{end}",
-  "en": ""
+  "en": "Why do I have to clean up {tEC:1D}'s remains all by myself?{fe}I'm in a foul mood right now, so get out!{end}"
  },
  {
   "id": "0F:A355",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "0F:A37F",
   "jp": "よくを もった にんげんほど {n}あつかいやすいものはない。{fe}この いせきにすむ そんな にんげんたちの{n}ぼうれいを しずめた きさまらは{n}いったい なにもの？{fe}しかし きさまらには この {tEC:12}を{n}たおせるほどの ちからは もっていまい。{fe}こころの やすらぎを きさまらに おくろう。{fe}えいえんの ねむりに つくがよい。{end}",
-  "en": ""
+  "en": "Nothing is easier to handle than a greedy human.{fe}You laid to rest the ghosts of such humans who dwelt in these ruins. Just who are you?{fe}But you will hardly have the strength to defeat this {tEC:12}.{fe}I shall grant you peace of mind.{fe}Sleep for all eternity.{end}"
  },
  {
   "id": "0F:A41F",
   "jp": "いだいなる ぼうけんしゃたちよ。{n}わたしは {tEC:A7}ス。{fe}わたしの こえが、 なんじの こころに{n}きこえるで あろうか。{fe}{tE5:01}が {tEC:A8}を{n}いちじてきに ふういんした。{fe}なんじが てにいれた {tEC:33}は{n}「よくぼう」の{tEC:A8}。{fe}ひとが みずからの よくぼうを おさえること。{n}あらたな せかいを つくるために ひつようだ。{fe}いだいなる ぼうけんしゃたちの{n}さらなる かつやくを きたいする。{end}",
-  "en": ""
+  "en": "Great adventurers. I am {tEC:A7}.{fe}Can you hear my voice in your hearts?{fe}The {tE5:01} has sealed the {tEC:A8} for the time being.{fe}The {tEC:33} you have obtained is the {tEC:A8} of \"Greed.\"{fe}People holding back their own greed is necessary to build a new world.{fe}Great adventurers, I look to you for still greater deeds.{end}"
  },
  {
   "id": "0F:A51D",
   "jp": "ここは {tED:3D}。{n}{tEC:A7}スの りそうに{n}いちばん ちかい まち。{end}",
-  "en": ""
+  "en": "This is {tED:3D}, the town closest to {tEC:A7}'s ideal.{end}"
  },
  {
   "id": "0F:A53C",
   "jp": "すうせんねんまえの ことじゃ。{n}ごうまんな にんげんに いかって、{n}{tEC:11}が せかいを ほろぼしたとき、{fe}{tEC:A7}スは、 ひとりの わかものに{n}「{tE5:05}」をあたえ、{n}1つの まちを すくった。{fe}それが この {tED:3D}じゃ。{end}",
-  "en": ""
+  "en": "It was thousands of years ago. When {tEC:11}, angered by arrogant humans, destroyed the world,{fe}{tEC:A7} gave a young man the \"{tE5:05}\" and saved a single town.{fe}That town is this very {tED:3D}.{end}"
  },
  {
   "id": "0F:A5A6",
   "jp": "ひとびとは 「にんげんは しぜんの しはいしゃ」{n}と かんがえているようじゃ。{fe}{tEC:03}・{tEC:11}は、{n}そんな にんげんの おもいあがりを{n}いかったのじゃ。{fe}だから、 {tEC:03}・{tEC:11}は{n}にんげんの せかいを ほろぼそうと かんがえた。{fe}しょせん にんげんといっても ひとつの{n}しゅぞくに すぎんからのぅ。{end}",
-  "en": ""
+  "en": "People seem to think that \"humans are the masters of nature.\"{fe}{tEC:03} {tEC:11} was angered by that human conceit.{fe}And so {tEC:03} {tEC:11} resolved to destroy the human world.{fe}Humans are, after all, just one race among many, you see.{end}"
  },
  {
   "id": "0F:A639",
   "jp": "{tEC:A7}スは、{n}よく このまちの にんげんに はなしかけてくる。{n}わしらの こころの なかに じゃ。{fe}こころを きよらかにすれば{n}そなたたちにも きこえるはずじゃ。{end}",
-  "en": ""
+  "en": "{tEC:A7} often speaks to the people of this town. Within our hearts, that is.{fe}If you purify your hearts, you should be able to hear it too.{end}"
  },
  {
   "id": "0F:A720",
   "jp": "この ふしぎな つうろを つかうものたちが{n}ふえたなぁ。{end}",
-  "en": ""
+  "en": "More and more people are using this mysterious passage.{end}"
  },
  {
   "id": "0F:A73D",
   "jp": "いずれにしろ、 ゆっくりして いくとよい。{end}",
-  "en": ""
+  "en": "In any case, make yourselves at home.{end}"
  },
  {
   "id": "0F:A753",
   "jp": "このしろで ゆっくりして いかれたらどうだろう。{end}",
-  "en": ""
+  "en": "Why not rest a while in this castle?{end}"
  },
  {
   "id": "0F:A76C",
   "jp": "がんばってくれ。{n}きみたちの かつやくに きたいしているよ。{end}",
-  "en": ""
+  "en": "Keep it up. We're counting on you.{end}"
  },
  {
   "id": "0F:A78B",
   "jp": "まだ きみたちは つかれている。{n}もうすこし やすまれたら どうだろう。{end}",
-  "en": ""
+  "en": "You're still tired. Why not rest a little longer?{end}"
  },
  {
   "id": "0F:A7B0",
   "jp": "ゆっくり できただろうか。{end}",
-  "en": ""
+  "en": "Were you able to rest well?{end}"
  },
  {
   "id": "0F:A7BE",
   "jp": "きみたちの かつやくに、{n}{tEC:A7}スも よろこんで いるだろう。{n}まだ きみたちには しめいが のこされている。{fe}とびらを あければ ちかせかいに もどれる。{fe}くじけるなよ。{end}",
-  "en": ""
+  "en": "{tEC:A7} must be pleased with your deeds as well. But you still have a mission ahead of you.{fe}Open the door and you can return to the underground world.{fe}Don't lose heart.{end}"
  },
  {
   "id": "0F:A814",
   "jp": "とびらを あければ ちかせかいに もどれる。{fe}くじけるなよ。{end}",
-  "en": ""
+  "en": "Open the door and you can return to the underground world.{fe}Don't lose heart.{end}"
  },
  {
   "id": "0F:A833",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "0F:A855",
   "jp": "このしろには むかしから おうなど いなかった。{fe}「ひとが ひとを しはいする」{n}そんなことを {tEC:A7}スが{n}どうして ゆるそうか。{fe}「ひとが しぜんを しはいする」{n}それも {tEC:A7}スは ゆるすまい。{end}",
-  "en": ""
+  "en": "This castle has never had a king.{fe}\"People ruling over people\"... How could {tEC:A7} ever allow such a thing?{fe}\"People ruling over nature\"... {tEC:A7} would not allow that either.{end}"
  },
  {
   "id": "0F:A8B7",
   "jp": "そなたたちの たたかいは、 にんげんが{n}にんげんの いしで みらいを{n}つくって いくための たたかい。{fe}いまの たたかいは つらいかも しれん。{fe}しかし じゆうを かちとった あと、{n}にんげんに とって ほんとうの {n}たたかいに なるだろう。{end}",
-  "en": ""
+  "en": "Your fight is a fight for humans to build their future by their own will.{fe}The fight now may be hard.{fe}But once you've won your freedom, the real fight for humankind will begin.{end}"
  },
  {
   "id": "0F:A987",
   "jp": "{tEC:80}。{end}",
-  "en": ""
+  "en": "{tEC:80}.{end}"
  },
  {
   "id": "0F:A98B",
   "jp": "グッスリおやすみください。{end}",
-  "en": ""
+  "en": "Have a sound sleep.{end}"
  },
  {
   "id": "0F:A999",
   "jp": "でも おかねが たらないようですね。{n}わるいけど こんど きてくださいよ。{end}",
-  "en": ""
+  "en": "But it seems you're short on money. Sorry, but please come again another time.{end}"
  },
  {
   "id": "0F:A9BF",
   "jp": "おきをつけて いってらっしゃい。{end}",
-  "en": ""
+  "en": "Take care out there.{end}"
  },
  {
   "id": "0F:A9D0",
   "jp": "おとまりに なりますか？{n}ひとり 31Gです。{n}{f0}{end}",
-  "en": ""
+  "en": "Will you be staying the night? It's 31G per person.{f0}{end}"
  },
  {
   "id": "0F:AAB0",
   "jp": "{tEC:58}{n}{tEC:57} くれなくちゃ。{end}",
-  "en": ""
+  "en": "Hey! You can't do that, customer! You have to pay properly.{end}"
  },
  {
   "id": "0F:AABE",
   "jp": "{tEC:5D}{n}{tEC:80}ね。{end}",
-  "en": ""
+  "en": "{tEC:5D} {tEC:80}!{end}"
  },
  {
   "id": "0F:AAC6",
@@ -942,42 +942,42 @@
  {
   "id": "0F:AAD1",
   "jp": "{tEC:7E}{n}まってるわ。{end}",
-  "en": ""
+  "en": "{tEC:7E} I'll be waiting.{end}"
  },
  {
   "id": "0F:AADB",
   "jp": "{tEC:64}{n}{tEC:96}のよ。{fe}{tEC:65}{n}{f0}{end}",
-  "en": ""
+  "en": "{tEC:64} {tEC:96}{fe}{tEC:65}{f0}{end}"
  },
  {
   "id": "0F:AAE9",
   "jp": "また きてくれよ。{end}",
-  "en": ""
+  "en": "Come back again.{end}"
  },
  {
   "id": "0F:AAF3",
   "jp": "らっしゃい！{n}{tEC:95}るんだ。{fe}{tEC:68}{n}{f0}{end}",
-  "en": ""
+  "en": "Hey there! {tEC:95}{fe}{tEC:68}{f0}{end}"
  },
  {
   "id": "0F:AB06",
   "jp": "{tEC:80}よ。{end}",
-  "en": ""
+  "en": "{tEC:80}!{end}"
  },
  {
   "id": "0F:AB0B",
   "jp": "らっしゃい！{n}{tEC:94}るんだ。{fe}{tEC:68}{n}{f0}{end}",
-  "en": ""
+  "en": "Hey there! {tEC:94}{fe}{tEC:68}{f0}{end}"
  },
  {
   "id": "0F:AB1E",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "0F:AB66",
   "jp": "おかねが ひつようになったら{n}きてくださいよ。{end}",
-  "en": ""
+  "en": "Come see me when you need money.{end}"
  },
  {
   "id": "0F:AB7E",
@@ -997,152 +997,152 @@
  {
   "id": "0F:AB9C",
   "jp": "ころされかけた かわいそうな てつどうぎしが{n}にげて きおった。{fe}ちかしつで ふるえておるわい。{end}",
-  "en": ""
+  "en": "A poor railway engineer who was nearly killed came running here.{fe}He's down in the basement, shaking.{end}"
  },
  {
   "id": "0F:AC19",
   "jp": "ー {tE5:11}を てにいれた。{sync}{end}",
-  "en": ""
+  "en": "- Received the {tE5:11}.{sync}{end}"
  },
  {
   "id": "0F:AC27",
   "jp": "ー {tE5:11}を てにいれた。{sync}{end}",
-  "en": ""
+  "en": "- Received the {tE5:11}.{sync}{end}"
  },
  {
   "id": "0F:AC35",
   "jp": "きいたよ。 あんたたちが おれの なかまの{n}かたきを とって くれたんだってなぁ。{n}ありがとう。{fe}これは てつどうの ポイントを きりかえる{n}{tE5:11}。{n}つかって くれよ。{f1}{end}",
-  "en": ""
+  "en": "I heard. You avenged my comrades, didn't you? Thank you.{fe}This is the {tE5:11}. It switches the railway points. Please, use it.{f1}{end}"
  },
  {
   "id": "0F:AC8B",
   "jp": "おれは、 しんだ ほかの てつどうぎしのために、{n}いのり つづけるんだ。{end}",
-  "en": ""
+  "en": "I'll keep praying for the other railway engineers who died.{end}"
  },
  {
   "id": "0F:ACC0",
   "jp": "うちの じいさんは うみが だいすき。{n}きっと いまごろも うみを みているはずだわ。{end}",
-  "en": ""
+  "en": "My grandpa loves the sea. I bet he's looking at it even now.{end}"
  },
  {
   "id": "0F:ACFC",
   "jp": "そなたたちが{tEC:03}・{tEC:11}と{n}たたかっているのは きいておる。{fe}{tEC:01}さまの ためにも、{n}がんばるのじゃ。{end}",
-  "en": ""
+  "en": "We've heard that you are fighting {tEC:03} {tEC:11}.{fe}For {tEC:01}-sama's sake too, do your best.{end}"
  },
  {
   "id": "0F:AD3F",
   "jp": "だれも {tEC:03}を みたことがない。{n}いつも こころに はなしかけて くるだけじゃ。{fe}{tEC:03}とは{n}「すべての いきものの いしきの かたまり」、{n}そんな そんざいかも しれんのう。{end}",
-  "en": ""
+  "en": "No one has ever seen the {tEC:03}. It only ever speaks to our hearts.{fe}Perhaps the {tEC:03} is \"the gathered mind of all living things,\" something like that, eh?{end}"
  },
  {
   "id": "0F:ADB7",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "0F:ADB9",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "0F:ADDF",
   "jp": "なんと、{n}{tED:3E}を ぬけて こられたか！{fe}そなたに ひっさつわざを さずけよう。{fe}ー {hero2}は {tF3:05}をおぼえた。{n}{sync}{fe}ー {hero0}と {hero2}の{n}  さいだいTPが ふえた。{sync}{fe}じゃあくなものから、{n}ひとびとを おすくい なされ。{end}",
-  "en": ""
+  "en": "What! You made it through the {tED:3E}!{fe}I shall teach you a special technique.{fe}- {hero2} learned {tF3:05}.{sync}{fe}- {hero0} and {hero2}'s max TP went up.{sync}{fe}Save the people from the forces of evil.{end}"
  },
  {
   "id": "0F:AE4A",
   "jp": "じゃあくなものから、{n}ひとびとを おすくい なされ。{end}",
-  "en": ""
+  "en": "Save the people from the forces of evil.{end}"
  },
  {
   "id": "0F:AE75",
   "jp": "ワガ {tEC:2E} ニ テキイ ヲ{n}イダク モノタチ ノ ニュウジョウ ヲ キンズ。{end}",
-  "en": ""
+  "en": "Those who bear enmity toward our {tEC:2E} are forbidden to enter.{end}"
  },
  {
   "id": "0F:AEE6",
   "jp": "オウ オヨビ オウイ ケイショウシャ ニ アラズ{n}ニュウシツ ヲ キンズ。{end}",
-  "en": ""
+  "en": "None but the king and the heir to the throne may enter this chamber.{end}"
  },
  {
   "id": "0F:AF0C",
   "jp": "わが {tEC:2E}の かがやき、{n}ダイヤのぶきと ぼうぐをもち、{n}ひとびとを まどわせる ものたちよ。{fe}えいこうある {tEC:2E}は{n}この {tEC:16}のもの。{fe}きさまらの ような ブタには わたさぬ。{fe}わたしが あいてだ。{end}",
-  "en": ""
+  "en": "You who bear the glory of our {tEC:2E}, the Diamond weapons and armor, and lead the people astray!{fe}Glorious {tEC:2E} belongs to me, {tEC:16}.{fe}I'll never hand it over to swine like you.{fe}I shall be your opponent.{end}"
  },
  {
   "id": "0F:AF71",
   "jp": "いだいなる ぼうけんしゃたちよ。{n}わたしは {tEC:A7}ス。{fe}わたしの こえが、 なんじの こころに{n}きこえるで あろうか。{fe}{tE5:01}が {tEC:A8}を{n}いちじてきに ふういんした。{fe}なんじが てにいれた {tEC:33}は{n}「きょえい」の{tEC:A8}。{fe}ひとが みずからの ほんとうの すがたを{n}みつめること。{n}あらたな せかいを つくるために ひつようだ。{fe}いだいなる ぼうけんしゃたちの{n}さらなる かつやくを きたいする。{end}",
-  "en": ""
+  "en": "Great adventurers. I am {tEC:A7}.{fe}Can you hear my voice in your hearts?{fe}The {tE5:01} has sealed the {tEC:A8} for the time being.{fe}The {tEC:33} you have obtained is the {tEC:A8} of \"Vanity.\"{fe}People looking upon their own true selves is necessary to build a new world.{fe}Great adventurers, I look to you for still greater deeds.{end}"
  },
  {
   "id": "0F:B034",
   "jp": "いだいなる ぼうけんしゃたちよ。{n}わたしは {tEC:A7}ス。{fe}わたしの こえが、 なんじの こころに{n}きこえるで あろうか。{fe}{tE5:01}が {tEC:A8}を{n}いちじてきに ふういんした。{fe}なんじが てにいれた {tEC:33}は{n}「きょえい」の{tEC:A8}。{fe}ひとが みずからの ほんとうの すがたを{n}みつめること。{n}あらたな せかいを つくるために ひつようだ。{fe}いだいなる ぼうけんしゃたちよ。{n}{tED:42}に むかうがよい。{end}",
-  "en": ""
+  "en": "Great adventurers. I am {tEC:A7}.{fe}Can you hear my voice in your hearts?{fe}The {tE5:01} has sealed the {tEC:A8} for the time being.{fe}The {tEC:33} you have obtained is the {tEC:A8} of \"Vanity.\"{fe}People looking upon their own true selves is necessary to build a new world.{fe}Great adventurers, go now to the {tED:42}.{end}"
  },
  {
   "id": "0F:B1C6",
   "jp": "ここから みなみへいけば{n}{tED:40}が あるよ。{end}",
-  "en": ""
+  "en": "Head south from here and you'll find {tED:40}.{end}"
  },
  {
   "id": "0F:B1DC",
   "jp": "{tED:40}は へいわのしろ って{n}いわれてるんだよ。{end}",
-  "en": ""
+  "en": "They call {tED:40} the Castle of Peace.{end}"
  },
  {
   "id": "0F:B1F4",
   "jp": "ずいぶん むかし、 でんせつの じだいには{n}{tEC:2E}が このせかいを{n}しはい していたのだ。{end}",
-  "en": ""
+  "en": "Long, long ago, in the age of legend, {tEC:2E} ruled this world.{end}"
  },
  {
   "id": "0F:B221",
   "jp": "{tEC:39}・{tEC:16}は{n}{tEC:10}の ひとりなんだ。{end}",
-  "en": ""
+  "en": "{tEC:16}, the {tEC:39}, is one of the {tEC:10}.{end}"
  },
  {
   "id": "0F:B234",
   "jp": "ブルモア1せいの でんせつを きいたかね。{fe}ダイヤのぶき・ぼうぐを そうびしたものは{n}いつでも {tEC:39}に なれる って{n}はなしだ。{fe}おうの へやにも ではいり じゆうなんだって。{end}",
-  "en": ""
+  "en": "Have you heard the legend of Brumore I?{fe}They say anyone who equips the Diamond weapons and armor can become the {tEC:39} anytime.{fe}They can even come and go from the king's chamber as they please.{end}"
  },
  {
   "id": "0F:B28D",
   "jp": "ダイヤって すごく きれいな ものらしいんだ。{n}それを そうびして たたかった ブルモア1せい{n}って かっこ よかったんだろうなぁ。{end}",
-  "en": ""
+  "en": "I hear diamonds are really beautiful. Brumore I must've looked so cool fighting in them.{end}"
  },
  {
   "id": "0F:B2D0",
   "jp": "このいぬ、 ポンタっていうの。{n}かわいいでしょう。{end}",
-  "en": ""
+  "en": "This dog's name is Ponta. Isn't he cute?{end}"
  },
  {
   "id": "0F:B2EA",
   "jp": "クィ~ン。{end}",
-  "en": ""
+  "en": "Whiiine.{end}"
  },
  {
   "id": "0F:B2F0",
   "jp": "しってるんだったら いいさ。{end}",
-  "en": ""
+  "en": "Well, if you know it, that's fine.{end}"
  },
  {
   "id": "0F:B2FF",
   "jp": "{tEC:4F}{tEC:50}{tEC:51}{n}{tE9:0C}・{tEA:0D}を{n}きらびやかに そうびして、{fe}せかいを かけめぐった おうの はなしなんだ。{fe}ずいぶん むかし、 でんせつの じだいには{n}せかいは {tEC:2E}の ものだったんだ。{fe}だけど あちこちで はんらんが おこってね、{n}ブルモア1せいが せかいを かけめぐって{n}はんらんを おさめたそうだよ。{fe}ダイヤのぶき・ぼうぐが {tEC:39}の{n}しょうちょうなんだ。{n}いまの{tEC:2E}には ひとつもないけどね。{end}",
-  "en": ""
+  "en": "It's the story of a king who traveled the world gloriously equipped with the {tEC:4F} {tEC:50} {tEC:51} {tE9:0C} and {tEA:0D}.{fe}Long, long ago, in the age of legend, the world belonged to {tEC:2E}.{fe}But rebellions broke out everywhere, and they say Brumore I traveled the world putting them down.{fe}The Diamond weapons and armor are the symbol of the {tEC:39}. Though {tEC:2E} doesn't have a single piece of them now.{end}"
  },
  {
   "id": "0F:B3C5",
   "jp": "{tEC:2E}おうの ブルモア1せいの{n}でんせつを しってる？{n}{f0}{end}",
-  "en": ""
+  "en": "Do you know the legend of Brumore I, King of {tEC:2E}?{f0}{end}"
  },
  {
   "id": "0F:B3E2",
   "jp": "ここは {tED:41}です。{n}どうくつの なかにあるまち って{n}めずらしいでしょう。{end}",
-  "en": ""
+  "en": "This is {tED:41}. A town inside a cave is pretty rare, isn't it?{end}"
  },
  {
   "id": "0F:B408",
   "jp": "ダイヤって ものすごく かたいものなんだ。{n}そんでもって もえちゃうんだよ。{n}いまでは めずらしい ほうせきなんだ。{end}",
-  "en": ""
+  "en": "Diamonds are super hard, you know. And on top of that, they burn! They're rare jewels these days.{end}"
  },
  {
   "id": "0F:B4BD",
@@ -1152,12 +1152,12 @@
  {
   "id": "0F:B4C8",
   "jp": "なんと {hero0}{tEC:7A}{n}{tEC:9E}{n}{tEC:A0}{end}",
-  "en": ""
+  "en": "What? {hero0}-dono, you do not have the money to donate. The thought alone is enough. Do come again.{end}"
  },
  {
   "id": "0F:B4D6",
   "jp": "{tEC:73}です。{n}{tEC:60}{n}{tEC:9F}{end}",
-  "en": ""
+  "en": "{tEC:73}. {tEC:60} {tEC:9F}{end}"
  },
  {
   "id": "0F:B4E2",
@@ -1167,67 +1167,67 @@
  {
   "id": "0F:B4EA",
   "jp": "ほかに ごようけんは？{n}{f0}{end}",
-  "en": ""
+  "en": "Is there anything else?{f0}{end}"
  },
  {
   "id": "0F:B4F8",
   "jp": "{tEC:6F}。{n}{tEC:9B}{n}{f0}{end}",
-  "en": ""
+  "en": "{tEC:6F}. {tEC:9B}{f0}{end}"
  },
  {
   "id": "0F:B599",
   "jp": "やすく あげるんだったら{n}この やどやに こいよ。{end}",
-  "en": ""
+  "en": "If you want it cheap, come to this inn.{end}"
  },
  {
   "id": "0F:B5B3",
   "jp": "ベッドが こわれてたら いってくれよ。{n}すぐに なおすからさ。{end}",
-  "en": ""
+  "en": "Tell me if your bed's broken. I'll fix it right away.{end}"
  },
  {
   "id": "0F:B5D3",
   "jp": "こんな やすい やどにも とまれないほど{n}びんぼうなのかよ。{fe}いいよ とまって いきな。{end}",
-  "en": ""
+  "en": "You're so broke you can't even stay at a cheap inn like this?{fe}Fine, stay anyway.{end}"
  },
  {
   "id": "0F:B600",
   "jp": "ゆっくりねむれたかい？{n}{tEC:92}{end}",
-  "en": ""
+  "en": "Sleep well? {tEC:92}{end}"
  },
  {
   "id": "0F:B60F",
   "jp": "ごらんの とおり、 きたない やどやだ。{n}やすいだけが とりえさ。 ひとり 17Gだ。{n}{f0}{end}",
-  "en": ""
+  "en": "As you can see, it's a dirty inn. Being cheap is all it's got going for it. 17G per person.{f0}{end}"
  },
  {
   "id": "0F:B63D",
   "jp": "{tED:40}の いりぐちには ゲ―トがあって{n}ぶきを そうびしている にんげんは{n}しろのなかに はいれないんだ。{fe}だから へいわのしろ って いわれてるんだぜ。{end}",
-  "en": ""
+  "en": "There's a gate at the entrance of {tED:40}, and people with weapons equipped can't get into the castle.{fe}That's why they call it the Castle of Peace.{end}"
  },
  {
   "id": "0F:B68A",
   "jp": "おれは いちど しろに いったことが あるけど{n}おうの へやにだけは{n}いれて もらえなかったんだ。{fe}しもじもの ものは はいれないんだってよ。{end}",
-  "en": ""
+  "en": "I went to the castle once, but they wouldn't let me into the king's chamber.{fe}They say common folk aren't allowed in.{end}"
  },
  {
   "id": "0F:B6D2",
   "jp": "ひかるものを みがいてくれる っていう{n}しょくにんが、 ここにいるってきいたけど{n}ガセネタだったのかなぁ。{end}",
-  "en": ""
+  "en": "I heard there's a craftsman here who'll polish shiny things for you. Was that just a bogus rumor?{end}"
  },
  {
   "id": "0F:B708",
   "jp": "いらっしゃ~い。{end}",
-  "en": ""
+  "en": "Welcoooome!{end}"
  },
  {
   "id": "0F:B7D7",
   "jp": "{tEC:58}{n}{tEC:57} くれなくちゃ。{end}",
-  "en": ""
+  "en": "Hey! You can't do that, customer! You have to pay properly.{end}"
  },
  {
   "id": "0F:B7E5",
   "jp": "{tEC:5D}{n}{tEC:80}ね。{end}",
-  "en": ""
+  "en": "{tEC:5D} {tEC:80}!{end}"
  },
  {
   "id": "0F:B7ED",
@@ -1242,102 +1242,102 @@
  {
   "id": "0F:B7F8",
   "jp": "{tEC:7E}{n}まってるわ。{end}",
-  "en": ""
+  "en": "{tEC:7E} I'll be waiting.{end}"
  },
  {
   "id": "0F:B802",
   "jp": "{tEC:64}{n}{tEC:96}のよ。{fe}{tEC:65}{n}{f0}{end}",
-  "en": ""
+  "en": "{tEC:64} {tEC:96}{fe}{tEC:65}{f0}{end}"
  },
  {
   "id": "0F:B810",
   "jp": "また きてくれよ。{end}",
-  "en": ""
+  "en": "Come back again.{end}"
  },
  {
   "id": "0F:B81A",
   "jp": "らっしゃい！{n}{tEC:95}るんだ。{fe}{tEC:68}{n}{f0}{end}",
-  "en": ""
+  "en": "Hey there! {tEC:95}{fe}{tEC:68}{f0}{end}"
  },
  {
   "id": "0F:B82D",
   "jp": "{tEC:80}よ。{end}",
-  "en": ""
+  "en": "{tEC:80}!{end}"
  },
  {
   "id": "0F:B832",
   "jp": "らっしゃい！{n}{tEC:94}るんだ。{fe}{tEC:68}{n}{f0}{end}",
-  "en": ""
+  "en": "Hey there! {tEC:94}{fe}{tEC:68}{f0}{end}"
  },
  {
   "id": "0F:B845",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "0F:B857",
   "jp": "わかいころは よく {tED:40}に{n}ではいり したもんじゃ。{fe}ほうせきを ちりばめた ふくをきて、{n}それは まるで シンデレラのようじゃった。{fe}わしの わかいころを そうぞうしなされ。{n}きっと そなたの こころも うつくしくなる。{end}",
-  "en": ""
+  "en": "When I was young, I often went in and out of {tED:40}.{fe}I wore clothes studded with jewels, just like Cinderella.{fe}Picture me in my youth. Surely your heart will grow beautiful too.{end}"
  },
  {
   "id": "0F:B8D7",
   "jp": "{tED:40}に はいるための ゲ―トは{n}{tEC:2E}から あらそいを なくすための{n}ものなんだよ。{fe}{tED:40}に いくんだったら、{n}ぶきを そうび しないことだね。{end}",
-  "en": ""
+  "en": "The gate for entering {tED:40} is there to rid {tEC:2E} of strife.{fe}If you're going to {tED:40}, don't have any weapons equipped.{end}"
  },
  {
   "id": "0F:B93F",
   "jp": "くるしゅうない、 ちこうよれ、{n}しもじもの ものたちよ。{fe}わたしは {tEC:39}・ブルモア18せい。{n}まもなく {tEC:2E}が せかいを{n}せいふくするのだ。 はっはっはっ。{end}",
-  "en": ""
+  "en": "At ease. Come closer, commoners.{fe}I am Brumore XVIII, {tEC:39}. Soon {tEC:2E} shall conquer the world. Ha ha ha!{end}"
  },
  {
   "id": "0F:B98E",
   "jp": "すみませんねぇ。{n}このこは じぶんのことを {tEC:39}の{n}うまれかわりだ って いいはるんです。{end}",
-  "en": ""
+  "en": "I'm so sorry. This child insists he's the reincarnation of the {tEC:39}.{end}"
  },
  {
   "id": "0F:BA22",
   "jp": "おれは ひかるものを みたら{n}みがかずには いられないんだ。{fe}なにか あったら もってきてくれよ。{end}",
-  "en": ""
+  "en": "Whenever I see something shiny, I just can't help polishing it.{fe}If you've got anything, bring it to me.{end}"
  },
  {
   "id": "0F:BA54",
   "jp": "おっ！{n}おまえさん めずらしいものを もってるなぁ。{n}その {tE6:0B}だよ。{fe}おれは ひかるものを みたら{n}みがかずには いられないんだ。{fe}ちょっと かしな。{n}ひみつの しごとばで みがいてくるぜ。{end}",
-  "en": ""
+  "en": "Oh! You've got something rare there. That {tE6:0B}!{fe}Whenever I see something shiny, I just can't help polishing it.{fe}Lend it here a sec. I'll polish it up in my secret workshop.{end}"
  },
  {
   "id": "0F:BAB5",
   "jp": "ほらよっ！{n}これで きれいな {tE6:0C}になったよ。{fe}ー {tE6:0C}を てにいれた。{sync}{end}",
-  "en": ""
+  "en": "There you go! Now it's a beautiful {tE6:0C}.{fe}- Received the {tE6:0C}.{sync}{end}"
  },
  {
   "id": "0F:BADB",
   "jp": "{tE6:0C}は めずらしいものだ。{n}だいじに するんだぜ。{end}",
-  "en": ""
+  "en": "The {tE6:0C} is a rare thing. Take good care of it.{end}"
  },
  {
   "id": "0F:BAF5",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "0F:BAF7",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "0F:BB19",
   "jp": "おれは {tEC:03}・{tEC:11}と{n}にんげんのあいだに うまれた こどもなんだぜ。{end}",
-  "en": ""
+  "en": "I'm the child of {tEC:03} {tEC:11} and a human, you know.{end}"
  },
  {
   "id": "0F:BB3C",
   "jp": "おにいちゃんねぇ、 おおうそつきなの。{end}",
-  "en": ""
+  "en": "My big brother is a great big liar.{end}"
  },
  {
   "id": "0F:BB96",
   "jp": "おかねが ひつようになったら{n}きてくださいよ。{end}",
-  "en": ""
+  "en": "Come see me when you need money.{end}"
  },
  {
   "id": "0F:BBAE",
@@ -1357,137 +1357,137 @@
  {
   "id": "0F:BC26",
   "jp": "ー {tE6:0E}、 {tE8:0C}、{n}  {tE9:0B}、 {tE7:11}、{n}  {tEA:0B}を てにいれた。{sync}{end}",
-  "en": ""
+  "en": "- Received the {tE6:0E}, {tE8:0C}, {tE9:0B}, {tE7:11} and {tEA:0B}.{sync}{end}"
  },
  {
   "id": "0F:BC48",
   "jp": "ー オ―ブに とじこめられた パンジェが{n}  かぜに とけこみ、{n}  フェニックスが はばたいた。{end}",
-  "en": ""
+  "en": "- The Panje sealed in the Orb melted into the wind, and the Phoenix spread its wings.{end}"
  },
  {
   "id": "0F:BC7A",
   "jp": "いだいなる ぼうけんしゃたちよ。{n}わたしは {tEC:A7}ス。{fe}わたしの こえが、 なんじの こころに{n}きこえるで あろうか。{fe}じゃあくなもの、 {tEC:33}を{n}よくぞ ふういんした。{fe}なんじたちに わたしの からだの いちぶを{n}さずける。{fe}さいごの たたかいに そなえるがよい。{f1}{end}",
-  "en": ""
+  "en": "Great adventurers. I am {tEC:A7}.{fe}Can you hear my voice in your hearts?{fe}You have done well to seal the evil {tEC:33}.{fe}I grant you a part of my body.{fe}Prepare yourselves for the final battle.{f1}{end}"
  },
  {
   "id": "0F:BCFF",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "0F:BD01",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "0F:BD3B",
   "jp": "いよいよ さいごの けっせんじゃな。{fe}さいごの けっせんのまえに{n}そなたたちに しっておいて ほしいことがある。{fe}なぜ、 にんげんが ドラゴン・{tEC:11}の{n}いかりに ふれたのか、 じゃ。{fe}めを とじられよ。{n}{tED:20}が みえて くるはずじゃ。{end}",
-  "en": ""
+  "en": "So at last, the final battle is upon us.{fe}Before it, there is something I want you to know.{fe}Why did humans incur the wrath of Dragon {tEC:11}?{fe}Close your eyes. You should see {tED:20} appear.{end}"
  },
  {
   "id": "0F:BDB1",
   "jp": "その しゅんかん、 {tEC:30}は{n}ドラゴン・{tEC:11}の いかりにふれ、{n}きえさった。{fe}にんげんは 「かみ」ではない。{n}にんげんは おおきな 「しぜん」のなかで{n}いきておる。{fe}にんげんは おおくのなかの{n}1つの しゅぞくに すぎん。{fe}{tEC:03}・{tEC:11}は{n}おごった にんげんを いかったのじゃ。{n}わしは そうおもう。{fe}{tEC:02}との たたかいに かったとしても{n}そのことを わすれてはならん。{fe}さいごの けっせんの まえに、 そのことを{n}そなたたちに しって おいて ほしかったのじゃ。{end}",
-  "en": ""
+  "en": "At that moment, {tEC:30} incurred the wrath of Dragon {tEC:11} and vanished.{fe}Humans are not \"gods.\" Humans live within great \"nature.\"{fe}Humans are no more than one race among many.{fe}{tEC:03} {tEC:11} was angered by arrogant humans. That is what I believe.{fe}Even if you win your fight with {tEC:02}, you must not forget that.{fe}I wanted you to know that before the final battle.{end}"
  },
  {
   "id": "0F:BE98",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "0F:BEBA",
   "jp": "わが こどもたちよ。{n}なぜ わたしに たたかいを いどむ？{fe}わたしは {tEC:A7}スのしめいを まもり、{n}{tEC:33}を まもった。{fe}そして おなじく ドラゴン・ディグバディノンの{n}しめいを まもり、 {tEC:40}ふういんを{n}といた。{fe}わたしは にんげんを ちょうえつした{n}{tEC:03}の しめいを まもりつづけて{n}きたのだ。{fe}なぜ われわれは たたかわねば ならないのだ。{end}",
-  "en": ""
+  "en": "My children. Why do you challenge me?{fe}I kept {tEC:A7}'s mission and guarded the {tEC:33}.{fe}And likewise I kept the mission of Dragon Digbadinon, and broke the seal of the \"Panje.\"{fe}I have kept faith with the mission of the {tEC:03}, who stands above humankind.{fe}Why must we fight?{end}"
  },
  {
   "id": "0F:BF66",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "0F:C00E",
   "jp": "いだいなる ぼうけんしゃたちよ。{n}わたしは {tEC:A7}ス。{fe}よくぞ わたしの しめいを まっとうした。{n}わたしは まんぞくである。{fe}{tEC:2D}は ゆるしがたい にんげんだが、{n}なんじたちに おかえししよう。{fe}そして ようせいの {hero3}には{n}ようせいたちとの やくそくどおり、{n}「{tED:0A}」に かえってもらう。{fe}わたしが ようせいたちに たのんで{n}{hero3}に ぼうけんに くわわってもらった。{fe}なんじたちの ゆうきある ぼうけんによって{n}にんげんは にんげんの いしで{n}せかいを つくっていく、 じゆうを てにいれた。{fe}すばらしい せかいを つくるのも{n}せかいを ほろぼすのも なんじたち しだいだ。{fe}しかし わすれるでない。{fe}なんじたち にんげんには「もの」しか みえぬ。{n}なんじたちには わたしの すがたが{n}みえなかったはずだ。{fe}みえるものだけを しんじて{n}すべてを きめては ならぬ。{fe}にんげんの せかいは すでに なんじたち、{n}にんげんのもの。{n}たいせつに そだてるがよい。{fe}しんらいできる にんげんに せかいを あずけ、{n}わたしは ながい ねむりにつく。{fe}よくぞ わたしの しめいを まっとうした。{n}あらためて れいを いう。{end}",
-  "en": ""
+  "en": "Great adventurers. I am {tEC:A7}.{fe}You have done well to fulfill my mission. I am satisfied.{fe}{tEC:2D} is a human hard to forgive, but I shall return him to you.{fe}And {hero3} the fairy, as promised to the fairies, shall return to the \"{tED:0A}.\"{fe}It was I who asked the fairies to have {hero3} join your adventure.{fe}Through your brave adventure, humans have won the freedom to build the world by their own will.{fe}Whether you build a wonderful world or destroy it is up to you.{fe}But do not forget.{fe}You humans can see only \"things.\" You could not have seen my form.{fe}Do not decide everything by believing only what you can see.{fe}The human world already belongs to you humans. Nurture it with care.{fe}I entrust the world to humans I can trust, and enter a long sleep.{fe}You have done well to fulfill my mission. Once more, I thank you.{end}"
  },
  {
   "id": "0F:C207",
   "jp": "すばらしい ぼうけんを ありがとう。{fe}いちど にんげんに うらぎられた ラ―ゼスは{n}にんげんを しんようできずに、{n}わたしを あなたたちに つけたわ。{fe}しかし あなたたちは {tEC:01}を{n}うらぎらなかった・・・。{fe}これからの せかいは にんげんのもの・・・。{n}もう、 あなたたちには わたしたち ようせいや{n}まものを みることが できない。{fe}でも、 いつも わたしたちは{n}あなたたち にんげんの そばに いるわ。{fe}こころを すませていれば、{n}わたしたちの こえが きこえるはず。{fe}すばらしい ぼうけんを ありがとう・・・。{fe}さようなら・・・。{end}",
-  "en": ""
+  "en": "Thank you for a wonderful adventure.{fe}Larzes, once betrayed by humans, couldn't trust humans, and so sent me along with you.{fe}But you didn't betray {tEC:01}...{fe}From now on, the world belongs to humans... You can no longer see us fairies or the monsters.{fe}But we'll always be by your side.{fe}If you listen with your heart, you should hear our voices.{fe}Thank you for a wonderful adventure...{fe}Goodbye...{end}"
  },
  {
   "id": "0F:C314",
   "jp": "わが こどもたちよ。{n}わたしに ちかづくでない。{end}",
-  "en": ""
+  "en": "My children. Do not come near me.{end}"
  },
  {
   "id": "0F:C32D",
   "jp": "{tEC:03}・{tEC:11}の こえが{n}わたしに きこえる。{fe}わたしに あらたな しめいが あたえられる。{fe}「{hero0}たちを まっさつせよ」 と。{end}",
-  "en": ""
+  "en": "I hear the voice of {tEC:03} {tEC:11}.{fe}I am given a new mission.{fe}\"Destroy {hero0} and the others.\"{end}"
  },
  {
   "id": "0F:C36B",
   "jp": "わたしは {tEC:03}に ちゅうじつだ。{n}{tEC:03}・{tEC:11}の しめいを{n}まもる。{end}",
-  "en": ""
+  "en": "I am loyal to the {tEC:03}. I will keep the mission of {tEC:03} {tEC:11}.{end}"
  },
  {
   "id": "0F:C38D",
   "jp": "ゆるせ！{n}わたしの こどもたち！{end}",
-  "en": ""
+  "en": "Forgive me, my children!{end}"
  },
  {
   "id": "0F:C39E",
   "jp": "{hero1}・・・。{end}",
-  "en": ""
+  "en": "{hero1}...{end}"
  },
  {
   "id": "0F:C3A4",
   "jp": "{hero2}・・・。{end}",
-  "en": ""
+  "en": "{hero2}...{end}"
  },
  {
   "id": "0F:C3AA",
   "jp": "{hero0}・・・。{end}",
-  "en": ""
+  "en": "{hero0}...{end}"
  },
  {
   "id": "0F:C3B0",
   "jp": "わたしの こどもたちよ・・・。{end}",
-  "en": ""
+  "en": "My children...{end}"
  },
  {
   "id": "0F:C430",
   "jp": "{tEC:10}が あらわれる まえだった、{n}すさまじい いなづまが ひかり、{n}そして {tED:20}は はかいされた。{end}",
-  "en": ""
+  "en": "It was before the {tEC:10} appeared. A tremendous bolt of lightning flashed, and {tED:20} was destroyed.{end}"
  },
  {
   "id": "0F:C462",
   "jp": "いっしゅんで {tED:20}は{n}ほろびさったのよ。{end}",
-  "en": ""
+  "en": "{tED:20} was wiped out in an instant.{end}"
  },
  {
   "id": "0F:C477",
   "jp": "{tEC:30}では かっきてきな はつめいが{n}あったらしいのだが、 その はつめいは まちと{n}ともに なくなってしまった。{end}",
-  "en": ""
+  "en": "It seems there was a groundbreaking invention in {tEC:30}, but it vanished along with the town.{end}"
  },
  {
   "id": "0F:C4B0",
   "jp": "{tEC:30}が ほろんだころから、{n}ぶきみな まものが あらわれるように{n}なったのだ。{end}",
-  "en": ""
+  "en": "Around the time {tEC:30} was destroyed, eerie monsters began to appear.{end}"
  },
  {
   "id": "0F:C4D8",
   "jp": "{tEC:30}の はつめいと まものとは、{n}なにか かんけいが あるのかしら。{end}",
-  "en": ""
+  "en": "I wonder if {tEC:30}'s invention has something to do with the monsters.{end}"
  },
  {
   "id": "0F:C4FB",
   "jp": "いまは {tEC:30}には いかないほうが{n}いいよ。{end}",
-  "en": ""
+  "en": "You'd better not go to {tEC:30} right now.{end}"
  },
  {
   "id": "0F:C511",
   "jp": "ここは {tEC:23}・{tED:46}です。{end}",
-  "en": ""
+  "en": "This is {tED:46} in the {tEC:23}.{end}"
  },
  {
   "id": "0F:C598",
@@ -1497,12 +1497,12 @@
  {
   "id": "0F:C5A3",
   "jp": "なんと {hero0}{tEC:7A}{n}{tEC:9D}{n}{tEC:A2}{end}",
-  "en": ""
+  "en": "What? {hero0}-dono, you do not have the money to donate. {tEC:A2}{end}"
  },
  {
   "id": "0F:C5B1",
   "jp": "{tEC:73}。{n}{tEC:90}{end}",
-  "en": ""
+  "en": "{tEC:73}. Come anytime you would turn to the gods.{end}"
  },
  {
   "id": "0F:C5B8",
@@ -1512,42 +1512,42 @@
  {
   "id": "0F:C5C0",
   "jp": "ほかに ごようけんは？{n}{f0}{end}",
-  "en": ""
+  "en": "Is there anything else?{f0}{end}"
  },
  {
   "id": "0F:C5CE",
   "jp": "{tEC:6F}。{n}{tEC:9B}{n}{f0}{end}",
-  "en": ""
+  "en": "{tEC:6F}. {tEC:9B}{f0}{end}"
  },
  {
   "id": "0F:C63D",
   "jp": "「けんこう だいいち」と おおもいでしたら、{n}いつも ここで おやすみください。{end}",
-  "en": ""
+  "en": "If you believe \"health comes first,\" always rest here.{end}"
  },
  {
   "id": "0F:C666",
   "jp": "たばこは ごえんりょ くださいね。{end}",
-  "en": ""
+  "en": "Please refrain from smoking.{end}"
  },
  {
   "id": "0F:C678",
   "jp": "おかねが たらないようですね。{n}また こんど いらしてください。{end}",
-  "en": ""
+  "en": "It seems you're short on money. Please come again another time.{end}"
  },
  {
   "id": "0F:C699",
   "jp": "ゆっくり できましたでしょうか？{n}{tEC:8F}{end}",
-  "en": ""
+  "en": "Did you rest well? {tEC:8F}{end}"
  },
  {
   "id": "0F:C6AD",
   "jp": "ノ―・スモ―キングの へやも ございます。{n}おとまりに なりますか？ ひとり 39Gです。{n}{f0}{end}",
-  "en": ""
+  "en": "We have non-smoking rooms too. Will you be staying? It's 39G per person.{f0}{end}"
  },
  {
   "id": "0F:C6DD",
   "jp": "いらっしゃい。{end}",
-  "en": ""
+  "en": "Welcome.{end}"
  },
  {
   "id": "0F:C72B",
@@ -1572,12 +1572,12 @@
  {
   "id": "0F:C802",
   "jp": "おきゃくさま、{n}{tEC:97}{end}",
-  "en": ""
+  "en": "Excuse me, customer. {tEC:97}{end}"
  },
  {
   "id": "0F:C80D",
   "jp": "{tEC:5D}{n}{tEC:80}ね。{end}",
-  "en": ""
+  "en": "{tEC:5D} {tEC:80}!{end}"
  },
  {
   "id": "0F:C815",
@@ -1597,7 +1597,7 @@
  {
   "id": "0F:C826",
   "jp": "らっしゃい！{n}{tEC:96}んだ。{fe}{tEC:68}{n}{f0}{end}",
-  "en": ""
+  "en": "Hey there! {tEC:96}{fe}{tEC:68}{f0}{end}"
  },
  {
   "id": "0F:C838",
@@ -1607,162 +1607,162 @@
  {
   "id": "0F:C83B",
   "jp": "{tEC:64}{n}{tEC:95}ます。{fe}{tEC:65}{n}{f0}{end}",
-  "en": ""
+  "en": "{tEC:64} {tEC:95}{fe}{tEC:65}{f0}{end}"
  },
  {
   "id": "0F:C849",
   "jp": "{tEC:7E}{n}まってるわ。{end}",
-  "en": ""
+  "en": "{tEC:7E} I'll be waiting.{end}"
  },
  {
   "id": "0F:C853",
   "jp": "{tEC:64}{n}{tEC:94}ます。{fe}{tEC:65}{n}{f0}{end}",
-  "en": ""
+  "en": "{tEC:64} {tEC:94}{fe}{tEC:65}{f0}{end}"
  },
  {
   "id": "0F:C861",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "0F:C873",
   "jp": "{tED:20}が いっしゅんで{n}なくなって しまったのよ。{n}かみの いかりに ふれたのだわ。{end}",
-  "en": ""
+  "en": "{tED:20} vanished in an instant. It must have incurred the wrath of the gods.{end}"
  },
  {
   "id": "0F:C8AD",
   "jp": "みなみを ながれる かわの かこうに{n}へんな ばしょが あるんだ。{n}なんだろぅ。{end}",
-  "en": ""
+  "en": "There's a strange place at the mouth of the river that flows to the south. I wonder what it is.{end}"
  },
  {
   "id": "0F:C8E6",
   "jp": "にしの みずうみの むこうには{n}{tED:40}が あるんだ。{end}",
-  "en": ""
+  "en": "Across the lake to the west is {tED:40}.{end}"
  },
  {
   "id": "0F:C910",
   "jp": "{tED:40}へは ながい{n}{tED:3E}を こえて いくんだ。{fe}おおくの ひとが いのちを おとしているぜ。{end}",
-  "en": ""
+  "en": "To get to {tED:40}, you have to cross the long {tED:3E}.{fe}Lots of people have lost their lives there.{end}"
  },
  {
   "id": "0F:CA9A",
   "jp": "やっぱり おれは まちには すめねぇ。{n}どっか いなかにでも ひっこすかなぁ。{end}",
-  "en": ""
+  "en": "Guess I just can't live in a town. Maybe I'll move out to the country somewhere.{end}"
  },
  {
   "id": "0F:CAC2",
   "jp": "あの しずかな {tED:2F}が{n}こんなに なるなんて しんじられねぇや。{end}",
-  "en": ""
+  "en": "I can't believe quiet old {tED:2F} turned into this.{end}"
  },
  {
   "id": "0F:CAE3",
   "jp": "ここは {tED:47}。{n}むら から まちへ レベルがあがったのよ。{end}",
-  "en": ""
+  "en": "This is {tED:47}. It leveled up from a village to a town!{end}"
  },
  {
   "id": "0F:CB01",
   "jp": "わたしたちは おうを しんじているのよ。{end}",
-  "en": ""
+  "en": "We believe in our king.{end}"
  },
  {
   "id": "0F:CB16",
   "jp": "はやく おおきくなって、 {tEC:4C}に{n}なりたいなぁ。{end}",
-  "en": ""
+  "en": "I wanna hurry up and grow big so I can be a Knight of Famil!{end}"
  },
  {
   "id": "0F:CB2F",
   "jp": "おれの いえが もうすぐ できあがるんだ。{n}いえが できたら あとは よめさんだ！{end}",
-  "en": ""
+  "en": "My house is almost finished. Once it's done, all I need is a wife!{end}"
  },
  {
   "id": "0F:CB59",
   "jp": "なにか たのしいことは ないじゃろうか。{n}としよりでも できるもんがのぅ。{end}",
-  "en": ""
+  "en": "Isn't there anything fun to do? Something even an old-timer like me can do?{end}"
  },
  {
   "id": "0F:CB7F",
   "jp": "なにか たのしいことは ないじゃろうか。{n}としよりでも できるもんがのぅ。{fe}なんと！？{n}{tED:2D}っていう たのしいまちが{n}あるんか！{fe}しんぞうに わるそうじゃが、 {n}あそびに いってみたいもんじゃ。{end}",
-  "en": ""
+  "en": "Isn't there anything fun to do? Something even an old-timer like me can do?{fe}What!? There's a fun town called {tED:2D}?{fe}Might be bad for my heart, but I'd love to go play there.{end}"
  },
  {
   "id": "0F:CBE1",
   "jp": "なにか たのしいことは ないじゃろうか。{n}としよりでも できるもんがのぅ。{end}",
-  "en": ""
+  "en": "Isn't there anything fun to do? Something even an old-timer like me can do?{end}"
  },
  {
   "id": "0F:CC07",
   "jp": "なにか たのしいことは ないじゃろうか。{n}としよりでも できるもんがのぅ。{fe}なんと！？{n}{tED:2D}っていう たのしいまちが{n}あるんか！{fe}しんぞうに わるそうじゃが、 {n}そこで はたらいて みたいもんじゃ。{end}",
-  "en": ""
+  "en": "Isn't there anything fun to do? Something even an old-timer like me can do?{fe}What!? There's a fun town called {tED:2D}?{fe}Might be bad for my heart, but I'd love to try working there.{end}"
  },
  {
   "id": "0F:CC6B",
   "jp": "おおっ！ {hero0}どのたちか。{fe}あのときは ごくろうであった。{n}おかげで おおくの むらびとの いのちが{n}すくわれた。{fe}わしは ここに あたらしい しろを{n}つくろうと おもっている。{fe}{tEC:0F}が いなくなったとはいえ、{n}あのしろは もうふるい。{fe}あらたな しろを わしは つくる。{n}ひとびとが しあわせに くらせるようにな。{n}そなたたちも おうえんしてくれ。{end}",
-  "en": ""
+  "en": "Oh! {hero0}-dono and company!{fe}You did well back then. Thanks to you, many villagers' lives were saved.{fe}I intend to build a new castle here.{fe}Even with {tEC:0F} gone, that castle is too old now.{fe}I shall build a new castle, so that the people may live happily. I hope you will cheer us on.{end}"
  },
  {
   "id": "0F:CD1A",
   "jp": "おおっ！ {hero0}どのたち。{n}どうじゃ、 すこしは はってんしてきたじゃろう。{fe}つぎは わしのしろじゃ。{n}そちたちも たのしみに しておってくれ。{end}",
-  "en": ""
+  "en": "Oh! {hero0}-dono and company. Well? It's grown a bit, hasn't it?{fe}Next comes my castle. Look forward to it.{end}"
  },
  {
   "id": "0F:CD61",
   "jp": "おうは しろづくりのため、{n}みなと おなじ かっこうを しているのです。{end}",
-  "en": ""
+  "en": "The king is dressed like everyone else so he can help build the castle.{end}"
  },
  {
   "id": "0F:CD86",
   "jp": "やっぱり ここの おうさまを しんじて {n}はやくから ひっこしてきて よかったよ。{end}",
-  "en": ""
+  "en": "I'm glad I trusted the king here and moved early.{end}"
  },
  {
   "id": "0F:CDB0",
   "jp": "わっせ、 わっせ。{fe}ささっ、 はやく、{n}ここから あそこまで ロ―プをひいて・・・。{fe}はやくしないと ここのばしょ、{n}ほかのひとに とられちゃうじゃないか！{end}",
-  "en": ""
+  "en": "Heave, ho! Heave, ho!{fe}Come on, hurry, run the rope from here to over there...{fe}If we don't hurry, someone else will grab this spot!{end}"
  },
  {
   "id": "0F:CDFF",
   "jp": "ばかやろ―！！！！！{n}ここは おれの ばしょだ！{end}",
-  "en": ""
+  "en": "You idiot!!!!! This is MY spot!{end}"
  },
  {
   "id": "0F:CE18",
   "jp": "せかいじゅうから このまちに ひとが{n}あつまってきます。{n}ここは みりょくのある まちなんです。{end}",
-  "en": ""
+  "en": "People gather in this town from all over the world. It's a town with real charm.{end}"
  },
  {
   "id": "0F:CE49",
   "jp": "わたし もう つかれちゃったわよぅ。{end}",
-  "en": ""
+  "en": "I'm worn out alreadyyy.{end}"
  },
  {
   "id": "0F:CE5C",
   "jp": "ここには きっさてんが できるんです。{n}かんせいしたら きてくださいね。{end}",
-  "en": ""
+  "en": "There's going to be a cafe here. Come by once it's finished.{end}"
  },
  {
   "id": "0F:CE81",
   "jp": "せわしく なってきたのぉ。{end}",
-  "en": ""
+  "en": "Things are getting hectic, eh?{end}"
  },
  {
   "id": "0F:CE8F",
   "jp": "あんなに いそがしく しなくても いいのにのぅ。{n}ガツガツして みっともないだけじゃ。{end}",
-  "en": ""
+  "en": "No need to be so busy, I say. All that grabbing is just unseemly.{end}"
  },
  {
   "id": "0F:CEBB",
   "jp": "しんだ だんなのことを わすれたくって{n}{tED:25}から このまちに きたの。{n}もういちど せいしゅんしようって・・・。{end}",
-  "en": ""
+  "en": "I came to this town from {tED:25} to forget my late husband. I thought I'd be young again...{end}"
  },
  {
   "id": "0F:CF14",
   "jp": "これが おれの みせかぁ。{n}すげ―ぇなぁ。{n}おれの ゆめが かなったんだよなぁ。{end}",
-  "en": ""
+  "en": "So this is my shop. Amazing! My dream's come true!{end}"
  },
  {
   "id": "0F:CF3D",
   "jp": "じゃまだよ！{n}いま かいてんの じゅんびで いそがしいんだ。{end}",
-  "en": ""
+  "en": "Out of the way! I'm busy getting ready for the grand opening.{end}"
  },
  {
   "id": "0F:CFD6",
@@ -1772,12 +1772,12 @@
  {
   "id": "0F:CFE1",
   "jp": "なんと {hero0}{tEC:7A}{n}{tEC:9E}{n}{tEC:A0}{end}",
-  "en": ""
+  "en": "What? {hero0}-dono, you do not have the money to donate. The thought alone is enough. Do come again.{end}"
  },
  {
   "id": "0F:CFEF",
   "jp": "{tEC:73}です。{n}{tEC:60}{n}{tEC:9F}{end}",
-  "en": ""
+  "en": "{tEC:73}. {tEC:60} {tEC:9F}{end}"
  },
  {
   "id": "0F:CFFB",
@@ -1787,197 +1787,197 @@
  {
   "id": "0F:D003",
   "jp": "ほかに ごようけんは？{n}{f0}{end}",
-  "en": ""
+  "en": "Is there anything else?{f0}{end}"
  },
  {
   "id": "0F:D011",
   "jp": "{tEC:6F}。{n}{tEC:9B}{n}{f0}{end}",
-  "en": ""
+  "en": "{tEC:6F}. {tEC:9B}{f0}{end}"
  },
  {
   "id": "0F:D08E",
   "jp": "ねぶそくは よくないよ。{n}あまり むりを しないほうが いいぜ。{end}",
-  "en": ""
+  "en": "Lack of sleep is no good. You'd better not push yourselves too hard.{end}"
  },
  {
   "id": "0F:D0AF",
   "jp": "ゆっくり やすんで いってくれ。{end}",
-  "en": ""
+  "en": "Get a good rest.{end}"
  },
  {
   "id": "0F:D0C0",
   "jp": "かねが たらないようだぜ。{n}また こんど きてくれよ。{n}わりぃな。{end}",
-  "en": ""
+  "en": "Looks like you're short on cash. Come back another time. Sorry.{end}"
  },
  {
   "id": "0F:D0E2",
   "jp": "きもちよく ねむれたかい？{n}{tEC:92}{end}",
-  "en": ""
+  "en": "Sleep well? {tEC:92}{end}"
  },
  {
   "id": "0F:D0F3",
   "jp": "うちの ベッドは ねごこち まんてん！{n}とまっていくかい？ ひとり 25Gだ。{n}{f0}{end}",
-  "en": ""
+  "en": "Our beds are as comfy as it gets! Staying the night? 25G per person.{f0}{end}"
  },
  {
   "id": "0F:D11D",
   "jp": "{tEC:4B}たちは こなくなったわ。{n}だけど このむらは しろになるの。{n}そうすれば いろんな ひとたちがくるわ。{end}",
-  "en": ""
+  "en": "The knights of Joshua have stopped coming. But this village is going to become a castle. Then all kinds of people will come.{end}"
  },
  {
   "id": "0F:D153",
   "jp": "{tEC:4B}たちは こなくなったわ。{n}だけど このまちは しろになるの。{n}そうすれば いろんな ひとたちがくるわ。{end}",
-  "en": ""
+  "en": "The knights of Joshua have stopped coming. But this town is going to become a castle. Then all kinds of people will come.{end}"
  },
  {
   "id": "0F:D1BD",
   "jp": "おうが しもじもの ものたちと おなじ{n}かっこうを しているので、 わたしも{n}おなじかっこうを しなければ ならないのです。{fe}なさけなくって そとに でられませんよ。{end}",
-  "en": ""
+  "en": "The king dresses the same as the common folk, so I have to dress the same too.{fe}It's so shameful I can't go outside.{end}"
  },
  {
   "id": "0F:D211",
   "jp": "みんなと いっしょに しろづくりを するんだ、{n}って いって、 みっともない かっこうを{n}しているのです。 なさけない。{end}",
-  "en": ""
+  "en": "He says he'll build the castle together with everyone, and goes around dressed so shabbily. How shameful.{end}"
  },
  {
   "id": "0F:D24E",
   "jp": "そとにいる おうと はなしは しましたか？{n}{f0}{end}",
-  "en": ""
+  "en": "Have you spoken with the king outside?{f0}{end}"
  },
  {
   "id": "0F:D286",
   "jp": "わしは すみなれた ところを はなれるのが{n}いやだったんじゃがのぅ。{end}",
-  "en": ""
+  "en": "I didn't want to leave the place I was used to, you know.{end}"
  },
  {
   "id": "0F:D2A9",
   "jp": "じいさんを せっとくするのは たいへんじゃった。{end}",
-  "en": ""
+  "en": "Talking Grandpa into it was a real chore.{end}"
  },
  {
   "id": "0F:D2F2",
   "jp": "このまちは せかいの ちゅうしんに なるんだよ。{n}すばらしい まちに なるんだよ。{end}",
-  "en": ""
+  "en": "This town is going to be the center of the world. It'll be a wonderful town.{end}"
  },
  {
   "id": "0F:D31C",
   "jp": "わたし、 せかいで いちばんの このまちで{n}けっこんして、 それで、 せかいで いちばんの{n}はなよめに なるのよ。{end}",
-  "en": ""
+  "en": "I'm going to get married in this town, the best in the world, and then I'll be the best bride in the world.{end}"
  },
  {
   "id": "0F:D356",
   "jp": "ぼくは ここが むらだったころから いるけど{n}やっぱり おうさまは すごいや。{n}こんなに まちを はってん させちゃうんだから。{end}",
-  "en": ""
+  "en": "I've been here since this was a village, and the king really is amazing. He's built the town up so much!{end}"
  },
  {
   "id": "0F:D457",
   "jp": "あの しずかな {tED:2F}が こんなに{n}なるなんて しんじられねぇや。{end}",
-  "en": ""
+  "en": "I can't believe quiet old {tED:2F} turned into this.{end}"
  },
  {
   "id": "0F:D478",
   "jp": "ここは {tED:48}。{n}まちから しろへ レベルが あがったのよ。{end}",
-  "en": ""
+  "en": "This is {tED:48}. It leveled up from a town to a castle!{end}"
  },
  {
   "id": "0F:D496",
   "jp": "わたしたちは おうを しんじているのよ。{end}",
-  "en": ""
+  "en": "We believe in our king.{end}"
  },
  {
   "id": "0F:D4AB",
   "jp": "はやく おおきくなって{n}{tEC:4C}に なりたいなぁ。{end}",
-  "en": ""
+  "en": "I wanna hurry up and grow big so I can be a Knight of Famil!{end}"
  },
  {
   "id": "0F:D4C3",
   "jp": "なにか たのしいことは ないじゃろうか。{n}としよりでも できるもんがのぅ。{fe}なんと！？{n}{tED:2D}って たのしい まちが{n}あるんか！？{fe}しんぞうに わるそうじゃが{n}あそびに いってみたいもんじゃ。{end}",
-  "en": ""
+  "en": "Isn't there anything fun to do? Something even an old-timer like me can do?{fe}What!? There's a fun town called {tED:2D}!?{fe}Might be bad for my heart, but I'd love to go play there.{end}"
  },
  {
   "id": "0F:D523",
   "jp": "なにか たのしいことは ないじゃろうか。{n}としよりでも できるもんがのぅ。{fe}なんと！？{n}{tED:2D}って たのしい まちが{n}あるんか！？{fe}しんぞうに わるそうじゃが{n}はたらきに いってみたいもんじゃ。{end}",
-  "en": ""
+  "en": "Isn't there anything fun to do? Something even an old-timer like me can do?{fe}What!? There's a fun town called {tED:2D}!?{fe}Might be bad for my heart, but I'd love to go work there.{end}"
  },
  {
   "id": "0F:D584",
   "jp": "やっぱり ここの おうさまを しんじて{n}はやくから ここに ひっこしてきて よかったよ。{end}",
-  "en": ""
+  "en": "I'm glad I trusted the king here and moved here early.{end}"
  },
  {
   "id": "0F:D5B1",
   "jp": "せかいじゅうから このしろに ひとが{n}あつまってきます。{n}ここは みりょくのある しろなんです。{end}",
-  "en": ""
+  "en": "People gather in this castle from all over the world. It's a castle with real charm.{end}"
  },
  {
   "id": "0F:D5E2",
   "jp": "やっぱり ここに ひっこして{n}くるんじゃ なかったわい。{end}",
-  "en": ""
+  "en": "I never should've moved here.{end}"
  },
  {
   "id": "0F:D5FF",
   "jp": "むかしは よかった。{n}しずかな むらじゃったのに・・・。{end}",
-  "en": ""
+  "en": "The old days were better. It used to be such a quiet village...{end}"
  },
  {
   "id": "0F:D61C",
   "jp": "わぁ、 すごいなぁ、 このまちは。{end}",
-  "en": ""
+  "en": "Wow, this town is amazing.{end}"
  },
  {
   "id": "0F:D62E",
   "jp": "わたしも ここに ひっこして こようかと{n}したみに きているんです。{end}",
-  "en": ""
+  "en": "I'm thinking of moving here too, so I came to have a look around.{end}"
  },
  {
   "id": "0F:D6B3",
   "jp": "おおぉ！{end}",
-  "en": ""
+  "en": "Ohhh!{end}"
  },
  {
   "id": "0F:D6B8",
   "jp": "やぁ！{n}とぉ！{end}",
-  "en": ""
+  "en": "Hyah! Tah!{end}"
  },
  {
   "id": "0F:D6C0",
   "jp": "やぁ！{n}とぉ！{end}",
-  "en": ""
+  "en": "Hyah! Tah!{end}"
  },
  {
   "id": "0F:D6C8",
   "jp": "くんれんは つかれるぜ。{end}",
-  "en": ""
+  "en": "Training wears you out.{end}"
  },
  {
   "id": "0F:D6D5",
   "jp": "やぁ、 きみたちか。{n}わたしのおもったとおり、 {tEC:0F}を{n}しろから おいだして くれた。{fe}ささやかだが わたしからの プレゼントだ。{fe}ー {hero0}と {hero2}の{n}  さいだいTPが ふえた。{sync}{end}",
-  "en": ""
+  "en": "Ah, it's you. Just as I thought, you drove {tEC:0F} out of the castle.{fe}It's a small thing, but here's a present from me.{fe}- {hero0} and {hero2}'s max TP went up.{sync}{end}"
  },
  {
   "id": "0F:D72F",
   "jp": "{tEC:0F}よりも もっと{n}わるいやつらがいる。{fe}きみたちの かつやくを きたいしているよ。{end}",
-  "en": ""
+  "en": "There are even worse villains than {tEC:0F}.{fe}We're counting on you.{end}"
  },
  {
   "id": "0F:D79C",
   "jp": "{tE9:0C}を みつけてきたのか。{n}わしには ようの ないものじゃ。{n}すきにするがよい。{end}",
-  "en": ""
+  "en": "You found the {tE9:0C}? I have no use for it. Do as you like with it.{end}"
  },
  {
   "id": "0F:D7C5",
   "jp": "おお！{n}{hero0}どのたちか。{fe}あのときは ごくろうであった。{n}おかげで おおくの むらびとの いのちが{n}すくわれた。{fe}あれから わしは このちに あたらしい{n}しろを つくろうと がんばってきた。{fe}{tEC:0F}が いなくなったとはいえ{n}あのしろは もうふるかった。{fe}そして わしは しろを かんせいさせた。{n}ひとびとが しあわせに くらしているなら、{n}わしは まんぞくじゃ。{end}",
-  "en": ""
+  "en": "Oh! {hero0}-dono and company!{fe}You did well back then. Thanks to you, many villagers' lives were saved.{fe}Since then, I've worked hard to build a new castle on this land.{fe}Even with {tEC:0F} gone, that castle was too old.{fe}And now I have finished the castle. If the people live happily, I am content.{end}"
  },
  {
   "id": "0F:D879",
   "jp": "やはり おうは、 いぜん {tEC:0F}に{n}しろを のっとられて しまったことを{n}くやんで おられる。{fe}それを わすれるため、 {tEC:0F}からの{n}みつぎものであった {tE9:0C}を{n}{tED:33}に すててしまわれた。{end}",
-  "en": ""
+  "en": "The king still regrets that {tEC:0F} once took over his castle.{fe}To forget it, he threw away the {tE9:0C}, a tribute from {tEC:0F}, in the {tED:33}.{end}"
  },
  {
   "id": "0F:D8D6",
   "jp": "やっと しろが かんせいしました。{fe}いそいで つくった しろなので それほど{n}りっぱではありません。{n}しかし わたしたちの しろです。{end}",
-  "en": ""
+  "en": "The castle is finally finished.{fe}We built it in a hurry, so it isn't all that grand. But it's our castle.{end}"
  },
  {
   "id": "0F:D994",
@@ -1987,12 +1987,12 @@
  {
   "id": "0F:D99F",
   "jp": "なんと {hero0}{tEC:7A}{n}{tEC:9E}{n}{tEC:A0}{end}",
-  "en": ""
+  "en": "What? {hero0}-dono, you do not have the money to donate. The thought alone is enough. Do come again.{end}"
  },
  {
   "id": "0F:D9AD",
   "jp": "{tEC:73}です。{n}{tEC:60}{n}{tEC:9F}{end}",
-  "en": ""
+  "en": "{tEC:73}. {tEC:60} {tEC:9F}{end}"
  },
  {
   "id": "0F:D9B9",
@@ -2002,22 +2002,22 @@
  {
   "id": "0F:D9C1",
   "jp": "ほかに ごようけんは？{n}{f0}{end}",
-  "en": ""
+  "en": "Is there anything else?{f0}{end}"
  },
  {
   "id": "0F:D9CF",
   "jp": "{tEC:6F}。{n}{tEC:9B}{n}{f0}{end}",
-  "en": ""
+  "en": "{tEC:6F}. {tEC:9B}{f0}{end}"
  },
  {
   "id": "0F:DA9E",
   "jp": "{tEC:58}{n}{tEC:57} くれなくちゃ。{end}",
-  "en": ""
+  "en": "Hey! You can't do that, customer! You have to pay properly.{end}"
  },
  {
   "id": "0F:DAAC",
   "jp": "{tEC:5D}{n}{tEC:80}ね。{end}",
-  "en": ""
+  "en": "{tEC:5D} {tEC:80}!{end}"
  },
  {
   "id": "0F:DAB4",
@@ -2032,47 +2032,47 @@
  {
   "id": "0F:DABF",
   "jp": "{tEC:7E}{n}まってるわ。{end}",
-  "en": ""
+  "en": "{tEC:7E} I'll be waiting.{end}"
  },
  {
   "id": "0F:DAC9",
   "jp": "{tEC:64}{n}{tEC:96}のよ。{fe}{tEC:65}{n}{f0}{end}",
-  "en": ""
+  "en": "{tEC:64} {tEC:96}{fe}{tEC:65}{f0}{end}"
  },
  {
   "id": "0F:DAD7",
   "jp": "また きてくれよ。{end}",
-  "en": ""
+  "en": "Come back again.{end}"
  },
  {
   "id": "0F:DAE1",
   "jp": "らっしゃい！{n}{tEC:95}るんだ。{fe}{tEC:68}{n}{f0}{end}",
-  "en": ""
+  "en": "Hey there! {tEC:95}{fe}{tEC:68}{f0}{end}"
  },
  {
   "id": "0F:DAF4",
   "jp": "{tEC:80}よ。{end}",
-  "en": ""
+  "en": "{tEC:80}!{end}"
  },
  {
   "id": "0F:DAF9",
   "jp": "らっしゃい！{n}{tEC:94}るんだ。{fe}{tEC:68}{n}{f0}{end}",
-  "en": ""
+  "en": "Hey there! {tEC:94}{fe}{tEC:68}{f0}{end}"
  },
  {
   "id": "0F:DB0C",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "0F:DB1E",
   "jp": "おうさまは オ―ケストラホ―ルを {n}つくってくれたの。{n}でも このまちには がくだんが ないのよ。{fe}なさけないけど よくある はなしよねぇ。{end}",
-  "en": ""
+  "en": "The king built us an orchestra hall. But this town doesn't have an orchestra.{fe}It's pathetic, but that's how it usually goes, isn't it?{end}"
  },
  {
   "id": "0F:DBAB",
   "jp": "おかねが ひつようになったら{n}きてくださいよ。{end}",
-  "en": ""
+  "en": "Come see me when you need money.{end}"
  },
  {
   "id": "0F:DBC3",
@@ -2092,186 +2092,186 @@
  {
   "id": "0F:DBF1",
   "jp": "いらっしゃい。{fe}きっさてん ってのは はやらないのかなぁ。{n}さっぱり きゃくが こないよ。{end}",
-  "en": ""
+  "en": "Welcome.{fe}I guess cafes just aren't popular. Not a single customer comes in.{end}"
  },
  {
   "id": "0F:DC1F",
   "jp": "おきゃくさん、 ぜんぜん きてくれないんです。{n}さかばのほうが よかったのかなぁ。{end}",
-  "en": ""
+  "en": "The customers just won't come at all. Maybe a tavern would've been better.{end}"
  },
  {
   "id": "0F:DC9F",
   "jp": "ねぶそくは よくないよ。{n}あまり むりを しないほうが いいぜ。{end}",
-  "en": ""
+  "en": "Lack of sleep is no good. You'd better not push yourselves too hard.{end}"
  },
  {
   "id": "0F:DCC0",
   "jp": "ゆっくり やすんで いってくれ。{end}",
-  "en": ""
+  "en": "Get a good rest.{end}"
  },
  {
   "id": "0F:DCD1",
   "jp": "かねが たらないようだぜ。{n}また こんど きてくれよ。{n}わりぃな。{end}",
-  "en": ""
+  "en": "Looks like you're short on cash. Come back another time. Sorry.{end}"
  },
  {
   "id": "0F:DCF3",
   "jp": "きもちよく ねむれたかい？{n}{tEC:92}{end}",
-  "en": ""
+  "en": "Sleep well? {tEC:92}{end}"
  },
  {
   "id": "0F:DD04",
   "jp": "うちの ベッドは ねごこち まんてん！{n}とまっていくかい？ ひとり 25Gだ。{n}{f0}{end}",
-  "en": ""
+  "en": "Our beds are as comfy as it gets! Staying the night? 25G per person.{f0}{end}"
  },
  {
   "id": "0F:DD4E",
   "jp": "わしは すみなれた ところを はなれるのが {n}いやだったんじゃがのぅ。{end}",
-  "en": ""
+  "en": "I didn't want to leave the place I was used to, you know.{end}"
  },
  {
   "id": "0F:DD72",
   "jp": "じいさんを せっとくするのは たいへんじゃった。{end}",
-  "en": ""
+  "en": "Talking Grandpa into it was a real chore.{end}"
  },
  {
   "id": "0F:DDAB",
   "jp": "けっこんしちゃったよ。{n}よめさん バツ1だけど、 まえのだんな{n}{tEC:0F}に ころされちゃったんだよなぁ。{end}",
-  "en": ""
+  "en": "I got married! My wife was married before, but her first husband was killed by {tEC:0F}.{end}"
  },
  {
   "id": "0F:DDDE",
   "jp": "まえの だんなが ゆめに でてきたの。{fe}{tEC:0F}も いなくなったんだし、{n}おれのことは わすれろ って。{n}しあわせになれよ って。{end}",
-  "en": ""
+  "en": "My late husband came to me in a dream.{fe}He said, \"{tEC:0F} is gone now, so forget me. Be happy.\"{end}"
  },
  {
   "id": "0F:DE4E",
   "jp": "こんど がっこうが できるんだってさ。{fe}おうさまは りっぱな ひとだけど{n}がっこうを つくる ってのは しっぱいだよね。{n}みんな べんきょうなんて きらいだよ。{end}",
-  "en": ""
+  "en": "I hear they're building a school soon.{fe}The king's a great man, but building a school is a mistake. Everyone hates studying.{end}"
  },
  {
   "id": "0F:DE9F",
   "jp": "はやく がっこうが できないかなぁ。{n}だって ともだちが たくさん できるんだもの。{end}",
-  "en": ""
+  "en": "I can't wait for the school to open. 'Cause I'll make lots of friends!{end}"
  },
  {
   "id": "0F:DECA",
   "jp": "ぼくは ここが むらだったころから いるけど{n}やっぱり おうさまは すごいや。{n}しろまで つくっちゃうんだから。{end}",
-  "en": ""
+  "en": "I've been here since this was a village, and the king really is amazing. He even built a castle!{end}"
  },
  {
   "id": "0F:DF23",
   "jp": "やっと おれの いえが かんせいしたよ。{n}おれの じんせいの もくてきは おわったんだ。{end}",
-  "en": ""
+  "en": "My house is finally finished. My purpose in life is complete.{end}"
  },
  {
   "id": "0F:DF50",
   "jp": "ボ~~~―――。{n}いえが できて あたまが まっしろ。{n}いえを つくるために いきてきたんだもの。{end}",
-  "en": ""
+  "en": "Duhhhhh... My house is done, and my mind's gone blank. I lived just to build this house, after all.{end}"
  },
  {
   "id": "0F:E0E4",
   "jp": "{tED:27}を {tEC:0F}から{n}とりもどしてくれ。{end}",
-  "en": ""
+  "en": "Please take {tED:27} back from {tEC:0F}.{end}"
  },
  {
   "id": "0F:E0F7",
   "jp": "つみの ない にんげんを ころしたくはない。{n}しかし、 ゆるせ！{end}",
-  "en": ""
+  "en": "I don't want to kill innocent people. But forgive me!{end}"
  },
  {
   "id": "0F:E118",
   "jp": "こしぬけが。{n}おまえたちに ようは ない！{n}ただちに ここから でてゆけ！{end}",
-  "en": ""
+  "en": "Cowards. I have no business with you! Get out of here at once!{end}"
  },
  {
   "id": "0F:E13E",
   "jp": "こらっ！{n}もちばへ もどれ！{end}",
-  "en": ""
+  "en": "Hey! Get back to your post!{end}"
  },
  {
   "id": "0F:E14D",
   "jp": "こどもは ねるじかんだ。{n}いいこ だから、 いえに かえって ねてな。{end}",
-  "en": ""
+  "en": "It's bedtime for kids. Be a good kid, go home and get to sleep.{end}"
  },
  {
   "id": "0F:E171",
   "jp": "きさまら どこからきた！{n}だまって たちされ！{end}",
-  "en": ""
+  "en": "Where did you come from!? Leave quietly!{end}"
  },
  {
   "id": "0F:E189",
   "jp": "「どうしても」 というなら{n}オレと しょうぶしろ。{n}{f0}{end}",
-  "en": ""
+  "en": "If you insist, then fight me.{f0}{end}"
  },
  {
   "id": "0F:E1A5",
   "jp": "またか！{n}しょうぶだ！{end}",
-  "en": ""
+  "en": "You again! Let's fight!{end}"
  },
  {
   "id": "0F:E1B1",
   "jp": "まけたよ。{fe}おうは {tEC:0F}に はんげきしようと{n}みを かくしている。 {fe}おうが {tEC:25}に せめこむ といったら{n}おれは まっさきに せめに いくだろう。{fe}しかし ざんねんなことに、{n}いまの われわれの ちからでは{n}{tEC:0F}に かてない。{fe}おうは われわれのことを おもって{n}チャンスを まっているのだ。{fe}きさまら、 いや {hero0}たちだったら{n}{tEC:0F}と ごかくに たたかえる。{fe}おうを たすけて ほしい。{n}{tED:25}を たすけてほしい。{fe}われわれに のこされた じかんは{n}もう それほど のこっていないのだ。{fe}ひっさつわざの {tEB:02}と{n}{tF3:01}を でんじゅしよう。{fe}ー {hero0}は {tEB:02}をおぼえた。{n}  {hero2}は {tF3:01}をおぼえた。{n}{sync}{fe}ー {hero0}と {hero2}の{n}  さいだいTPが ふえた。{sync}{fe}おうは {tED:2F}にいる。{n}あいことばは 「トラ・トラ・トラ」だ。{f1}{end}",
-  "en": ""
+  "en": "I lose.{fe}The king is in hiding, planning to strike back at {tEC:0F}.{fe}If the king said to attack {tEC:25}, I'd be the first to charge in.{fe}But sadly, with our strength as it is, we can't beat {tEC:0F}.{fe}The king is thinking of us and waiting for his chance.{fe}But you... no, {hero0} and the others, you could fight {tEC:0F} on even terms.{fe}Please help the king. Please help {tED:25}.{fe}We don't have much time left.{fe}I'll pass on to you the special techniques {tEB:02} and {tF3:01}.{fe}- {hero0} learned {tEB:02}.{n}{hero2} learned {tF3:01}.{sync}{fe}- {hero0} and {hero2}'s max TP went up.{sync}{fe}The king is in {tED:2F}. The password is \"Tiger, tiger, tiger.\"{f1}{end}"
  },
  {
   "id": "0F:E314",
   "jp": "たのんだぞ。{n}おうは {tED:2F}にいる。{n}あいことばは 「トラ・トラ・トラ」だ。{end}",
-  "en": ""
+  "en": "I'm counting on you. The king is in {tED:2F}. The password is \"Tiger, tiger, tiger.\"{end}"
  },
  {
   "id": "0F:E33A",
   "jp": "この ボタンをおすと ここにある ミサイルが{n}{tED:25}に はっしゃされて・・・。{n}ドッカ~ン って いうわけだ。{end}",
-  "en": ""
+  "en": "When you push this button, the missile here launches at {tED:25}, and... KABOOOM! That's how it works.{end}"
  },
  {
   "id": "0F:E371",
   "jp": "おまえさんたち つよいなぁ。{n}がんばってくれよ。{end}",
-  "en": ""
+  "en": "You folks are strong. Keep it up.{end}"
  },
  {
   "id": "0F:E38A",
   "jp": "おまえ、 どのボタンを おしちゃ ダメなのか{n}しらねぇかぁ？{fe}わからなく なっちゃったよ。{end}",
-  "en": ""
+  "en": "Hey, do you know which button I'm not supposed to push?{fe}I forgot.{end}"
  },
  {
   "id": "0F:E3B8",
   "jp": "きたいしてるぞ。{end}",
-  "en": ""
+  "en": "We're counting on you.{end}"
  },
  {
   "id": "0F:E3C1",
   "jp": "いま {tED:25}に ミサイルをうちこむ{n}せつめいを しているんだ。{end}",
-  "en": ""
+  "en": "I'm explaining how we're going to fire the missile at {tED:25}.{end}"
  },
  {
   "id": "0F:E3E0",
   "jp": "だんちょうは {tEC:0F}から ここにある{n}ミサイルを {tEC:2A}に ぶちこむよう{n}しれいを うけている。{end}",
-  "en": ""
+  "en": "The captain's been ordered by {tEC:0F} to blast {tEC:2A} with the missile here.{end}"
  },
  {
   "id": "0F:E40F",
   "jp": "おっ、 しんいりかぁ。{n}だんちょうの ところに いって{n}あいさつでも するんだな。{end}",
-  "en": ""
+  "en": "Oh, a new recruit? Go see the captain and say hello.{end}"
  },
  {
   "id": "0F:E439",
   "jp": "きしだんいん って もっと かっこいいもんだと{n}おもってたぜ。{fe}それが まいにち まいにち こんな しごとだ。{n}はやく かえりてぇなぁ。{end}",
-  "en": ""
+  "en": "I thought being a knight would be way cooler.{fe}Instead it's this kind of work, day after day. I wanna go home.{end}"
  },
  {
   "id": "0F:E47E",
   "jp": "まいにち まいにち ミサイルの かやくの{n}ちょうせい。{n}やんなっちゃうよ。{fe}しかしだ、{n}きしだんいんは うえからの めいれいが{n}「ぜったい」なのだ。{end}",
-  "en": ""
+  "en": "Day after day, adjusting the missile's gunpowder. I'm sick of it.{fe}But still, for a knight, orders from above are \"absolute.\"{end}"
  },
  {
   "id": "0F:E4C9",
   "jp": "だんちょうは {tED:25}に ミサイルを{n}うちこむ めいれいまで うけちゃったんだ。{fe}でも だんちょうは いったんだ。{n}もうすぐ いい よのなかが くるよ って。{n}おれは しんじるぜ。{end}",
-  "en": ""
+  "en": "The captain's even been ordered to fire the missile at {tED:25}.{fe}But the captain said better times are coming soon. I believe him.{end}"
  },
  {
   "id": "0F:E522",
   "jp": "いい よのなかに してくれよ。{end}",
-  "en": ""
+  "en": "Make the world a better place, okay?{end}"
  }
 ]

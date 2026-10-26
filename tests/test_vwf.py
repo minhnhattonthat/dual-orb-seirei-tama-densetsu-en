@@ -41,9 +41,28 @@ def test_engine_touches_only_hook(engine):
     assert engine[0x2EB6:0x2EBB] == bytes.fromhex("08 22 00 80 b0".replace(" ", ""))
 
 
-def test_untranslated_en_build_keeps_text(engine):
+def test_untranslated_en_build_keeps_text(engine, monkeypatch):
+    blank = {name: [dict(e, en="") for e in es] for name, es in insert.script().items()}
+    monkeypatch.setattr(insert, "script", lambda: blank)
     out = insert.insert(engine, "en")
     assert all(hooked(i) for i in changed(ORIG, out))
+
+
+def test_en_dialogue_reaches_wrapped_english(engine):
+    out = insert.insert(engine, "en")
+    banks, refs = textmap.scan(ORIG)
+    en = {e["id"]: e for name, es in insert.script().items() if name.startswith("dialogue") for e in es}
+    seen = 0
+    for i, k in list(refs.items())[:40]:
+        a = int.from_bytes(out[i:i + 3], "little")
+        first = w16(out, off(a >> 16, a))
+        text = w16(out, off(a >> 16, first) + 8)
+        s, _ = insert.EN.decode(out, off(a >> 16, text))
+        orig_text = w16(ORIG, off(k >> 16, w16(ORIG, off(k >> 16, k & 0xFFFF))) + 8)
+        e = en[f"{k >> 16:02X}:{orig_text:04X}"]
+        assert s == (insert.wrap.wrap(e["en"])[0] if e["en"] else e["jp"]), e["id"]  # token-only strings stay
+        seen += 1
+    assert seen == 40
 
 
 def test_marker_build_reaches_markers(engine):

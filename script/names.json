@@ -2,3866 +2,3866 @@
  {
   "id": "E7:01",
   "jp": "ふく{end}",
-  "en": ""
+  "en": "Clothes{end}"
  },
  {
   "id": "E7:02",
   "jp": "ようせいのロ―ブ{end}",
-  "en": ""
+  "en": "Fairy Robe{end}"
  },
  {
   "id": "E7:03",
   "jp": "レオタ―ド{end}",
-  "en": ""
+  "en": "Leotard{end}"
  },
  {
   "id": "E7:04",
   "jp": "きぬのロ―ブ{end}",
-  "en": ""
+  "en": "Silk Robe{end}"
  },
  {
   "id": "E7:05",
   "jp": "きぬのドレス{end}",
-  "en": ""
+  "en": "Silk Dress{end}"
  },
  {
   "id": "E7:06",
   "jp": "バディノンのふく{end}",
-  "en": ""
+  "en": "Badinon Garb{end}"
  },
  {
   "id": "E7:07",
   "jp": "レザ―ア―マ―{end}",
-  "en": ""
+  "en": "Leather Armor{end}"
  },
  {
   "id": "E7:08",
   "jp": "サラディンのふく{end}",
-  "en": ""
+  "en": "Garb of Saladin{end}"
  },
  {
   "id": "E7:09",
   "jp": "スケイルア―マ―{end}",
-  "en": ""
+  "en": "Scale Armor{end}"
  },
  {
   "id": "E7:0A",
   "jp": "チェインメイル{end}",
-  "en": ""
+  "en": "Chain Mail{end}"
  },
  {
   "id": "E7:0B",
   "jp": "てつのよろい{end}",
-  "en": ""
+  "en": "Iron Armor{end}"
  },
  {
   "id": "E7:0C",
   "jp": "スチ―ムメイル{end}",
-  "en": ""
+  "en": "Steam Mail{end}"
  },
  {
   "id": "E7:0D",
   "jp": "ダイヤのよろい{end}",
-  "en": ""
+  "en": "Diamond Armor{end}"
  },
  {
   "id": "E7:0E",
   "jp": "クリスタルメイル{end}",
-  "en": ""
+  "en": "Crystal Mail{end}"
  },
  {
   "id": "E7:0F",
   "jp": "ましょうのよろい{end}",
-  "en": ""
+  "en": "Demon Armor{end}"
  },
  {
   "id": "E7:10",
   "jp": "ドラゴンメイル{end}",
-  "en": ""
+  "en": "Dragon Mail{end}"
  },
  {
   "id": "E7:11",
   "jp": "ラ―ゼスのよろい{end}",
-  "en": ""
+  "en": "Larzes Armor{end}"
  },
  {
   "id": "E7:12",
   "jp": "J・ファティ―グ{end}",
-  "en": ""
+  "en": "Jungle Fatigues{end}"
  },
  {
   "id": "E7:13",
   "jp": "せいじゃのふく{end}",
-  "en": ""
+  "en": "Saint's Garb{end}"
  },
  {
   "id": "E7:14",
   "jp": "せんしのふく{end}",
-  "en": ""
+  "en": "Warrior's Garb{end}"
  },
  {
   "id": "E7:15",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "E7:16",
   "jp": "ようせいのふく{end}",
-  "en": ""
+  "en": "Fairy Garb{end}"
  },
  {
   "id": "EA:01",
   "jp": "かわのくつ{end}",
-  "en": ""
+  "en": "Leather Shoes{end}"
  },
  {
   "id": "EA:02",
   "jp": "ようせいのブ―ツ{end}",
-  "en": ""
+  "en": "Fairy Boots{end}"
  },
  {
   "id": "EA:03",
   "jp": "バレ―シュ―ズ{end}",
-  "en": ""
+  "en": "Ballet Shoes{end}"
  },
  {
   "id": "EA:04",
   "jp": "おしゃれなくつ{end}",
-  "en": ""
+  "en": "Fancy Shoes{end}"
  },
  {
   "id": "EA:05",
   "jp": "レザ―ブ―ツ{end}",
-  "en": ""
+  "en": "Leather Boots{end}"
  },
  {
   "id": "EA:06",
   "jp": "グリ―ブ{end}",
-  "en": ""
+  "en": "Greaves{end}"
  },
  {
   "id": "EA:07",
   "jp": "スチ―ムブ―ツ{end}",
-  "en": ""
+  "en": "Steam Boots{end}"
  },
  {
   "id": "EA:08",
   "jp": "クリスタルブ―ツ{end}",
-  "en": ""
+  "en": "Crystal Boots{end}"
  },
  {
   "id": "EA:09",
   "jp": "ましょうのブ―ツ{end}",
-  "en": ""
+  "en": "Demon Boots{end}"
  },
  {
   "id": "EA:0A",
   "jp": "ドラゴングリ―ブ{end}",
-  "en": ""
+  "en": "Dragon Greaves{end}"
  },
  {
   "id": "EA:0B",
   "jp": "ラ―ゼスのブ―ツ{end}",
-  "en": ""
+  "en": "Larzes Boots{end}"
  },
  {
   "id": "EA:0C",
   "jp": "ようせいのくつ{end}",
-  "en": ""
+  "en": "Fairy Shoes{end}"
  },
  {
   "id": "EA:0D",
   "jp": "ダイヤのグリ―ブ{end}",
-  "en": ""
+  "en": "Diamond Greaves{end}"
  },
  {
   "id": "E9:01",
   "jp": "ぼうし{end}",
-  "en": ""
+  "en": "Hat{end}"
  },
  {
   "id": "E9:02",
   "jp": "ようせいのぼうし{end}",
-  "en": ""
+  "en": "Fairy Hat{end}"
  },
  {
   "id": "E9:03",
   "jp": "きぬのベ―ル{end}",
-  "en": ""
+  "en": "Silk Veil{end}"
  },
  {
   "id": "E9:04",
   "jp": "レザ―ヘルメット{end}",
-  "en": ""
+  "en": "Leather Helmet{end}"
  },
  {
   "id": "E9:05",
   "jp": "てつのかぶと{end}",
-  "en": ""
+  "en": "Iron Helm{end}"
  },
  {
   "id": "E9:06",
   "jp": "クロ―スメット{end}",
-  "en": ""
+  "en": "Close Helm{end}"
  },
  {
   "id": "E9:07",
   "jp": "スチ―ムメット{end}",
-  "en": ""
+  "en": "Steam Helm{end}"
  },
  {
   "id": "E9:08",
   "jp": "クリスタルメット{end}",
-  "en": ""
+  "en": "Crystal Helm{end}"
  },
  {
   "id": "E9:09",
   "jp": "ましょうのかぶと{end}",
-  "en": ""
+  "en": "Demon Helm{end}"
  },
  {
   "id": "E9:0A",
   "jp": "ドラゴンメット{end}",
-  "en": ""
+  "en": "Dragon Helm{end}"
  },
  {
   "id": "E9:0B",
   "jp": "ラ―ゼスのかぶと{end}",
-  "en": ""
+  "en": "Larzes Helm{end}"
  },
  {
   "id": "E9:0C",
   "jp": "ダイヤのかぶと{end}",
-  "en": ""
+  "en": "Diamond Helm{end}"
  },
  {
   "id": "EB:01",
   "jp": "たいようけん{end}",
-  "en": ""
+  "en": "Sun Blade{end}"
  },
  {
   "id": "EB:02",
   "jp": "しっぷうけん{end}",
-  "en": ""
+  "en": "Gale Blade{end}"
  },
  {
   "id": "EB:03",
   "jp": "げっこうけん{end}",
-  "en": ""
+  "en": "Moonlight Blade{end}"
  },
  {
   "id": "EB:04",
   "jp": "はどうけん{end}",
-  "en": ""
+  "en": "Surge Blade{end}"
  },
  {
   "id": "EB:05",
   "jp": "まどうけん{end}",
-  "en": ""
+  "en": "Daze Blade{end}"
  },
  {
   "id": "F3:01",
   "jp": "バイアタックス{end}",
-  "en": ""
+  "en": "Bi-Attack{end}"
  },
  {
   "id": "F3:02",
   "jp": "フルアタックス{end}",
-  "en": ""
+  "en": "Full Attack{end}"
  },
  {
   "id": "F3:03",
   "jp": "ビカラ―ズ{end}",
-  "en": ""
+  "en": "Bicolor{end}"
  },
  {
   "id": "F3:04",
   "jp": "エスケプス{end}",
-  "en": ""
+  "en": "Escape{end}"
  },
  {
   "id": "F3:05",
   "jp": "スアリ―ヒッツ{end}",
-  "en": ""
+  "en": "Sure Hit{end}"
  },
  {
   "id": "F3:06",
   "jp": "ピックパケッツ{end}",
-  "en": ""
+  "en": "Pickpocket{end}"
  },
  {
   "id": "EC:01",
   "jp": "ラ―ゼス{end}",
-  "en": ""
+  "en": "Larzes{end}"
  },
  {
   "id": "EC:02",
   "jp": "ガルバ{end}",
-  "en": ""
+  "en": "Galba{end}"
  },
  {
   "id": "EC:03",
   "jp": "ドラゴン{end}",
-  "en": ""
+  "en": "Dragon{end}"
  },
  {
   "id": "EC:04",
   "jp": "「オ―ブ」{end}",
-  "en": ""
+  "en": "\"Orb\"{end}"
  },
  {
   "id": "EC:05",
   "jp": "ペガシオン{end}",
-  "en": ""
+  "en": "Pegasion{end}"
  },
  {
   "id": "EC:06",
   "jp": "ガイゼン{end}",
-  "en": ""
+  "en": "Gaizen{end}"
  },
  {
   "id": "EC:07",
   "jp": "デュ―サスのくに{end}",
-  "en": ""
+  "en": "Kingdom of Dusas{end}"
  },
  {
   "id": "EC:08",
   "jp": "ポリドス{end}",
-  "en": ""
+  "en": "Polydos{end}"
  },
  {
   "id": "EC:09",
   "jp": "マ―ゼン{end}",
-  "en": ""
+  "en": "Marzen{end}"
  },
  {
   "id": "EC:0A",
   "jp": "ナクシュ{end}",
-  "en": ""
+  "en": "Nakush{end}"
  },
  {
   "id": "EC:0B",
   "jp": "デュ―サス{end}",
-  "en": ""
+  "en": "Dusas{end}"
  },
  {
   "id": "EC:0C",
   "jp": "マテスン{end}",
-  "en": ""
+  "en": "Matteson{end}"
  },
  {
   "id": "EC:0D",
   "jp": "ゴ―リア{end}",
-  "en": ""
+  "en": "Goria{end}"
  },
  {
   "id": "EC:0E",
   "jp": "サラディン{end}",
-  "en": ""
+  "en": "Saladin{end}"
  },
  {
   "id": "EC:0F",
   "jp": "ギ―タ―{end}",
-  "en": ""
+  "en": "Gieter{end}"
  },
  {
   "id": "EC:10",
   "jp": "ろくましょう{end}",
-  "en": ""
+  "en": "Six Generals{end}"
  },
  {
   "id": "EC:11",
   "jp": "ディグバディノン{end}",
-  "en": ""
+  "en": "Digbadinon{end}"
  },
  {
   "id": "EC:12",
   "jp": "ガッシュ{end}",
-  "en": ""
+  "en": "Gash{end}"
  },
  {
   "id": "EC:13",
   "jp": "バディッシュ{end}",
-  "en": ""
+  "en": "Badish{end}"
  },
  {
   "id": "EC:14",
   "jp": "ラディッシュ{end}",
-  "en": ""
+  "en": "Radish{end}"
  },
  {
   "id": "EC:15",
   "jp": "ソ―ン・ジ―ナ{end}",
-  "en": ""
+  "en": "Thorn Gina{end}"
  },
  {
   "id": "EC:16",
   "jp": "エイゼル{end}",
-  "en": ""
+  "en": "Eizel{end}"
  },
  {
   "id": "EC:17",
   "jp": "ラ―ザ{end}",
-  "en": ""
+  "en": "Larza{end}"
  },
  {
   "id": "EC:18",
   "jp": "ゴ―レムしんぷ{end}",
-  "en": ""
+  "en": "Father Golem{end}"
  },
  {
   "id": "EC:19",
   "jp": "リンダ{end}",
-  "en": ""
+  "en": "Linda{end}"
  },
  {
   "id": "EC:1A",
   "jp": "テレサ{end}",
-  "en": ""
+  "en": "Teresa{end}"
  },
  {
   "id": "EC:1B",
   "jp": "コスタリアン{end}",
-  "en": ""
+  "en": "Costarian{end}"
  },
  {
   "id": "EC:1C",
   "jp": "アルペジ―ノ{end}",
-  "en": ""
+  "en": "Arpeggino{end}"
  },
  {
   "id": "EC:1D",
   "jp": "サラ{end}",
-  "en": ""
+  "en": "Sara{end}"
  },
  {
   "id": "EC:1E",
   "jp": "バスウ{end}",
-  "en": ""
+  "en": "Basu{end}"
  },
  {
   "id": "EC:1F",
   "jp": "ジョシュアちほう{end}",
-  "en": ""
+  "en": "Joshua Region{end}"
  },
  {
   "id": "EC:20",
   "jp": "タ―ナちほう{end}",
-  "en": ""
+  "en": "Tarna Region{end}"
  },
  {
   "id": "EC:21",
   "jp": "ラポレちほう{end}",
-  "en": ""
+  "en": "Rapole Region{end}"
  },
  {
   "id": "EC:22",
   "jp": "ゴナ―ルちほう{end}",
-  "en": ""
+  "en": "Gonar Region{end}"
  },
  {
   "id": "EC:23",
   "jp": "トレンシアちほう{end}",
-  "en": ""
+  "en": "Trencia Region{end}"
  },
  {
   "id": "EC:24",
   "jp": "ラポレ{end}",
-  "en": ""
+  "en": "Rapole{end}"
  },
  {
   "id": "EC:25",
   "jp": "ジョシュア{end}",
-  "en": ""
+  "en": "Joshua{end}"
  },
  {
   "id": "EC:26",
   "jp": "ギプロス{end}",
-  "en": ""
+  "en": "Gipros{end}"
  },
  {
   "id": "EC:27",
   "jp": "デナ{end}",
-  "en": ""
+  "en": "Dena{end}"
  },
  {
   "id": "EC:28",
   "jp": "こうりゅうかい{end}",
-  "en": ""
+  "en": "Koryukai{end}"
  },
  {
   "id": "EC:29",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "EC:2A",
   "jp": "ミネア{end}",
-  "en": ""
+  "en": "Minea{end}"
  },
  {
   "id": "EC:2B",
   "jp": "ヴィクラム{end}",
-  "en": ""
+  "en": "Vikram{end}"
  },
  {
   "id": "EC:2C",
   "jp": "ラポレ{end}",
-  "en": ""
+  "en": "Rapole{end}"
  },
  {
   "id": "EC:2D",
   "jp": "ラ―ザ{end}",
-  "en": ""
+  "en": "Larza{end}"
  },
  {
   "id": "EC:2E",
   "jp": "トレンシア{end}",
-  "en": ""
+  "en": "Trencia{end}"
  },
  {
   "id": "EC:2F",
   "jp": "ダイヤ{end}",
-  "en": ""
+  "en": "Diamond{end}"
  },
  {
   "id": "EC:30",
   "jp": "ルネッサス{end}",
-  "en": ""
+  "en": "Renessas{end}"
  },
  {
   "id": "EC:31",
   "jp": "ゴブリン{end}",
-  "en": ""
+  "en": "Goblin{end}"
  },
  {
   "id": "EC:32",
   "jp": "ゴブリンたいじ{end}",
-  "en": ""
+  "en": "Goblin Hunt{end}"
  },
  {
   "id": "EC:33",
   "jp": "「パンジェ」{end}",
-  "en": ""
+  "en": "\"Panje\"{end}"
  },
  {
   "id": "EC:34",
   "jp": "フェニックス{end}",
-  "en": ""
+  "en": "Phoenix{end}"
  },
  {
   "id": "EC:35",
   "jp": "ガルバのてした{end}",
-  "en": ""
+  "en": "Galba's minions{end}"
  },
  {
   "id": "EC:36",
   "jp": "リンダちゃん{end}",
-  "en": ""
+  "en": "Linda-chan{end}"
  },
  {
   "id": "EC:37",
   "jp": "ジョシュアのおう{end}",
-  "en": ""
+  "en": "King of Joshua{end}"
  },
  {
   "id": "EC:38",
   "jp": "ミネアの{end}",
-  "en": ""
+  "en": "Minea's{end}"
  },
  {
   "id": "EC:39",
   "jp": "トレンシアのおう{end}",
-  "en": ""
+  "en": "King of Trencia{end}"
  },
  {
   "id": "EC:3A",
   "jp": "トレンシアの ち{end}",
-  "en": ""
+  "en": "Trencia's{end}"
  },
  {
   "id": "EC:3B",
   "jp": "ギ―タ―から{end}",
-  "en": ""
+  "en": "from Gieter{end}"
  },
  {
   "id": "EC:3C",
   "jp": "ファミル{end}",
-  "en": ""
+  "en": "Famil{end}"
  },
  {
   "id": "EC:3D",
   "jp": "デナを ほろぼす{end}",
-  "en": ""
+  "en": "to destroy Dena{end}"
  },
  {
   "id": "EC:3E",
   "jp": "し、 パンジェを{end}",
-  "en": ""
+  "en": ", and the Panje{end}"
  },
  {
   "id": "EC:3F",
   "jp": "バディノンしんで{end}",
-  "en": ""
+  "en": "St. Badinon Temple{end}"
  },
  {
   "id": "EC:40",
   "jp": "「パンジェ」の{end}",
-  "en": ""
+  "en": "of the \"Panje\"{end}"
  },
  {
   "id": "EC:41",
   "jp": "ラ―ゼスによって{end}",
-  "en": ""
+  "en": "by Larzes{end}"
  },
  {
   "id": "EC:42",
   "jp": "ドラゴンの「オ―{end}",
-  "en": ""
+  "en": "the dragon's \"Orb\"{end}"
  },
  {
   "id": "EC:43",
   "jp": "ドラゴンが その{end}",
-  "en": ""
+  "en": "the dragon{end}"
  },
  {
   "id": "EC:44",
   "jp": "サラディンの へ{end}",
-  "en": ""
+  "en": "Saladin's soldiers{end}"
  },
  {
   "id": "EC:45",
   "jp": "ポリドスのシンボ{end}",
-  "en": ""
+  "en": "symbol of Polydos{end}"
  },
  {
   "id": "EC:46",
   "jp": "ラ―ザの かたみ{end}",
-  "en": ""
+  "en": "Larza's keepsake{end}"
  },
  {
   "id": "EC:47",
   "jp": "ゴ―リアという{end}",
-  "en": ""
+  "en": "the man called Goria{end}"
  },
  {
   "id": "EC:48",
   "jp": "サラディンは と{end}",
-  "en": ""
+  "en": "Saladin{end}"
  },
  {
   "id": "EC:49",
   "jp": "サラディンゆかり{end}",
-  "en": ""
+  "en": "Saladin's{end}"
  },
  {
   "id": "EC:4A",
   "jp": "サラディンの{end}",
-  "en": ""
+  "en": "Saladin's{end}"
  },
  {
   "id": "EC:4B",
   "jp": "ジョシュアのきし{end}",
-  "en": ""
+  "en": "Knight of Joshua{end}"
  },
  {
   "id": "EC:4C",
   "jp": "ファミルのきし{end}",
-  "en": ""
+  "en": "Knight of Famil{end}"
  },
  {
   "id": "EC:4D",
   "jp": "ファミルから い{end}",
-  "en": ""
+  "en": "from Famil{end}"
  },
  {
   "id": "EC:4E",
   "jp": "サラっていう く{end}",
-  "en": ""
+  "en": "called Sara{end}"
  },
  {
   "id": "EC:4F",
   "jp": "ダイヤのけん・{end}",
-  "en": ""
+  "en": "Diamond Sword,{end}"
  },
  {
   "id": "EC:50",
   "jp": "ダイヤのよろい・{end}",
-  "en": ""
+  "en": "Diamond Armor,{end}"
  },
  {
   "id": "EC:51",
   "jp": "ダイヤのたて・{end}",
-  "en": ""
+  "en": "Diamond Shield,{end}"
  },
  {
   "id": "EC:52",
   "jp": "デナの ぼうれい{end}",
-  "en": ""
+  "en": "Dena's ghosts{end}"
  },
  {
   "id": "EC:53",
   "jp": "タ―ナ{end}",
-  "en": ""
+  "en": "Tarna{end}"
  },
  {
   "id": "EC:54",
   "jp": "ラ―ゼスのしめい{end}",
-  "en": ""
+  "en": "Larzes's mission{end}"
  },
  {
   "id": "EC:55",
   "jp": "ド バイ バスウ{end}",
-  "en": ""
+  "en": "Made by Basu{end}"
  },
  {
   "id": "EC:56",
   "jp": "あ~ん、 おきゃくさ~ん。{end}",
-  "en": ""
+  "en": "Aww, mister customer!{end}"
  },
  {
   "id": "EC:57",
   "jp": "ちゃんと おかねを はらって{end}",
-  "en": ""
+  "en": "Pay properly{end}"
  },
  {
   "id": "EC:58",
   "jp": "あっ！ おきゃくさん だめですよ、{end}",
-  "en": ""
+  "en": "Hey! You can't do that, customer,{end}"
  },
  {
   "id": "EC:59",
   "jp": "また うりものが できたら きてくださいよ。{end}",
-  "en": ""
+  "en": "Come again when you have more to sell.{end}"
  },
  {
   "id": "EC:5A",
   "jp": "ありがとう。 かんしゃの きもちとして{end}",
-  "en": ""
+  "en": "Thank you. As a token of my thanks,{end}"
  },
  {
   "id": "EC:5B",
   "jp": "おこまりのときは いつでも かみにすがれますよ。{end}",
-  "en": ""
+  "en": "In times of trouble, you may always turn to the gods.{end}"
  },
  {
   "id": "EC:5C",
   "jp": "ありがとうございます。 かんしゃの きもちとして{end}",
-  "en": ""
+  "en": "Thank you so much. As a token of my thanks,{end}"
  },
  {
   "id": "EC:5D",
   "jp": "ありがとうございました。{end}",
-  "en": ""
+  "en": "Thank you very much.{end}"
  },
  {
   "id": "EC:5E",
   "jp": "あんたたち おかね もってないねぇ。{end}",
-  "en": ""
+  "en": "You folks don't have any money, do you?{end}"
  },
  {
   "id": "EC:5F",
   "jp": "いってらっしゃい。{end}",
-  "en": ""
+  "en": "Take care out there.{end}"
  },
  {
   "id": "EC:60",
   "jp": "いつでも かみに すがれます。{end}",
-  "en": ""
+  "en": "You may turn to the gods anytime.{end}"
  },
  {
   "id": "EC:61",
   "jp": "おこまりのときには おいでください。{end}",
-  "en": ""
+  "en": "Come to us when you're in trouble.{end}"
  },
  {
   "id": "EC:62",
   "jp": "いのちが おしいなら おれに いいな。{end}",
-  "en": ""
+  "en": "If you value your life, talk to me.{end}"
  },
  {
   "id": "EC:63",
   "jp": "みをまもるぼうぐなら そろってるぜ。 みるかい？{end}",
-  "en": ""
+  "en": "I've got all the armor you need to stay safe. Want a look?{end}"
  },
  {
   "id": "EC:64",
   "jp": "いらっしゃ~い。{end}",
-  "en": ""
+  "en": "Welcoooome!{end}"
  },
  {
   "id": "EC:65",
   "jp": "うっているものを ごらんに なりますか？{end}",
-  "en": ""
+  "en": "Would you like to see our wares?{end}"
  },
  {
   "id": "EC:66",
   "jp": "うりたいものが あったら うりにきてくださいよ。{end}",
-  "en": ""
+  "en": "If you have anything to sell, come sell it here.{end}"
  },
  {
   "id": "EC:67",
   "jp": "うりたくなったら きてくださいよ。{end}",
-  "en": ""
+  "en": "Come by when you want to sell.{end}"
  },
  {
   "id": "EC:68",
   "jp": "うりものを みてみるかい？{end}",
-  "en": ""
+  "en": "Want to see what I've got?{end}"
  },
  {
   "id": "EC:69",
   "jp": "おこまりのときには いつでも おいでください。{end}",
-  "en": ""
+  "en": "Come to us anytime you're in trouble.{end}"
  },
  {
   "id": "EC:6A",
   "jp": "おねうちに ひきとりますから、{end}",
-  "en": ""
+  "en": "I'll pay you a fair price, so{end}"
  },
  {
   "id": "EC:6B",
   "jp": "かった しなものを せいさんするかい？{end}",
-  "en": ""
+  "en": "Want to settle up for what you bought?{end}"
  },
  {
   "id": "EC:6C",
   "jp": "かった しなものの だいきんは{end}",
-  "en": ""
+  "en": "The price of what you bought{end}"
  },
  {
   "id": "EC:6D",
   "jp": "かった しなものを せいさんしますか？{end}",
-  "en": ""
+  "en": "Will you settle up for your purchases?{end}"
  },
  {
   "id": "EC:6E",
   "jp": "かみに すがりたいときには いつでも きなさい。{end}",
-  "en": ""
+  "en": "Come anytime you wish to turn to the gods.{end}"
  },
  {
   "id": "EC:6F",
   "jp": "かみは よわきものの みかた{end}",
-  "en": ""
+  "en": "The gods stand with the weak{end}"
  },
  {
   "id": "EC:70",
   "jp": "ここは いらないものを うるところです。{end}",
-  "en": ""
+  "en": "This is where you sell what you don't need.{end}"
  },
  {
   "id": "EC:71",
   "jp": "それでは 100Gほど きふを いただきたい。{end}",
-  "en": ""
+  "en": "Then I would ask a donation of about 100G.{end}"
  },
  {
   "id": "EC:72",
   "jp": "それでは せめて まずしい こどもらに{end}",
-  "en": ""
+  "en": "Then at least, for the poor children,{end}"
  },
  {
   "id": "EC:73",
   "jp": "それは ざんねん{end}",
-  "en": ""
+  "en": "That's a shame{end}"
  },
  {
   "id": "EC:74",
   "jp": "つかれを とるには ねるのが いちばん。{end}",
-  "en": ""
+  "en": "Sleep is the best cure for weariness.{end}"
  },
  {
   "id": "EC:75",
   "jp": "とくに ようけんが ないようですが、 せめて{end}",
-  "en": ""
+  "en": "You seem to have no particular business, but at least{end}"
  },
  {
   "id": "EC:76",
   "jp": "とくに ようけんが ないようですね。{end}",
-  "en": ""
+  "en": "You seem to have no particular business.{end}"
  },
  {
   "id": "EC:77",
   "jp": "とまりたいときには いつでも きな。{end}",
-  "en": ""
+  "en": "Come by anytime you want to stay.{end}"
  },
  {
   "id": "EC:78",
   "jp": "なにか うりたくなったら いつでもおいで。{end}",
-  "en": ""
+  "en": "Come anytime you want to sell something.{end}"
  },
  {
   "id": "EC:79",
   "jp": "なにか うりに きたのかね？{end}",
-  "en": ""
+  "en": "Here to sell something?{end}"
  },
  {
   "id": "EC:7A",
   "jp": "どのは きふする おかねを{end}",
-  "en": ""
+  "en": "-dono, the money to donate{end}"
  },
  {
   "id": "EC:7B",
   "jp": "ひつような ものが あれば{end}",
-  "en": ""
+  "en": "If there's anything you need,{end}"
  },
  {
   "id": "EC:7C",
   "jp": "ひつようなときには いつでも きてくれ。{end}",
-  "en": ""
+  "en": "Come by anytime you need me.{end}"
  },
  {
   "id": "EC:7D",
   "jp": "ぶきなら なんでも そろってるぜ。{end}",
-  "en": ""
+  "en": "If it's weapons you want, I've got 'em all.{end}"
  },
  {
   "id": "EC:7E",
   "jp": "また いらして くださいね。{end}",
-  "en": ""
+  "en": "Please come again.{end}"
  },
  {
   "id": "EC:7F",
   "jp": "また うるものが できたら{end}",
-  "en": ""
+  "en": "When you have something to sell again,{end}"
  },
  {
   "id": "EC:80",
   "jp": "また きてください{end}",
-  "en": ""
+  "en": "Please come again{end}"
  },
  {
   "id": "EC:81",
   "jp": "ゆっくり できたかい？{end}",
-  "en": ""
+  "en": "Get a good rest?{end}"
  },
  {
   "id": "EC:82",
   "jp": "ゆっくりと やすむんだぜ。{end}",
-  "en": ""
+  "en": "Get some good rest, now.{end}"
  },
  {
   "id": "EC:83",
   "jp": "ようが ないなら くるんじゃないよ。{end}",
-  "en": ""
+  "en": "If you've got no business, don't come here.{end}"
  },
  {
   "id": "EC:84",
   "jp": "ようけんが ないようですね。 では きふを{end}",
-  "en": ""
+  "en": "You seem to have no business. Then, a donation of{end}"
  },
  {
   "id": "EC:85",
   "jp": "アイテムは ぼうけんに かかせない ものよ。{end}",
-  "en": ""
+  "en": "Items are a must for any adventure.{end}"
  },
  {
   "id": "EC:86",
   "jp": "ベッドは たびびとが いちばん やすめるところ。{end}",
-  "en": ""
+  "en": "A bed is the best place for a traveler to rest.{end}"
  },
  {
   "id": "EC:87",
   "jp": "を おわたししよう。{end}",
-  "en": ""
+  "en": "is yours to keep.{end}"
  },
  {
   "id": "EC:88",
   "jp": "を おうけとりください。{end}",
-  "en": ""
+  "en": "is yours. Please accept it.{end}"
  },
  {
   "id": "EC:89",
   "jp": "100G いただきたい。 どうであろうか？{end}",
-  "en": ""
+  "en": "I would ask 100G. What say you?{end}"
  },
  {
   "id": "EC:8A",
   "jp": "50Gの きふを いただけませんでしょうか？{end}",
-  "en": ""
+  "en": "Could you spare a donation of 50G?{end}"
  },
  {
   "id": "EC:8B",
   "jp": "いつでも きてください。{end}",
-  "en": ""
+  "en": "Come anytime.{end}"
  },
  {
   "id": "EC:8C",
   "jp": "いつでも こえを かけてください。{end}",
-  "en": ""
+  "en": "Call on me anytime.{end}"
  },
  {
   "id": "EC:8D",
   "jp": "うっているものを みてみるかい？{end}",
-  "en": ""
+  "en": "Want to see what I'm selling?{end}"
  },
  {
   "id": "EC:8E",
   "jp": "うりに きてくださいよ。{end}",
-  "en": ""
+  "en": "Come sell to me.{end}"
  },
  {
   "id": "EC:8F",
   "jp": "おきをつけて いってらっしゃい。{end}",
-  "en": ""
+  "en": "Take care on your way.{end}"
  },
  {
   "id": "EC:90",
   "jp": "かみに すがりたければ いつでも きなさい。{end}",
-  "en": ""
+  "en": "Come anytime you would turn to the gods.{end}"
  },
  {
   "id": "EC:91",
   "jp": "きふを50Gほど いただけませんでしょうか？{end}",
-  "en": ""
+  "en": "Could you spare a donation of about 50G?{end}"
  },
  {
   "id": "EC:92",
   "jp": "きをつけて いくんだぜ。{end}",
-  "en": ""
+  "en": "Watch yourself out there.{end}"
  },
  {
   "id": "EC:93",
   "jp": "ここで はらっていって くださいね。{end}",
-  "en": ""
+  "en": "Please pay here before you go.{end}"
  },
  {
   "id": "EC:94",
   "jp": "ここでは ぶきを うってい{end}",
-  "en": ""
+  "en": "We sell weapons here.{end}"
  },
  {
   "id": "EC:95",
   "jp": "ここでは ぼうぐを うってい{end}",
-  "en": ""
+  "en": "We sell armor here.{end}"
  },
  {
   "id": "EC:96",
   "jp": "ここでは アイテムを うっている{end}",
-  "en": ""
+  "en": "We sell items here.{end}"
  },
  {
   "id": "EC:97",
   "jp": "だいきんは はらっていって ください。{end}",
-  "en": ""
+  "en": "Please pay before you go.{end}"
  },
  {
   "id": "EC:98",
   "jp": "どうであろう？{end}",
-  "en": ""
+  "en": "What say you?{end}"
  },
  {
   "id": "EC:99",
   "jp": "なにか うりますか？{end}",
-  "en": ""
+  "en": "Selling something?{end}"
  },
  {
   "id": "EC:9A",
   "jp": "なにか おかいもとめですか？{end}",
-  "en": ""
+  "en": "Looking to buy something?{end}"
  },
  {
   "id": "EC:9B",
   "jp": "なにか おこまりでしょうか？{end}",
-  "en": ""
+  "en": "Is something troubling you?{end}"
  },
  {
   "id": "EC:9C",
   "jp": "また うりにきてくださいよ。{end}",
-  "en": ""
+  "en": "Come sell to me again.{end}"
  },
  {
   "id": "EC:9D",
   "jp": "もっておられない。{end}",
-  "en": ""
+  "en": "does not have.{end}"
  },
  {
   "id": "EC:9E",
   "jp": "もっておられない。 その きもちだけで{end}",
-  "en": ""
+  "en": "does not have. The thought alone{end}"
  },
  {
   "id": "EC:9F",
   "jp": "おこまりのときには おいでください。{end}",
-  "en": ""
+  "en": "Come to us when you're in trouble.{end}"
  },
  {
   "id": "EC:A0",
   "jp": "じゅうぶんです。 また きてくだされ。{end}",
-  "en": ""
+  "en": "is enough. Do come again.{end}"
  },
  {
   "id": "EC:A1",
   "jp": "ときどき そのまま{end}",
-  "en": ""
+  "en": "Now and then, some{end}"
  },
  {
   "id": "EC:A2",
   "jp": "また きてくだされ。{end}",
-  "en": ""
+  "en": "Do come again.{end}"
  },
  {
   "id": "EC:A3",
   "jp": "ゴナ―ル{end}",
-  "en": ""
+  "en": "Gonar{end}"
  },
  {
   "id": "EC:A4",
   "jp": "エメラルドを お{end}",
-  "en": ""
+  "en": "placed the Emerald{end}"
  },
  {
   "id": "EC:A5",
   "jp": "ルビ―を おいた{end}",
-  "en": ""
+  "en": "placed the Ruby{end}"
  },
  {
   "id": "EC:A6",
   "jp": "アレイトス{end}",
-  "en": ""
+  "en": "Aleitos{end}"
  },
  {
   "id": "EC:A7",
   "jp": "ドラゴン・ラ―ゼ{end}",
-  "en": ""
+  "en": "Dragon Larzes{end}"
  },
  {
   "id": "EC:A8",
   "jp": "パンジェ{end}",
-  "en": ""
+  "en": "Panje{end}"
  },
  {
   "id": "EC:A9",
   "jp": "ガルバは ドラゴ{end}",
-  "en": ""
+  "en": "Galba, the dragon{end}"
  },
  {
   "id": "EC:AA",
   "jp": "ゴ―リアは われ{end}",
-  "en": ""
+  "en": "Goria, we{end}"
  },
  {
   "id": "E5:01",
   "jp": "オ―ブ{end}",
-  "en": ""
+  "en": "Orb{end}"
  },
  {
   "id": "E5:02",
   "jp": "ようせいのかぎ{end}",
-  "en": ""
+  "en": "Fairy Key{end}"
  },
  {
   "id": "E5:03",
   "jp": "ギヤマンのかざり{end}",
-  "en": ""
+  "en": "Glass Ornament{end}"
  },
  {
   "id": "E5:04",
   "jp": "たいようのかがみ{end}",
-  "en": ""
+  "en": "Sun Mirror{end}"
  },
  {
   "id": "E5:05",
   "jp": "ラ―ゼスのひかり{end}",
-  "en": ""
+  "en": "Light of Larzes{end}"
  },
  {
   "id": "E5:06",
   "jp": "ポリドスのふね{end}",
-  "en": ""
+  "en": "Polydos Ship{end}"
  },
  {
   "id": "E5:07",
   "jp": "たいりょくのもと{end}",
-  "en": ""
+  "en": "Vigor Essence{end}"
  },
  {
   "id": "E5:08",
   "jp": "あかいつえ{end}",
-  "en": ""
+  "en": "Red Staff{end}"
  },
  {
   "id": "E5:09",
   "jp": "あおいつえ{end}",
-  "en": ""
+  "en": "Blue Staff{end}"
  },
  {
   "id": "E5:0A",
   "jp": "スチ―ムマシン{end}",
-  "en": ""
+  "en": "Steam Machine{end}"
  },
  {
   "id": "E5:0B",
   "jp": "セラミック{end}",
-  "en": ""
+  "en": "Ceramic{end}"
  },
  {
   "id": "E5:0C",
   "jp": "はたおりき{end}",
-  "en": ""
+  "en": "Loom{end}"
  },
  {
   "id": "E5:0D",
   "jp": "トロッコ{end}",
-  "en": ""
+  "en": "Trolley{end}"
  },
  {
   "id": "E5:0E",
   "jp": "パンジェ{end}",
-  "en": ""
+  "en": "Panje{end}"
  },
  {
   "id": "E5:0F",
   "jp": "いのりのしょ{end}",
-  "en": ""
+  "en": "Book of Prayer{end}"
  },
  {
   "id": "E5:10",
   "jp": "ねむりぐすり{end}",
-  "en": ""
+  "en": "Sleep Potion{end}"
  },
  {
   "id": "E5:11",
   "jp": "リモコン{end}",
-  "en": ""
+  "en": "Remote Control{end}"
  },
  {
   "id": "E5:12",
   "jp": "ルビ―{end}",
-  "en": ""
+  "en": "Ruby{end}"
  },
  {
   "id": "E5:13",
   "jp": "エメラルド{end}",
-  "en": ""
+  "en": "Emerald{end}"
  },
  {
   "id": "E5:14",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "E5:15",
   "jp": "やくそう{end}",
-  "en": ""
+  "en": "Herb{end}"
  },
  {
   "id": "E5:16",
   "jp": "どくけしそう{end}",
-  "en": ""
+  "en": "Antidote Herb{end}"
  },
  {
   "id": "E5:17",
   "jp": "シルフのうでわ{end}",
-  "en": ""
+  "en": "Sylph Bracelet{end}"
  },
  {
   "id": "E5:18",
   "jp": "トロルのめ{end}",
-  "en": ""
+  "en": "Troll Eye{end}"
  },
  {
   "id": "E5:19",
   "jp": "たいようのかけら{end}",
-  "en": ""
+  "en": "Sun Shard{end}"
  },
  {
   "id": "E5:1A",
   "jp": "つきのかけら{end}",
-  "en": ""
+  "en": "Moon Shard{end}"
  },
  {
   "id": "E5:1B",
   "jp": "いのちのかぜ{end}",
-  "en": ""
+  "en": "Wind of Life{end}"
  },
  {
   "id": "E5:1C",
   "jp": "トパ―ズのこな{end}",
-  "en": ""
+  "en": "Topaz Dust{end}"
  },
  {
   "id": "E5:1D",
   "jp": "バッカスのふえ{end}",
-  "en": ""
+  "en": "Bacchus Flute{end}"
  },
  {
   "id": "E5:1E",
   "jp": "ふしぎなナッツ{end}",
-  "en": ""
+  "en": "Mystic Nut{end}"
  },
  {
   "id": "E5:1F",
   "jp": "ふしぎなリンゴ{end}",
-  "en": ""
+  "en": "Mystic Apple{end}"
  },
  {
   "id": "E5:20",
   "jp": "ふしぎなきのこ{end}",
-  "en": ""
+  "en": "Mystic Mushroom{end}"
  },
  {
   "id": "E5:21",
   "jp": "ふしぎなクルミ{end}",
-  "en": ""
+  "en": "Mystic Walnut{end}"
  },
  {
   "id": "E5:22",
   "jp": "ふしぎなチェリ―{end}",
-  "en": ""
+  "en": "Mystic Cherry{end}"
  },
  {
   "id": "E5:23",
   "jp": "クラブのこうら{end}",
-  "en": ""
+  "en": "Crab Shell{end}"
  },
  {
   "id": "E5:24",
   "jp": "ブロ―のつの{end}",
-  "en": ""
+  "en": "Blow Horn{end}"
  },
  {
   "id": "E5:25",
   "jp": "フェアリ―のはね{end}",
-  "en": ""
+  "en": "Fairy Wing{end}"
  },
  {
   "id": "E5:26",
   "jp": "すなどけい{end}",
-  "en": ""
+  "en": "Hourglass{end}"
  },
  {
   "id": "E5:27",
   "jp": "くんしょう{end}",
-  "en": ""
+  "en": "Medal{end}"
  },
  {
   "id": "E5:28",
   "jp": "サラディンのけん{end}",
-  "en": ""
+  "en": "Sword of Saladin{end}"
  },
  {
   "id": "E5:29",
   "jp": "サラディンのふく{end}",
-  "en": ""
+  "en": "Garb of Saladin{end}"
  },
  {
   "id": "E5:2A",
   "jp": "サラディンのたて{end}",
-  "en": ""
+  "en": "Shield of Saladin{end}"
  },
  {
   "id": "E4:01",
   "jp": "リフィ{end}",
-  "en": ""
+  "en": "Refi{end}"
  },
  {
   "id": "E4:02",
   "jp": "リフィア{end}",
-  "en": ""
+  "en": "Refia{end}"
  },
  {
   "id": "E4:03",
   "jp": "リフィジア{end}",
-  "en": ""
+  "en": "Refizia{end}"
  },
  {
   "id": "E4:04",
   "jp": "リフィアム{end}",
-  "en": ""
+  "en": "Refiam{end}"
  },
  {
   "id": "E4:05",
   "jp": "リフィジアム{end}",
-  "en": ""
+  "en": "Refiziam{end}"
  },
  {
   "id": "E4:06",
   "jp": "デトキセ{end}",
-  "en": ""
+  "en": "Detoxe{end}"
  },
  {
   "id": "E4:07",
   "jp": "デトキセム{end}",
-  "en": ""
+  "en": "Detoxem{end}"
  },
  {
   "id": "E4:08",
   "jp": "リ―ベ{end}",
-  "en": ""
+  "en": "Rive{end}"
  },
  {
   "id": "E4:09",
   "jp": "リベム{end}",
-  "en": ""
+  "en": "Rivem{end}"
  },
  {
   "id": "E4:0A",
   "jp": "ベリフィ{end}",
-  "en": ""
+  "en": "Verifi{end}"
  },
  {
   "id": "E4:0B",
   "jp": "ベリフィア{end}",
-  "en": ""
+  "en": "Verifia{end}"
  },
  {
   "id": "E4:0C",
   "jp": "ベリフィジア{end}",
-  "en": ""
+  "en": "Verifizia{end}"
  },
  {
   "id": "E4:0D",
   "jp": "ベリフィアム{end}",
-  "en": ""
+  "en": "Verifiam{end}"
  },
  {
   "id": "E4:0E",
   "jp": "ベリフィジアム{end}",
-  "en": ""
+  "en": "Verifiziam{end}"
  },
  {
   "id": "E4:0F",
   "jp": "デシルド{end}",
-  "en": ""
+  "en": "Deshield{end}"
  },
  {
   "id": "E4:10",
   "jp": "デサラウト{end}",
-  "en": ""
+  "en": "Desaraud{end}"
  },
  {
   "id": "E4:11",
   "jp": "デニンブレ{end}",
-  "en": ""
+  "en": "Denimble{end}"
  },
  {
   "id": "E4:12",
   "jp": "ベスペラ{end}",
-  "en": ""
+  "en": "Vespera{end}"
  },
  {
   "id": "E4:13",
   "jp": "デモ―ブ{end}",
-  "en": ""
+  "en": "Demove{end}"
  },
  {
   "id": "E4:14",
   "jp": "デスペラ{end}",
-  "en": ""
+  "en": "Despera{end}"
  },
  {
   "id": "E4:15",
   "jp": "ソベルプ{end}",
-  "en": ""
+  "en": "Soberup{end}"
  },
  {
   "id": "E4:16",
   "jp": "リスペラ{end}",
-  "en": ""
+  "en": "Rispera{end}"
  },
  {
   "id": "E4:17",
   "jp": "テレピア{end}",
-  "en": ""
+  "en": "Telepia{end}"
  },
  {
   "id": "F2:01",
   "jp": "フレム{end}",
-  "en": ""
+  "en": "Flame{end}"
  },
  {
   "id": "F2:02",
   "jp": "フレマ{end}",
-  "en": ""
+  "en": "Flama{end}"
  },
  {
   "id": "F2:03",
   "jp": "フレマジア{end}",
-  "en": ""
+  "en": "Flamazia{end}"
  },
  {
   "id": "F2:04",
   "jp": "フレマム{end}",
-  "en": ""
+  "en": "Flamam{end}"
  },
  {
   "id": "F2:05",
   "jp": "フレマジアム{end}",
-  "en": ""
+  "en": "Flamaziam{end}"
  },
  {
   "id": "F2:06",
   "jp": "サドレ{end}",
-  "en": ""
+  "en": "Sadre{end}"
  },
  {
   "id": "F2:07",
   "jp": "サドラ{end}",
-  "en": ""
+  "en": "Sadra{end}"
  },
  {
   "id": "F2:08",
   "jp": "サドラジア{end}",
-  "en": ""
+  "en": "Sadrazia{end}"
  },
  {
   "id": "F2:09",
   "jp": "サドラム{end}",
-  "en": ""
+  "en": "Sadram{end}"
  },
  {
   "id": "F2:0A",
   "jp": "サドラジアム{end}",
-  "en": ""
+  "en": "Sadraziam{end}"
  },
  {
   "id": "F2:0B",
   "jp": "ブレヅ{end}",
-  "en": ""
+  "en": "Brez{end}"
  },
  {
   "id": "F2:0C",
   "jp": "ブレヅィア{end}",
-  "en": ""
+  "en": "Brezia{end}"
  },
  {
   "id": "F2:0D",
   "jp": "ブレツァジア{end}",
-  "en": ""
+  "en": "Brezazia{end}"
  },
  {
   "id": "F2:0E",
   "jp": "ブレヅアム{end}",
-  "en": ""
+  "en": "Brezam{end}"
  },
  {
   "id": "F2:0F",
   "jp": "ブレツァジアム{end}",
-  "en": ""
+  "en": "Brezaziam{end}"
  },
  {
   "id": "F2:10",
   "jp": "シルド{end}",
-  "en": ""
+  "en": "Shield{end}"
  },
  {
   "id": "F2:11",
   "jp": "サラウド{end}",
-  "en": ""
+  "en": "Saraud{end}"
  },
  {
   "id": "F2:12",
   "jp": "ニンブレ{end}",
-  "en": ""
+  "en": "Nimble{end}"
  },
  {
   "id": "F2:13",
   "jp": "ベスペラ{end}",
-  "en": ""
+  "en": "Vespera{end}"
  },
  {
   "id": "F2:14",
   "jp": "コンフセ{end}",
-  "en": ""
+  "en": "Confuse{end}"
  },
  {
   "id": "F2:15",
   "jp": "スレプ{end}",
-  "en": ""
+  "en": "Sleep{end}"
  },
  {
   "id": "F2:16",
   "jp": "テレピアム{end}",
-  "en": ""
+  "en": "Telepiam{end}"
  },
  {
   "id": "F2:17",
   "jp": "デメ―ト{end}",
-  "en": ""
+  "en": "Demete{end}"
  },
  {
   "id": "E8:01",
   "jp": "レザ―シ―ルド{end}",
-  "en": ""
+  "en": "Leather Shield{end}"
  },
  {
   "id": "E8:02",
   "jp": "ブレイサ―{end}",
-  "en": ""
+  "en": "Bracer{end}"
  },
  {
   "id": "E8:03",
   "jp": "ガントレット{end}",
-  "en": ""
+  "en": "Gauntlet{end}"
  },
  {
   "id": "E8:04",
   "jp": "きぬのてぶくろ{end}",
-  "en": ""
+  "en": "Silk Gloves{end}"
  },
  {
   "id": "E8:05",
   "jp": "サラディンのたて{end}",
-  "en": ""
+  "en": "Shield of Saladin{end}"
  },
  {
   "id": "E8:06",
   "jp": "てつのたて{end}",
-  "en": ""
+  "en": "Iron Shield{end}"
  },
  {
   "id": "E8:07",
   "jp": "スチ―ムシ―ルド{end}",
-  "en": ""
+  "en": "Steam Shield{end}"
  },
  {
   "id": "E8:08",
   "jp": "ダイヤのたて{end}",
-  "en": ""
+  "en": "Diamond Shield{end}"
  },
  {
   "id": "E8:09",
   "jp": "クリスタルのこて{end}",
-  "en": ""
+  "en": "Crystal Bracer{end}"
  },
  {
   "id": "E8:0A",
   "jp": "ましょうのたて{end}",
-  "en": ""
+  "en": "Demon Shield{end}"
  },
  {
   "id": "E8:0B",
   "jp": "ドラゴンシ―ルド{end}",
-  "en": ""
+  "en": "Dragon Shield{end}"
  },
  {
   "id": "E8:0C",
   "jp": "ラ―ゼスのたて{end}",
-  "en": ""
+  "en": "Larzes Shield{end}"
  },
  {
   "id": "E8:0D",
   "jp": "すで{end}",
-  "en": ""
+  "en": "Bare Hands{end}"
  },
  {
   "id": "E8:0E",
   "jp": "すで{end}",
-  "en": ""
+  "en": "Bare Hands{end}"
  },
  {
   "id": "E8:0F",
   "jp": "すで{end}",
-  "en": ""
+  "en": "Bare Hands{end}"
  },
  {
   "id": "E8:10",
   "jp": "すで{end}",
-  "en": ""
+  "en": "Bare Hands{end}"
  },
  {
   "id": "E6:01",
   "jp": "ナイフ{end}",
-  "en": ""
+  "en": "Knife{end}"
  },
  {
   "id": "E6:02",
   "jp": "ようせいのナイフ{end}",
-  "en": ""
+  "en": "Fairy Knife{end}"
  },
  {
   "id": "E6:03",
   "jp": "クリスタルナイフ{end}",
-  "en": ""
+  "en": "Crystal Knife{end}"
  },
  {
   "id": "E6:04",
   "jp": "ダガ―{end}",
-  "en": ""
+  "en": "Dagger{end}"
  },
  {
   "id": "E6:05",
   "jp": "ショ―トソ―ド{end}",
-  "en": ""
+  "en": "Short Sword{end}"
  },
  {
   "id": "E6:06",
   "jp": "グラディウス{end}",
-  "en": ""
+  "en": "Gladius{end}"
  },
  {
   "id": "E6:07",
   "jp": "ロングソ―ド{end}",
-  "en": ""
+  "en": "Long Sword{end}"
  },
  {
   "id": "E6:08",
   "jp": "サ―ベル{end}",
-  "en": ""
+  "en": "Saber{end}"
  },
  {
   "id": "E6:09",
   "jp": "サラディンのけん{end}",
-  "en": ""
+  "en": "Sword of Saladin{end}"
  },
  {
   "id": "E6:0A",
   "jp": "スチ―ムソ―ド{end}",
-  "en": ""
+  "en": "Steam Sword{end}"
  },
  {
   "id": "E6:0B",
   "jp": "ひかるけん{end}",
-  "en": ""
+  "en": "Shining Sword{end}"
  },
  {
   "id": "E6:0C",
   "jp": "ダイヤのけん{end}",
-  "en": ""
+  "en": "Diamond Sword{end}"
  },
  {
   "id": "E6:0D",
   "jp": "ましょうのけん{end}",
-  "en": ""
+  "en": "Demon Sword{end}"
  },
  {
   "id": "E6:0E",
   "jp": "ラ―ゼスのけん{end}",
-  "en": ""
+  "en": "Larzes Sword{end}"
  },
  {
   "id": "E6:0F",
   "jp": "たけやり{end}",
-  "en": ""
+  "en": "Bamboo Spear{end}"
  },
  {
   "id": "E6:10",
   "jp": "てつのやり{end}",
-  "en": ""
+  "en": "Iron Spear{end}"
  },
  {
   "id": "E6:11",
   "jp": "トライデント{end}",
-  "en": ""
+  "en": "Trident{end}"
  },
  {
   "id": "E6:12",
   "jp": "スチ―ムメイス{end}",
-  "en": ""
+  "en": "Steam Mace{end}"
  },
  {
   "id": "E6:13",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "E6:14",
   "jp": "ドラゴンメイス{end}",
-  "en": ""
+  "en": "Dragon Mace{end}"
  },
  {
   "id": "E6:15",
   "jp": "バッカスのおの{end}",
-  "en": ""
+  "en": "Bacchus Axe{end}"
  },
  {
   "id": "E6:16",
   "jp": "ギプロスのおの{end}",
-  "en": ""
+  "en": "Gipros Axe{end}"
  },
  {
   "id": "E6:17",
   "jp": "きんのおの{end}",
-  "en": ""
+  "en": "Gold Axe{end}"
  },
  {
   "id": "E6:18",
   "jp": "ようせいのつえ{end}",
-  "en": ""
+  "en": "Fairy Staff{end}"
  },
  {
   "id": "E6:19",
   "jp": "クリスタルロッド{end}",
-  "en": ""
+  "en": "Crystal Rod{end}"
  },
  {
   "id": "E6:1A",
   "jp": "ためらいのつえ{end}",
-  "en": ""
+  "en": "Falter Staff{end}"
  },
  {
   "id": "E6:1B",
   "jp": "きぬのつえ{end}",
-  "en": ""
+  "en": "Silk Staff{end}"
  },
  {
   "id": "E6:1C",
   "jp": "バディノンのつえ{end}",
-  "en": ""
+  "en": "Badinon Staff{end}"
  },
  {
   "id": "E6:1D",
   "jp": "クロスボウ{end}",
-  "en": ""
+  "en": "Crossbow{end}"
  },
  {
   "id": "E6:1E",
   "jp": "ハンティングボウ{end}",
-  "en": ""
+  "en": "Hunting Bow{end}"
  },
  {
   "id": "E6:1F",
   "jp": "バディノンのゆみ{end}",
-  "en": ""
+  "en": "Badinon Bow{end}"
  },
  {
   "id": "E6:20",
   "jp": "なまりのかなづち{end}",
-  "en": ""
+  "en": "Lead Hammer{end}"
  },
  {
   "id": "E6:21",
   "jp": "スチ―ムガン{end}",
-  "en": ""
+  "en": "Steam Gun{end}"
  },
  {
   "id": "E6:22",
   "jp": "ファイア―ガン{end}",
-  "en": ""
+  "en": "Fire Gun{end}"
  },
  {
   "id": "E6:23",
   "jp": "モ―ニングスタ―{end}",
-  "en": ""
+  "en": "Morning Star{end}"
  },
  {
   "id": "E6:24",
   "jp": "フレイル{end}",
-  "en": ""
+  "en": "Flail{end}"
  },
  {
   "id": "E6:25",
   "jp": "なめしがわのむち{end}",
-  "en": ""
+  "en": "Leather Whip{end}"
  },
  {
   "id": "E6:26",
   "jp": "てつのむち{end}",
-  "en": ""
+  "en": "Iron Whip{end}"
  },
  {
   "id": "E6:27",
   "jp": "スチ―ムハンマ―{end}",
-  "en": ""
+  "en": "Steam Hammer{end}"
  },
  {
   "id": "E6:28",
   "jp": "すで{end}",
-  "en": ""
+  "en": "Bare Hands{end}"
  },
  {
   "id": "E6:29",
   "jp": "すで{end}",
-  "en": ""
+  "en": "Bare Hands{end}"
  },
  {
   "id": "E6:2A",
   "jp": "すで{end}",
-  "en": ""
+  "en": "Bare Hands{end}"
  },
  {
   "id": "E6:2B",
   "jp": "すで{end}",
-  "en": ""
+  "en": "Bare Hands{end}"
  },
  {
   "id": "ED:01",
   "jp": "アレイトスのやま{end}",
-  "en": ""
+  "en": "Mount Aleitos{end}"
  },
  {
   "id": "ED:02",
   "jp": "アレイトスのいえ{end}",
-  "en": ""
+  "en": "Aleitos House{end}"
  },
  {
   "id": "ED:03",
   "jp": "ナクシュのむら{end}",
-  "en": ""
+  "en": "Nakush Village{end}"
  },
  {
   "id": "ED:04",
   "jp": "マ―ゼンのむら{end}",
-  "en": ""
+  "en": "Marzen Village{end}"
  },
  {
   "id": "ED:05",
   "jp": "ガイゼンのまち{end}",
-  "en": ""
+  "en": "Gaizen Town{end}"
  },
  {
   "id": "ED:06",
   "jp": "ペガシオンのしろ{end}",
-  "en": ""
+  "en": "Pegasion Castle{end}"
  },
  {
   "id": "ED:07",
   "jp": "ゴブリンのねじろ{end}",
-  "en": ""
+  "en": "Goblin Den{end}"
  },
  {
   "id": "ED:08",
   "jp": "ガイゼンのはし{end}",
-  "en": ""
+  "en": "Gaizen Bridge{end}"
  },
  {
   "id": "ED:09",
   "jp": "セント・バッカス{end}",
-  "en": ""
+  "en": "St. Bacchus{end}"
  },
  {
   "id": "ED:0A",
   "jp": "ようせいのもり{end}",
-  "en": ""
+  "en": "Fairy Forest{end}"
  },
  {
   "id": "ED:0B",
   "jp": "カイザのとう{end}",
-  "en": ""
+  "en": "Kaiza Tower{end}"
  },
  {
   "id": "ED:0C",
   "jp": "ポリドスのまち{end}",
-  "en": ""
+  "en": "Polydos Town{end}"
  },
  {
   "id": "ED:0D",
   "jp": "ポリドスのまち{end}",
-  "en": ""
+  "en": "Polydos Town{end}"
  },
  {
   "id": "ED:0E",
   "jp": "ニュ―ポリドス{end}",
-  "en": ""
+  "en": "New Polydos{end}"
  },
  {
   "id": "ED:0F",
   "jp": "たいようのほこら{end}",
-  "en": ""
+  "en": "Sun Shrine{end}"
  },
  {
   "id": "ED:10",
   "jp": "けっかい{end}",
-  "en": ""
+  "en": "Barrier{end}"
  },
  {
   "id": "ED:11",
   "jp": "デュ―サスのしろ{end}",
-  "en": ""
+  "en": "Dusas Castle{end}"
  },
  {
   "id": "ED:12",
   "jp": "さとりのとう{end}",
-  "en": ""
+  "en": "Tower of Insight{end}"
  },
  {
   "id": "ED:13",
   "jp": "サラディンのまち{end}",
-  "en": ""
+  "en": "Saladin Town{end}"
  },
  {
   "id": "ED:14",
   "jp": "なげきのどうくつ{end}",
-  "en": ""
+  "en": "Cave of Lament{end}"
  },
  {
   "id": "ED:15",
   "jp": "ポ―リ―のむら{end}",
-  "en": ""
+  "en": "Polly Village{end}"
  },
  {
   "id": "ED:16",
   "jp": "ちかすいどう{end}",
-  "en": ""
+  "en": "Underground Waterway{end}"
  },
  {
   "id": "ED:17",
   "jp": "コ―リ―のむら{end}",
-  "en": ""
+  "en": "Colly Village{end}"
  },
  {
   "id": "ED:18",
   "jp": "サラディンのはか{end}",
-  "en": ""
+  "en": "Saladin's Tomb{end}"
  },
  {
   "id": "ED:19",
   "jp": "かなしみのとう{end}",
-  "en": ""
+  "en": "Tower of Sorrow{end}"
  },
  {
   "id": "ED:1A",
   "jp": "セント・バッカス{end}",
-  "en": ""
+  "en": "St. Bacchus{end}"
  },
  {
   "id": "ED:1B",
   "jp": "あかずのほこら{end}",
-  "en": ""
+  "en": "Sealed Shrine{end}"
  },
  {
   "id": "ED:1C",
   "jp": "せいじゃのたき{end}",
-  "en": ""
+  "en": "Saint's Falls{end}"
  },
  {
   "id": "ED:1D",
   "jp": "レジスティホ―ム{end}",
-  "en": ""
+  "en": "Resisty Home{end}"
  },
  {
   "id": "ED:1E",
   "jp": "りゅうのけっかい{end}",
-  "en": ""
+  "en": "Dragon Barrier{end}"
  },
  {
   "id": "ED:1F",
   "jp": "テュリオスのまち{end}",
-  "en": ""
+  "en": "Tyrios Town{end}"
  },
  {
   "id": "ED:20",
   "jp": "ルネッサスのまち{end}",
-  "en": ""
+  "en": "Renessas Town{end}"
  },
  {
   "id": "ED:21",
   "jp": "ゴナ―ルのまち{end}",
-  "en": ""
+  "en": "Gonar Town{end}"
  },
  {
   "id": "ED:22",
   "jp": "ギプロスのまち{end}",
-  "en": ""
+  "en": "Gipros Town{end}"
  },
  {
   "id": "ED:23",
   "jp": "しんぷのまち{end}",
-  "en": ""
+  "en": "Priest Town{end}"
  },
  {
   "id": "ED:24",
   "jp": "デナのさと{end}",
-  "en": ""
+  "en": "Dena Hamlet{end}"
  },
  {
   "id": "ED:25",
   "jp": "ミネアのむら{end}",
-  "en": ""
+  "en": "Minea Village{end}"
  },
  {
   "id": "ED:26",
   "jp": "ポリドスのとう{end}",
-  "en": ""
+  "en": "Polydos Tower{end}"
  },
  {
   "id": "ED:27",
   "jp": "ジョシュアのしろ{end}",
-  "en": ""
+  "en": "Joshua Castle{end}"
  },
  {
   "id": "ED:28",
   "jp": "エスモのむら{end}",
-  "en": ""
+  "en": "Esmo Village{end}"
  },
  {
   "id": "ED:29",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "ED:2A",
   "jp": "ヴィクラムのむら{end}",
-  "en": ""
+  "en": "Vikram Village{end}"
  },
  {
   "id": "ED:2B",
   "jp": "ヴィクラムのまち{end}",
-  "en": ""
+  "en": "Vikram Town{end}"
  },
  {
   "id": "ED:2C",
   "jp": "ゆうわくのたに{end}",
-  "en": ""
+  "en": "Valley of Temptation{end}"
  },
  {
   "id": "ED:2D",
   "jp": "ゴ―ルドシティ{end}",
-  "en": ""
+  "en": "Gold City{end}"
  },
  {
   "id": "ED:2E",
   "jp": "とうぞくのやかた{end}",
-  "en": ""
+  "en": "Thieves' Mansion{end}"
  },
  {
   "id": "ED:2F",
   "jp": "ファミルのむら{end}",
-  "en": ""
+  "en": "Famil Village{end}"
  },
  {
   "id": "ED:30",
   "jp": "ギプロスはいこう{end}",
-  "en": ""
+  "en": "Old Gipros Mine{end}"
  },
  {
   "id": "ED:31",
   "jp": "バイロスはいこう{end}",
-  "en": ""
+  "en": "Old Byros Mine{end}"
  },
  {
   "id": "ED:32",
   "jp": "バイロスのむら{end}",
-  "en": ""
+  "en": "Byros Village{end}"
  },
  {
   "id": "ED:33",
   "jp": "ファミルはいこう{end}",
-  "en": ""
+  "en": "Old Famil Mine{end}"
  },
  {
   "id": "ED:34",
   "jp": "まどいのどうくつ{end}",
-  "en": ""
+  "en": "Cave of Doubt{end}"
  },
  {
   "id": "ED:35",
   "jp": "でんせつのとう{end}",
-  "en": ""
+  "en": "Tower of Legend{end}"
  },
  {
   "id": "ED:36",
   "jp": "バスウのほらあな{end}",
-  "en": ""
+  "en": "Basu's Cave{end}"
  },
  {
   "id": "ED:37",
   "jp": "タ―ナのしろ{end}",
-  "en": ""
+  "en": "Tarna Castle{end}"
  },
  {
   "id": "ED:38",
   "jp": "セントバディノン{end}",
-  "en": ""
+  "en": "St. Badinon{end}"
  },
  {
   "id": "ED:39",
   "jp": "ラポレのむら{end}",
-  "en": ""
+  "en": "Rapole Village{end}"
  },
  {
   "id": "ED:3A",
   "jp": "りゅうのどうくつ{end}",
-  "en": ""
+  "en": "Dragon Cave{end}"
  },
  {
   "id": "ED:3B",
   "jp": "さびれたやしき{end}",
-  "en": ""
+  "en": "Deserted Manor{end}"
  },
  {
   "id": "ED:3C",
   "jp": "デナのいせき{end}",
-  "en": ""
+  "en": "Dena Ruins{end}"
  },
  {
   "id": "ED:3D",
   "jp": "ティジアのしろ{end}",
-  "en": ""
+  "en": "Tizia Castle{end}"
  },
  {
   "id": "ED:3E",
   "jp": "プレシアンケ―ブ{end}",
-  "en": ""
+  "en": "Precian Cave{end}"
  },
  {
   "id": "ED:3F",
   "jp": "プレシアンケ―ブ{end}",
-  "en": ""
+  "en": "Precian Cave{end}"
  },
  {
   "id": "ED:40",
   "jp": "トレンシアのしろ{end}",
-  "en": ""
+  "en": "Trencia Castle{end}"
  },
  {
   "id": "ED:41",
   "jp": "ギルディタウン{end}",
-  "en": ""
+  "en": "Gildy Town{end}"
  },
  {
   "id": "ED:42",
   "jp": "パンジェのほこら{end}",
-  "en": ""
+  "en": "Panje Shrine{end}"
  },
  {
   "id": "ED:43",
   "jp": "りゅうのけっかい{end}",
-  "en": ""
+  "en": "Dragon Barrier{end}"
  },
  {
   "id": "ED:44",
   "jp": "こうていのやかた{end}",
-  "en": ""
+  "en": "Emperor's Mansion{end}"
  },
  {
   "id": "ED:45",
   "jp": "ラ―ザのどうくつ{end}",
-  "en": ""
+  "en": "Larza's Cave{end}"
  },
  {
   "id": "ED:46",
   "jp": "レイデスのまち{end}",
-  "en": ""
+  "en": "Reides Town{end}"
  },
  {
   "id": "ED:47",
   "jp": "ファミルのまち{end}",
-  "en": ""
+  "en": "Famil Town{end}"
  },
  {
   "id": "ED:48",
   "jp": "ファミルのしろ{end}",
-  "en": ""
+  "en": "Famil Castle{end}"
  },
  {
   "id": "ED:49",
   "jp": "まどいのどうくつ{end}",
-  "en": ""
+  "en": "Cave of Doubt{end}"
  },
  {
   "id": "F9:01",
   "jp": "マイコニド{end}",
-  "en": ""
+  "en": "Myconid{end}"
  },
  {
   "id": "F9:02",
   "jp": "リ―チザリ―チ{end}",
-  "en": ""
+  "en": "Leech the Leech{end}"
  },
  {
   "id": "F9:03",
   "jp": "シ―カ―{end}",
-  "en": ""
+  "en": "Seeker{end}"
  },
  {
   "id": "F9:04",
   "jp": "ゴンゲ―{end}",
-  "en": ""
+  "en": "Gongee{end}"
  },
  {
   "id": "F9:05",
   "jp": "ヴァウ{end}",
-  "en": ""
+  "en": "Vau{end}"
  },
  {
   "id": "F9:06",
   "jp": "フェイス{end}",
-  "en": ""
+  "en": "Face{end}"
  },
  {
   "id": "F9:07",
   "jp": "バグラット{end}",
-  "en": ""
+  "en": "Bugrat{end}"
  },
  {
   "id": "F9:08",
   "jp": "ドュル―ワ―{end}",
-  "en": ""
+  "en": "Duruwar{end}"
  },
  {
   "id": "F9:09",
   "jp": "ウィッチ{end}",
-  "en": ""
+  "en": "Witch{end}"
  },
  {
   "id": "F9:0A",
   "jp": "ダリュウ{end}",
-  "en": ""
+  "en": "Daryu{end}"
  },
  {
   "id": "F9:0B",
   "jp": "テトラドッグ{end}",
-  "en": ""
+  "en": "Tetradog{end}"
  },
  {
   "id": "F9:0C",
   "jp": "ドゴラ{end}",
-  "en": ""
+  "en": "Dogora{end}"
  },
  {
   "id": "F9:0D",
   "jp": "アサシン{end}",
-  "en": ""
+  "en": "Assassin{end}"
  },
  {
   "id": "F9:0E",
   "jp": "ジャイアント{end}",
-  "en": ""
+  "en": "Giant{end}"
  },
  {
   "id": "F9:0F",
   "jp": "ビャクオウ{end}",
-  "en": ""
+  "en": "Byakuoh{end}"
  },
  {
   "id": "F9:10",
   "jp": "フラワ―トラップ{end}",
-  "en": ""
+  "en": "Flower Trap{end}"
  },
  {
   "id": "F9:11",
   "jp": "コボルド{end}",
-  "en": ""
+  "en": "Kobold{end}"
  },
  {
   "id": "F9:12",
   "jp": "ユニコ―ン{end}",
-  "en": ""
+  "en": "Unicorn{end}"
  },
  {
   "id": "F9:13",
   "jp": "バ―サ―カ―{end}",
-  "en": ""
+  "en": "Berserker{end}"
  },
  {
   "id": "F9:14",
   "jp": "ワ―タイガ―{end}",
-  "en": ""
+  "en": "Weretiger{end}"
  },
  {
   "id": "F9:15",
   "jp": "ビャッコ{end}",
-  "en": ""
+  "en": "Byakko{end}"
  },
  {
   "id": "F9:16",
   "jp": "リザ―ドマン{end}",
-  "en": ""
+  "en": "Lizardman{end}"
  },
  {
   "id": "F9:17",
   "jp": "センチピ―ド{end}",
-  "en": ""
+  "en": "Centipede{end}"
  },
  {
   "id": "F9:18",
   "jp": "シュリ―カ―{end}",
-  "en": ""
+  "en": "Shrieker{end}"
  },
  {
   "id": "F9:19",
   "jp": "マッド{end}",
-  "en": ""
+  "en": "Mud{end}"
  },
  {
   "id": "F9:1A",
   "jp": "モスキット{end}",
-  "en": ""
+  "en": "Mosquito{end}"
  },
  {
   "id": "F9:1B",
   "jp": "ソウキ{end}",
-  "en": ""
+  "en": "Soki{end}"
  },
  {
   "id": "F9:1C",
   "jp": "マンティコア{end}",
-  "en": ""
+  "en": "Manticore{end}"
  },
  {
   "id": "F9:1D",
   "jp": "ボ―ルマウス{end}",
-  "en": ""
+  "en": "Ball Mouse{end}"
  },
  {
   "id": "F9:1E",
   "jp": "ゴブリン{end}",
-  "en": ""
+  "en": "Goblin{end}"
  },
  {
   "id": "F9:1F",
   "jp": "ハンギョ{end}",
-  "en": ""
+  "en": "Fishman{end}"
  },
  {
   "id": "F9:20",
   "jp": "サラマンドラ{end}",
-  "en": ""
+  "en": "Salamandra{end}"
  },
  {
   "id": "F9:21",
   "jp": "アイトロン{end}",
-  "en": ""
+  "en": "Eyetron{end}"
  },
  {
   "id": "F9:22",
   "jp": "ト―ド―{end}",
-  "en": ""
+  "en": "Toado{end}"
  },
  {
   "id": "F9:23",
   "jp": "ミニラット{end}",
-  "en": ""
+  "en": "Mini Rat{end}"
  },
  {
   "id": "F9:24",
   "jp": "ウォンオ―{end}",
-  "en": ""
+  "en": "Wonoh{end}"
  },
  {
   "id": "F9:25",
   "jp": "サンダ―アイ{end}",
-  "en": ""
+  "en": "Thunder Eye{end}"
  },
  {
   "id": "F9:26",
   "jp": "スプリングアイ{end}",
-  "en": ""
+  "en": "Spring Eye{end}"
  },
  {
   "id": "F9:27",
   "jp": "スティッカ―{end}",
-  "en": ""
+  "en": "Sticker{end}"
  },
  {
   "id": "F9:28",
   "jp": "バ―ナ―{end}",
-  "en": ""
+  "en": "Burner{end}"
  },
  {
   "id": "F9:29",
   "jp": "フリタスク{end}",
-  "en": ""
+  "en": "Fritask{end}"
  },
  {
   "id": "F9:2A",
   "jp": "スコ―テン{end}",
-  "en": ""
+  "en": "Scorten{end}"
  },
  {
   "id": "F9:2B",
   "jp": "スケルトンジョ―{end}",
-  "en": ""
+  "en": "Skeleton Jaw{end}"
  },
  {
   "id": "F9:2C",
   "jp": "スピナ―{end}",
-  "en": ""
+  "en": "Spinner{end}"
  },
  {
   "id": "F9:2D",
   "jp": "バンア―ト{end}",
-  "en": ""
+  "en": "Banart{end}"
  },
  {
   "id": "F9:2E",
   "jp": "スフェアバ―ド{end}",
-  "en": ""
+  "en": "Sphere Bird{end}"
  },
  {
   "id": "F9:2F",
   "jp": "ボトルシュ―{end}",
-  "en": ""
+  "en": "Bottleshoo{end}"
  },
  {
   "id": "F9:30",
   "jp": "モビルナイト{end}",
-  "en": ""
+  "en": "Mobile Knight{end}"
  },
  {
   "id": "F9:31",
   "jp": "タンクバトラ―{end}",
-  "en": ""
+  "en": "Tank Battler{end}"
  },
  {
   "id": "F9:32",
   "jp": "ドリルキ―ン{end}",
-  "en": ""
+  "en": "Drill Keen{end}"
  },
  {
   "id": "F9:33",
   "jp": "アイスバタフライ{end}",
-  "en": ""
+  "en": "Ice Butterfly{end}"
  },
  {
   "id": "F9:34",
   "jp": "フリッカ―{end}",
-  "en": ""
+  "en": "Flicker{end}"
  },
  {
   "id": "F9:35",
   "jp": "インセクタ―{end}",
-  "en": ""
+  "en": "Insecter{end}"
  },
  {
   "id": "F9:36",
   "jp": "ニブレソルジャ―{end}",
-  "en": ""
+  "en": "Nibre Soldier{end}"
  },
  {
   "id": "F9:37",
   "jp": "ボウワ―{end}",
-  "en": ""
+  "en": "Bower{end}"
  },
  {
   "id": "F9:38",
   "jp": "スノ―マン{end}",
-  "en": ""
+  "en": "Snowman{end}"
  },
  {
   "id": "F9:39",
   "jp": "エアスコ―ピオン{end}",
-  "en": ""
+  "en": "Air Scorpion{end}"
  },
  {
   "id": "F9:3A",
   "jp": "マンソルジャ―{end}",
-  "en": ""
+  "en": "Man Soldier{end}"
  },
  {
   "id": "F9:3B",
   "jp": "バテリタンク{end}",
-  "en": ""
+  "en": "Battery Tank{end}"
  },
  {
   "id": "F9:3C",
   "jp": "クラ―ケンナイト{end}",
-  "en": ""
+  "en": "Kraken Knight{end}"
  },
  {
   "id": "F9:3D",
   "jp": "ヒ―トナイト{end}",
-  "en": ""
+  "en": "Heat Knight{end}"
  },
  {
   "id": "F9:3E",
   "jp": "フィアソ―ド{end}",
-  "en": ""
+  "en": "Fear Sword{end}"
  },
  {
   "id": "F9:3F",
   "jp": "ニ―スナス{end}",
-  "en": ""
+  "en": "Neesnas{end}"
  },
  {
   "id": "F9:40",
   "jp": "スケルトンナイト{end}",
-  "en": ""
+  "en": "Skeleton Knight{end}"
  },
  {
   "id": "F9:41",
   "jp": "バスタ―ナイト{end}",
-  "en": ""
+  "en": "Buster Knight{end}"
  },
  {
   "id": "F9:42",
   "jp": "ナイトメア{end}",
-  "en": ""
+  "en": "Nightmare{end}"
  },
  {
   "id": "F9:43",
   "jp": "パワ―ナイト{end}",
-  "en": ""
+  "en": "Power Knight{end}"
  },
  {
   "id": "F9:44",
   "jp": "フレイルナイト{end}",
-  "en": ""
+  "en": "Flail Knight{end}"
  },
  {
   "id": "F9:45",
   "jp": "アックスナイト{end}",
-  "en": ""
+  "en": "Axe Knight{end}"
  },
  {
   "id": "F9:46",
   "jp": "ジャイアナイト{end}",
-  "en": ""
+  "en": "Gianight{end}"
  },
  {
   "id": "F9:47",
   "jp": "デュアルナイト{end}",
-  "en": ""
+  "en": "Dual Knight{end}"
  },
  {
   "id": "F9:48",
   "jp": "ポイズンバット{end}",
-  "en": ""
+  "en": "Poison Bat{end}"
  },
  {
   "id": "F9:49",
   "jp": "ビックリップビ―{end}",
-  "en": ""
+  "en": "Big Lip Bee{end}"
  },
  {
   "id": "F9:4A",
   "jp": "8デストロイヤ―{end}",
-  "en": ""
+  "en": "8 Destroyer{end}"
  },
  {
   "id": "F9:4B",
   "jp": "ディグタンク{end}",
-  "en": ""
+  "en": "Dig Tank{end}"
  },
  {
   "id": "F9:4C",
   "jp": "キャタピラ―{end}",
-  "en": ""
+  "en": "Caterpillar{end}"
  },
  {
   "id": "F9:4D",
   "jp": "ミルメコレオ{end}",
-  "en": ""
+  "en": "Myrmecoleo{end}"
  },
  {
   "id": "F9:4E",
   "jp": "ヤツメミミズ{end}",
-  "en": ""
+  "en": "Lamprey Worm{end}"
  },
  {
   "id": "F9:4F",
   "jp": "ミサイラ―{end}",
-  "en": ""
+  "en": "Missiler{end}"
  },
  {
   "id": "F9:50",
   "jp": "ジェットセイラ―{end}",
-  "en": ""
+  "en": "Jet Sailor{end}"
  },
  {
   "id": "F9:51",
   "jp": "スタンドボム{end}",
-  "en": ""
+  "en": "Stand Bomb{end}"
  },
  {
   "id": "F9:52",
   "jp": "ヴェファイタ―{end}",
-  "en": ""
+  "en": "Vefighter{end}"
  },
  {
   "id": "F9:53",
   "jp": "ダ―クマ―メイド{end}",
-  "en": ""
+  "en": "Dark Mermaid{end}"
  },
  {
   "id": "F9:54",
   "jp": "フロ―トバトラ―{end}",
-  "en": ""
+  "en": "Float Battler{end}"
  },
  {
   "id": "F9:55",
   "jp": "ウォ―ムズ{end}",
-  "en": ""
+  "en": "Worms{end}"
  },
  {
   "id": "F9:56",
   "jp": "フランケンゲリラ{end}",
-  "en": ""
+  "en": "Franken Guerrilla{end}"
  },
  {
   "id": "F9:57",
   "jp": "デスインバ―タ―{end}",
-  "en": ""
+  "en": "Death Inverter{end}"
  },
  {
   "id": "F9:58",
   "jp": "アイアンネイル{end}",
-  "en": ""
+  "en": "Iron Nail{end}"
  },
  {
   "id": "F9:59",
   "jp": "レモラ{end}",
-  "en": ""
+  "en": "Remora{end}"
  },
  {
   "id": "F9:5A",
   "jp": "ヒ―トタンク{end}",
-  "en": ""
+  "en": "Heat Tank{end}"
  },
  {
   "id": "F9:5B",
   "jp": "シング{end}",
-  "en": ""
+  "en": "Thing{end}"
  },
  {
   "id": "F9:5C",
   "jp": "プレイトン{end}",
-  "en": ""
+  "en": "Pleyton{end}"
  },
  {
   "id": "F9:5D",
   "jp": "ダ―クネスラミア{end}",
-  "en": ""
+  "en": "Darkness Lamia{end}"
  },
  {
   "id": "F9:5E",
   "jp": "ボックス{end}",
-  "en": ""
+  "en": "Box{end}"
  },
  {
   "id": "F9:5F",
   "jp": "アイアンエイプ{end}",
-  "en": ""
+  "en": "Iron Ape{end}"
  },
  {
   "id": "F9:60",
   "jp": "ペオ{end}",
-  "en": ""
+  "en": "Peo{end}"
  },
  {
   "id": "F9:61",
   "jp": "ペオのてした{end}",
-  "en": ""
+  "en": "Peo's Minion{end}"
  },
  {
   "id": "F9:62",
   "jp": "とうぞく{end}",
-  "en": ""
+  "en": "Thief{end}"
  },
  {
   "id": "F9:63",
   "jp": "ゴ―リア{end}",
-  "en": ""
+  "en": "Goria{end}"
  },
  {
   "id": "F9:64",
   "jp": "ナイト{end}",
-  "en": ""
+  "en": "Knight{end}"
  },
  {
   "id": "F9:65",
   "jp": "ゴ―レムしんぷ{end}",
-  "en": ""
+  "en": "Father Golem{end}"
  },
  {
   "id": "F9:66",
   "jp": "おやかた{end}",
-  "en": ""
+  "en": "Boss{end}"
  },
  {
   "id": "F9:67",
   "jp": "ようじんぼう1{end}",
-  "en": ""
+  "en": "Bodyguard 1{end}"
  },
  {
   "id": "F9:68",
   "jp": "ようじんぼう2{end}",
-  "en": ""
+  "en": "Bodyguard 2{end}"
  },
  {
   "id": "F9:69",
   "jp": "エイゼル{end}",
-  "en": ""
+  "en": "Eizel{end}"
  },
  {
   "id": "F9:6A",
   "jp": "ガルバ{end}",
-  "en": ""
+  "en": "Galba{end}"
  },
  {
   "id": "F9:6B",
   "jp": "ガッシュ{end}",
-  "en": ""
+  "en": "Gash{end}"
  },
  {
   "id": "F9:6C",
   "jp": "ギ―タ―{end}",
-  "en": ""
+  "en": "Gieter{end}"
  },
  {
   "id": "F9:6D",
   "jp": "ソ―ン・ジ―ナ{end}",
-  "en": ""
+  "en": "Thorn Gina{end}"
  },
  {
   "id": "F9:6E",
   "jp": "ラディッシュ{end}",
-  "en": ""
+  "en": "Radish{end}"
  },
  {
   "id": "F9:6F",
   "jp": "バディッシュ{end}",
-  "en": ""
+  "en": "Badish{end}"
  },
  {
   "id": "F9:70",
   "jp": "ようへい{end}",
-  "en": ""
+  "en": "Mercenary{end}"
  },
  {
   "id": "F9:71",
   "jp": "ボス・ゴブリン{end}",
-  "en": ""
+  "en": "Boss Goblin{end}"
  },
  {
   "id": "F9:72",
   "jp": "へいし{end}",
-  "en": ""
+  "en": "Soldier{end}"
  },
  {
   "id": "F9:73",
   "jp": "ビュ―ティ―{end}",
-  "en": ""
+  "en": "Beauty{end}"
  },
  {
   "id": "F9:74",
   "jp": "スト―カ―{end}",
-  "en": ""
+  "en": "Stalker{end}"
  },
  {
   "id": "F9:75",
   "jp": "メアホ―ス{end}",
-  "en": ""
+  "en": "Mare Horse{end}"
  },
  {
   "id": "F9:76",
   "jp": "バサラ{end}",
-  "en": ""
+  "en": "Basara{end}"
  },
  {
   "id": "F9:77",
   "jp": "ゲモン{end}",
-  "en": ""
+  "en": "Gemon{end}"
  },
  {
   "id": "F9:78",
   "jp": "ウォンレイ{end}",
-  "en": ""
+  "en": "Wonrei{end}"
  },
  {
   "id": "3C0:01",
   "jp": "ラ―ゼスに もらった {end}",
-  "en": ""
+  "en": "Received from Larzes{end}"
  },
  {
   "id": "3C0:02",
   "jp": "ようせいしゅぞくの たから{end}",
-  "en": ""
+  "en": "Treasure of the fairy folk{end}"
  },
  {
   "id": "3C0:03",
   "jp": "ポリドスの しょうちょう{end}",
-  "en": ""
+  "en": "Symbol of Polydos{end}"
  },
  {
   "id": "3C0:04",
   "jp": "ひかりを あつめる かがみ{end}",
-  "en": ""
+  "en": "Mirror that gathers light{end}"
  },
  {
   "id": "3C0:05",
   "jp": "でんせつの アイテム{end}",
-  "en": ""
+  "en": "A legendary item{end}"
  },
  {
   "id": "3C0:06",
   "jp": "ぼうけんのための ふね{end}",
-  "en": ""
+  "en": "Ship for adventuring{end}"
  },
  {
   "id": "3C0:07",
   "jp": "HPの かいふく ＋80{end}",
-  "en": ""
+  "en": "Restores HP +80{end}"
  },
  {
   "id": "3C0:08",
   "jp": "ほのおを おこす{end}",
-  "en": ""
+  "en": "Creates fire{end}"
  },
  {
   "id": "3C0:09",
   "jp": "いなづまを おこす{end}",
-  "en": ""
+  "en": "Creates lightning{end}"
  },
  {
   "id": "3C0:0A",
   "jp": "こおりを とかす マシ―ン{end}",
-  "en": ""
+  "en": "Machine that melts ice{end}"
  },
  {
   "id": "3C0:0B",
   "jp": "ギプロスはいこうではっけん{end}",
-  "en": ""
+  "en": "Found in Old Gipros Mine{end}"
  },
  {
   "id": "3C0:0C",
   "jp": "ギプロスのまちでにゅうしゅ{end}",
-  "en": ""
+  "en": "Obtained in Gipros Town{end}"
  },
  {
   "id": "3C0:0D",
   "jp": "ちかてつどうが つかえる{end}",
-  "en": ""
+  "en": "Lets you ride the subway{end}"
  },
  {
   "id": "3C0:0E",
   "jp": "せかいを じゃあくに する{end}",
-  "en": ""
+  "en": "Turns the world to evil{end}"
  },
  {
   "id": "3C0:0F",
   "jp": "デナのさとに あったもの{end}",
-  "en": ""
+  "en": "Found in Dena Hamlet{end}"
  },
  {
   "id": "3C0:10",
   "jp": "ひとを ねむらせる{end}",
-  "en": ""
+  "en": "Puts people to sleep{end}"
  },
  {
   "id": "3C0:11",
   "jp": "てつどうのぶんきをりよう{end}",
-  "en": ""
+  "en": "Switches railway branches{end}"
  },
  {
   "id": "3C0:12",
   "jp": "アルペジ―ノの ほうせき{end}",
-  "en": ""
+  "en": "Arpeggino's jewel{end}"
  },
  {
   "id": "3C0:13",
   "jp": "サラの ほうせき{end}",
-  "en": ""
+  "en": "Sara's jewel{end}"
  },
  {
   "id": "3C0:14",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "3C0:15",
   "jp": "HPの かいふく ＋30{end}",
-  "en": ""
+  "en": "Restores HP +30{end}"
  },
  {
   "id": "3C0:16",
   "jp": "どくを けす{end}",
-  "en": ""
+  "en": "Cures poison{end}"
  },
  {
   "id": "3C0:17",
   "jp": "まちへ いどう{end}",
-  "en": ""
+  "en": "Travel to a town{end}"
  },
  {
   "id": "3C0:18",
   "jp": "ダンジョンから だっしゅつ{end}",
-  "en": ""
+  "en": "Escape from a dungeon{end}"
  },
  {
   "id": "3C0:19",
   "jp": "てきが でてこない{end}",
-  "en": ""
+  "en": "Keeps enemies away{end}"
  },
  {
   "id": "3C0:1A",
   "jp": "てきが あらわれる{end}",
-  "en": ""
+  "en": "Draws enemies out{end}"
  },
  {
   "id": "3C0:1B",
   "jp": "いきかえる{end}",
-  "en": ""
+  "en": "Revives{end}"
  },
  {
   "id": "3C0:1C",
   "jp": "MP・TPのふっかつ＋30{end}",
-  "en": ""
+  "en": "Restores MP/TP +30{end}"
  },
  {
   "id": "3C0:1D",
   "jp": "われに かえる{end}",
-  "en": ""
+  "en": "Cures confusion{end}"
  },
  {
   "id": "3C0:1E",
   "jp": "さいだいHP ＋10{end}",
-  "en": ""
+  "en": "Max HP +10{end}"
  },
  {
   "id": "3C0:1F",
   "jp": "さいだいMP・TP ＋10{end}",
-  "en": ""
+  "en": "Max MP/TP +10{end}"
  },
  {
   "id": "3C0:20",
   "jp": "ちせいのアップ ＋2{end}",
-  "en": ""
+  "en": "Intelligence +2{end}"
  },
  {
   "id": "3C0:21",
   "jp": "ちからのアップ ＋2{end}",
-  "en": ""
+  "en": "Strength +2{end}"
  },
  {
   "id": "3C0:22",
   "jp": "すばやさのアップ ＋2{end}",
-  "en": ""
+  "en": "Agility +2{end}"
  },
  {
   "id": "3C0:23",
   "jp": "ぼうぎょりょく10% UP{end}",
-  "en": ""
+  "en": "Defense 10% up{end}"
  },
  {
   "id": "3C0:24",
   "jp": "こうげきりょく10% UP{end}",
-  "en": ""
+  "en": "Attack 10% up{end}"
  },
  {
   "id": "3C0:25",
   "jp": "すばやさ 10% UP{end}",
-  "en": ""
+  "en": "Agility 10% up{end}"
  },
  {
   "id": "3C0:26",
   "jp": "すばやさ 10% ダウン{end}",
-  "en": ""
+  "en": "Agility 10% down{end}"
  },
  {
   "id": "3C0:27",
   "jp": "ペガシオンで てにいれた{end}",
-  "en": ""
+  "en": "Obtained in Pegasion{end}"
  },
  {
   "id": "3C0:28",
   "jp": "サラディンゆかりのしなじな{end}",
-  "en": ""
+  "en": "A relic of Saladin{end}"
  },
  {
   "id": "3C0:29",
   "jp": "サラディンゆかりのしなじな{end}",
-  "en": ""
+  "en": "A relic of Saladin{end}"
  },
  {
   "id": "3C0:2A",
   "jp": "サラディンゆかりのしなじな{end}",
-  "en": ""
+  "en": "A relic of Saladin{end}"
  },
  {
   "id": "3C1:01",
   "jp": "HPかいふく ＋30{end}",
-  "en": ""
+  "en": "Restores HP +30{end}"
  },
  {
   "id": "3C1:02",
   "jp": "HPかいふく ＋80{end}",
-  "en": ""
+  "en": "Restores HP +80{end}"
  },
  {
   "id": "3C1:03",
   "jp": "HPぜんかいふく{end}",
-  "en": ""
+  "en": "Fully restores HP{end}"
  },
  {
   "id": "3C1:04",
   "jp": "HPかいふく＋80：ALL{end}",
-  "en": ""
+  "en": "Restores HP +80: ALL{end}"
  },
  {
   "id": "3C1:05",
   "jp": "HPぜんかいふく：ALL{end}",
-  "en": ""
+  "en": "Fully restores HP: ALL{end}"
  },
  {
   "id": "3C1:06",
   "jp": "どくをけす{end}",
-  "en": ""
+  "en": "Cures poison{end}"
  },
  {
   "id": "3C1:07",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "3C1:08",
   "jp": "いきかえる{end}",
-  "en": ""
+  "en": "Revives{end}"
  },
  {
   "id": "3C1:09",
   "jp": "いきかえる：ぜんふっかつ{end}",
-  "en": ""
+  "en": "Revives: full recovery{end}"
  },
  {
   "id": "3C1:0A",
   "jp": "HPをうばう 30{end}",
-  "en": ""
+  "en": "Drains HP 30{end}"
  },
  {
   "id": "3C1:0B",
   "jp": "HPをうばう 80{end}",
-  "en": ""
+  "en": "Drains HP 80{end}"
  },
  {
   "id": "3C1:0C",
   "jp": "HPをうばう 200{end}",
-  "en": ""
+  "en": "Drains HP 200{end}"
  },
  {
   "id": "3C1:0D",
   "jp": "HPをうばう 80：ALL{end}",
-  "en": ""
+  "en": "Drains HP 80: ALL{end}"
  },
  {
   "id": "3C1:0E",
   "jp": "HPをうばう200：ALL{end}",
-  "en": ""
+  "en": "Drains HP 200: ALL{end}"
  },
  {
   "id": "3C1:0F",
   "jp": "しゅびりょく 10%ダウン{end}",
-  "en": ""
+  "en": "Defense 10% down{end}"
  },
  {
   "id": "3C1:10",
   "jp": "こうげきりょく10%ダウン{end}",
-  "en": ""
+  "en": "Attack 10% down{end}"
  },
  {
   "id": "3C1:11",
   "jp": "すばやさ 10% ダウン{end}",
-  "en": ""
+  "en": "Agility 10% down{end}"
  },
  {
   "id": "3C1:12",
   "jp": "MPを すいとる{end}",
-  "en": ""
+  "en": "Absorbs MP{end}"
  },
  {
   "id": "3C1:13",
   "jp": "うごきを ふうじる{end}",
-  "en": ""
+  "en": "Seals movement{end}"
  },
  {
   "id": "3C1:14",
   "jp": "まほうを ふうじる{end}",
-  "en": ""
+  "en": "Seals magic{end}"
  },
  {
   "id": "3C1:15",
   "jp": "われにかえる{end}",
-  "en": ""
+  "en": "Cures confusion{end}"
  },
  {
   "id": "3C1:16",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "3C1:17",
   "jp": "ダンジョンからのだっしゅつ{end}",
-  "en": ""
+  "en": "Escape from a dungeon{end}"
  },
  {
   "id": "3C2:01",
   "jp": "ほのおのまほう1{end}",
-  "en": ""
+  "en": "Fire magic 1{end}"
  },
  {
   "id": "3C2:02",
   "jp": "ほのおのまほう2{end}",
-  "en": ""
+  "en": "Fire magic 2{end}"
  },
  {
   "id": "3C2:03",
   "jp": "ほのおのまほう3{end}",
-  "en": ""
+  "en": "Fire magic 3{end}"
  },
  {
   "id": "3C2:04",
   "jp": "ほのおのまほう2：ALL{end}",
-  "en": ""
+  "en": "Fire magic 2: ALL{end}"
  },
  {
   "id": "3C2:05",
   "jp": "ほのおのまほう3：ALL{end}",
-  "en": ""
+  "en": "Fire magic 3: ALL{end}"
  },
  {
   "id": "3C2:06",
   "jp": "いなずまのまほう1{end}",
-  "en": ""
+  "en": "Lightning magic 1{end}"
  },
  {
   "id": "3C2:07",
   "jp": "いなずまのまほう2{end}",
-  "en": ""
+  "en": "Lightning magic 2{end}"
  },
  {
   "id": "3C2:08",
   "jp": "いなずまのまほう3{end}",
-  "en": ""
+  "en": "Lightning magic 3{end}"
  },
  {
   "id": "3C2:09",
   "jp": "いなずまのまほう2：ALL{end}",
-  "en": ""
+  "en": "Lightning magic 2: ALL{end}"
  },
  {
   "id": "3C2:0A",
   "jp": "いなずまのまほう3：ALL{end}",
-  "en": ""
+  "en": "Lightning magic 3: ALL{end}"
  },
  {
   "id": "3C2:0B",
   "jp": "ふぶきのまほう1{end}",
-  "en": ""
+  "en": "Blizzard magic 1{end}"
  },
  {
   "id": "3C2:0C",
   "jp": "ふぶきのまほう2{end}",
-  "en": ""
+  "en": "Blizzard magic 2{end}"
  },
  {
   "id": "3C2:0D",
   "jp": "ふぶきのまほう3{end}",
-  "en": ""
+  "en": "Blizzard magic 3{end}"
  },
  {
   "id": "3C2:0E",
   "jp": "ふぶきのまほう2：ALL{end}",
-  "en": ""
+  "en": "Blizzard magic 2: ALL{end}"
  },
  {
   "id": "3C2:0F",
   "jp": "ふぶきのまほう3：ALL{end}",
-  "en": ""
+  "en": "Blizzard magic 3: ALL{end}"
  },
  {
   "id": "3C2:10",
   "jp": "ぼうぎょりょく10%アップ{end}",
-  "en": ""
+  "en": "Defense 10% up{end}"
  },
  {
   "id": "3C2:11",
   "jp": "こうげきりょく10%アップ{end}",
-  "en": ""
+  "en": "Attack 10% up{end}"
  },
  {
   "id": "3C2:12",
   "jp": "すばやさ 10% アップ{end}",
-  "en": ""
+  "en": "Agility 10% up{end}"
  },
  {
   "id": "3C2:13",
   "jp": "MPを すいとる{end}",
-  "en": ""
+  "en": "Absorbs MP{end}"
  },
  {
   "id": "3C2:14",
   "jp": "こんらん させる{end}",
-  "en": ""
+  "en": "Confuses{end}"
  },
  {
   "id": "3C2:15",
   "jp": "ねむらせる{end}",
-  "en": ""
+  "en": "Puts to sleep{end}"
  },
  {
   "id": "3C2:16",
   "jp": "まちへ いどう{end}",
-  "en": ""
+  "en": "Travel to a town{end}"
  },
  {
   "id": "3C2:17",
   "jp": "てきが でてこない{end}",
-  "en": ""
+  "en": "Keeps enemies away{end}"
  },
  {
   "id": "3C3:01",
   "jp": "あたえるダメ―ジが 2ばい{end}",
-  "en": ""
+  "en": "Deals double damage{end}"
  },
  {
   "id": "3C3:02",
   "jp": "ぜんいんに ダメ―ジ{end}",
-  "en": ""
+  "en": "Damages all enemies{end}"
  },
  {
   "id": "3C3:03",
   "jp": "なかまを いきかえらせる{end}",
-  "en": ""
+  "en": "Revives an ally{end}"
  },
  {
   "id": "3C3:04",
   "jp": "いきのねを とめる{end}",
-  "en": ""
+  "en": "Stops a foe's breath{end}"
  },
  {
   "id": "3C3:05",
   "jp": "てきを こんらんさせる{end}",
-  "en": ""
+  "en": "Confuses enemies{end}"
  },
  {
   "id": "3C4:01",
   "jp": "あたえるダメ―ジが 2ばい{end}",
-  "en": ""
+  "en": "Deals double damage{end}"
  },
  {
   "id": "3C4:02",
   "jp": "ぜんいんに ダメ―ジ{end}",
-  "en": ""
+  "en": "Damages all enemies{end}"
  },
  {
   "id": "3C4:03",
   "jp": "みんなのこうげきりょくUP{end}",
-  "en": ""
+  "en": "Raises everyone's attack{end}"
  },
  {
   "id": "3C4:04",
   "jp": "かくじつに にげる{end}",
-  "en": ""
+  "en": "Escape for sure{end}"
  },
  {
   "id": "3C4:05",
   "jp": "かくじつに こうげき{end}",
-  "en": ""
+  "en": "Attack never misses{end}"
  },
  {
   "id": "3C4:06",
   "jp": "かねを うばって にげる{end}",
-  "en": ""
+  "en": "Steal money and flee{end}"
  },
  {
   "id": "3C5:01",
   "jp": "はがねで できたナイフ{end}",
-  "en": ""
+  "en": "A knife made of steel{end}"
  },
  {
   "id": "3C5:02",
   "jp": "ようせいの ちからを ひめたナイフ{end}",
-  "en": ""
+  "en": "A knife with hidden fairy power{end}"
  },
  {
   "id": "3C5:03",
   "jp": "ふしぎな まりょくをもつ ナイフ{end}",
-  "en": ""
+  "en": "A knife with strange magic power{end}"
  },
  {
   "id": "3C5:04",
   "jp": "はがねで できた おおがたの ナイフ{end}",
-  "en": ""
+  "en": "A large knife made of steel{end}"
  },
  {
   "id": "3C5:05",
   "jp": "ちいさくて つかいやすい けん{end}",
-  "en": ""
+  "en": "A small sword, easy to use{end}"
  },
  {
   "id": "3C5:06",
   "jp": "ふとく がんじょうな ショ―トソ―ド{end}",
-  "en": ""
+  "en": "A thick, sturdy short sword{end}"
  },
  {
   "id": "3C5:07",
   "jp": "かたてで あつかう ちょうけん{end}",
-  "en": ""
+  "en": "A one-handed long sword{end}"
  },
  {
   "id": "3C5:08",
   "jp": "ゆみなりになった ロングソ―ド{end}",
-  "en": ""
+  "en": "A curved long sword{end}"
  },
  {
   "id": "3C5:09",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "3C5:0A",
   "jp": "スチ―ムの ちからを りようした けん{end}",
-  "en": ""
+  "en": "A sword powered by steam{end}"
  },
  {
   "id": "3C5:0B",
   "jp": "アルペジ―ノがもっていた ふしぎなけん{end}",
-  "en": ""
+  "en": "Arpeggino's mysterious sword{end}"
  },
  {
   "id": "3C5:0C",
   "jp": "いまでは めずらしい ダイヤのけん{end}",
-  "en": ""
+  "en": "A diamond sword, rare these days{end}"
  },
  {
   "id": "3C5:0D",
   "jp": "とくしゅな そざいでできた けん{end}",
-  "en": ""
+  "en": "A sword of special material{end}"
  },
  {
   "id": "3C5:0E",
   "jp": "ラ―ゼスの うろこで つくられた けん{end}",
-  "en": ""
+  "en": "A sword made of Larzes's scales{end}"
  },
  {
   "id": "3C5:0F",
   "jp": "たけで できた てがるな やり{end}",
-  "en": ""
+  "en": "A light spear made of bamboo{end}"
  },
  {
   "id": "3C5:10",
   "jp": "すこし おもいが きょうりょくな やり{end}",
-  "en": ""
+  "en": "A bit heavy, but a powerful spear{end}"
  },
  {
   "id": "3C5:11",
   "jp": "さきが 3つに わかれた やり{end}",
-  "en": ""
+  "en": "A spear with three prongs{end}"
  },
  {
   "id": "3C5:12",
   "jp": "スチ―ムのちからを りようした メイス{end}",
-  "en": ""
+  "en": "A mace powered by steam{end}"
  },
  {
   "id": "3C5:13",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "3C5:14",
   "jp": "ドラゴンの うろこで できた メイス{end}",
-  "en": ""
+  "en": "A mace made of dragon scales{end}"
  },
  {
   "id": "3C5:15",
   "jp": "セントバッカスの せんしがもつ おの{end}",
-  "en": ""
+  "en": "Axe of the warriors of St. Bacchus{end}"
  },
  {
   "id": "3C5:16",
   "jp": "セラミックでできた するどい おの{end}",
-  "en": ""
+  "en": "A sharp axe made of ceramic{end}"
  },
  {
   "id": "3C5:17",
   "jp": "きらびやかで きれいな おの{end}",
-  "en": ""
+  "en": "A dazzling, beautiful axe{end}"
  },
  {
   "id": "3C5:18",
   "jp": "いなづまを ふうじこめた つえ{end}",
-  "en": ""
+  "en": "A staff with lightning sealed in{end}"
  },
  {
   "id": "3C5:19",
   "jp": "ふぶきを よぶ つえ{end}",
-  "en": ""
+  "en": "A staff that calls a blizzard{end}"
  },
  {
   "id": "3C5:1A",
   "jp": "たたかいの とき イニシアチブを とる{end}",
-  "en": ""
+  "en": "Seizes the initiative in battle{end}"
  },
  {
   "id": "3C5:1B",
   "jp": "いなずまを おこす つえ{end}",
-  "en": ""
+  "en": "A staff that creates lightning{end}"
  },
  {
   "id": "3C5:1C",
   "jp": "いなずまを おこす つえ{end}",
-  "en": ""
+  "en": "A staff that creates lightning{end}"
  },
  {
   "id": "3C5:1D",
   "jp": "こがたの あつかいやすい ゆみ{end}",
-  "en": ""
+  "en": "A small bow, easy to handle{end}"
  },
  {
   "id": "3C5:1E",
   "jp": "かりに つかう きょうりょくな ゆみ{end}",
-  "en": ""
+  "en": "A powerful bow used for hunting{end}"
  },
  {
   "id": "3C5:1F",
   "jp": "まりょくが かかった ふしぎな ゆみ{end}",
-  "en": ""
+  "en": "A mysterious enchanted bow{end}"
  },
  {
   "id": "3C5:20",
   "jp": "なまりで できた ハンマ―{end}",
-  "en": ""
+  "en": "A hammer made of lead{end}"
  },
  {
   "id": "3C5:21",
   "jp": "スチ―ムの ちからで たまを はっしゃ{end}",
-  "en": ""
+  "en": "Fires shots by steam power{end}"
  },
  {
   "id": "3C5:22",
   "jp": "ほのおを はっしゃ。{end}",
-  "en": ""
+  "en": "Shoots flames.{end}"
  },
  {
   "id": "3C5:23",
   "jp": "てつの たまを つなげた こんぼう{end}",
-  "en": ""
+  "en": "A club of iron balls on a chain{end}"
  },
  {
   "id": "3C5:24",
   "jp": "てつの ぼうを つなげた こんぼう{end}",
-  "en": ""
+  "en": "A club of linked iron rods{end}"
  },
  {
   "id": "3C5:25",
   "jp": "かわを なめして つくった むち{end}",
-  "en": ""
+  "en": "A whip made of tanned leather{end}"
  },
  {
   "id": "3C5:26",
   "jp": "てつの くさりで てきを こうげき{end}",
-  "en": ""
+  "en": "Strikes foes with an iron chain{end}"
  },
  {
   "id": "3C5:27",
   "jp": "スチ―ムのちからを りようしたハンマ―{end}",
-  "en": ""
+  "en": "A hammer powered by steam{end}"
  },
  {
   "id": "3C5:28",
   "jp": "すで{end}",
-  "en": ""
+  "en": "Bare Hands{end}"
  },
  {
   "id": "3C5:29",
   "jp": "すで{end}",
-  "en": ""
+  "en": "Bare Hands{end}"
  },
  {
   "id": "3C5:2A",
   "jp": "すで{end}",
-  "en": ""
+  "en": "Bare Hands{end}"
  },
  {
   "id": "3C5:2B",
   "jp": "すで{end}",
-  "en": ""
+  "en": "Bare Hands{end}"
  },
  {
   "id": "3C6:01",
   "jp": "かわばりの たて{end}",
-  "en": ""
+  "en": "A leather-covered shield{end}"
  },
  {
   "id": "3C6:02",
   "jp": "うでを まもる ぼうぐ{end}",
-  "en": ""
+  "en": "Armor that guards the arm{end}"
  },
  {
   "id": "3C6:03",
   "jp": "うでを まもる こて{end}",
-  "en": ""
+  "en": "A gauntlet that guards the arm{end}"
  },
  {
   "id": "3C6:04",
   "jp": "まほうを つかうときに まりょくがUP{end}",
-  "en": ""
+  "en": "Boosts magic power when casting{end}"
  },
  {
   "id": "3C6:05",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "3C6:06",
   "jp": "てつで できた じょうぶな たて{end}",
-  "en": ""
+  "en": "A sturdy shield made of iron{end}"
  },
  {
   "id": "3C6:07",
   "jp": "スチ―ムの ちからを りようした たて{end}",
-  "en": ""
+  "en": "A shield powered by steam{end}"
  },
  {
   "id": "3C6:08",
   "jp": "いまでは めずらしい ダイヤのたて{end}",
-  "en": ""
+  "en": "A diamond shield, rare these days{end}"
  },
  {
   "id": "3C6:09",
   "jp": "クリスタルで できた こて{end}",
-  "en": ""
+  "en": "A bracer made of crystal{end}"
  },
  {
   "id": "3C6:0A",
   "jp": "とくしゅな そざいで できた たて{end}",
-  "en": ""
+  "en": "A shield of special material{end}"
  },
  {
   "id": "3C6:0B",
   "jp": "りゅうの うろこで できた たて{end}",
-  "en": ""
+  "en": "A shield made of dragon scales{end}"
  },
  {
   "id": "3C6:0C",
   "jp": "ラ―ゼスのうろこで つくった たて{end}",
-  "en": ""
+  "en": "A shield made of Larzes's scales{end}"
  },
  {
   "id": "3C6:0D",
   "jp": "すで{end}",
-  "en": ""
+  "en": "Bare Hands{end}"
  },
  {
   "id": "3C6:0E",
   "jp": "すで{end}",
-  "en": ""
+  "en": "Bare Hands{end}"
  },
  {
   "id": "3C6:0F",
   "jp": "すで{end}",
-  "en": ""
+  "en": "Bare Hands{end}"
  },
  {
   "id": "3C6:10",
   "jp": "すで{end}",
-  "en": ""
+  "en": "Bare Hands{end}"
  },
  {
   "id": "3C7:01",
   "jp": "つよい ひざしから みを まもる{end}",
-  "en": ""
+  "en": "Protects you from strong sun{end}"
  },
  {
   "id": "3C7:02",
   "jp": "ようせいの ちからが やどっている{end}",
-  "en": ""
+  "en": "Holds the power of fairies{end}"
  },
  {
   "id": "3C7:03",
   "jp": "きぬのふしぎなちからがそなわったベ―ル{end}",
-  "en": ""
+  "en": "A veil with silk's mystic power{end}"
  },
  {
   "id": "3C7:04",
   "jp": "かわで できた ぼうし{end}",
-  "en": ""
+  "en": "A hat made of leather{end}"
  },
  {
   "id": "3C7:05",
   "jp": "てつで できた かぶと{end}",
-  "en": ""
+  "en": "A helm made of iron{end}"
  },
  {
   "id": "3C7:06",
   "jp": "あたまのすべてを おおった かぶと{end}",
-  "en": ""
+  "en": "A helm covering the whole head{end}"
  },
  {
   "id": "3C7:07",
   "jp": "スチ―ムのちからを りようした かぶと{end}",
-  "en": ""
+  "en": "A helm powered by steam{end}"
  },
  {
   "id": "3C7:08",
   "jp": "クリスタルで できた かぶと{end}",
-  "en": ""
+  "en": "A helm made of crystal{end}"
  },
  {
   "id": "3C7:09",
   "jp": "とくしゅな そざいで できた かぶと{end}",
-  "en": ""
+  "en": "A helm of special material{end}"
  },
  {
   "id": "3C7:0A",
   "jp": "りゅうの うろこで できた かぶと{end}",
-  "en": ""
+  "en": "A helm made of dragon scales{end}"
  },
  {
   "id": "3C7:0B",
   "jp": "ラ―ゼスのうろこで つくった かぶと{end}",
-  "en": ""
+  "en": "A helm made of Larzes's scales{end}"
  },
  {
   "id": "3C7:0C",
   "jp": "いまでは めずらしい ダイヤのかぶと{end}",
-  "en": ""
+  "en": "A diamond helm, rare these days{end}"
  },
  {
   "id": "3C8:01",
   "jp": "さむさ あつさから からだを まもる{end}",
-  "en": ""
+  "en": "Guards the body from cold and heat{end}"
  },
  {
   "id": "3C8:02",
   "jp": "ようせいたちが きている ふく{end}",
-  "en": ""
+  "en": "Clothes the fairies wear{end}"
  },
  {
   "id": "3C8:03",
   "jp": "たのしい ふく{end}",
-  "en": ""
+  "en": "Fun clothes{end}"
  },
  {
   "id": "3C8:04",
   "jp": "きぬのふしぎなちからが そなわったふく{end}",
-  "en": ""
+  "en": "Clothes with silk's mystic power{end}"
  },
  {
   "id": "3C8:05",
   "jp": "ファッショナブルな ドレス{end}",
-  "en": ""
+  "en": "A fashionable dress{end}"
  },
  {
   "id": "3C8:06",
   "jp": "ふしぎな むらさきの ふく{end}",
-  "en": ""
+  "en": "Strange purple clothes{end}"
  },
  {
   "id": "3C8:07",
   "jp": "かわで できた よろい{end}",
-  "en": ""
+  "en": "Armor made of leather{end}"
  },
  {
   "id": "3C8:08",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "3C8:09",
   "jp": "ちいさな てつの いたで できた ふく{end}",
-  "en": ""
+  "en": "Clothes of small iron plates{end}"
  },
  {
   "id": "3C8:0A",
   "jp": "くさりを つなげて つくった ふく{end}",
-  "en": ""
+  "en": "Clothes of linked chains{end}"
  },
  {
   "id": "3C8:0B",
   "jp": "てつで できた よろい{end}",
-  "en": ""
+  "en": "Armor made of iron{end}"
  },
  {
   "id": "3C8:0C",
   "jp": "スチ―ムのちからを りようした よろい{end}",
-  "en": ""
+  "en": "Armor powered by steam{end}"
  },
  {
   "id": "3C8:0D",
   "jp": "いまでは めずらしい ダイヤのよろい{end}",
-  "en": ""
+  "en": "Diamond armor, rare these days{end}"
  },
  {
   "id": "3C8:0E",
   "jp": "クリスタルで できた ふしぎな よろい{end}",
-  "en": ""
+  "en": "Strange armor made of crystal{end}"
  },
  {
   "id": "3C8:0F",
   "jp": "とくしゅな そざいで できた よろい{end}",
-  "en": ""
+  "en": "Armor of special material{end}"
  },
  {
   "id": "3C8:10",
   "jp": "りゅうの うろこで できた よろい{end}",
-  "en": ""
+  "en": "Armor made of dragon scales{end}"
  },
  {
   "id": "3C8:11",
   "jp": "ラ―ゼスの うろこで できた よろい{end}",
-  "en": ""
+  "en": "Armor made of Larzes's scales{end}"
  },
  {
   "id": "3C8:12",
   "jp": "めいさい ふく{end}",
-  "en": ""
+  "en": "Camouflage clothes{end}"
  },
  {
   "id": "3C8:13",
   "jp": "そうりょが このんで きる ふく{end}",
-  "en": ""
+  "en": "Clothes monks like to wear{end}"
  },
  {
   "id": "3C8:14",
   "jp": "せんしようの ふく{end}",
-  "en": ""
+  "en": "Clothes for warriors{end}"
  },
  {
   "id": "3C8:15",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "3C8:16",
   "jp": "ようせいの ふしぎなちからを そなえる{end}",
-  "en": ""
+  "en": "Has the fairies' mystic power{end}"
  },
  {
   "id": "3C9:01",
   "jp": "うごきやすい かわでできた くつ{end}",
-  "en": ""
+  "en": "Leather shoes, easy to move in{end}"
  },
  {
   "id": "3C9:02",
   "jp": "ようせいの ふしぎなちからが やどる{end}",
-  "en": ""
+  "en": "Holds the fairies' mystic power{end}"
  },
  {
   "id": "3C9:03",
   "jp": "かろやかな くつ{end}",
-  "en": ""
+  "en": "Light, nimble shoes{end}"
  },
  {
   "id": "3C9:04",
   "jp": "ファッショナブルな くつ{end}",
-  "en": ""
+  "en": "Fashionable shoes{end}"
  },
  {
   "id": "3C9:05",
   "jp": "つよい かわで あしもとを まもる{end}",
-  "en": ""
+  "en": "Tough leather guards your feet{end}"
  },
  {
   "id": "3C9:06",
   "jp": "ひざまで ガ―ドする てつの ブ―ツ{end}",
-  "en": ""
+  "en": "Iron boots that guard to the knee{end}"
  },
  {
   "id": "3C9:07",
   "jp": "スチ―ムのちからを りようしたグリ―ブ{end}",
-  "en": ""
+  "en": "Greaves powered by steam{end}"
  },
  {
   "id": "3C9:08",
   "jp": "クリスタルで できた ブ―ツ{end}",
-  "en": ""
+  "en": "Boots made of crystal{end}"
  },
  {
   "id": "3C9:09",
   "jp": "とくしゅな そざいで できた ブ―ツ{end}",
-  "en": ""
+  "en": "Boots of special material{end}"
  },
  {
   "id": "3C9:0A",
   "jp": "りゅうの うろこで できた グリ―ブ{end}",
-  "en": ""
+  "en": "Greaves made of dragon scales{end}"
  },
  {
   "id": "3C9:0B",
   "jp": "ラ―ゼスの うろこで できた ブ―ツ{end}",
-  "en": ""
+  "en": "Boots made of Larzes's scales{end}"
  },
  {
   "id": "3C9:0C",
   "jp": "ようせいの ふしぎな ちからが やどる{end}",
-  "en": ""
+  "en": "Holds the fairies' mystic power{end}"
  },
  {
   "id": "3C9:0D",
   "jp": "いまでは めずらしい ダイヤのグリ―ブ{end}",
-  "en": ""
+  "en": "Diamond greaves, rare these days{end}"
  }
 ]

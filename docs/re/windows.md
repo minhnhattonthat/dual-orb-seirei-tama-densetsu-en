@@ -14,3 +14,6 @@ on the JP-text build; pixel checks with `tools/widthgate.py` lines put in `11:85
 
 Torture line (all printable glyphs, double spaces): every glyph renders, widths look right (`work/qa/wg2`).
 No auto-wrap: the engine moves only by codes, so a line over 192 px runs on into the next tilemap row.
+English dialogue is authored per page and wrapped at build time by `tools/wrap.py` (192 px, 3 lines, extra pages
+if needed). Party names count as `wrap.HERO_PX` = 42 px (default names are 20-36 px); phase 7 must cap the
+name-entry screen so a typed name stays within it. Table names count at their English width.

@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 import font  # noqa: E402
 import textmap  # noqa: E402
+import wrap  # noqa: E402
 from extract import items  # noqa: E402
 from maps import off  # noqa: E402
 from tbl import Table  # noqa: E402
@@ -104,6 +105,7 @@ def marker_inplace(e):
     return "".join(out)
 
 
+LONG = []  # in-place entries whose en outgrew the JP bytes (left Japanese until phase 7)
 QA = {}  # id -> en text that overrides the mode (build.py --qa ID=text): width-gate stress lines
 
 
@@ -113,7 +115,7 @@ def encode(e, mode, widths):
     if mode == "marker":
         return EN.encode(marker_lines(e, widths) if "dialogue" in e.get("_file", "") else marker_inplace(e))
     if e["en"]:
-        return EN.encode(e["en"])
+        return EN.encode(wrap.wrap(e["en"])[0] if "dialogue" in e.get("_file", "") else e["en"])
     return None
 
 
@@ -205,6 +207,9 @@ def insert(rom, mode="en"):
                 continue
             if e.get("kind") == "fixed":
                 new = new.rstrip(b"\xff")[:e["size"]].ljust(e["size"], b"\xff")
+            elif len(new) > len(m["data"]) and mode == "en":
+                LONG.append(e["id"])  # shortcut: keeps the JP bytes; phase 7 relocates names/system text
+                continue
             else:
                 new = fit(new, m["data"], e["id"])
             d[m["off"]:m["off"] + len(new)] = new

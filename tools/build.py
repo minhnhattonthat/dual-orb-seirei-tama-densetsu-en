@@ -51,3 +51,5 @@ if __name__ == "__main__":
     path.parent.mkdir(exist_ok=True)
     path.write_bytes(out)
     print(path.relative_to(ROOT), hashlib.sha1(out).hexdigest(), "identical" if out == orig else "patched")
+    if insert.LONG:
+        print(f"{len(insert.LONG)} in-place entries too long, left Japanese until phase 7: {' '.join(insert.LONG[:12])}")

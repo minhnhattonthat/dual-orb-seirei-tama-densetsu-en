@@ -2,212 +2,212 @@
  {
   "id": "11:8020",
   "jp": "きをつけてな。{end}",
-  "en": ""
+  "en": "Take care.{end}"
  },
  {
   "id": "11:8028",
   "jp": "よくぞ もどった。{n}ついてまいれ。{end}",
-  "en": ""
+  "en": "You have returned at last. Follow me.{end}"
  },
  {
   "id": "11:805A",
   "jp": "「{tE5:05}」が かがやいた！{end}",
-  "en": ""
+  "en": "The \"{tE5:05}\" began to shine!{end}"
  },
  {
   "id": "11:8067",
   "jp": "ふしぎな ちからが はたらいて はいれない！{end}",
-  "en": ""
+  "en": "A mysterious power keeps you from entering!{end}"
  },
  {
   "id": "11:80B6",
   "jp": "としは とりたく ないもんじゃ。{end}",
-  "en": ""
+  "en": "Growing old is no fun, I tell you.{end}"
  },
  {
   "id": "11:80C7",
   "jp": "としは とりたく ないもんじゃ。{end}",
-  "en": ""
+  "en": "Growing old is no fun, I tell you.{end}"
  },
  {
   "id": "11:80D8",
   "jp": "ここからの ながめは いいじゃろう。{fe}ずいぶん むかし、{n}{tEC:2D}という おとこも、 ここから{n}おなじ けしきを ながめておった。{fe}いいめを した おとこでなぁ。{fe}のこしてきた ふたりの むすこを あんじて {n}とおくを みておった。{fe}ひとりは {hero1}・・・・・ だったかなぁ。{n}もうひとりは・・・・。{fe}わすれてしもた。{f1}{end}",
-  "en": ""
+  "en": "Fine view from here, eh?{fe}Long ago, a man named {tEC:2D} looked out on this same view from here.{fe}He had kind eyes, that man.{fe}He gazed into the distance, worrying about the two sons he'd left behind.{fe}One was {hero1}..., I think it was. And the other one...{fe}I've forgotten.{f1}{end}"
  },
  {
   "id": "11:81A5",
   "jp": "ー とびらは かたく こおりで とざされている。{end}",
-  "en": ""
+  "en": "- The door is sealed tight with ice.{end}"
  },
  {
   "id": "11:81BE",
   "jp": "ー {hero0}は {tE5:0A}を{n}  つかった。{end}",
-  "en": ""
+  "en": "- {hero0} used the {tE5:0A}.{end}"
  },
  {
   "id": "11:81CF",
   "jp": "ー こおりついた とびらは{n}  とけて なくなった。{sync}{end}",
-  "en": ""
+  "en": "- The frozen door melted away.{sync}{end}"
  },
  {
   "id": "11:8211",
   "jp": "いだいなる ぼうけんしゃよ。{n}わたしは {tEC:03}・{tEC:01}。{end}",
-  "en": ""
+  "en": "Great adventurer. I am {tEC:03} {tEC:01}.{end}"
  },
  {
   "id": "11:822C",
   "jp": "すんだ ひとみを もつ、 なんじに つたえたい。{fe}せかいには {tEC:33}というものがある。{n}それは じゃあくな こころの みなもと。{n}みにくい たましいの みなもと。{fe}ひとりの にんげんが、 その ふういんを{n}ときはなった。{fe}{tEC:33}は、{n}5つの フェニックスに すがたをかえ、{n}かぜに とけこみ、 せかいを みだす。{fe}いだいなる ぼうけんしゃよ。{n}なんじに わが たましい{tEC:04}を{n}さずける。{fe}{tEC:04}は {tEC:40} ふういんに{n}かかせぬもの。{fe}にんげんたちの みらいのために{n}なんじを ふくめた 4にんで {tEC:33}を{n}ふういんするがよい。{fe}いだいなる ぼうけんしゃよ。{n}なんじを しんじる。{end}",
-  "en": ""
+  "en": "You with clear eyes, I wish to tell you this.{fe}In the world there is a thing called the {tEC:33}. It is the source of evil hearts. The source of ugly souls.{fe}One human has broken its seal.{fe}The {tEC:33} takes the form of five Phoenixes, melts into the wind, and throws the world into chaos.{fe}Great adventurer. I grant you my soul, the {tEC:04}.{fe}The {tEC:04} is indispensable for sealing the \"Panje.\"{fe}For the future of humankind, you and three others, four in all, must seal the {tEC:33}.{fe}Great adventurer. I believe in you.{end}"
  },
  {
   "id": "11:83BB",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "11:83BD",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "11:83BF",
   "jp": "10ねんかんも ここで しゅぎょうするのは{n}たいへんだよ。{end}",
-  "en": ""
+  "en": "Training here for ten whole years is tough.{end}"
  },
  {
   "id": "11:83DD",
   "jp": "{hero0}の ちちぎみ・ラ―ザどののように{n}りっぱな けんしに なれよ。{end}",
-  "en": ""
+  "en": "Become a fine swordsman like {hero0}'s father, Larza-dono.{end}"
  },
  {
   "id": "11:83FE",
   "jp": "この {tED:02}は {tED:03}の{n}がっこうなんだよ。{end}",
-  "en": ""
+  "en": "This {tED:02} is the school of {tED:03}.{end}"
  },
  {
   "id": "11:8413",
   "jp": "かあちゃんと はなれるのは いやだよう。{end}",
-  "en": ""
+  "en": "I don't wanna be away from my mommy!{end}"
  },
  {
   "id": "11:8428",
   "jp": "むすこには ここで ちゃんと しゅぎょうを{n}させて、 りっぱな にんげんに させたいの。{fe}でも あまえんぼうで こまって しまったわ。{end}",
-  "en": ""
+  "en": "I want my son to train properly here and grow into a fine man.{fe}But he's such a mama's boy, I don't know what to do.{end}"
  },
  {
   "id": "11:854E",
   "jp": "{hero0}や、{n}ゆうべは すさまじい あらしで あったのぅ。{fe}きょうは {hero0}にとって たいせつな ひ、{n}この {tED:02}を そつぎょうする{n}ひ じゃ。{fe}さいごの しゅぎょうは {n}れいざん{tEC:A6}に のぼること。{fe}わしは、 こころの めで、 そなたをみておる。{n}けっして さぼるでないぞ。{fe}ふもとまで みおくろう。{end}",
-  "en": ""
+  "en": "Ah, {hero0}. That was quite a storm last night, wasn't it?{fe}Today is an important day for you, {hero0}: the day you graduate from this {tED:02}.{fe}Your final training is to climb the sacred Mount {tEC:A6}.{fe}I will be watching you with my mind's eye. Don't you dare slack off.{fe}I'll see you off as far as the foot of the mountain.{end}"
  },
  {
   "id": "11:85E1",
   "jp": "ひとの おおく あつまる {tED:09}なら{n}そなたの なかまを みつける てがかりが{n}あるやも しれん。{fe}{tED:09}は このくにの ちゅうしんじゃ。{n}とにかく {tED:09}に いってみたら{n}どうじゃろう。{fe}{tEC:A7}スのしめいを{n}まっとうするがよい。{n}けっして くじけるでないぞ。{end}",
-  "en": ""
+  "en": "In {tED:09}, where many people gather, you may find a clue to finding your companions.{fe}{tED:09} is the heart of this land. Why not go to {tED:09} for a start?{fe}Fulfill {tEC:A7}'s mission. And never lose heart.{end}"
  },
  {
   "id": "11:8660",
   "jp": "おおっ！{n}ひとり なかまを さがしだしたのか！{fe}あと ふたりの なかまを さがしだすのじゃ。{n}そなたらの ぼうけんは それからじゃぞ。{end}",
-  "en": ""
+  "en": "Oh! You've found one companion!{fe}Now find two more companions. Your adventure begins after that, my boy.{end}"
  },
  {
   "id": "11:86A4",
   "jp": "おおっ！{n}ふたりの なかまを さがしだしたのか！{fe}あと ひとりの なかまを さがしだすのじゃ。{n}そなたらの ぼうけんは それからじゃぞ。{end}",
-  "en": ""
+  "en": "Oh! You've found two companions!{fe}Now find one more companion. Your adventure begins after that, my boy.{end}"
  },
  {
   "id": "11:86E9",
   "jp": "おおっ！{n}なかまを さがしだしたか！{fe}4にんで ちからを あわせて{n}{tEC:A7}スのしめいを{n}まっとうするがよい。{end}",
-  "en": ""
+  "en": "Oh! You've found your companions!{fe}Join your strength, all four of you, and fulfill {tEC:A7}'s mission.{end}"
  },
  {
   "id": "11:871F",
   "jp": "{hero0}どの、 けっして とちゅうで{n}くじけるでないぞ。{fe}せかいは そなたたちの かつやくに {n}かかって いるようじゃ。{end}",
-  "en": ""
+  "en": "{hero0}-dono, never lose heart along the way.{fe}It seems the world depends on what you all do.{end}"
  },
  {
   "id": "11:8759",
   "jp": "いきなり しんで しまったのか。{n}なさけないことじゃ。{end}",
-  "en": ""
+  "en": "You went and died right off the bat? How pathetic.{end}"
  },
  {
   "id": "11:8775",
   "jp": "「・・・・・・・・・・・・・・・・・・・・・・」{fe}そうか、{n}{tEC:A7}スに でおうたか・・・。{fe}{tEC:A7}スは このせかいを つくった{n}{tEC:03}じゃ。{fe}そなたが うけとった{tEC:04}は、{n}{tEC:A7}スの たましいと いわれておる。{fe}それを そなたに たくしたのだから、{n}そなたを りっぱな ぼうけんしゃと みとめたに{n}ちがいない。{fe}りっぱに しめいを はたすがよい。{fe}ひとの おおく あつまる {tED:09}なら{n}そなたの なかまを みつける てがかりが{n}あるやも しれん。{fe}{tED:09}は このくにの ちゅうしんじゃ。{n}とにかく {tED:09}に いってみたら{n}どうじゃろう。{fe}これは わしからの せんべつじゃ。{fe}ー {tE6:01}を てにいれた。{sync}{fe}きちっと そうびして でかけるのじゃぞ。{fe}{tEC:A7}スのしめいを{n}まっとうするがよい。{end}",
-  "en": ""
+  "en": "\"......................\"{fe}I see... So you met {tEC:A7}...{fe}{tEC:A7} is the dragon who created this world.{fe}The {tEC:04} you received is said to be {tEC:A7}'s soul.{fe}Entrusting it to you means it must have recognized you as a worthy adventurer.{fe}Fulfill your mission well.{fe}In {tED:09}, where many people gather, you may find a clue to finding your companions.{fe}{tED:09} is the heart of this land. Why not go to {tED:09} for a start?{fe}This is a parting gift from me.{fe}- Received the {tE6:01}.{sync}{fe}Be sure to equip it properly before you go.{fe}Fulfill {tEC:A7}'s mission.{end}"
  },
  {
   "id": "11:88C4",
   "jp": "ひとの おおく あつまる {tED:09}なら{n}そなたの なかまを みつける てがかりが{n}あるやも しれん。{fe}{tED:09}は このくにの ちゅうしんじゃ。{n}とにかく {tED:09}に いってみたら{n}どうじゃろう。{fe}{tEC:A7}スのしめいを{n}まっとうするがよい。{n}けっして くじけるでないぞ。{end}",
-  "en": ""
+  "en": "In {tED:09}, where many people gather, you may find a clue to finding your companions.{fe}{tED:09} is the heart of this land. Why not go to {tED:09} for a start?{fe}Fulfill {tEC:A7}'s mission. And never lose heart.{end}"
  },
  {
   "id": "11:8943",
   "jp": "はやく {tED:03}に もどりたいよう。{end}",
-  "en": ""
+  "en": "I wanna go back to {tED:03} soon.{end}"
  },
  {
   "id": "11:8954",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "11:8956",
   "jp": "{hero0}は ここを そつぎょうできて{n}うらやましいよ。{end}",
-  "en": ""
+  "en": "I'm jealous you get to graduate from here, {hero0}.{end}"
  },
  {
   "id": "11:896F",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "11:8971",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "11:8A03",
   "jp": "{tED:09} ？{n}このくにの ちゅうしんだよ。{end}",
-  "en": ""
+  "en": "{tED:09}? It's the heart of this land.{end}"
  },
  {
   "id": "11:8A17",
   "jp": "{tED:09}からきた という たびびとが{n}やどやに いたよ。{n}はなしを きくといい。{end}",
-  "en": ""
+  "en": "There was a traveler at the inn who said he came from {tED:09}. You should hear what he has to say.{end}"
  },
  {
   "id": "11:8A3E",
   "jp": "このむらの ほくせいに{n}{tED:04}が あるのよ。{end}",
-  "en": ""
+  "en": "{tED:04} is to the northwest of this village.{end}"
  },
  {
   "id": "11:8A54",
   "jp": "この いぬ、 きたねぇんだぜ。{n}いしを ぶつけて やったよ。{end}",
-  "en": ""
+  "en": "This dog is filthy. I threw a rock at it.{end}"
  },
  {
   "id": "11:8A73",
   "jp": "あのこ いぬを いじめるの。{n}かわいそうな ワンちゃん。{end}",
-  "en": ""
+  "en": "That boy picks on the dog. Poor little doggy.{end}"
  },
  {
   "id": "11:8A90",
   "jp": "グゥルルル。{end}",
-  "en": ""
+  "en": "Grrrrr.{end}"
  },
  {
   "id": "11:8A97",
   "jp": "ここは {tED:03}です。{end}",
-  "en": ""
+  "en": "This is {tED:03}.{end}"
  },
  {
   "id": "11:8AA1",
   "jp": "ぼくは らいねんから {tED:02}で{n}しゅぎょうを はじめるんだ。{fe}たのしみだなぁ。{end}",
-  "en": ""
+  "en": "Starting next year, I'm going to train at {tED:02}.{fe}I can't wait!{end}"
  },
  {
   "id": "11:8AC8",
   "jp": "やぁ、 {hero0}！{n}そつぎょう おめでとう。{fe}でも これからが ほんとうの しゅぎょうだ{n}って ことを わすれるんじゃないぞ。{end}",
-  "en": ""
+  "en": "Hey, {hero0}! Congrats on graduating.{fe}But don't forget, the real training starts now.{end}"
  },
  {
   "id": "11:8B3F",
@@ -217,27 +217,27 @@
  {
   "id": "11:8B45",
   "jp": "ほかに ごようけんは？{n}{f0}{end}",
-  "en": ""
+  "en": "Is there anything else?{f0}{end}"
  },
  {
   "id": "11:8B53",
   "jp": "{tEC:6F}。{n}{tEC:9B}{n}{f0}{end}",
-  "en": ""
+  "en": "{tEC:6F}. {tEC:9B}{f0}{end}"
  },
  {
   "id": "11:8C18",
   "jp": "やすむときには このやどに きてくださいよ。{end}",
-  "en": ""
+  "en": "Come to this inn when you need a rest.{end}"
  },
  {
   "id": "11:8C2F",
   "jp": "ごゆっくり。{end}",
-  "en": ""
+  "en": "Take your time.{end}"
  },
  {
   "id": "11:8C36",
   "jp": "{hero0}さん、{n}おかねを もってないじゃない。{fe}チェッ、{n}いいよ とまっていきなさい。{end}",
-  "en": ""
+  "en": "{hero0}-san, you don't have any money!{fe}Tch. Fine, stay anyway.{end}"
  },
  {
   "id": "11:8C5F",
@@ -247,47 +247,47 @@
  {
   "id": "11:8C62",
   "jp": "{tEC:86}{n}おひとり 6Gですが、 おとまりですか？{n}{f0}{end}",
-  "en": ""
+  "en": "A bed is the best place for a traveler to rest. It's 6G per person. Will you be staying?{f0}{end}"
  },
  {
   "id": "11:8C7C",
   "jp": "{tED:09}からの たびの とちゅうで{n}たちよった {tED:04}で、 ドラゴン・{n}{tEC:01}にあったという そうりょがいた。{fe}わたしも あって みたいものだ。{end}",
-  "en": ""
+  "en": "There was a priest who said he met Dragon {tEC:01} in {tED:04}, where he stopped on his journey from {tED:09}.{fe}I'd like to meet the dragon too.{end}"
  },
  {
   "id": "11:8CC1",
   "jp": "{hero0}も いちにんまえに なったのぅ。{n}たくましくなって すっかり みちがえたよ。{end}",
-  "en": ""
+  "en": "You've become a grown man, {hero0}. You've gotten so strong, I hardly recognize you.{end}"
  },
  {
   "id": "11:8CE9",
   "jp": "どんどん くえよ。{fe}ー {hero0}は しょくじをした。{n}  HPを かいふくした。{sync}{end}",
-  "en": ""
+  "en": "Eat up, eat up!{fe}- {hero0} had a meal and recovered HP.{sync}{end}"
  },
  {
   "id": "11:8D10",
   "jp": "はらが へったら いつでも きな。{end}",
-  "en": ""
+  "en": "Come by anytime you're hungry.{end}"
  },
  {
   "id": "11:8D22",
   "jp": "つかれた かおを しているなぁ。{n}めし でも くって いくかい？{n}{f0}{end}",
-  "en": ""
+  "en": "You look tired. How about a bite to eat?{f0}{end}"
  },
  {
   "id": "11:8D45",
   "jp": "おっ、 なかまがいるなぁ。{n}いちばん たいせつなのは チ―ムワ―クだぜ。{n}わすれるなよ。{end}",
-  "en": ""
+  "en": "Oh, you've got companions. Teamwork is what matters most. Don't forget it.{end}"
  },
  {
   "id": "11:8E38",
   "jp": "おきゃくさん、{n}{tEC:57}くださいよ。{end}",
-  "en": ""
+  "en": "Hey, customer, you have to pay properly.{end}"
  },
  {
   "id": "11:8E49",
   "jp": "まいど！{n}{tEC:80}よ。{end}",
-  "en": ""
+  "en": "Thanks a lot! {tEC:80}!{end}"
  },
  {
   "id": "11:8E53",
@@ -297,7 +297,7 @@
  {
   "id": "11:8E58",
   "jp": "{tEC:6C}{n}{tEC:93}{n}{tEC:A1} にげるやつが いるんだよ。{end}",
-  "en": ""
+  "en": "Please pay for what you bought here before you go. Now and then, some folks run off without paying.{end}"
  },
  {
   "id": "11:8E6F",
@@ -312,7 +312,7 @@
  {
   "id": "11:8E7A",
   "jp": "{tEC:80}よ。{end}",
-  "en": ""
+  "en": "{tEC:80}!{end}"
  },
  {
   "id": "11:8E7F",
@@ -322,7 +322,7 @@
  {
   "id": "11:8E87",
   "jp": "{tEC:80}ね。{end}",
-  "en": ""
+  "en": "{tEC:80}!{end}"
  },
  {
   "id": "11:8E8C",
@@ -332,7 +332,7 @@
  {
   "id": "11:8E94",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "11:8ECC",
@@ -342,7 +342,7 @@
  {
   "id": "11:8ECF",
   "jp": "ありがとう。{n}{tEC:59}{end}",
-  "en": ""
+  "en": "Thank you. Come again when you have more to sell.{end}"
  },
  {
   "id": "11:8ED9",
@@ -352,102 +352,102 @@
  {
   "id": "11:8F25",
   "jp": "{hero0}かい？{n}かえってきたんだねぇ。 そつぎょう、おめでとう。{n}とうさんも きっと よろこんでいるよ。{fe}{tED:02}の ちょうろうに きいたよ。{n}じつは とうさんも {tEC:A7}スに あって{n}じゅうような しめいを うけたんだ。{fe}{hero0}がうまれて すぐの ことだったから{n}15ねんまえ だったかねえ。{fe}おんなに だらしない ひとだったけど{n}いつかえってくるのか たのしみで・・・。{fe}たびだつのは いいけれど、 はやく かえって{n}きておくれ。{n}おまえだけが たよりなんだからね。{f1}{end}",
-  "en": ""
+  "en": "{hero0}, is that you? You've come home. Congratulations on graduating. I'm sure your father is proud too.{fe}I heard from the elder of {tED:02}. Truth is, your father also met {tEC:A7} and was given an important mission.{fe}It was right after you were born, {hero0}, so that was fifteen years ago, I suppose.{fe}He was a bit of a skirt-chaser, but I still look forward to the day he comes home...{fe}It's fine for you to set off, but come home soon. You're all I have to rely on.{f1}{end}"
  },
  {
   "id": "11:9009",
   "jp": "せめてもの せんべつが たからばこのなかに{n}はいっているよ。{n}ぼうけんのやくに たてなさい。{end}",
-  "en": ""
+  "en": "There's a little parting gift for you in the treasure chest. Put it to good use on your adventure.{end}"
  },
  {
   "id": "11:9038",
   "jp": "せめてもの せんべつが たからばこのなかに{n}はいっているよ。{n}ぼうけんのやくに たてなさい。{fe}あれっ！ もう たからばこを あけたのかい？！{n}ての はやい、{n}いやっ、 きの はやい ことだねぇ。{end}",
-  "en": ""
+  "en": "There's a little parting gift for you in the treasure chest. Put it to good use on your adventure.{fe}Oh! You already opened the treasure chest!? Quick with your hands... no, I mean, quick off the mark, aren't you?{end}"
  },
  {
   "id": "11:909A",
   "jp": "{hero0}かい。{n}おかえり。{fe}ながいたびに なるだろうけど{n}くじけるんじゃないよ。{end}",
-  "en": ""
+  "en": "Is that you, {hero0}? Welcome home.{fe}It'll be a long journey, but don't you lose heart.{end}"
  },
  {
   "id": "11:90D0",
   "jp": "{hero0}かい。{n}{tED:02}を そつぎょうして{n}また いちだんと りっぱになったのぉ。{fe}さすが せんぞだいだい せんしのいえじゃ。{end}",
-  "en": ""
+  "en": "Is that you, {hero0}? You've finished at {tED:02} and grown into a fine young man.{fe}As you'd expect from a family of warriors, generation after generation.{end}"
  },
  {
   "id": "11:911B",
   "jp": "あらぁ、 {hero0}でないかい。{n}そつぎょう おめでとう。{end}",
-  "en": ""
+  "en": "Well, if it isn't {hero0}! Congratulations on graduating.{end}"
  },
  {
   "id": "11:9209",
   "jp": "さいきん {tEC:31}がふえてきて{n}こまっているのよ。{end}",
-  "en": ""
+  "en": "There have been more and more goblins lately. It's a real worry.{end}"
  },
  {
   "id": "11:9221",
   "jp": "さいきん {tEC:31}がいなくなったわねぇ。{end}",
-  "en": ""
+  "en": "The goblins seem to have gone lately, haven't they?{end}"
  },
  {
   "id": "11:9234",
   "jp": "{tEC:31}は こどもばかりを{n}さらうというわ。{end}",
-  "en": ""
+  "en": "They say the goblins only carry off children.{end}"
  },
  {
   "id": "11:9249",
   "jp": "ゆうかんな ひとたちが {tEC:31}を{n}たいじしたらしいわよ。{end}",
-  "en": ""
+  "en": "I hear some brave people got rid of the goblins.{end}"
  },
  {
   "id": "11:9265",
   "jp": "きたにある {tEC:05}では{n}{tEC:31}に さらわれた こどもが{n}たくさん いるらしいのよ。{fe}あなたも あぶないから いっては ダメよ。{end}",
-  "en": ""
+  "en": "Up north in {tEC:05}, they say lots of children have been carried off by goblins.{fe}It's dangerous, so don't you go there.{end}"
  },
  {
   "id": "11:92A3",
   "jp": "きたにある {tEC:05}では{n}{tEC:31}に さらわれた こどもが{n}たくさん いるらしいのよ。{end}",
-  "en": ""
+  "en": "Up north in {tEC:05}, they say lots of children have been carried off by goblins.{end}"
  },
  {
   "id": "11:92CB",
   "jp": "{tEC:31}にさらわれてしまった こどもは{n}にどと かえって こないの。{n}かわいそうだわ。{end}",
-  "en": ""
+  "en": "Children carried off by goblins never come back. The poor things.{end}"
  },
  {
   "id": "11:92F5",
   "jp": "まごには {tEC:31}のことで{n}ちゅういしとるんじゃ。{fe}だけど おちつきがなくって・・・。{end}",
-  "en": ""
+  "en": "I've warned my grandchild about the goblins.{fe}But the little one just can't sit still...{end}"
  },
  {
   "id": "11:931F",
   "jp": "{tEC:31}が いても いなくても{n}こどもって おちつきが ないものじゃ。{end}",
-  "en": ""
+  "en": "Goblins or no goblins, children never can sit still.{end}"
  },
  {
   "id": "11:9341",
   "jp": "このせかいは、{tEC:03}・{tEC:41}{n}つくられたと いわれている。{fe}その {tEC:03}・{tEC:01}が{n}このむらの{hero1}のまえに あらわれたのだ。{n}スンゲェことなのだ。{end}",
-  "en": ""
+  "en": "They say this world was created by Dragon Larzes.{fe}And that very {tEC:03} {tEC:01} appeared before {hero1} of this village! That's sooo amazing.{end}"
  },
  {
   "id": "11:9386",
   "jp": "このせかいは、{tEC:03}・{tEC:41}{n}つくられたと いわれている。{end}",
-  "en": ""
+  "en": "They say this world was created by Dragon Larzes.{end}"
  },
  {
   "id": "11:93A2",
   "jp": "にしに ぶきみな どうくつが あるけど、{n}ママは いっちゃダメ、 っていうんだ。{end}",
-  "en": ""
+  "en": "There's a creepy cave to the west, but Mama says I can't go there.{end}"
  },
  {
   "id": "11:93CB",
   "jp": "ニャ~ゴ。{end}",
-  "en": ""
+  "en": "Meeeow.{end}"
  },
  {
   "id": "11:93D1",
   "jp": "ここは {tED:04}です。{n}すてきな むらですよ。{end}",
-  "en": ""
+  "en": "This is {tED:04}. It's a lovely village.{end}"
  },
  {
   "id": "11:9421",
@@ -457,67 +457,67 @@
  {
   "id": "11:9427",
   "jp": "ほかに ごようけんは？{n}{f0}{end}",
-  "en": ""
+  "en": "Is there anything else?{f0}{end}"
  },
  {
   "id": "11:9435",
   "jp": "{tEC:6F}。{n}{tEC:9B}{n}{f0}{end}",
-  "en": ""
+  "en": "{tEC:6F}. {tEC:9B}{f0}{end}"
  },
  {
   "id": "11:949A",
   "jp": "わしの おしえごの {hero1}が{n}{tEC:A7}スにあって じゅうような{n}しめいを たまわったのじゃ。{fe}そして なかまを さがしに {tED:09}に{n}たびだった。{fe}なに？！{n}{hero0}どのが {hero1}の なかまか？{n}それは すばらしい。{fe}{hero1}と ちからをあわせて{n}しめいを まっとうすることじゃ。{end}",
-  "en": ""
+  "en": "My pupil {hero1} met {tEC:A7} and was entrusted with an important mission.{fe}He then set off for {tED:09} to look for companions.{fe}What?! {hero0}-dono, you are {hero1}'s companion? Why, that's wonderful.{fe}Join your strength with {hero1}'s and see the mission through.{end}"
  },
  {
   "id": "11:9519",
   "jp": "{hero1}は {tEC:A7}スにあって{n}じゅうような しめいを たまわったのじゃ。{fe}そして なかまを さがしに {tED:09}に{n}たびだった。{fe}{hero0}どの。{n}{hero1}とちからをあわせて、 {n}しめいを まっとうすることじゃ。{end}",
-  "en": ""
+  "en": "{hero1} met {tEC:A7} and was entrusted with an important mission.{fe}He then set off for {tED:09} to look for companions.{fe}{hero0}-dono. Join your strength with {hero1}'s and see the mission through.{end}"
  },
  {
   "id": "11:9576",
   "jp": "なかまが ふえれば そのぶん そなたらは{n}つよくなる。{fe}ちからを あわせて {tEC:54}を{n}まっとうするのじゃぞ。{end}",
-  "en": ""
+  "en": "The more companions you have, the stronger you all become.{fe}Join your strength and see {tEC:54} through.{end}"
  },
  {
   "id": "11:95AC",
   "jp": "たびのとちゅう つらいことも あるじゃろう。{n}しかし ぜったいに くじけるでない。{fe}がんばるのじゃぞ。{end}",
-  "en": ""
+  "en": "There will be hard times on your journey. But never lose heart.{fe}Do your best.{end}"
  },
  {
   "id": "11:95E0",
   "jp": "{tED:03}の {hero0}どのか。{n}{hero1}は {hero0}どのとは{n}ひとつちがいの そうりょだ。{fe}なかよく やってくれたまえ。{end}",
-  "en": ""
+  "en": "So you are {hero0}-dono of {tED:03}. {hero1} is a priest one year apart from you, {hero0}-dono.{fe}I hope you two get along.{end}"
  },
  {
   "id": "11:9611",
   "jp": "しょしん わすれる べからず。{n}さいごまで がんばりなさい。{end}",
-  "en": ""
+  "en": "Never forget the spirit you started with. Keep at it to the very end.{end}"
  },
  {
   "id": "11:96AA",
   "jp": "{tEC:56}{n}{tEC:57}ぇ。{end}",
-  "en": ""
+  "en": "{tEC:56} You've gotta pay properly!{end}"
  },
  {
   "id": "11:96B2",
   "jp": "{tEC:5D}{n}{tEC:80}ね。{end}",
-  "en": ""
+  "en": "{tEC:5D} {tEC:80}!{end}"
  },
  {
   "id": "11:96BA",
   "jp": "ここで しなものの だいきんを せいさんします。{n}せいさんしますか？{n}{f0}{end}",
-  "en": ""
+  "en": "I settle the bill for goods here. Shall I settle up? {f0}{end}"
  },
  {
   "id": "11:96DF",
   "jp": "{tEC:6C}{n}{tEC:93}{n}ときどき にげてく ひとが いるの。{end}",
-  "en": ""
+  "en": "Please pay here for what you bought. Every now and then someone runs off without paying.{end}"
  },
  {
   "id": "11:96F8",
   "jp": "{tEC:80}ね。{end}",
-  "en": ""
+  "en": "{tEC:80}!{end}"
  },
  {
   "id": "11:96FD",
@@ -527,7 +527,7 @@
  {
   "id": "11:9705",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "11:978B",
@@ -542,177 +542,177 @@
  {
   "id": "11:9791",
   "jp": "あんた おかねが たらないよ。{n}また こんど きてくれよ。{end}",
-  "en": ""
+  "en": "You don't have enough money. Come back another time.{end}"
  },
  {
   "id": "11:97AF",
   "jp": "{tEC:5F}{n}きをつけて。{end}",
-  "en": ""
+  "en": "{tEC:5F} Be careful.{end}"
  },
  {
   "id": "11:97B9",
   "jp": "{tEC:74}{n}ひとり 7Gだけど とまっていくかい？{n}{f0}{end}",
-  "en": ""
+  "en": "{tEC:74} It's 7G each. Staying the night? {f0}{end}"
  },
  {
   "id": "11:97D2",
   "jp": "{tEC:A7}スに あったという そうりょが{n}このむらに いると きいたのだが・・・。{end}",
-  "en": ""
+  "en": "I heard that a priest who met {tEC:A7} lives in this village...{end}"
  },
  {
   "id": "11:97F9",
   "jp": "{tEC:A7}スに あったという そうりょが{n}このむらに いると きいたのだが・・・。{fe}おおっ！{n}そなたたちが {tEC:A7}スに あったのか。{n}ありがたい、ありがたい。{end}",
-  "en": ""
+  "en": "I heard that a priest who met {tEC:A7} lives in this village...{fe}Oh! So you are the ones who met {tEC:A7}! Thank heavens, thank heavens.{end}"
  },
  {
   "id": "11:9845",
   "jp": "{tEC:43}すがたを あらわす ということは{n}せかいが めつぼうする まえぶれ{n}といわれている。{end}",
-  "en": ""
+  "en": "They say that when the dragon shows itself, it is an omen that the world will be destroyed.{end}"
  },
  {
   "id": "11:9882",
   "jp": "{tED:06}で ふしぎな ふくをきた{n}おんなの ひとが いたんだよ。{n}めずらしい ふくだったよ。{end}",
-  "en": ""
+  "en": "In {tED:06} there was a woman wearing strange clothes. Really unusual clothes.{end}"
  },
  {
   "id": "11:98CD",
   "jp": "{hero1}は 14ねんほどまえ、{n}この いえのまえに すてられていた。{fe}{hero1}のははおやは、 ちちおやが{n}いなくなって よっぽど こまっていたのだろう。{fe}それから わしが ちちおやがわりになって{n}そだててきたのだ。{end}",
-  "en": ""
+  "en": "{hero1} was abandoned in front of this house about 14 years ago.{fe}With his father gone, {hero1}'s mother must have been in dire straits.{fe}Since then I have raised him in his father's place.{end}"
  },
  {
   "id": "11:9933",
   "jp": "{hero1}、{n}そなたは すてごであったが、{n}ごりょうしんのこと けっして うらむでないぞ。{end}",
-  "en": ""
+  "en": "{hero1}, you were a foundling, but you must never hold it against your parents.{end}"
  },
  {
   "id": "11:9991",
   "jp": "まだなら いくとよい。{n}そなたの ちちうえが つかっていた{n}{tE6:05}が あるはずじゃ。{fe}おまえさんの ぼうけんに{n}きっと やくに たつじゃろう。{end}",
-  "en": ""
+  "en": "If not, you should go. The {tE6:05} your father used should be there.{fe}It's sure to come in handy on your adventure.{end}"
  },
  {
   "id": "11:99D8",
   "jp": "なんじゃ、{n}もう いっておったのか。{end}",
-  "en": ""
+  "en": "What, you've already been?{end}"
  },
  {
   "id": "11:99EB",
   "jp": "おやぁ！{n}{hero0}じゃないか！！{fe}そなたの ちちうえが しゅぎょうしたという{n}にしの どうくつには いったのか？{n}{f0}{end}",
-  "en": ""
+  "en": "Well! If it isn't {hero0}!!{fe}Have you been to the cave to the west, where your father trained? {f0}{end}"
  },
  {
   "id": "11:9A57",
   "jp": "そいつは すげぇや。{n}その {tEC:04}には、{n}せかいを すくったという でんせつが あるんだ。{end}",
-  "en": ""
+  "en": "Now that's something. They say that {tEC:04} has a legend of saving the world.{end}"
  },
  {
   "id": "11:9A84",
   "jp": "そうだろうなぁ。{n}そんな りっぱなものが おれの めのまえに{n}あるはずがない。{end}",
-  "en": ""
+  "en": "Figures. Something that grand couldn't possibly be right in front of me.{end}"
  },
  {
   "id": "11:9AAC",
   "jp": "おまえさんが もっている {tEC:42}ブ」は{n}ほんものかい？{n}{f0}{end}",
-  "en": ""
+  "en": "That dragon's \"Orb\" you've got... is it the real thing? {f0}{end}"
  },
  {
   "id": "11:9B0B",
   "jp": "おとなになったら にしの どうくつに いけるって{n}パパが いってたわ。{f1}{end}",
-  "en": ""
+  "en": "Papa said when I'm grown up I can go to the cave to the west.{f1}{end}"
  },
  {
   "id": "11:9B30",
   "jp": "だから こどもの わたしは{n}いっちゃ ダメなんだって。{end}",
-  "en": ""
+  "en": "So that means kids like me can't go.{end}"
  },
  {
   "id": "11:9B4C",
   "jp": "でも おんなのこは おおきくなっても{n}あぶないから だめなんだって。{end}",
-  "en": ""
+  "en": "But he says girls can't go even when they're grown up, because it's dangerous.{end}"
  },
  {
   "id": "11:9B6F",
   "jp": "こどもの めんどうを みるのは{n}つかれちゃうよ。{end}",
-  "en": ""
+  "en": "Looking after kids sure wears you out.{end}"
  },
  {
   "id": "11:9C62",
   "jp": "きさま なにものだ！{n}たちされ！{end}",
-  "en": ""
+  "en": "Who goes there?! Begone!{end}"
  },
  {
   "id": "11:9C73",
   "jp": "はなしは きいておる。{n}とおるがよい。{end}",
-  "en": ""
+  "en": "I've been told about you. You may pass.{end}"
  },
  {
   "id": "11:9C87",
   "jp": "ここをとおるには {tEC:05}のおうの{n}きょかが ひつようだ。{n}たちされ！{end}",
-  "en": ""
+  "en": "To pass here you need permission from the king of {tEC:05}. Begone!{end}"
  },
  {
   "id": "11:9CA9",
   "jp": "はなしは きいておる。{n}とおるがよい。{end}",
-  "en": ""
+  "en": "I've been told about you. You may pass.{end}"
  },
  {
   "id": "11:9CBD",
   "jp": "ウェ~ン。 ウェ~ン。{n}おか~ちゃ~ん。{end}",
-  "en": ""
+  "en": "Waaah! Waaah! Mommyyy!{end}"
  },
  {
   "id": "11:9CD2",
   "jp": "みて、 みて。{n}この こねこ かわいい。{end}",
-  "en": ""
+  "en": "Look, look! Isn't this kitten cute?{end}"
  },
  {
   "id": "11:9CE7",
   "jp": "あぁ、 あこがれの {tED:09}。{fe}いちどで いいから いってみたいわぁ。{end}",
-  "en": ""
+  "en": "Ah, {tED:09}, the place of my dreams.{fe}I'd love to go there, even just once.{end}"
  },
  {
   "id": "11:9D09",
   "jp": "あぁ、 あこがれの {tEC:05}。{fe}いちどで いいから いってみたいわぁ。{end}",
-  "en": ""
+  "en": "Ah, {tEC:05}, the place of my dreams.{fe}I'd love to go there, even just once.{end}"
  },
  {
   "id": "11:9D2B",
   "jp": "ボヤッとしてるんじゃねぇよ！{end}",
-  "en": ""
+  "en": "Don't just stand there spacing out!{end}"
  },
  {
   "id": "11:9D3A",
   "jp": "いそがしいんだから はなしかけるなよ。{end}",
-  "en": ""
+  "en": "I'm busy, so don't talk to me.{end}"
  },
  {
   "id": "11:9D4E",
   "jp": "ここは {tEC:05}と {tED:09}の{n}ちゅうかんにある {tED:05}です。{end}",
-  "en": ""
+  "en": "This is {tED:05}, halfway between {tEC:05} and {tED:09}.{end}"
  },
  {
   "id": "11:9D69",
   "jp": "{tED:09}は さばくの みなみにあるんだ。{end}",
-  "en": ""
+  "en": "{tED:09} is south of the desert.{end}"
  },
  {
   "id": "11:9D7C",
   "jp": "ニャ~オ。{end}",
-  "en": ""
+  "en": "Meow.{end}"
  },
  {
   "id": "11:9D82",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "11:9E4A",
   "jp": "おきゃくさん、{n}{tEC:57}くださいよ。{end}",
-  "en": ""
+  "en": "Hey, customer, you have to pay properly.{end}"
  },
  {
   "id": "11:9E5B",
   "jp": "まいど！{n}{tEC:80}よ。{end}",
-  "en": ""
+  "en": "Thanks a lot! {tEC:80}!{end}"
  },
  {
   "id": "11:9E65",
@@ -722,7 +722,7 @@
  {
   "id": "11:9E6A",
   "jp": "{tEC:6C}{n}{tEC:93}{n}{tEC:A1} にげるやつが いるんだよ。{end}",
-  "en": ""
+  "en": "Please pay for what you bought here before you go. Now and then, some folks run off without paying.{end}"
  },
  {
   "id": "11:9E81",
@@ -737,7 +737,7 @@
  {
   "id": "11:9E8C",
   "jp": "{tEC:80}よ。{end}",
-  "en": ""
+  "en": "{tEC:80}!{end}"
  },
  {
   "id": "11:9E91",
@@ -747,7 +747,7 @@
  {
   "id": "11:9E99",
   "jp": "{tEC:80}ね。{end}",
-  "en": ""
+  "en": "{tEC:80}!{end}"
  },
  {
   "id": "11:9E9E",
@@ -757,17 +757,17 @@
  {
   "id": "11:9EA6",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "11:9F6E",
   "jp": "{tEC:56}{n}{tEC:57}ぇ。{end}",
-  "en": ""
+  "en": "{tEC:56} You've gotta pay properly!{end}"
  },
  {
   "id": "11:9F76",
   "jp": "{tEC:5D}{n}{tEC:80}ね。{end}",
-  "en": ""
+  "en": "{tEC:5D} {tEC:80}!{end}"
  },
  {
   "id": "11:9F7E",
@@ -777,7 +777,7 @@
  {
   "id": "11:9F83",
   "jp": "{tEC:6C}{n}{tEC:93}{n}{tEC:A1} かえっちゃうひとが いるの。{end}",
-  "en": ""
+  "en": "Please pay here for what you bought. Every now and then someone just leaves like that.{end}"
  },
  {
   "id": "11:9F9B",
@@ -792,7 +792,7 @@
  {
   "id": "11:9FA6",
   "jp": "{tEC:80}よ。{end}",
-  "en": ""
+  "en": "{tEC:80}!{end}"
  },
  {
   "id": "11:9FAB",
@@ -802,7 +802,7 @@
  {
   "id": "11:9FB3",
   "jp": "{tEC:80}ね。{end}",
-  "en": ""
+  "en": "{tEC:80}!{end}"
  },
  {
   "id": "11:9FB8",
@@ -812,7 +812,7 @@
  {
   "id": "11:9FC0",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "11:9FF8",
@@ -822,7 +822,7 @@
  {
   "id": "11:9FFB",
   "jp": "ありがとう。{n}{tEC:59}{end}",
-  "en": ""
+  "en": "Thank you. Come again when you have more to sell.{end}"
  },
  {
   "id": "11:A005",
@@ -832,17 +832,17 @@
  {
   "id": "11:A083",
   "jp": "ちぇっ、 ひやかしかい。{end}",
-  "en": ""
+  "en": "Tch, just browsing, huh?{end}"
  },
  {
   "id": "11:A090",
   "jp": "ごゆっくりどうぞ。{end}",
-  "en": ""
+  "en": "Take your time.{end}"
  },
  {
   "id": "11:A09A",
   "jp": "{tEC:5E}{n}また こんど おいで。{end}",
-  "en": ""
+  "en": "You folks don't have any money, do you? Come back another time.{end}"
  },
  {
   "id": "11:A0A9",
@@ -852,17 +852,17 @@
  {
   "id": "11:A0AC",
   "jp": "{tEC:86}{n}おひとり 24Gですが、 おとまりですか？{n}{f0}{end}",
-  "en": ""
+  "en": "A bed is the best place for a traveler to rest. It's 24G each. Will you be staying? {f0}{end}"
  },
  {
   "id": "11:A0C7",
   "jp": "{tED:09}？{n}このまちから ひがしにいけば たどりつくぜ。{end}",
-  "en": ""
+  "en": "{tED:09}? Head east from this town and you'll get there.{end}"
  },
  {
   "id": "11:A0E2",
   "jp": "いらっしゃあい。{end}",
-  "en": ""
+  "en": "Welcoooome!{end}"
  },
  {
   "id": "11:A17F",
@@ -877,327 +877,327 @@
  {
   "id": "11:A185",
   "jp": "あんた おかねが たらないじゃないか。{n}こんどは かねを もってくるんだな。{end}",
-  "en": ""
+  "en": "You don't have enough money! Bring some cash next time.{end}"
  },
  {
   "id": "11:A1AC",
   "jp": "{tEC:5F}{n}きをつけて。{end}",
-  "en": ""
+  "en": "{tEC:5F} Be careful.{end}"
  },
  {
   "id": "11:A1B6",
   "jp": "{tEC:74}{n}ひとり 26Gだけど とまっていくかい？{n}{f0}{end}",
-  "en": ""
+  "en": "{tEC:74} It's 26G each. Staying the night? {f0}{end}"
  },
  {
   "id": "11:A1D0",
   "jp": "このまちの はしをわたる きょかは{n}{tEC:05}の おうから もらうんだ。{end}",
-  "en": ""
+  "en": "Permission to cross this town's bridge comes from the king of {tEC:05}.{end}"
  },
  {
   "id": "11:A1F2",
   "jp": "{tEC:05}と{n}ひがしの {tED:09}との しょうばいは、{n}この {tEC:06}の いのちじゃ。{fe}ふたつのしろを ひとびとが じゆうに{n}いききできては {tEC:06}は{n}いきていけないんじゃよ。{fe}だから、 まちの しょうにんたちは{n}{tEC:05}の おうに たのんで、{n}はしに ばんにんを おいて もらったのじゃ。{end}",
-  "en": ""
+  "en": "Trade between {tEC:05} and {tED:09} to the east is the lifeblood of {tEC:06}.{fe}If people could travel freely between the two castles, {tEC:06} could never survive.{fe}So the town's merchants asked the king of {tEC:05} to post a guard on the bridge.{end}"
  },
  {
   "id": "11:A279",
   "jp": "{tEC:05}と{n}ひがしの {tED:09}との しょうばいは、{n}この {tEC:06}の いのちじゃ。{fe}ふたつのしろを ひとびとが じゆうに{n}いききできては {tEC:06}は{n}いきていけないんじゃよ。{fe}だから、 まちの しょうにんたちは{n}{tEC:05}の おうに たのんで、{n}はしに ばんにんを おいて もらったのじゃ。{fe}いまと なっては{n}ばんにんなんぞ ひつよう ないのじゃがのぅ。{end}",
-  "en": ""
+  "en": "Trade between {tEC:05} and {tED:09} to the east is the lifeblood of {tEC:06}.{fe}If people could travel freely between the two castles, {tEC:06} could never survive.{fe}So the town's merchants asked the king of {tEC:05} to post a guard on the bridge.{fe}Not that there's any need for a guard these days, mind you.{end}"
  },
  {
   "id": "11:A320",
   "jp": "フゥ~、{n}よっぱらっちまったぜぇ。{end}",
-  "en": ""
+  "en": "Phew... I'm good and drunk.{end}"
  },
  {
   "id": "11:A348",
   "jp": "きみ、{hero0}かい？{n}{hero1}は ぼくだよ。{fe}{tEC:A7}スにあって {tED:09}で{n}なかまを みつけようと おもったのだが{n}はしを わたれなくて こまっていたんだ。{fe}これからの ながいたびを おともしましょう。{fe}ー {hero1}が なかまに くわわった。{sync}{end}",
-  "en": ""
+  "en": "Are you {hero0}? I'm {hero1}.{fe}I met {tEC:A7} and meant to find companions in {tED:09}, but I couldn't cross the bridge and was stuck.{fe}Let me join you on the long journey ahead.{fe}{hero1} joined the party.{sync}{end}"
  },
  {
   "id": "11:A3C7",
   "jp": "さばくには おそろしい まものが いるんじゃ。{n}いのちを おとさんようにのぉ。{end}",
-  "en": ""
+  "en": "There are terrible monsters in the desert. Mind you don't lose your life.{end}"
  },
  {
   "id": "11:A3FF",
   "jp": "うちの こどもは どこへ いったのかしら。{end}",
-  "en": ""
+  "en": "Where could my child have gone?{end}"
  },
  {
   "id": "11:A425",
   "jp": "せわしないねぇ、 このまちは。{end}",
-  "en": ""
+  "en": "This town sure is hectic.{end}"
  },
  {
   "id": "11:A445",
   "jp": "おんなだからって のんびり できないんだよっ。{n}ああ、 いそがしい。{end}",
-  "en": ""
+  "en": "Being a woman doesn't mean I get to take it easy. Oh, I'm so busy!{end}"
  },
  {
   "id": "11:A59A",
   "jp": "かあちゃん！{end}",
-  "en": ""
+  "en": "Mama!{end}"
  },
  {
   "id": "11:A5A1",
   "jp": "ありがとう！{end}",
-  "en": ""
+  "en": "Thank you!{end}"
  },
  {
   "id": "11:A5A8",
   "jp": "ほんとうに ありがとうございました。{n}あとで わたしたちの いえに およりください。{end}",
-  "en": ""
+  "en": "Thank you so very much. Please stop by our house later.{end}"
  },
  {
   "id": "11:A5D3",
   "jp": "いきていたんだね！{end}",
-  "en": ""
+  "en": "You're alive!{end}"
  },
  {
   "id": "11:A5DD",
   "jp": "ありがとうございました。{end}",
-  "en": ""
+  "en": "Thank you so much.{end}"
  },
  {
   "id": "11:A5EA",
   "jp": "ここは {tED:06}。{n}でんとうある しろだ。{end}",
-  "en": ""
+  "en": "This is {tED:06}, a castle of long tradition.{end}"
  },
  {
   "id": "11:A5FE",
   "jp": "ここは {tED:06}。{n}でんとうある しろだ。{end}",
-  "en": ""
+  "en": "This is {tED:06}, a castle of long tradition.{end}"
  },
  {
   "id": "11:A612",
   "jp": "わたしねぇ、 {n}{tEC:31}っていう かわいい どうぶつと、{n}おともだちに なったの。{end}",
-  "en": ""
+  "en": "You know what? I made friends with a cute animal. It's called {tEC:31}!{end}"
  },
  {
   "id": "11:A63A",
   "jp": "いぬに むかって {tEC:31}とは・・・。{n}いぬも かわいそうじゃ。{end}",
-  "en": ""
+  "en": "Calling a dog by the name {tEC:31}... I feel sorry for the dog.{end}"
  },
  {
   "id": "11:A659",
   "jp": "ここの おうさまは りっぱな おかたじゃ。{fe}とにかく わしらのことを いちばんに{n}かんがえて くださる。{end}",
-  "en": ""
+  "en": "The king here is a fine man.{fe}Above all, he thinks of us first.{end}"
  },
  {
   "id": "11:A68E",
   "jp": "ここの おうさまは りっぱな おかたじゃ。{fe}ゆうかんな ひとたちに {tEC:32}を{n}たのんで たいじして くださった。{n}ありがたいことじゃ。{end}",
-  "en": ""
+  "en": "The king here is a fine man.{fe}He asked some brave folk to take on the {tEC:32}, and they wiped the goblins out. We're truly grateful.{end}"
  },
  {
   "id": "11:A6D1",
   "jp": "この {tEC:05}ほど へいわで ゆたかな{n}くにはないと おもっている。{fe}なんといっても{n}わたしの うまれこきょうだ。{end}",
-  "en": ""
+  "en": "I don't think any land is as peaceful and rich as {tEC:05}.{fe}After all, it's where I was born.{end}"
  },
  {
   "id": "11:A709",
   "jp": "ここは {tEC:05}の じょうかまちです。{end}",
-  "en": ""
+  "en": "This is the castle town of {tEC:05}.{end}"
  },
  {
   "id": "11:A71B",
   "jp": "わん、わん。{end}",
-  "en": ""
+  "en": "Woof, woof.{end}"
  },
  {
   "id": "11:A722",
   "jp": "こどもを {tEC:31}に さらわれちまった{n}ひとを しってるけど、 かわいそうなもんだよ。{fe}あたしゃ、 なんにも こえをかけて{n}あげられなかったね。{f1}{end}",
-  "en": ""
+  "en": "I know someone whose child was carried off by goblins. Poor soul.{fe}I couldn't find a single word to say to her.{f1}{end}"
  },
  {
   "id": "11:A76A",
   "jp": "あんたも きをつけなよ。{end}",
-  "en": ""
+  "en": "You be careful too.{end}"
  },
  {
   "id": "11:A777",
   "jp": "あんたたちも きをつけなよ。{end}",
-  "en": ""
+  "en": "You all be careful too.{end}"
  },
  {
   "id": "11:A786",
   "jp": "{tEC:31}が こわくって、{n}みんな しろから でないように しているんだ。{end}",
-  "en": ""
+  "en": "Everyone's so scared of the goblins they won't leave the castle.{end}"
  },
  {
   "id": "11:A7A9",
   "jp": "{tEC:31}が いなくなって、{n}みんな おおよろこびだよ。{end}",
-  "en": ""
+  "en": "The goblins are gone, and everyone's overjoyed!{end}"
  },
  {
   "id": "11:A867",
   "jp": "{tEC:32}に でかけた おんながいたが、{n}いまごろは きっと・・・。{end}",
-  "en": ""
+  "en": "A woman went out on the {tEC:32}, but by now she's surely...{end}"
  },
  {
   "id": "11:A887",
   "jp": "{tEC:32}に でかけた おんながいたが、{n}いまごろは きっと・・・。{fe}いやっ！ いやっ！ いやっ！{n}そなた いきていたのか！{end}",
-  "en": ""
+  "en": "A woman went out on the {tEC:32}, but by now she's surely...{fe}Well, well, well! You're alive!{end}"
  },
  {
   "id": "11:A8C3",
   "jp": "ここは しろの へいしたちの さかばだよ。{end}",
-  "en": ""
+  "en": "This is the castle soldiers' tavern.{end}"
  },
  {
   "id": "11:A8D9",
   "jp": "{tED:07}は このしろから{n}ほくせいの ほうがくにある。{fe}そこまでは わかっているのに・・・。{n}はがゆくて しかたがないよ。{end}",
-  "en": ""
+  "en": "{tED:07} lies northwest of this castle.{fe}We know that much, and yet... It's so frustrating!{end}"
  },
  {
   "id": "11:A915",
   "jp": "{tEC:32}、 ごくろうであった。{fe}しかし しろの へいしが {tEC:31}を{n}たいじできなくて、 きっと ひとびとは{n}こしぬけ へいしと おもっているで あろうなぁ。{end}",
-  "en": ""
+  "en": "You have done well on the {tEC:32}.{fe}But since the castle soldiers could not defeat the goblins, the people surely think them cowards.{end}"
  },
  {
   "id": "11:A961",
   "jp": "{tEC:31}にさらわれる こどもが{n}おおくて こまっておる。{fe}わしにも こどもがいるから しんぱいで・・・。{end}",
-  "en": ""
+  "en": "So many children are being carried off by goblins. It troubles me.{fe}I have children of my own, so I worry...{end}"
  },
  {
   "id": "11:A994",
   "jp": "そなたたちが {tEC:31}をたいじされたか。{n}これで あんしんじゃ。{n}ありがとう。{end}",
-  "en": ""
+  "en": "So you are the ones who defeated the goblins. Now we can rest easy. Thank you.{end}"
  },
  {
   "id": "11:A9BA",
   "jp": "おうさまは {tEC:31}に あたまをかかえて{n}おられる。{end}",
-  "en": ""
+  "en": "The king is at his wits' end over the goblins.{end}"
  },
  {
   "id": "11:A9D3",
   "jp": "おうさまは {tEC:31}がいなくなって{n}さぞ およろこびであろう。{end}",
-  "en": ""
+  "en": "With the goblins gone, the king must be overjoyed.{end}"
  },
  {
   "id": "11:A9F1",
   "jp": "おれは なをあげようと {tEC:32}に{n}でかけたが、 にげて かえってきたよ。{n}ひとりじゃ むりだぜ。{end}",
-  "en": ""
+  "en": "I went on the {tEC:32} to make a name for myself, but I ran back home. Can't do it alone.{end}"
  },
  {
   "id": "11:AA21",
   "jp": "たとえ ふたり、さんにんであっても{n}{tEC:31}を たおせるものがいるとは{n}おもわなかったぜ。{end}",
-  "en": ""
+  "en": "I never thought anyone could beat the goblins, even a party of two or three.{end}"
  },
  {
   "id": "11:AB7B",
   "jp": "そうか、{n}ざんねんじゃ。{end}",
-  "en": ""
+  "en": "I see. What a pity.{end}"
  },
  {
   "id": "11:AB88",
   "jp": "おおっ！{n}それは ありがたい。{fe}しかし {tEC:31}はつよい。{n}きをつけるのじゃぞ。{end}",
-  "en": ""
+  "en": "Oh! That is welcome news.{fe}But the goblins are strong. Be careful.{end}"
  },
  {
   "id": "11:ABAF",
   "jp": "なぜか {tEC:31}がふえて、{n}こども ばかりを つぎつぎと さらっておる。{fe}{tEC:31}さえいなければ{n}ひとびとは しんぱいなく すごせるのに・・・。{fe}そうだ！ そなたに たのもう。{n}{tEC:32}に いってくれぬか。{fe}たいじ したなら {tE5:27}をさずけよう。{n}{tE5:27}は ゆうかんな ものたちしか{n}もっておらぬ。{fe}ゆうしゃは、 {tEC:05}と{n}{tED:09}の いききは じゆうだ。{fe}どうであろうか。{n}{tEC:31}を たいじしてくれないか？{n}{f0}{end}",
-  "en": ""
+  "en": "For some reason the goblins have multiplied, and they carry off child after child.{fe}If only the goblins were gone, the people could live without fear...{fe}I know! I shall ask you. Will you go on the {tEC:32}?{fe}If you defeat them, I shall grant you the {tE5:27}. Only the bravest hold the {tE5:27}.{fe}A hero may travel freely between {tEC:05} and {tED:09}.{fe}What do you say? Will you defeat the goblins for us? {f0}{end}"
  },
  {
   "id": "11:AC72",
   "jp": "おおっ、 そなたか！？{n}{tEC:32}は・・・。{fe}まだであろうなぁ。{n}むりを するでないぞ。{end}",
-  "en": ""
+  "en": "Oh, is that you?! And the {tEC:32}...{fe}Not done yet, I suppose. Don't push yourself too hard.{end}"
  },
  {
   "id": "11:AC9C",
   "jp": "おおっ、 そなたたちか！？{n}{tEC:32}は・・・。{fe}まだであろうなぁ。{n}むりを するでないぞ。{end}",
-  "en": ""
+  "en": "Oh, is that you all?! And the {tEC:32}...{fe}Not done yet, I suppose. Don't push yourselves too hard.{end}"
  },
  {
   "id": "11:ACC8",
   "jp": "おお！ {tEC:31}を たいじしたのか！{fe}これで ひとびとは あんしんして くらせる。{n}あっぱれであった。{fe}ほうびとして そなたたちに {tE5:27}を{n}あたえよう。{fe}ー {tE5:27}を てにいれた。{sync}{fe}その「{tE5:27}」で、 {tED:08}を{n}とおることが できるであろう。{fe}あっぱれであった。{end}",
-  "en": ""
+  "en": "Oh! You have defeated the goblins!{fe}Now the people can live in peace. Splendidly done.{fe}As a reward, I grant you the {tE5:27}.{fe}You received the {tE5:27}.{sync}{fe}With that \"{tE5:27}\", you should be able to cross {tED:08}.{fe}Splendidly done.{end}"
  },
  {
   "id": "11:AD48",
   "jp": "あっぱれであった。{end}",
-  "en": ""
+  "en": "Splendidly done.{end}"
  },
  {
   "id": "11:AD52",
   "jp": "{tED:09}が めつぼうした というのは{n}ほんとうか？{fe}だれじゃ！{n}てきは だれじゃ！{end}",
-  "en": ""
+  "en": "Is it true that {tED:09} has been destroyed?{fe}Who is it?! Who is the enemy?!{end}"
  },
  {
   "id": "11:AD7A",
   "jp": "{tED:09}を おそった ものたちは{n}ちかせかいから きたと いうのか！{fe}それにしても よくぞ {tED:09}を{n}すくって くれた。{n}あっぱれであった。{end}",
-  "en": ""
+  "en": "You say those who attacked {tED:09} came from the underground world!{fe}Even so, you did well to save {tED:09}. Splendidly done.{end}"
  },
  {
   "id": "11:ADBE",
   "jp": "{hero2}という じょせいが{n}{tEC:32}に でかけたが、{n}たいじできるで あろうか・・・。{fe}まだ 13さいと いっていたが・・・。{end}",
-  "en": ""
+  "en": "A young woman named {hero2} went out on the {tEC:32}, but can she really defeat the goblins...?{fe}She said she was only 13...{end}"
  },
  {
   "id": "11:ADF9",
   "jp": "よくぞ {tEC:31}を{n}たいじしてくださった。{end}",
-  "en": ""
+  "en": "You did well to defeat the goblins.{end}"
  },
  {
   "id": "11:AE0D",
   "jp": "{tED:09}が おそわれたというが{n}このしろは だいじょうぶで あろうか・・・。{end}",
-  "en": ""
+  "en": "They say {tED:09} was attacked. Will this castle be safe...?{end}"
  },
  {
   "id": "11:AE32",
   "jp": "そなたたちの かつやくで {tED:09}も{n}すくわれた。{n}ありがとう。{end}",
-  "en": ""
+  "en": "Thanks to your deeds, {tED:09} was saved as well. Thank you.{end}"
  },
  {
   "id": "11:AE51",
   "jp": "{hero2}は ずうずうしいことを はなす{n}じょせいであった。{fe}ましてや {tEC:A7}スに あったとは・・。{n}ここに おられる おうさまですら ドラゴンは{n}とおい そんざいなのに・・・。{end}",
-  "en": ""
+  "en": "{hero2} was a young woman who said the most brazen things.{fe}She even claimed she'd met {tEC:A7}... when dragons are distant beings even to the king who sits here...{end}"
  },
  {
   "id": "11:AEA6",
   "jp": "そなたたちの かつやくに しろのものたちは{n}たいへん よろこんでいる。{end}",
-  "en": ""
+  "en": "The people of the castle are overjoyed at your deeds.{end}"
  },
  {
   "id": "11:AECA",
   "jp": "{tED:09}の つぎは{n}このしろが おそわれるのやも しれん。{fe}ふあんで しかたがない。{end}",
-  "en": ""
+  "en": "After {tED:09}, this castle may be the next one attacked.{fe}I can't stop worrying.{end}"
  },
  {
   "id": "11:AEF3",
   "jp": "{tED:09}を おそったものたちが{n}いなくなって、 この しろの ものたちも{n}あんしんして くらせる。{fe}ありがとう。{end}",
-  "en": ""
+  "en": "Those who attacked {tED:09} are gone, and the people of this castle can live in peace.{fe}Thank you.{end}"
  },
  {
   "id": "11:AF2A",
   "jp": "{tEC:32}に でかけた {hero2}という{n}じょせいは ふしぎな ひとでしたわ。{end}",
-  "en": ""
+  "en": "That young woman named {hero2} who went on the {tEC:32} was a curious one.{end}"
  },
  {
   "id": "11:AF4B",
   "jp": "{tEC:31}をたいじして こられたのですね。{n}ほんとうに よかった。{end}",
-  "en": ""
+  "en": "So you've come back from defeating the goblins. I'm so glad.{end}"
  },
  {
   "id": "11:AF6A",
   "jp": "{tEC:0D}をたいじして こられたのですね。{n}ほんとうに よかった。{end}",
-  "en": ""
+  "en": "So you've come back from defeating {tEC:0D}. I'm so glad.{end}"
  },
  {
   "id": "11:B049",
   "jp": "ちぇっ、 ひやかしかい。{end}",
-  "en": ""
+  "en": "Tch, just browsing, huh?{end}"
  },
  {
   "id": "11:B056",
   "jp": "ごゆっくりどうぞ。{end}",
-  "en": ""
+  "en": "Take your time.{end}"
  },
  {
   "id": "11:B060",
   "jp": "{tEC:5E}{n}また こんど おいで。{end}",
-  "en": ""
+  "en": "You folks don't have any money, do you? Come back another time.{end}"
  },
  {
   "id": "11:B06F",
@@ -1207,52 +1207,52 @@
  {
   "id": "11:B072",
   "jp": "{tEC:86}{n}おひとり 12Gですが、 おとまりですか？{n}{f0}{end}",
-  "en": ""
+  "en": "A bed is the best place for a traveler to rest. It's 12G each. Will you be staying? {f0}{end}"
  },
  {
   "id": "11:B08D",
   "jp": "ひとりじゃ とてもじゃないが{n}{tEC:32}など むりであろう。{end}",
-  "en": ""
+  "en": "Alone, the {tEC:32} would be quite impossible.{end}"
  },
  {
   "id": "11:B0A9",
   "jp": "{tEC:31}をたいじするとは・・・。{n}おぬし できるな。{end}",
-  "en": ""
+  "en": "You defeated the goblins... You're no pushover.{end}"
  },
  {
   "id": "11:B0C2",
   "jp": "{tEC:31}が ふえてきたのは{n}ふしぎなことじゃ。{end}",
-  "en": ""
+  "en": "It's a strange thing, the goblins multiplying like this.{end}"
  },
  {
   "id": "11:B0D8",
   "jp": "{tEC:31}が たいじされたとはいえ、{n}{tEC:31}が ふえるなどとは{n}ふきつな ぜんちょうだ。{end}",
-  "en": ""
+  "en": "The goblins may be defeated, but goblins multiplying like that is an ill omen.{end}"
  },
  {
   "id": "11:B101",
   "jp": "{tED:09}は ひがしじゃ。{n}{tED:05}のはしを わたっていくのじゃ。{end}",
-  "en": ""
+  "en": "{tED:09} is to the east. Cross the bridge of {tED:05} to get there.{end}"
  },
  {
   "id": "11:B11E",
   "jp": "さけをのみすぎて、 こんなに はらがでちまった。{n}シモふりの おいしい にくになった わしは、{n}そとを あるくのが こわい。{end}",
-  "en": ""
+  "en": "I drank so much my belly's gotten this big. Now that I'm nice marbled meat, I'm scared to walk around outside.{end}"
  },
  {
   "id": "11:B15D",
   "jp": "さけをのみすぎて、 こんなに はらがでちまった。{n}おまえさんも きをつけるこったな。{end}",
-  "en": ""
+  "en": "I drank so much my belly's gotten this big. You'd better watch yourself too.{end}"
  },
  {
   "id": "11:B24E",
   "jp": "おきゃくさん、{n}{tEC:57}くださいよ。{end}",
-  "en": ""
+  "en": "Hey, customer, you have to pay properly.{end}"
  },
  {
   "id": "11:B25F",
   "jp": "まいど！{n}{tEC:80}よ。{end}",
-  "en": ""
+  "en": "Thanks a lot! {tEC:80}!{end}"
  },
  {
   "id": "11:B269",
@@ -1262,7 +1262,7 @@
  {
   "id": "11:B26E",
   "jp": "{tEC:6C}{n}{tEC:93}{n}{tEC:A1} にげるやつが いるんだよ。{end}",
-  "en": ""
+  "en": "Please pay for what you bought here before you go. Now and then, some folks run off without paying.{end}"
  },
  {
   "id": "11:B285",
@@ -1277,7 +1277,7 @@
  {
   "id": "11:B290",
   "jp": "{tEC:80}よ。{end}",
-  "en": ""
+  "en": "{tEC:80}!{end}"
  },
  {
   "id": "11:B295",
@@ -1287,7 +1287,7 @@
  {
   "id": "11:B29D",
   "jp": "{tEC:80}ね。{end}",
-  "en": ""
+  "en": "{tEC:80}!{end}"
  },
  {
   "id": "11:B2A2",
@@ -1297,7 +1297,7 @@
  {
   "id": "11:B2AA",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "11:B2E2",
@@ -1307,7 +1307,7 @@
  {
   "id": "11:B2E5",
   "jp": "ありがとう。{n}{tEC:59}{end}",
-  "en": ""
+  "en": "Thank you. Come again when you have more to sell.{end}"
  },
  {
   "id": "11:B2EF",
@@ -1317,27 +1317,27 @@
  {
   "id": "11:B37D",
   "jp": "こころやさしい いんちょうさまは、{n}みちで たおれていた {hero2}を つれてきて{n}かんびょうしたのです。{end}",
-  "en": ""
+  "en": "Our kind-hearted director found {hero2} collapsed on the road, brought her here and nursed her.{end}"
  },
  {
   "id": "11:B3AF",
   "jp": "{tEC:31}を たいじされたそうですね。{n}それにしても おげんきそうで なによりです。{end}",
-  "en": ""
+  "en": "I hear you defeated the goblins. Anyway, I'm so glad to see you looking well.{end}"
  },
  {
   "id": "11:B3D7",
   "jp": "{hero2}さんたち、おげんきでした？{n}ひさしぶりですが、 おげんきそうで{n}なによりです。{end}",
-  "en": ""
+  "en": "{hero2}-san and everyone, how have you been? It's been a while, but I'm glad to see you looking well.{end}"
  },
  {
   "id": "11:B400",
   "jp": "{hero2}は 「みなさんへの おんがえし」{n}といって {tEC:32}に でかけました。{fe}みな あぶないからと とめたのに。{end}",
-  "en": ""
+  "en": "{hero2} went out on the {tEC:32}, saying it was \"to repay everyone's kindness.\"{fe}We all tried to stop her because it was dangerous.{end}"
  },
  {
   "id": "11:B435",
   "jp": "{tEC:31}を たいじ されたそうですね。{fe}ゆうかんな みなさんに しゅくふくを・・・。{end}",
-  "en": ""
+  "en": "I hear you defeated the goblins.{fe}Blessings upon you, brave ones...{end}"
  },
  {
   "id": "11:B45E",
@@ -1347,572 +1347,572 @@
  {
   "id": "11:B464",
   "jp": "ほかに ごようけんは？{n}{f0}{end}",
-  "en": ""
+  "en": "Is there anything else?{f0}{end}"
  },
  {
   "id": "11:B472",
   "jp": "{tEC:6F}。{n}{tEC:9B}{n}{f0}{end}",
-  "en": ""
+  "en": "{tEC:6F}. {tEC:9B}{f0}{end}"
  },
  {
   "id": "11:B503",
   "jp": "むすめは すでに・・・。{n}あぁあぁあぁ。{end}",
-  "en": ""
+  "en": "Our daughter is already... Aaah, aaah...{end}"
  },
  {
   "id": "11:B518",
   "jp": "ほんとうに ありがとう ございました。{end}",
-  "en": ""
+  "en": "Thank you so very much.{end}"
  },
  {
   "id": "11:B52C",
   "jp": "あっ！ {hero0}さんたち！{n}ほんとうに ありがとうございました。{end}",
-  "en": ""
+  "en": "Ah! {hero0}-san and everyone! Thank you so very much.{end}"
  },
  {
   "id": "11:B54A",
   "jp": "むすめが {tEC:31}にさらわれてしまった。{fe}おしえてください。{n}どうすれば いいのですか！{end}",
-  "en": ""
+  "en": "Our daughter was carried off by goblins.{fe}Please, tell me. What should we do?!{end}"
  },
  {
   "id": "11:B575",
   "jp": "ありがとうございました。{n}なにも できませんが、せめてもの おれいです。{n}わずかばかりの おかねを うけとって ください。{fe}ー 200Gを うけとった。{end}",
-  "en": ""
+  "en": "Thank you so much. We can't do much, but as a small token of thanks, please accept this little bit of money.{fe}You received 200G.{end}"
  },
  {
   "id": "11:B5C2",
   "jp": "ほんとうに ありがとうございました。{end}",
-  "en": ""
+  "en": "Thank you so very much.{end}"
  },
  {
   "id": "11:B5D5",
   "jp": "これは {hero0}さんたち。{n}あのときは ほんとうに ありがとうございました。{fe}こうやって かぞくそろって いられるのも{n}{hero0}さんたちのおかげです。{fe}{hero0}さんたちも たいへんな{n}ぼうけんを されているようですが、{n}がんばって ください。{end}",
-  "en": ""
+  "en": "Why, it's {hero0}-san and everyone. Thank you so much for what you did back then.{fe}It's thanks to {hero0}-san and everyone that our family can be together like this.{fe}{hero0}-san, it looks like you're all on a tough adventure yourselves, but keep at it.{end}"
  },
  {
   "id": "11:B646",
   "jp": "おにいちゃんたち、 ありがとう。{end}",
-  "en": ""
+  "en": "Thank you, big brothers!{end}"
  },
  {
   "id": "11:B657",
   "jp": "ワ~イ、{n}{hero0}にいちゃんたちだ。{n}ワ~イ。{end}",
-  "en": ""
+  "en": "Yaaay! It's big brother {hero0} and the others! Yaaay!{end}"
  },
  {
   "id": "11:B6B6",
   "jp": "おろ おろ。{end}",
-  "en": ""
+  "en": "Oh dear, oh dear...{end}"
  },
  {
   "id": "11:B6BD",
   "jp": "きいておくれ、{n}わしのまごは {tEC:01}さまに{n}たすけて いただいたのじゃ。{end}",
-  "en": ""
+  "en": "Listen to this. My grandchild was saved by {tEC:01}-sama.{end}"
  },
  {
   "id": "11:B6E1",
   "jp": "まごは だいじょうぶじゃ。{n}{tEC:01}さまが かならず たすけて{n}くださる。{end}",
-  "en": ""
+  "en": "My grandchild will be fine. {tEC:01}-sama will surely come to the rescue.{end}"
  },
  {
   "id": "11:B705",
   "jp": "ありがたや、 {tEC:01}さま。{n}ありがたや、 {hero0}さまたち。{fe}まごを たすけて くださって{n}ありがとうございました。{end}",
-  "en": ""
+  "en": "Bless you, {tEC:01}-sama. Bless you, {hero0}-sama and friends.{fe}Thank you for saving my grandchild.{end}"
  },
  {
   "id": "11:B73C",
   "jp": "{hero0}さまたち、{n}あのときは まごを たすけて くださって{n}ありがとうございました。{end}",
-  "en": ""
+  "en": "{hero0}-sama and friends, thank you for saving my grandchild that time.{end}"
  },
  {
   "id": "11:B79B",
   "jp": "なまえを かえたいときには{n}{tEC:8C}{end}",
-  "en": ""
+  "en": "Whenever you want to change a name, just call on me anytime.{end}"
  },
  {
   "id": "11:B7AC",
   "jp": "また なまえを かえたくなったら{n}{tEC:8C}{end}",
-  "en": ""
+  "en": "If you want to change a name again, just call on me anytime.{end}"
  },
  {
   "id": "11:B7C0",
   "jp": "ここは やくしょ。{n}なまえを とうろくするところです。{fe}なまえを へんこうしますか？{n}{f0}{end}",
-  "en": ""
+  "en": "This is the registry office, where names are registered.{fe}Would you like to change a name? {f0}{end}"
  },
  {
   "id": "11:B81B",
   "jp": "そとにでて あそびたいよう。{end}",
-  "en": ""
+  "en": "I wanna go outside and plaaay.{end}"
  },
  {
   "id": "11:B82A",
   "jp": "{tEC:31}が こわくって{n}こどもを そとに ださないように しているの。{end}",
-  "en": ""
+  "en": "I'm scared of the goblins, so I keep my kids indoors.{end}"
  },
  {
   "id": "11:B84C",
   "jp": "{tEC:31}が いなくなっても{n}こどもを そとに ださないように しているの。{n}いたずら ばっかり してくるからねぇ。{end}",
-  "en": ""
+  "en": "Even with the goblins gone, I keep my kids indoors. All they ever do is get into mischief.{end}"
  },
  {
   "id": "11:B8A2",
   "jp": "となりの いえの むすこさんも{n}{tEC:31}に さらわれて しまったんじゃ。{end}",
-  "en": ""
+  "en": "The son of the family next door was carried off by goblins too.{end}"
  },
  {
   "id": "11:B8C5",
   "jp": "ゆうかんな たびびとたちが {tEC:31}を{n}たいじして くださった そうじゃ。{fe}さいしょっから ゆうかんなひとたちが{n}たいじすれば よかったんじゃ。{n}しろの へいしは こしぬけじゃ。{end}",
-  "en": ""
+  "en": "I hear some brave travelers defeated the goblins.{fe}Brave folk should've handled it from the start. The castle soldiers are a bunch of cowards.{end}"
  },
  {
   "id": "11:B93B",
   "jp": "フゥ~。{n}まごが わしの めのまえで {tEC:31}に{n}さらわれて しまったんじゃ。{fe}めんぼく なくて、{n}むすめ ふうふに あわす かおが ない。{end}",
-  "en": ""
+  "en": "Sigh... My grandchild was carried off by goblins right before my eyes.{fe}I'm so ashamed, I can't face my daughter and her husband.{end}"
  },
  {
   "id": "11:B980",
   "jp": "フゥ~。{n}{tEC:31}が いなくなったとて{n}わしの まごは かえってこないんじゃ。{fe}むすめの かおを みるのが つらいわい・・・。{end}",
-  "en": ""
+  "en": "Sigh... Even with the goblins gone, my grandchild won't come back.{fe}It's hard to look my daughter in the face...{end}"
  },
  {
   "id": "11:B9FA",
   "jp": "いっぴき のこらず {tEC:31}を{n}やっつけてやる。{end}",
-  "en": ""
+  "en": "I'll wipe out those goblins, every last one!{end}"
  },
  {
   "id": "11:BA11",
   "jp": "{tEC:31}が たいじされたそうだよ。{fe}でも むすこは かえってこないんだ。{n}そのことは かんがえないように しているよ。{end}",
-  "en": ""
+  "en": "I hear the goblins were defeated.{fe}But my son won't come back. I try not to think about it.{end}"
  },
  {
   "id": "11:BA4B",
   "jp": "おじいさんが こどもを ちゃんと みていたら{n}さらわれなかったのよ！{fe}おじいさんの せいよ。{n}うぅぅうぅ~~~。{end}",
-  "en": ""
+  "en": "If Grandpa had kept a proper eye on the child, this wouldn't have happened!{fe}It's Grandpa's fault. Uuuuugh...{end}"
  },
  {
   "id": "11:BA84",
   "jp": "いつまでも くよくよしてたって・・・。{n}そうおもっても わすれられないの。{fe}おじいさんの かおを みるたびに{n}おもいだして しまうのよ。{n}うっ、 うっ うっ。{end}",
-  "en": ""
+  "en": "I know there's no use brooding forever... But even so, I can't forget.{fe}Every time I see Grandpa's face, it all comes back. Sob... sob...{end}"
  },
  {
   "id": "11:BB26",
   "jp": "ひとりでは {tEC:31}を たおすなど{n}むりじゃ。{n}かえるがよい。{end}",
-  "en": ""
+  "en": "Defeating the goblins alone is impossible. Go home.{end}"
  },
  {
   "id": "11:BB44",
   "jp": "{tEC:31}は つよい。{n}きをつけて いくのじゃぞ。{end}",
-  "en": ""
+  "en": "The goblins are strong. Be careful out there.{end}"
  },
  {
   "id": "11:BB5B",
   "jp": "そのほうがよい。{n}{tEC:31}はつよい。{end}",
-  "en": ""
+  "en": "That's for the best. The goblins are strong.{end}"
  },
  {
   "id": "11:BB6C",
   "jp": "{tEC:32}に いかれるのか？{n}{f0}{end}",
-  "en": ""
+  "en": "Are you going on the {tEC:32}? {f0}{end}"
  },
  {
   "id": "11:BB7A",
   "jp": "{tEC:31}は もともと{n}おとなしい どうぶつじゃ。{end}",
-  "en": ""
+  "en": "Goblins were gentle creatures to begin with.{end}"
  },
  {
   "id": "11:BC23",
   "jp": "しんぱい しないで！{end}",
-  "en": ""
+  "en": "Don't worry!{end}"
  },
  {
   "id": "11:BC2E",
   "jp": "ありがとう。{fe}あなたね、{n}{tEC:03}・{tEC:01}にあって{n}{tEC:04}を うけとったのは。{fe}{tEC:32}にきて つかまってしまうとは{n}みっともない はなし。{fe}こんなことでは {tEC:A7}スの しめいなど{n}まっとう できないわ。{fe}これからは、 おたがい ちからを あわせて{n}がんばりましょう。{fe}ー {hero2}が なかまに くわわった。{sync}{end}",
-  "en": ""
+  "en": "Thank you.{fe}So you're the one who met {tEC:03} {tEC:01} and received the {tEC:04}.{fe}Coming on the {tEC:32} and getting caught... how embarrassing.{fe}At this rate I'll never fulfil {tEC:A7}'s mission.{fe}From now on, let's join forces and do our best.{fe}{hero2} joined the party.{sync}{end}"
  },
  {
   "id": "11:BCC0",
   "jp": "こわいよう。{n}たすけて！{end}",
-  "en": ""
+  "en": "I'm scared! Help me!{end}"
  },
  {
   "id": "11:BCCD",
   "jp": "おにいちゃんたち、 ありがとう。{end}",
-  "en": ""
+  "en": "Thank you, big brothers!{end}"
  },
  {
   "id": "11:BCDE",
   "jp": "グゥルルゥ、ガルゥ、グゥ。{end}",
-  "en": ""
+  "en": "Grrrrr, grrah, grrr.{end}"
  },
  {
   "id": "11:BCEC",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "11:BCEE",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "11:BCF0",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "11:BCF2",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "11:BED6",
   "jp": "おれはみた！{fe}おおきな ながれぼしが {tEC:0A}、{n}{tEC:09}、{tEC:05}、{n}{tED:0A}に ながれていくのを。{end}",
-  "en": ""
+  "en": "I saw it!{fe}A huge shooting star, falling toward {tEC:0A}, {tEC:09}, {tEC:05} and {tED:0A}.{end}"
  },
  {
   "id": "11:BF02",
   "jp": "たいへんだよ！{n}{tEC:08}が なにものかに ぜんめつ{n}させられたんだ。{end}",
-  "en": ""
+  "en": "It's terrible! {tEC:08} was wiped out by someone!{end}"
  },
  {
   "id": "11:BF23",
   "jp": "おおきな ながれぼしが 4つに わかれたんだ！{n}すごい こうけい だったぜ。{end}",
-  "en": ""
+  "en": "The huge shooting star split into four! What a sight that was.{end}"
  },
  {
   "id": "11:BF4A",
   "jp": "{tED:0D}が おそわれた らしいけど、{n}{tED:09}は せんそうに まけたことが{n}ないから、 だいじょうぶだよ。{end}",
-  "en": ""
+  "en": "I hear {tED:0D} was attacked, but {tED:09} has never lost a war, so we'll be fine.{end}"
  },
  {
   "id": "11:BF7C",
   "jp": "おれは {tEC:08}から やってきた{n}しょうにんだ。{end}",
-  "en": ""
+  "en": "I'm a merchant from {tEC:08}.{end}"
  },
  {
   "id": "11:BF93",
   "jp": "{tEC:08}に のこしてきた かぞくは{n}だいじょうぶ だろうか・・・。{n}すぐにでも かえりたいよ。{end}",
-  "en": ""
+  "en": "I wonder if the family I left in {tEC:08} is all right... I want to go home right now.{end}"
  },
  {
   "id": "11:BFC1",
   "jp": "おれは いい じだいに うまれたぜ。{n}ほしいものは、 かねさえだせば{n}なんでも てにはいる。{end}",
-  "en": ""
+  "en": "I was born in a good age. Anything you want, you can get it, as long as you pay.{end}"
  },
  {
   "id": "11:BFF0",
   "jp": "{tED:0D}が おそわれたらしいぜ。{n}まちが 1つや2つ なくなったって{n}どうってこと ないけどね。{end}",
-  "en": ""
+  "en": "I hear {tED:0D} was attacked. Not that losing a town or two matters much.{end}"
  },
  {
   "id": "11:C01F",
   "jp": "おおきな ながれぼしは {n}ロマンティック だったわよ。{end}",
-  "en": ""
+  "en": "That huge shooting star was sooo romantic.{end}"
  },
  {
   "id": "11:C03B",
   "jp": "{tEC:08}が おそわれたらしいけど{n}ふあんだわ。{n}あんぜんなところは ないかしら。{end}",
-  "en": ""
+  "en": "I hear {tEC:08} was attacked. I'm scared. Isn't there anywhere safe?{end}"
  },
  {
   "id": "11:C062",
   "jp": "かって、 かってぇ、{n}{tE6:07}かってぇ。{end}",
-  "en": ""
+  "en": "Buy it, buy it, buy me the {tE6:07}!{end}"
  },
  {
   "id": "11:C075",
   "jp": "かって、 かってぇ、{n}{tE7:0A}かってぇ。{end}",
-  "en": ""
+  "en": "Buy it, buy it, buy me the {tE7:0A}!{end}"
  },
  {
   "id": "11:C088",
   "jp": "まごに ねだられると、{n}ついつい かってしまうのじゃ。{end}",
-  "en": ""
+  "en": "When my grandchild begs, I just can't help buying.{end}"
  },
  {
   "id": "11:C0A4",
   "jp": "わしゃ もう、 さいふが スッカラカンじゃ。{end}",
-  "en": ""
+  "en": "My wallet's already bone dry.{end}"
  },
  {
   "id": "11:C0BB",
   "jp": "ここは、 せかいの ちゅうしん{n}{tED:09}です。{end}",
-  "en": ""
+  "en": "This is {tED:09}, the center of the world.{end}"
  },
  {
   "id": "11:C0D1",
   "jp": "すんげぇ。{n}ここが {tED:09}かぁ。{end}",
-  "en": ""
+  "en": "Wooow. So this is {tED:09}.{end}"
  },
  {
   "id": "11:C0E1",
   "jp": "めいどの みやげにと おもって、{n}おもいきって あそびに きたんじゃ。{end}",
-  "en": ""
+  "en": "I figured it'd be one last treat before the grave, so I took the plunge and came to visit.{end}"
  },
  {
   "id": "11:C105",
   "jp": "すばらしい ところじゃ。{n}きて よかったのぅ。{end}",
-  "en": ""
+  "en": "What a wonderful place. I'm glad we came.{end}"
  },
  {
   "id": "11:C11D",
   "jp": "いま、 じいさんと ばあさんの しゃしんを{n}とってるんだ。{n}じゃま しないで くれるかなぁ。{end}",
-  "en": ""
+  "en": "I'm taking a picture of the old couple right now. Do you mind not getting in the way?{end}"
  },
  {
   "id": "11:C14C",
   "jp": "いつも この こうえんにきて あそんでるんだ。{end}",
-  "en": ""
+  "en": "I always come to this park to play.{end}"
  },
  {
   "id": "11:C164",
   "jp": "すばらしい ところでしょう。{end}",
-  "en": ""
+  "en": "Isn't it a wonderful place?{end}"
  },
  {
   "id": "11:C173",
   "jp": "なんど きても すばらしい ところでしょう。{end}",
-  "en": ""
+  "en": "No matter how many times you come, it's a wonderful place, isn't it?{end}"
  },
  {
   "id": "11:C18A",
   "jp": "あなたたち、 この まちに くるのは{n}はじめて？{n}{f0}{end}",
-  "en": ""
+  "en": "Is this your first time in this town? {f0}{end}"
  },
  {
   "id": "11:C1A5",
   "jp": "ケッ、{n}また いなかもんが きたぜ。{end}",
-  "en": ""
+  "en": "Hmph. More country bumpkins.{end}"
  },
  {
   "id": "11:C1B8",
   "jp": "ケッ、{n}{tED:0D}が おそわれたんだってよ。{n}ダサイぜ。{end}",
-  "en": ""
+  "en": "Hmph. I hear {tED:0D} got attacked. How lame.{end}"
  },
  {
   "id": "11:C1D2",
   "jp": "このまちには {tEC:A7}スの{n}ごかごが あります。{n}えらばれた ひとたちの まちなのです。{end}",
-  "en": ""
+  "en": "This town has the protection of {tEC:A7}. It's a town of the chosen.{end}"
  },
  {
   "id": "11:C1FD",
   "jp": "{tED:0D}が おそわれたんですってね。{n}でも ここは {tEC:A7}スに{n}えらばれた まちだから、 かんけいないわ。{end}",
-  "en": ""
+  "en": "I hear {tED:0D} was attacked. But this town was chosen by {tEC:A7}, so it has nothing to do with us.{end}"
  },
  {
   "id": "11:C230",
   "jp": "あいしてるよ、 リサ。{end}",
-  "en": ""
+  "en": "I love you, Lisa.{end}"
  },
  {
   "id": "11:C23C",
   "jp": "ウットリ。{end}",
-  "en": ""
+  "en": "Sooo dreamy...{end}"
  },
  {
   "id": "11:C242",
   "jp": "ここは バッカスのもり。{n}こいびとたちに にんきの こうえんです。{end}",
-  "en": ""
+  "en": "This is Bacchus Woods, a park popular with lovers.{end}"
  },
  {
   "id": "11:C264",
   "jp": "しけてるよなあ。{n}うちの おふくろったら こずかいも くれねえんで{n}いっぱつ なぐってきて やったよ。{end}",
-  "en": ""
+  "en": "What a drag. My old lady won't even give me an allowance, so I went and punched her one.{end}"
  },
  {
   "id": "11:C2B8",
   "jp": "ここは、 せかいの ちゅうしん{n}{tED:09}の しろである。{end}",
-  "en": ""
+  "en": "This is the castle of {tED:09}, the center of the world.{end}"
  },
  {
   "id": "11:C2D3",
   "jp": "ここは、 せかいの ちゅうしん{n}{tED:09}の しろである。{end}",
-  "en": ""
+  "en": "This is the castle of {tED:09}, the center of the world.{end}"
  },
  {
   "id": "11:C34A",
   "jp": "{tED:09}は むかしから おおくの くにを{n}しはいしてきました。{end}",
-  "en": ""
+  "en": "{tED:09} has ruled over many lands since long ago.{end}"
  },
  {
   "id": "11:C368",
   "jp": "{tED:09}は むかしから おおくの くにを{n}しはいしてきました。{n}だいじょうぶですよ。{end}",
-  "en": ""
+  "en": "{tED:09} has ruled over many lands since long ago. We'll be fine.{end}"
  },
  {
   "id": "11:C391",
   "jp": "ここは ほかのくにに せんりょうされた ことは{n}いちども ありません。{n}それほど つよい くになのです。{end}",
-  "en": ""
+  "en": "This land has never once been occupied by another. That's how strong a nation it is.{end}"
  },
  {
   "id": "11:C3C6",
   "jp": "たくましい{tEC:08}の しょうにんたちは{n}さっそく {tED:0E}という あたらしい{n}まちを つくったようですわ。{fe}{tED:0C}の ひがしに あるとか・・・。{end}",
-  "en": ""
+  "en": "The hardy merchants of {tEC:08} have already built a new town called {tED:0E}, I hear.{fe}They say it's east of {tED:0C}...{end}"
  },
  {
   "id": "11:C40A",
   "jp": "みなが あかるく、{n}ゆたかに くらして いることが{n}わしにとって いちばんの よろこび。{fe}そして この つよい くにを せめることが{n}できるものなど どこにもいない。{n}はっ、はっ、はっ。{end}",
-  "en": ""
+  "en": "To see everyone living bright and prosperous lives is my greatest joy.{fe}And there is no one anywhere who could attack this mighty nation. Ha, ha, ha!{end}"
  },
  {
   "id": "11:C468",
   "jp": "{tEC:08}が おそわれたようじゃが、{n}このくにが せめられることなど ぜったいにない。{n}しんぱいするでない。{end}",
-  "en": ""
+  "en": "It seems {tEC:08} was attacked, but this nation will never be invaded. Do not worry.{end}"
  },
  {
   "id": "11:C4D8",
   "jp": "ようせいの すむ むらを みつけるには {n}ひとくろう、 っていう おはなしですわ。{end}",
-  "en": ""
+  "en": "They say finding the village where the fairies live takes some doing.{end}"
  },
  {
   "id": "11:C502",
   "jp": "この しろは だいじょうぶです。{n}ハイ、 だいじょうぶです。{end}",
-  "en": ""
+  "en": "This castle is safe. Yes, perfectly safe.{end}"
  },
  {
   "id": "11:C521",
   "jp": "ようせいたちは {tE5:02}を もっていると{n}うわさを きいたことがあります。{end}",
-  "en": ""
+  "en": "I've heard a rumor that the fairies have the {tE5:02}.{end}"
  },
  {
   "id": "11:C545",
   "jp": "{tEC:03}・{tEC:01}が、{n}このくにを みまもっているのです。{n}しんぱいは ありません。{end}",
-  "en": ""
+  "en": "{tEC:03} {tEC:01} watches over this nation. There's nothing to worry about.{end}"
  },
  {
   "id": "11:C632",
   "jp": "みなさん、 しずかになさい！{fe}じゅぎょうちゅう ですから、 へんな ひとたちは{n}きょうしつから でていって ください！{end}",
-  "en": ""
+  "en": "Everyone, be quiet!{fe}Class is in session, so would you strange people please leave the classroom!{end}"
  },
  {
   "id": "11:C66E",
   "jp": "もうすぐ せんそうに なるかも しれないわ。{n}だけど こどもたちだけは まもらなくては・・・。{end}",
-  "en": ""
+  "en": "There may be a war soon. But at least the children must be protected...{end}"
  },
  {
   "id": "11:C69E",
   "jp": "{tEC:07}と {tED:09}は{n}300ねんまえに せんそうしたんだよ。{end}",
-  "en": ""
+  "en": "The {tEC:07} and {tED:09} fought a war 300 years ago.{end}"
  },
  {
   "id": "11:C6BA",
   "jp": "せんそうに なっても{n}{tED:09}は ぜったいに まけないよね。{end}",
-  "en": ""
+  "en": "Even if there's a war, {tED:09} will never lose, right?{end}"
  },
  {
   "id": "11:C6D7",
   "jp": "けっきょく 300ねんまえの せんそうは{n}ひきわけ だったんだ。{end}",
-  "en": ""
+  "en": "In the end, the war 300 years ago was a draw.{end}"
  },
  {
   "id": "11:C6F8",
   "jp": "せんそうなんて ぜったいに いやだよ。{end}",
-  "en": ""
+  "en": "I really, really don't want a war.{end}"
  },
  {
   "id": "11:C70C",
   "jp": "おれも おおきく なったら つよい けんしに{n}なるんだ。{end}",
-  "en": ""
+  "en": "When I grow up, I'm going to be a strong swordsman too.{end}"
  },
  {
   "id": "11:C729",
   "jp": "{tEC:07}なんて おれがいけば{n}いちころだぜ。{end}",
-  "en": ""
+  "en": "If I went to the {tEC:07}, I'd beat 'em in one hit.{end}"
  },
  {
   "id": "11:C73E",
   "jp": "{tEC:08}をおそった やつらなんて{n}おれが いけば いちころだぜ。{end}",
-  "en": ""
+  "en": "If I went after the guys who attacked {tEC:08}, I'd beat 'em in one hit.{end}"
  },
  {
   "id": "11:C75D",
   "jp": "{tEC:07}って ずうっと ひがしにいって{n}うみを こえたところに あるんだよ。{end}",
-  "en": ""
+  "en": "The {tEC:07} is way, way to the east, across the sea.{end}"
  },
  {
   "id": "11:C782",
   "jp": "しにたくないよぅ。{end}",
-  "en": ""
+  "en": "I don't wanna diiie.{end}"
  },
  {
   "id": "11:C78C",
   "jp": "わたし、せんそうのない くにが いいなあ。{end}",
-  "en": ""
+  "en": "I wish I lived in a country with no wars.{end}"
  },
  {
   "id": "11:C7A2",
   "jp": "ふつうは しんだら いきかえらないんですよね。{end}",
-  "en": ""
+  "en": "Normally, once you die you don't come back to life, right?{end}"
  },
  {
   "id": "11:C8A2",
   "jp": "おまちしていました。{n}{hero0}さんたちですね。{fe}ふしぎなものが あったので{n}ついつい こんなところに きてしまいました。{fe}{tED:0A}には なかったわ、 こんなもの。{n}おかげで スッカラカン。{fe}それより {tEC:03}・{tEC:54}を{n}ちからを あわせて まっとう しましょう。{fe}ー {hero3}が なかまにくわわった。{sync}{end}",
-  "en": ""
+  "en": "I've been waiting for you. You're {hero0}-san and the others, aren't you?{fe}I saw something curious, and before I knew it I'd wandered into a place like this.{fe}There was nothing like this in {tED:0A}. Now I'm flat broke.{fe}Anyway, let's join forces and fulfil {tEC:03} {tEC:54}.{fe}{hero3} joined the party.{sync}{end}"
  },
  {
   "id": "11:C92F",
   "jp": "ごゆっくり たのしんで いってください。{end}",
-  "en": ""
+  "en": "Please take your time and have fun.{end}"
  },
  {
   "id": "11:C944",
   "jp": "ほっ、 ほんとなのか？{fe}しっ、 しかし どこに にげるんだよ。{end}",
-  "en": ""
+  "en": "R-really?!{fe}B-but where would we even run to?{end}"
  },
  {
   "id": "11:C964",
   "jp": "おっ、 おいっ！{n}にげるったって・・・。{n}いっちまいやがった。{end}",
-  "en": ""
+  "en": "H-hey! What do you mean, run... He's gone.{end}"
  },
  {
   "id": "11:C984",
   "jp": "ごっ、 ごっ、 ごっ、 ごゆっくり{n}たっ、 たのしんでいって ください。{end}",
-  "en": ""
+  "en": "T-t-t-take your time and h-have fun.{end}"
  },
  {
   "id": "11:C9A9",
   "jp": "ぜんっ ぜん、 かてねぇや。{end}",
-  "en": ""
+  "en": "I can't win, not even once.{end}"
  },
  {
   "id": "11:C9B8",
   "jp": "オ~ホッホッホッ。{n}スロットマシンは わたしのためにあるのよ。{end}",
-  "en": ""
+  "en": "Oh-ho-ho-ho! The slot machines exist just for me!{end}"
  },
  {
   "id": "11:C9D8",
   "jp": "たっ たいへんだ、 しはいにん！{n}{tED:0C}が なにものかに{n}おそわれたって はなしだ。{fe}この みせをしめて はやく にげたほうが・・・。{end}",
-  "en": ""
+  "en": "Th-this is bad, boss! Word is {tED:0C} was attacked by someone.{fe}We'd better shut this place down and get out of here...{end}"
  },
  {
   "id": "11:CA1B",
   "jp": "しはいにん、 わるいが おれは かぞくをつれて{n}どこかに にげるぜ。{n}それじゃ また。 わりぃなぁ、 しはいにん。{end}",
-  "en": ""
+  "en": "Sorry, boss, I'm taking my family and getting out of here. See you around. Sorry, boss.{end}"
  },
  {
   "id": "11:CA55",
   "jp": "たのしんで いただけましたか？{n}また あそびに きてください。{end}",
-  "en": ""
+  "en": "Did you have fun? Please come and play again.{end}"
  },
  {
   "id": "11:CA75",
   "jp": "いつでも おまちしております。{n}また あそびに きてください。{end}",
-  "en": ""
+  "en": "We're always happy to see you. Please come and play again.{end}"
  },
  {
   "id": "11:CA95",
   "jp": "シャッフルゲ―ムで もうけて みませんか？{n}{f0}{end}",
-  "en": ""
+  "en": "Care to win big at the Shuffle Game? {f0}{end}"
  },
  {
   "id": "11:CAAD",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "11:CAAF",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "11:CAEB",
@@ -1922,27 +1922,27 @@
  {
   "id": "11:CAF1",
   "jp": "ほかに ごようけんは？{n}{f0}{end}",
-  "en": ""
+  "en": "Is there anything else?{f0}{end}"
  },
  {
   "id": "11:CAFF",
   "jp": "{tEC:6F}。{n}{tEC:9B}{n}{f0}{end}",
-  "en": ""
+  "en": "{tEC:6F}. {tEC:9B}{f0}{end}"
  },
  {
   "id": "11:CB3E",
   "jp": "なまえを かえたいときには{n}{tEC:8C}{end}",
-  "en": ""
+  "en": "Whenever you want to change a name, just call on me anytime.{end}"
  },
  {
   "id": "11:CB4F",
   "jp": "また なまえを かえたくなったら{n}{tEC:8C}{end}",
-  "en": ""
+  "en": "If you want to change a name again, just call on me anytime.{end}"
  },
  {
   "id": "11:CB63",
   "jp": "ここは やくしょ。{n}なまえを とうろくするところです。{fe}なまえを へんこうしますか？{n}{f0}{end}",
-  "en": ""
+  "en": "This is the registry office, where names are registered.{fe}Would you like to change a name? {f0}{end}"
  },
  {
   "id": "11:CBC6",
@@ -1952,7 +1952,7 @@
  {
   "id": "11:CBC9",
   "jp": "ありがとう。{n}{tEC:59}{end}",
-  "en": ""
+  "en": "Thank you. Come again when you have more to sell.{end}"
  },
  {
   "id": "11:CBD3",
@@ -1962,67 +1962,67 @@
  {
   "id": "11:CBEB",
   "jp": "せかいには ようせいしゅぞくが いて{n}こうげきの まほうを つかうんじゃ。{end}",
-  "en": ""
+  "en": "There's a race of fairies in the world, and they use attack magic.{end}"
  },
  {
   "id": "11:CC21",
   "jp": "きっと よそものには この だらくした しろが {n}ゆたかで じゆうな しろに{n}みえるんじゃろうなぁ。{end}",
-  "en": ""
+  "en": "To outsiders, I bet this degenerate castle looks like a rich, free one.{end}"
  },
  {
   "id": "11:CC72",
   "jp": "だらくした まちに なってしもうた。{n}きっと てんばつが くだるはずじゃ。{end}",
-  "en": ""
+  "en": "This has become a degenerate town. Heaven's punishment is sure to fall.{end}"
  },
  {
   "id": "11:CC98",
   "jp": "だらくした まちに なってしもうた。{n}きっと てんばつが くだるはずじゃ。{n}{tEC:08}のつぎは {tED:09}じゃ。{end}",
-  "en": ""
+  "en": "This has become a degenerate town. Heaven's punishment is sure to fall. After {tEC:08}, it's {tED:09}'s turn.{end}"
  },
  {
   "id": "11:CCE9",
   "jp": "なんで みんな このまちに あこがれるのかねぇ。{end}",
-  "en": ""
+  "en": "Why does everyone long to live in this town, I wonder?{end}"
  },
  {
   "id": "11:CD02",
   "jp": "きいたかい？{n}{tED:0C}が おそわれたんだってねぇ。{end}",
-  "en": ""
+  "en": "Did you hear? They say {tED:0C} was attacked.{end}"
  },
  {
   "id": "11:CD56",
   "jp": "イッ、 イヤッ。{end}",
-  "en": ""
+  "en": "N-no!{end}"
  },
  {
   "id": "11:CD5F",
   "jp": "うっ、 うっ、 うっ。{end}",
-  "en": ""
+  "en": "Sob, sob, sob...{end}"
  },
  {
   "id": "11:CD6B",
   "jp": "なっ、 なんだよ。{n}これから ふたりの あいを たしかめよう って{n}ときに・・・。{end}",
-  "en": ""
+  "en": "Wh-what do you want? We were just about to confirm our love for each other...{end}"
  },
  {
   "id": "11:CD95",
   "jp": "なっ、 なんだよ。{n}ふたりの あいを たしかめあった だけだよ。{end}",
-  "en": ""
+  "en": "Wh-what do you want? We were just confirming our love for each other, that's all.{end}"
  },
  {
   "id": "11:CDC6",
   "jp": "「{tED:0A}」には ようせいしゅぞくが{n}すんでいる っていう はなしじゃ。{end}",
-  "en": ""
+  "en": "They say a race of fairies lives in \"{tED:0A}.\"{end}"
  },
  {
   "id": "11:CDF9",
   "jp": "うっ、 うっ。{n}むすこも むかしは あんなこと しなかったのに。{end}",
-  "en": ""
+  "en": "Sob, sob... My son never used to do things like that.{end}"
  },
  {
   "id": "11:CE2A",
   "jp": "おにいちゃんね、 「こずかいくれない」って{n}おかあさんを なぐって とびだしちゃったの。{end}",
-  "en": ""
+  "en": "My big brother said \"Gimme my allowance!\", punched Mom, and ran off.{end}"
  },
  {
   "id": "11:CF69",
@@ -2037,7 +2037,7 @@
  {
   "id": "11:CF6F",
   "jp": "あんたたち おかねを もってないじゃないか。{n}じょうだんポイだぜ。{end}",
-  "en": ""
+  "en": "You folks don't have any money! You've gotta be kidding me.{end}"
  },
  {
   "id": "11:CF91",
@@ -2047,77 +2047,77 @@
  {
   "id": "11:CF97",
   "jp": "{tEC:74}{n}ひとり 30Gだけど とまっていくかい？{n}{f0}{end}",
-  "en": ""
+  "en": "{tEC:74} It's 30G each. Staying the night? {f0}{end}"
  },
  {
   "id": "11:CFB1",
   "jp": "はるか きたに 「{tED:0A}」があるんだ。{n}いってみたいけど とおすぎるから {n}まだ いってないんだ。{end}",
-  "en": ""
+  "en": "Far to the north there's \"{tED:0A}.\" I'd like to go, but it's too far, so I haven't yet.{end}"
  },
  {
   "id": "11:CFE2",
   "jp": "{tED:0C}を おそった やつらは{n}ふしぎな れんちゅうだったらしいよ。{end}",
-  "en": ""
+  "en": "The ones who attacked {tED:0C} were a strange bunch, I hear.{end}"
  },
  {
   "id": "11:D003",
   "jp": "いらっしゃい。{n}おきゃくさん、 ここは はじめてね。{n}ゆっくりしていってね。{end}",
-  "en": ""
+  "en": "Welcome! This is your first time here, isn't it? Make yourself at home.{end}"
  },
  {
   "id": "11:D02A",
   "jp": "いらっしゃい。{n}また きてくれたのね。{n}うれしいわぁ。{end}",
-  "en": ""
+  "en": "Welcome! You came back to see me. I'm so happy!{end}"
  },
  {
   "id": "11:D046",
   "jp": "ひがしに {tED:0C}があるんだ。{n}「{tED:0A}」に いくのだったら{n}{tED:0C}を きたにいくと いいよ。{end}",
-  "en": ""
+  "en": "{tED:0C} is to the east. If you're going to \"{tED:0A},\" head north from {tED:0C}.{end}"
  },
  {
   "id": "11:D072",
   "jp": "{tEC:08}の やつらは{n}{tED:0C}の ひがしに {n}さっそく {tED:0E}を つくったらしいぜ。{end}",
-  "en": ""
+  "en": "I hear the folks from {tEC:08} already built {tED:0E} east of {tED:0C}.{end}"
  },
  {
   "id": "11:D098",
   "jp": "むかしは ふなのりに なりたくて、{n}ひがしにある {tED:0C}まで{n}よく いったもんじゃ。{end}",
-  "en": ""
+  "en": "Back in the day I wanted to be a sailor, and I'd often go all the way to {tED:0C} in the east.{end}"
  },
  {
   "id": "11:D0C2",
   "jp": "いつ ころされても いいように{n}おもいっきり さけを のんでおくんじゃ。{end}",
-  "en": ""
+  "en": "I'm drinking as much as I can, so I'm ready whenever they come to kill me.{end}"
  },
  {
   "id": "11:D0E7",
   "jp": "そうか。{n}しってるのか。{end}",
-  "en": ""
+  "en": "I see. So you know it.{end}"
  },
  {
   "id": "11:D0F4",
   "jp": "{tED:05}の なんとうに あるらしいぜ。{end}",
-  "en": ""
+  "en": "I hear it's southeast of {tED:05}.{end}"
  },
  {
   "id": "11:D106",
   "jp": "{tEC:A7}スが あらわれる といわれている{n}ほこらを しってるか？{n}{f0}{end}",
-  "en": ""
+  "en": "Do you know the shrine where they say {tEC:A7} appears? {f0}{end}"
  },
  {
   "id": "11:D127",
   "jp": "{tEC:A7}スは{n}{tED:05}の なんとうにある ほこらに{n}あらわれるという はなしだ。{end}",
-  "en": ""
+  "en": "They say {tEC:A7} appears at a shrine southeast of {tED:05}.{end}"
  },
  {
   "id": "11:D212",
   "jp": "おきゃくさん、{n}{tEC:57}くださいよ。{end}",
-  "en": ""
+  "en": "Hey, customer, you have to pay properly.{end}"
  },
  {
   "id": "11:D223",
   "jp": "まいど！{n}{tEC:80}よ。{end}",
-  "en": ""
+  "en": "Thanks a lot! {tEC:80}!{end}"
  },
  {
   "id": "11:D22D",
@@ -2127,7 +2127,7 @@
  {
   "id": "11:D232",
   "jp": "{tEC:6C}{n}{tEC:93}{n}{tEC:A1} にげるひとがいますから・・。{end}",
-  "en": ""
+  "en": "Please pay here for what you bought. Every now and then someone runs off...{end}"
  },
  {
   "id": "11:D24A",
@@ -2142,7 +2142,7 @@
  {
   "id": "11:D255",
   "jp": "{tEC:80}よ。{end}",
-  "en": ""
+  "en": "{tEC:80}!{end}"
  },
  {
   "id": "11:D25A",
@@ -2152,7 +2152,7 @@
  {
   "id": "11:D262",
   "jp": "{tEC:80}ね。{end}",
-  "en": ""
+  "en": "{tEC:80}!{end}"
  },
  {
   "id": "11:D267",
@@ -2162,377 +2162,377 @@
  {
   "id": "11:D26F",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "11:D2E9",
   "jp": "ふん！{end}",
-  "en": ""
+  "en": "Hmph!{end}"
  },
  {
   "id": "11:D2ED",
   "jp": "じゃあくな ふういん{tEC:33}が{n}とかれました。{n}せかいの めつぼうです。{end}",
-  "en": ""
+  "en": "The seal on the evil {tEC:33} has been broken. The world is doomed.{end}"
  },
  {
   "id": "11:D310",
   "jp": "にんげんなど ここから でていって ください。{end}",
-  "en": ""
+  "en": "Humans, please leave this place.{end}"
  },
  {
   "id": "11:D328",
   "jp": "いまのままでは にんげんは ほろびます。{n}ゆうき あるひとが いまの せかいに{n}ひつようなのです。{end}",
-  "en": ""
+  "en": "As things stand, humanity will perish. The world now needs people with courage.{end}"
  },
  {
   "id": "11:D35A",
   "jp": "ペオは ほくせいにある {tED:0B}に{n}にげていきました。{end}",
-  "en": ""
+  "en": "Peo fled to {tED:0B} in the northwest.{end}"
  },
  {
   "id": "11:D374",
   "jp": "{tEC:33}とは みにくい よくぼうが{n}フェニックスの かたちに なったものです。{end}",
-  "en": ""
+  "en": "{tEC:33} is ugly greed that has taken the form of a Phoenix.{end}"
  },
  {
   "id": "11:D39A",
   "jp": "まぬけな にんげんだぁ！{n}にんげんが きたよぉ！{end}",
-  "en": ""
+  "en": "Stupid humans! Humans are here!{end}"
  },
  {
   "id": "11:D3B3",
   "jp": "ちのそこ から くる じゃあくな ものは{n}{tEC:33}の ちからを かりています。{end}",
-  "en": ""
+  "en": "The evil ones coming from beneath the earth borrow the power of {tEC:33}.{end}"
  },
  {
   "id": "11:D417",
   "jp": "なんと むすめの {hero3}が{n}{tEC:A7}スに あってしまったのです。{fe}{tEC:A7}スが あらわれるとき、{n}せかいが ほろびる といわれて いるのです。{fe}もうすぐ せかいが ほろんで しまうのです。{end}",
-  "en": ""
+  "en": "To think that my daughter {hero3} has met {tEC:A7}.{fe}It is said that when {tEC:A7} appears, the world will perish.{fe}Soon the world will be destroyed.{end}"
  },
  {
   "id": "11:D470",
   "jp": "{hero3}は あなたたちを もとめて{n}{tED:09}に たびだちました。{fe}わたしは はんたい したのです。{n}にんげんを なかまとして みとめるなんて・・・。{fe}しかし あなたたちが なかまで よかった。{end}",
-  "en": ""
+  "en": "{hero3} set out for {tED:09} in search of you.{fe}I was against it. Accepting humans as companions...{fe}But I'm glad it was you who became her companions.{end}"
  },
  {
   "id": "11:D4CC",
   "jp": "{hero3}は あなたたちを もとめて{n}{tED:09}に たびだちました。{end}",
-  "en": ""
+  "en": "{hero3} set out for {tED:09} in search of you.{end}"
  },
  {
   "id": "11:D4E8",
   "jp": "くじけてはなりません。{n}がんばるのですよ。{end}",
-  "en": ""
+  "en": "You must not lose heart. Do your best.{end}"
  },
  {
   "id": "11:D55A",
   "jp": "ただちに {tED:0A}から たちさりなさい！{n}にんげんの かおなど みたくもない！{end}",
-  "en": ""
+  "en": "Leave {tED:0A} at once! I don't even want to see a human face!{end}"
  },
  {
   "id": "11:D580",
   "jp": "なんと！{n}にんげんの あなたたちが {tE5:02}を{n}とりかえして くださったのですか！{fe}{tE5:02}を とりかえして くださったこと{n}かんしゃします。{fe}「しんらい」というものは モノに とってかわれる{n}ものでは ありません。{fe}わたしたちは いままで にんげんにたいして{n}ふかい ふしんかんを もっていました。{fe}しかし、あなたたちは いちぶの にんげんだけが{n}よくないと いうことを おしえて くれました。{fe}もうすぐ たいへんなことが はじまります。{n}このままでは にんげんせかいは ほろびます。{fe}わたしたち ようせいにとっては にんげんが{n}どうなろうと かんけいないと おもっていました。{n}いえ、 そのほうが いいとおもっていました。{fe}このもりにすむ ようせいたちに{n}はなしを きいていってください。{fe}これから なにが おこるか わかるでしょう。{fe}{tE5:02}は ありがたく{n}いただいておきます。{fe}あなたたちの ぼうけんの せいこうを{n}きたいしています。{end}",
-  "en": ""
+  "en": "What! You humans recovered the {tE5:02} for us?!{fe}I thank you for recovering the {tE5:02}.{fe}Trust is not something an object can replace.{fe}Until now, we have held a deep distrust of humans.{fe}But you have taught us that only some humans are bad.{fe}Something terrible will soon begin. As things stand, the human world will perish.{fe}We fairies thought that whatever became of humans had nothing to do with us. No, we even thought it would be for the best.{fe}Please listen to what the fairies living in this forest have to say.{fe}Then you will understand what is about to happen.{fe}We gratefully accept the {tE5:02}.{fe}We hope for the success of your adventure.{end}"
  },
  {
   "id": "11:D720",
   "jp": "あなたたちの ぼうけんの せいこうを{n}きたいしています。{end}",
-  "en": ""
+  "en": "We hope for the success of your adventure.{end}"
  },
  {
   "id": "11:D73D",
   "jp": "ペオという にんげんが {tE5:02}を{n}ぬすんで いったのです。{end}",
-  "en": ""
+  "en": "A human named Peo stole the {tE5:02}.{end}"
  },
  {
   "id": "11:D75A",
   "jp": "{tE5:02}を とりかえして{n}くださったのですか！？{end}",
-  "en": ""
+  "en": "You recovered the {tE5:02}?!{end}"
  },
  {
   "id": "11:D771",
   "jp": "「にんげんは しんようできない」って{n}ごかいでしたのね。{end}",
-  "en": ""
+  "en": "So \"humans can't be trusted\" was a misunderstanding.{end}"
  },
  {
   "id": "11:D838",
   "jp": "ようが ないなら、 でていってください。{end}",
-  "en": ""
+  "en": "If you've no business here, please leave.{end}"
  },
  {
   "id": "11:D84D",
   "jp": "ようが すんだら はやくでていってくださいね。{end}",
-  "en": ""
+  "en": "Once your business is done, please leave quickly.{end}"
  },
  {
   "id": "11:D865",
   "jp": "おかねが ないじゃない。{n}ただで とまろう なんて{n}ずうずうしいにも ほどがあるわ。{end}",
-  "en": ""
+  "en": "You don't have any money. Trying to stay for free? The nerve!{end}"
  },
  {
   "id": "11:D890",
   "jp": "わたしは ゆうべ ぜんぜん ねむれませんでした。{n}はやく でていってください。{end}",
-  "en": ""
+  "en": "I couldn't sleep a wink last night. Please leave quickly.{end}"
  },
  {
   "id": "11:D8B8",
   "jp": "にんげんなら おかねを とりますよ。{n}ひとり 4Gだけど とまって いきますか？{n}{f0}{end}",
-  "en": ""
+  "en": "For humans, we charge money. It's 4G each. Will you be staying? {f0}{end}"
  },
  {
   "id": "11:D8E3",
   "jp": "また いつでも きてくださいね。{end}",
-  "en": ""
+  "en": "Please come again anytime.{end}"
  },
  {
   "id": "11:D8F4",
   "jp": "ごゆっくり。{end}",
-  "en": ""
+  "en": "Take your time.{end}"
  },
  {
   "id": "11:D8FB",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "11:D8FD",
   "jp": "{tEC:5F}{n}おきをつけて。{end}",
-  "en": ""
+  "en": "{tEC:5F} Be careful.{end}"
  },
  {
   "id": "11:D908",
   "jp": "あなたたちね。 おかねは いらないわ。{n}おとまりに なりますか？{n}{f0}{end}",
-  "en": ""
+  "en": "Oh, it's you. No charge for you. Will you be staying? {f0}{end}"
  },
  {
   "id": "11:DA0B",
   "jp": "あ~あ。{n}だから にんげんって イヤ。{end}",
-  "en": ""
+  "en": "Ugh. This is why I hate humans.{end}"
  },
  {
   "id": "11:DA1F",
   "jp": "ようが すんだら{n}さっさと でていってください。{end}",
-  "en": ""
+  "en": "Once your business is done, please hurry up and leave.{end}"
  },
  {
   "id": "11:DA38",
   "jp": "カウンタ―がけがれるので さわらないでください。{n}せいさんしますか？{n}{f0}{end}",
-  "en": ""
+  "en": "Please don't touch the counter, you'll soil it. Will you settle your bill? {f0}{end}"
  },
  {
   "id": "11:DA5D",
   "jp": "しかたが ありません。{n}しかし だいきんだけは はらっていってください。{end}",
-  "en": ""
+  "en": "It can't be helped. But at least pay what you owe before you go.{end}"
  },
  {
   "id": "11:DA82",
   "jp": "{hero0}さん、{n}やっぱり ここで せいさん してくださいね。{end}",
-  "en": ""
+  "en": "{hero0}-san, please settle your bill here after all.{end}"
  },
  {
   "id": "11:DA9E",
   "jp": "おきをつけて。{end}",
-  "en": ""
+  "en": "Take care.{end}"
  },
  {
   "id": "11:DAA6",
   "jp": "ちゃんと おしはらい していたたげますか？{n}{f0}{end}",
-  "en": ""
+  "en": "Will you pay properly? {f0}{end}"
  },
  {
   "id": "11:DABE",
   "jp": "いくら あなたたちでも 「ただ」という{n}わけには いきませんの。{end}",
-  "en": ""
+  "en": "Even for you, I can't make it \"free.\"{end}"
  },
  {
   "id": "11:DADF",
   "jp": "ようが すんだら はやく でていって ほしいわ。{end}",
-  "en": ""
+  "en": "Once your business is done, I'd like you to leave quickly.{end}"
  },
  {
   "id": "11:DAF8",
   "jp": "たとえ にんげんでも おこまりでしたら、{n}おうり しますわ。 ごらんに なりますか？{n}{f0}{end}",
-  "en": ""
+  "en": "If you're in need, I'll sell to you, even if you are human. Care to take a look? {f0}{end}"
  },
  {
   "id": "11:DB25",
   "jp": "{tEC:80}ね。{end}",
-  "en": ""
+  "en": "{tEC:80}!{end}"
  },
  {
   "id": "11:DB2A",
   "jp": "アイテムが ごいりようですか？{n}{f0}{end}",
-  "en": ""
+  "en": "Do you need any items? {f0}{end}"
  },
  {
   "id": "11:DB3C",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "11:DB5C",
   "jp": "ペオは まぬけな にんげんです。{n}{tE5:02}は ようせいしゅぞくにしか{n}つかえないのに・・・。{end}",
-  "en": ""
+  "en": "Peo is a foolish human. The {tE5:02} can only be used by the fairy race...{end}"
  },
  {
   "id": "11:DB89",
   "jp": "{tEC:33}は ひとを くるわせます。{n}よくぼうに くるい、{n}そして にんげんは じめつします。{end}",
-  "en": ""
+  "en": "{tEC:33} drives people mad. Maddened by greed, humans destroy themselves.{end}"
  },
  {
   "id": "11:DBD4",
   "jp": "にんげんは、 {n}ひとが もっているものを すぐに ほしがる、{n}いやしい どうぶつです。{end}",
-  "en": ""
+  "en": "Humans are base creatures who always want what others have.{end}"
  },
  {
   "id": "11:DC00",
   "jp": "はるかな ちのそこ から{n}じゃあくな ちからが せまってきます。{end}",
-  "en": ""
+  "en": "An evil power draws near from far beneath the earth.{end}"
  },
  {
   "id": "11:DC65",
   "jp": "おれは この{tE5:02}で おおがねもちに{n}なって、 かぞくと ゆうふくに くらすんだ。{fe}{tE5:02}は ぜったいに わたさないぞ！{fe}ぜったいに だ！{end}",
-  "en": ""
+  "en": "With this {tE5:02} I'm going to get filthy rich and live in luxury with my family.{fe}I'll never hand over the {tE5:02}!{fe}Never, I tell you!{end}"
  },
  {
   "id": "11:DCA9",
   "jp": "まっ、 まけた！{n}{tE5:02}は かえす。{fe}ー {hero0}たちは {tE5:02}を{n}  うけとった。{sync}{fe}しかし おれは あきらめた わけではない。{fe}あばよ！{end}",
-  "en": ""
+  "en": "I-I lost! I'll give back the {tE5:02}.{fe}{hero0} and the others received the {tE5:02}.{sync}{fe}But don't think I've given up.{fe}So long!{end}"
  },
  {
   "id": "11:DCEB",
   "jp": "なんの ようだよ。{n}かえれよ。{end}",
-  "en": ""
+  "en": "What do you want? Go home.{end}"
  },
  {
   "id": "11:DCFB",
   "jp": "おまえら {tE5:02}を{n}とりかえしに きたのかよぉ。{n}かえれよぉ。{end}",
-  "en": ""
+  "en": "You came to take back the {tE5:02}, huh? Go hoooome.{end}"
  },
  {
   "id": "11:DD9A",
   "jp": "うみには まものも おおく、{n}しょうにんも いのちがけだぜ。{end}",
-  "en": ""
+  "en": "There are lots of monsters at sea. Merchants risk their lives out there.{end}"
  },
  {
   "id": "11:DDB9",
   "jp": "せかいには {tED:09}と{n}{tEC:0B}の ふたつの くにが あるんだ。{end}",
-  "en": ""
+  "en": "There are two nations in the world: {tED:09} and {tEC:0B}.{end}"
  },
  {
   "id": "11:DDD6",
   "jp": "{tEC:0B}は おおくの しまを しはい{n}している。{end}",
-  "en": ""
+  "en": "{tEC:0B} rules over many islands.{end}"
  },
  {
   "id": "11:DDED",
   "jp": "みんな かねもうけに いっしょうけんめいだ。{n}しかし しょうばいに らくなものは ないねぇ。{end}",
-  "en": ""
+  "en": "Everyone works hard to make money. But no line of business is easy.{end}"
  },
  {
   "id": "11:DE1C",
   "jp": "じゃまだ、 じゃまだ。{n}どけっ！{n}どけぇ！{end}",
-  "en": ""
+  "en": "Out of the way, out of the way! Move! Mooove!{end}"
  },
  {
   "id": "11:DE32",
   "jp": "このまちの とうには、 {tEC:45}ル{n}「{tE5:03}」が あるのよ。{end}",
-  "en": ""
+  "en": "In this town's tower is the symbol of Polydos, the \"{tE5:03}.\"{end}"
  },
  {
   "id": "11:DE4E",
   "jp": "ここは かんけいしゃいがい たちいりきんしだ。{end}",
-  "en": ""
+  "en": "Authorized personnel only beyond this point.{end}"
  },
  {
   "id": "11:DE66",
   "jp": "ここは うみをかけめぐる しょうにんのまち、{n}{tEC:08}です。{end}",
-  "en": ""
+  "en": "This is {tEC:08}, the town of merchants who sail the seas.{end}"
  },
  {
   "id": "11:DEF1",
   "jp": "わたしの むすこ ペオは、{n}「らくを させてやる」 といって{n}{tED:0B}へ でかけていったわ。{end}",
-  "en": ""
+  "en": "My son Peo said, \"I'll give you an easy life,\" and went off to {tED:0B}.{end}"
  },
  {
   "id": "11:DF1E",
   "jp": "ペオは このあいだ かえってきたけど{n}また どこかへ でかけていったわ。{fe}もういいからって いったのに。{end}",
-  "en": ""
+  "en": "Peo came back the other day, but he went off somewhere again.{fe}Even though I told him it was enough.{end}"
  },
  {
   "id": "11:DF53",
   "jp": "ペオの おかあさんは{n}「ペオには ここに いてほしい。」{n}そればっかり いっているのです。{end}",
-  "en": ""
+  "en": "Peo's mother keeps saying, \"I just want Peo to stay here.\" That's all she ever says.{end}"
  },
  {
   "id": "11:DF81",
   "jp": "となりの へやの ペオの おかあさんは{n}おもい びょうきに かかって{n}あと わずかの いのちとか・・・。{end}",
-  "en": ""
+  "en": "Peo's mother in the next room has a serious illness. They say she doesn't have long to live...{end}"
  },
  {
   "id": "11:DFB6",
   "jp": "ぬすっと ペオの おかあさんの へやは{n}ここだよ。{end}",
-  "en": ""
+  "en": "The room of Peo the thief's mother is right here.{end}"
  },
  {
   "id": "11:DFD0",
   "jp": "ここは サナトリウム。{n}からだの つかれ だけではなく、{n}こころの つかれも いやすところ。{end}",
-  "en": ""
+  "en": "This is the sanatorium. A place to heal not only weariness of the body, but of the heart, too.{end}"
  },
  {
   "id": "11:DFFF",
   "jp": "もういちど そとにでて あるいて はしって・・。{n}そんな ことばかりを かんがえているのです。{end}",
-  "en": ""
+  "en": "To go outside once more, to walk, to run... That's all I ever think about.{end}"
  },
  {
   "id": "11:E085",
   "jp": "このまちは むかしから なんども ききを{n}のりこえて、 はってん してきたのだ。{end}",
-  "en": ""
+  "en": "This town has overcome crisis after crisis since long ago, and prospered.{end}"
  },
  {
   "id": "11:E0AE",
   "jp": "みぎが しちょうの へやで、{n}ひだりが ぎいんの へやです。{end}",
-  "en": ""
+  "en": "On the right is the mayor's room, and on the left is the councilors' room.{end}"
  },
  {
   "id": "11:E0CD",
   "jp": "なまえを かえたいときには{n}{tEC:8C}{end}",
-  "en": ""
+  "en": "Whenever you want to change a name, just call on me anytime.{end}"
  },
  {
   "id": "11:E0DE",
   "jp": "また なまえを かえたくなったら{n}{tEC:8C}{end}",
-  "en": ""
+  "en": "If you want to change a name again, just call on me anytime.{end}"
  },
  {
   "id": "11:E0F2",
   "jp": "ここは やくしょ。{n}なまえを とうろくするところです。{fe}なまえを へんこうしますか？{n}{f0}{end}",
-  "en": ""
+  "en": "This is the registry office, where names are registered.{fe}Would you like to change a name? {f0}{end}"
  },
  {
   "id": "11:E13F",
   "jp": "{tED:0C}が できたときから{n}「{tE5:03}」は われわれを みまもって{n}いるのだ。{end}",
-  "en": ""
+  "en": "The \"{tE5:03}\" has watched over us ever since {tED:0C} was founded.{end}"
  },
  {
   "id": "11:E163",
   "jp": "「{tE5:03}」が なくなったら、{n}われわれは しょうばいの かみから{n}みはなされるで あろう。{end}",
-  "en": ""
+  "en": "If the \"{tE5:03}\" were lost, the god of commerce would surely abandon us.{end}"
  },
  {
   "id": "11:E1A0",
   "jp": "わかいのに ぼうけんか。{n}かんしん、 かんしん。{end}",
-  "en": ""
+  "en": "Off adventuring, so young? Admirable, admirable.{end}"
  },
  {
   "id": "11:E27F",
   "jp": "{tEC:56}{n}{tEC:57}ぇ。{end}",
-  "en": ""
+  "en": "{tEC:56} You've gotta pay properly!{end}"
  },
  {
   "id": "11:E287",
   "jp": "{tEC:5D}{n}{tEC:80}ね。{end}",
-  "en": ""
+  "en": "{tEC:5D} {tEC:80}!{end}"
  },
  {
   "id": "11:E28F",
@@ -2542,7 +2542,7 @@
  {
   "id": "11:E294",
   "jp": "{tEC:6C}{n}{tEC:93}{n}ときどき にげてく ひとが いるの。{end}",
-  "en": ""
+  "en": "Please pay here for what you bought. Every now and then someone runs off without paying.{end}"
  },
  {
   "id": "11:E2AD",
@@ -2557,7 +2557,7 @@
  {
   "id": "11:E2B8",
   "jp": "{tEC:80}よ。{end}",
-  "en": ""
+  "en": "{tEC:80}!{end}"
  },
  {
   "id": "11:E2BD",
@@ -2567,7 +2567,7 @@
  {
   "id": "11:E2C5",
   "jp": "{tEC:80}ね。{end}",
-  "en": ""
+  "en": "{tEC:80}!{end}"
  },
  {
   "id": "11:E2CA",
@@ -2577,7 +2577,7 @@
  {
   "id": "11:E2D2",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "11:E30A",
@@ -2587,7 +2587,7 @@
  {
   "id": "11:E30D",
   "jp": "ありがとう。{n}{tEC:59}{end}",
-  "en": ""
+  "en": "Thank you. Come again when you have more to sell.{end}"
  },
  {
   "id": "11:E317",
@@ -2597,7 +2597,7 @@
  {
   "id": "11:E369",
   "jp": "うみで しんだ なかまのことを おもいだして、{n}まいにち ここに きているんじゃ。{end}",
-  "en": ""
+  "en": "I come here every day to remember my mates who died at sea.{end}"
  },
  {
   "id": "11:E393",
@@ -2607,12 +2607,12 @@
  {
   "id": "11:E399",
   "jp": "ほかに ごようけんは？{n}{f0}{end}",
-  "en": ""
+  "en": "Is there anything else?{f0}{end}"
  },
  {
   "id": "11:E3A7",
   "jp": "{tEC:6F}。{n}{tEC:9B}{n}{f0}{end}",
-  "en": ""
+  "en": "{tEC:6F}. {tEC:9B}{f0}{end}"
  },
  {
   "id": "11:E426",
@@ -2627,7 +2627,7 @@
  {
   "id": "11:E42C",
   "jp": "あんたたち、 かねが ないじゃないか。{n}また こんど きてくれよ。{end}",
-  "en": ""
+  "en": "You folks don't have any money. Come back another time.{end}"
  },
  {
   "id": "11:E44E",
@@ -2637,332 +2637,332 @@
  {
   "id": "11:E454",
   "jp": "{tEC:74}{n}ひとり 18Gだけど とまっていくかい？{n}{f0}{end}",
-  "en": ""
+  "en": "{tEC:74} It's 18G each. Staying the night? {f0}{end}"
  },
  {
   "id": "11:E46E",
   "jp": "いらっしゃあ~ぃ。{end}",
-  "en": ""
+  "en": "Welcooome!{end}"
  },
  {
   "id": "11:E478",
   "jp": "プッファ~。{n}しごとの あとの さけは さいっこうだぜ。{end}",
-  "en": ""
+  "en": "Pwaaah! Nothing beats a drink after work.{end}"
  },
  {
   "id": "11:E4A5",
   "jp": "この{tEC:08}は むかしから{n}{tED:09}と {tEC:0B}の{n}しょうばいで、 はってん してきたのじゃ。{end}",
-  "en": ""
+  "en": "This town of {tEC:08} has long prospered through trade with {tED:09} and {tEC:0B}.{end}"
  },
  {
   "id": "11:E4DF",
   "jp": "うちの だんなったら ふなのりだから{n}かえってくるのは 1ねんに 2かいだけ。{fe}わかれちゃおかなぁ。{end}",
-  "en": ""
+  "en": "My husband's a sailor, so he only comes home twice a year.{fe}Maybe I should just leave him.{end}"
  },
  {
   "id": "11:E522",
   "jp": "うちの だんなは{n}10ねんまえに うみで しんじまった。{n}それから あたしゃぁ、 ひとりぼっちだよ。{end}",
-  "en": ""
+  "en": "My husband died at sea 10 years ago. I've been all alone ever since.{end}"
  },
  {
   "id": "11:E5B9",
   "jp": "たすけて ください。{n}わたしは {tEC:0C}と いいます。{fe}まちの ひとたちは{n}ひがしの ほうに にげて いきました。 {fe}このまち {tEC:08}を おそったのは{n}{tEC:0D}という おとこ。{n}せかいの せいふくを たくらんで います。{fe}わたしの くにも やられました。{fe}かれは {tEC:33}を もっているのです。{fe}わたしは かれを よく しっています。{n}なぜなら・・・・・。{end}",
-  "en": ""
+  "en": "Please help me. My name is {tEC:0C}.{fe}The people of the town fled to the east.{fe}The one who attacked this town, {tEC:08}, is a man called {tEC:0D}. He is plotting to conquer the world.{fe}My country was destroyed by him too.{fe}He has {tEC:33}.{fe}I know him well. Because...{end}"
  },
  {
   "id": "11:E665",
   "jp": "はっ、 はやく にげましょう。{end}",
-  "en": ""
+  "en": "Qu-quickly, let's get away!{end}"
  },
  {
   "id": "11:E675",
   "jp": "いたぞ！{end}",
-  "en": ""
+  "en": "There he is!{end}"
  },
  {
   "id": "11:E67A",
   "jp": "なかまも いるのか！{n}しね！{end}",
-  "en": ""
+  "en": "He's got friends too! Die!{end}"
  },
  {
   "id": "11:E689",
   "jp": "あやしい やつ！{end}",
-  "en": ""
+  "en": "Suspicious character!{end}"
  },
  {
   "id": "11:E692",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "11:E6A4",
   "jp": "うぅらぁみぃをぉ はぁらぁしぃてぇ くぅれぇ！{end}",
-  "en": ""
+  "en": "Aaaveeenge meeee!{end}"
  },
  {
   "id": "11:E73C",
   "jp": "{tED:0C}が おそわれたときに{n}しんだひとたちの おはかだ。{fe}しちょうが すばやく つくってくれたのだ。{end}",
-  "en": ""
+  "en": "These are the graves of the people who died when {tED:0C} was attacked.{fe}The mayor had them made right away.{end}"
  },
  {
   "id": "11:E76E",
   "jp": "{tEC:07}は まっすぐ ひがしにある。{n}となりの くにだが ふねをつかって いくんじゃ。{end}",
-  "en": ""
+  "en": "The {tEC:07} lies due east. It's the neighboring country, but you go there by ship.{end}"
  },
  {
   "id": "11:E798",
   "jp": "{tEC:0B}へは ふねで いくのだが、{n}みちのりは いのちがけだぜ。{end}",
-  "en": ""
+  "en": "You go to {tEC:0B} by ship, but the voyage is a matter of life and death.{end}"
  },
  {
   "id": "11:E7B7",
   "jp": "ここは うみを かけめぐる しょうにんたちのまち{n}{tED:0E}です。{fe}あたらしい まちだけど、 よろしくネッ。{end}",
-  "en": ""
+  "en": "This is {tED:0E}, the town of merchants who sail the seas.{fe}It's a new town, but nice to meet you!{end}"
  },
  {
   "id": "11:E7EB",
   "jp": "わしら しょうにんを なめたらいかん。{n}まちの 1つぐらい アッというまに{n}つくってしまえるわい。{end}",
-  "en": ""
+  "en": "Don't underestimate us merchants. We can build a town or two in the blink of an eye.{end}"
  },
  {
   "id": "11:E81D",
   "jp": "わしらは ゴキブリのように しぶといんだ。{n}また このまちが おそわれても{n}べつの ところに まちをつくるわい。{end}",
-  "en": ""
+  "en": "We're tough as cockroaches. Even if this town gets attacked again, we'll just build a town somewhere else.{end}"
  },
  {
   "id": "11:E856",
   "jp": "とうちゃんも かあちゃんも しんじまった。{end}",
-  "en": ""
+  "en": "My dad and my mom are both dead.{end}"
  },
  {
   "id": "11:E86C",
   "jp": "クィィ~ン。{end}",
-  "en": ""
+  "en": "Whiiine.{end}"
  },
  {
   "id": "11:E8B9",
   "jp": "ひだりが しちょうの へやで、{n}みぎが ぎいんの へやです。{end}",
-  "en": ""
+  "en": "On the left is the mayor's room, and on the right is the councilors' room.{end}"
  },
  {
   "id": "11:E8D8",
   "jp": "なまえを かえたいときには{n}{tEC:8C}{end}",
-  "en": ""
+  "en": "Whenever you want to change a name, just call on me anytime.{end}"
  },
  {
   "id": "11:E8E9",
   "jp": "また なまえを かえたくなったら{n}{tEC:8C}{end}",
-  "en": ""
+  "en": "If you want to change a name again, just call on me anytime.{end}"
  },
  {
   "id": "11:E8FD",
   "jp": "ここは やくしょ。{n}なまえを とうろくするところです。{fe}なまえを へんこうしますか？{n}{f0}{end}",
-  "en": ""
+  "en": "This is the registry office, where names are registered.{fe}Would you like to change a name? {f0}{end}"
  },
  {
   "id": "11:EAA2",
   "jp": "ありがとう。{fe}2000ねんほど まえにも{n}いまと おなじようなことが おき、{n}そして せかいが めつぼうしたという。{f1}{end}",
-  "en": ""
+  "en": "Thank you.{fe}They say that about 2000 years ago, the same thing as now happened, and the world was destroyed.{f1}{end}"
  },
  {
   "id": "11:EADE",
   "jp": "そなたたちほど つよいものたちを{n}わたしは しらない。{fe}われわれには {tED:09}がひつようなのだ。{n}たのまれてくれ！{n}{f0}{f1}{end}",
-  "en": ""
+  "en": "I know of no one as strong as you.{fe}We need {tED:09}. Please, I beg you! {f0}{f1}{end}"
  },
  {
   "id": "11:EB19",
   "jp": "このままであれば そなたたちが うまれた{n}まちや むらも おそわれてしまう。{fe}たのむ！{n}{f0}{f1}{end}",
-  "en": ""
+  "en": "If this goes on, the towns and villages where you were born will be attacked too.{fe}I beg you! {f0}{f1}{end}"
  },
  {
   "id": "11:EB48",
   "jp": "そなたたちの かぞくも ふこうなことに なって{n}しまうのだ。{fe}たのむ！ {tED:09}を すくってくれ！{n}{f0}{f1}{end}",
-  "en": ""
+  "en": "Your families will suffer misfortune too.{fe}I beg you! Save {tED:09}! {f0}{f1}{end}"
  },
  {
   "id": "11:EB7B",
   "jp": "まちの すべてのものが{n}いのちからがら にげてきた。{fe}そして 「{tE5:03}」を{n}{tED:0D}に おいてきて しまったのだ。{fe}そなたたちを ゆうかんな ぼうけんしゃとして{n}たのむ！{fe}「{tE5:03}」を とりかえしてくれ！{end}",
-  "en": ""
+  "en": "Everyone in town fled with their lives and nothing more.{fe}And we left the \"{tE5:03}\" behind in {tED:0D}.{fe}I ask this of you as brave adventurers!{fe}Bring back the \"{tE5:03}\"!{end}"
  },
  {
   "id": "11:EBDE",
   "jp": "まちの すべてのものが{n}いのちからがら にげてきた。{fe}そして 「{tE5:03}」を{n}{tED:0D}に おいてきて しまったのだ。{fe}そなたたちを ゆうかんな ぼうけんしゃとして{n}たのむ！{fe}「{tE5:03}」を とりかえしてくれ！{fe}おお、 すでに とりかえして くれていたのか！{n}ありがとう。 ありがとう。{end}",
-  "en": ""
+  "en": "Everyone in town fled with their lives and nothing more.{fe}And we left the \"{tE5:03}\" behind in {tED:0D}.{fe}I ask this of you as brave adventurers!{fe}Bring back the \"{tE5:03}\"!{fe}Oh, you've already brought it back! Thank you, thank you.{end}"
  },
  {
   "id": "11:EC67",
   "jp": "おお、 これは まさしく 「{tE5:03}」。{n}とりかえして くれたのか。{n}ありがとう、 ありがとう。{end}",
-  "en": ""
+  "en": "Oh, this is indeed the \"{tE5:03}.\" You brought it back. Thank you, thank you.{end}"
  },
  {
   "id": "11:EC96",
   "jp": "なんと！{n}{tED:09}もか！？{fe}せんそうに まけたことが ないなどと{n}じしんを もちすぎていたのが まずかったのだ。{fe}「{tE5:03}」を とりかえしてきた{n}そなたたちなら {tED:09}を{n}すくえる かもしれん。{fe}このまちが いきていくには {tED:09}が{n}ひつようなのだ。{f1}{end}",
-  "en": ""
+  "en": "What! {tED:09} too?!{fe}Being so sure we had never lost a war was our mistake.{fe}You brought back the \"{tE5:03},\" so perhaps you can save {tED:09}.{fe}For this town to survive, it needs {tED:09}.{f1}{end}"
  },
  {
   "id": "11:ED10",
   "jp": "{tED:09}を すくって くれぬか？{n}{f0}{end}",
-  "en": ""
+  "en": "Will you save {tED:09}? {f0}{end}"
  },
  {
   "id": "11:ED21",
   "jp": "そのとき 「{tE5:05}」が 1つのまちを{n}すくったという でんせつが、{n}{tEC:0B}にある。{fe}その 「{tE5:05}」で {tED:09}を{n}すくえるかもしれん。{fe}そなたたちに がんじょうな {tE5:06}を{n}あたえよう。{n}まちの そとに ふねを よういしておく。{fe}なんとか {tED:09}を すくってくれ！{n}たのみましたぞ！{end}",
-  "en": ""
+  "en": "In {tEC:0B} there is a legend that back then, the \"{tE5:05}\" saved a town.{fe}With that \"{tE5:05},\" you may be able to save {tED:09}.{fe}I shall give you the sturdy {tE5:06}. I'll have the ship ready outside town.{fe}Please, somehow save {tED:09}! I'm counting on you!{end}"
  },
  {
   "id": "11:EDA9",
   "jp": "{tED:09}のこと たのみましたぞ！{end}",
-  "en": ""
+  "en": "I'm counting on you to save {tED:09}!{end}"
  },
  {
   "id": "11:EDB8",
   "jp": "おお！ 「{tE5:05}」を{n}みつけられたのか！{n}{tED:09}を すくうことが できるのだな！{fe}さすが わしの みこんだ ひとたちだ。{fe}これから けっせんだ。{n}こころして がんばってくれ！{fe}これは わしからの せめてもの きもちだ。{n}うけとってくれ！{fe}ー {tE5:1B}を うけとった。{sync}{end}",
-  "en": ""
+  "en": "Oh! You found the \"{tE5:05}\"! Then you can save {tED:09}!{fe}Just as I'd expect from the people I put my faith in.{fe}Now comes the decisive battle. Steel yourselves and give it your all!{fe}This is just a small token from me. Please take it!{fe}You received the {tE5:1B}.{sync}{end}"
  },
  {
   "id": "11:EE3B",
   "jp": "がんばって くれたまえ。{end}",
-  "en": ""
+  "en": "Do your best.{end}"
  },
  {
   "id": "11:EE48",
   "jp": "なんと！ {n}{tEC:0D}を たおしたとな！{fe}さすがじゃ。{n}ありがとう。{end}",
-  "en": ""
+  "en": "What! You defeated {tEC:0D}?!{fe}Splendid. Thank you.{end}"
  },
  {
   "id": "11:EE68",
   "jp": "{tEC:08}を おそったのは{n}{tEC:0D}という おとこです。{fe}どこから やってきたのか・・・。{end}",
-  "en": ""
+  "en": "The one who attacked {tEC:08} is a man called {tEC:0D}.{fe}Where did he come from...?{end}"
  },
  {
   "id": "11:EE91",
   "jp": "{tEC:0B}は みなとから{n}ひがしに いったところに あります。{end}",
-  "en": ""
+  "en": "{tEC:0B} is to the east of the harbor.{end}"
  },
  {
   "id": "11:EEAE",
   "jp": "「{tE5:03}」は {tED:0D}の{n}とうの うえです。{end}",
-  "en": ""
+  "en": "The \"{tE5:03}\" is at the top of the tower in {tED:0D}.{end}"
  },
  {
   "id": "11:EEC2",
   "jp": "{tEC:08}も {tED:09}も{n}{tEC:0D}に やられたのです。{end}",
-  "en": ""
+  "en": "Both {tEC:08} and {tED:09} were ruined by {tEC:0D}.{end}"
  },
  {
   "id": "11:EED7",
   "jp": "{tED:09}、 {tEC:0B}の{n}りょうほうの くにが {tEC:08}にとって{n}ひつようなのです。{fe}たとえ りょうほうの くにが{n}せんそうを していても、 です。{end}",
-  "en": ""
+  "en": "{tEC:08} needs both nations, {tED:09} and {tEC:0B}.{fe}Even if the two nations are at war.{end}"
  },
  {
   "id": "11:EF1B",
   "jp": "しちょう！ たいへんです！{fe}{tED:09}が おそわれました！{n}ほとんど ぜんめつのようです！{end}",
-  "en": ""
+  "en": "Mayor! It's terrible!{fe}{tED:09} has been attacked! It looks almost completely wiped out!{end}"
  },
  {
   "id": "11:EF46",
   "jp": "{tED:09}、 {tEC:0B}の{n}りょうほうの くにが {tEC:08}にとって{n}ひつようなのです。{fe}たとえ りょうほうの くにが{n}せんそうを していても、 です。{end}",
-  "en": ""
+  "en": "{tEC:08} needs both nations, {tED:09} and {tEC:0B}.{fe}Even if the two nations are at war.{end}"
  },
  {
   "id": "11:EF8A",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "11:EFC8",
   "jp": "このまちは、 むかしから なんども ききを{n}のりこえて はってん してきたのだ。{end}",
-  "en": ""
+  "en": "This town has overcome crisis after crisis since long ago, and prospered.{end}"
  },
  {
   "id": "11:EFF1",
   "jp": "「{tE5:03}」さえあれば あんしんだ。{end}",
-  "en": ""
+  "en": "As long as we have the \"{tE5:03},\" we're safe.{end}"
  },
  {
   "id": "11:F002",
   "jp": "{tED:0C}が できたときから{n}「{tE5:03}」が われわれを{n}みまもっている。{end}",
-  "en": ""
+  "en": "The \"{tE5:03}\" has watched over us ever since {tED:0C} was founded.{end}"
  },
  {
   "id": "11:F023",
   "jp": "「{tE5:03}」さえあれば、{n}なにも こわくない。{end}",
-  "en": ""
+  "en": "As long as we have the \"{tE5:03},\" there's nothing to fear.{end}"
  },
  {
   "id": "11:F11B",
   "jp": "おおおお・・・・。{end}",
-  "en": ""
+  "en": "Ohhhh...{end}"
  },
  {
   "id": "11:F125",
   "jp": "{tED:09}が おそわれたって いうのは{n}ほんとうか？{end}",
-  "en": ""
+  "en": "Is it true that {tED:09} was attacked?{end}"
  },
  {
   "id": "11:F13D",
   "jp": "なんで しんで しまったんだよぉ。{end}",
-  "en": ""
+  "en": "Why did you have to diiie?{end}"
  },
  {
   "id": "11:F14F",
   "jp": "いよいよ せかいの おわりか！{end}",
-  "en": ""
+  "en": "Is this finally the end of the world?!{end}"
  },
  {
   "id": "11:F15F",
   "jp": "けっして むだじに しないぞ。{end}",
-  "en": ""
+  "en": "I won't throw my life away for nothing.{end}"
  },
  {
   "id": "11:F16F",
   "jp": "おれは しにたくない。{end}",
-  "en": ""
+  "en": "I don't want to die.{end}"
  },
  {
   "id": "11:F17B",
   "jp": "パ―ティ―の さいちゅうだった、{n}やつらが おそってきたのは。{end}",
-  "en": ""
+  "en": "We were in the middle of a party when they attacked.{end}"
  },
  {
   "id": "11:F19B",
   "jp": "このまちも すぐに みつかって しまうぞ。{end}",
-  "en": ""
+  "en": "They'll find this town soon too.{end}"
  },
  {
   "id": "11:F1B1",
   "jp": "いいやつ だったのに・・・。{end}",
-  "en": ""
+  "en": "He was a good guy...{end}"
  },
  {
   "id": "11:F1C0",
   "jp": "どうすれば いいのだ。{end}",
-  "en": ""
+  "en": "What should we do?{end}"
  },
  {
   "id": "11:F1CC",
   "jp": "みんな ゆうかんに たたかった。{end}",
-  "en": ""
+  "en": "Everyone fought bravely.{end}"
  },
  {
   "id": "11:F1DD",
   "jp": "やつらに おそわれたら、{n}ちからを あわせて たたかうしかない。{end}",
-  "en": ""
+  "en": "If they attack us, all we can do is join forces and fight.{end}"
  },
  {
   "id": "11:F1FE",
   "jp": "これから どうやって いきていけば いいの。{end}",
-  "en": ""
+  "en": "How are we supposed to live now?{end}"
  },
  {
   "id": "11:F215",
   "jp": "どこに にげればいいの。{end}",
-  "en": ""
+  "en": "Where should we run?{end}"
  },
  {
   "id": "11:F222",
   "jp": "どんなときでも 「ぎせい」は つきものさ。{n}だけど それを わすれちゃ いけねぇ。{fe}そのために このいえを おれが かって、{n}きょうかいに するんだ。{end}",
-  "en": ""
+  "en": "There are always \"sacrifices,\" no matter what. But we mustn't forget them.{fe}That's why I'm buying this house and turning it into a church.{end}"
  },
  {
   "id": "11:F2A4",
@@ -2972,7 +2972,7 @@
  {
   "id": "11:F2A7",
   "jp": "ありがとう。{n}{tEC:59}{end}",
-  "en": ""
+  "en": "Thank you. Come again when you have more to sell.{end}"
  },
  {
   "id": "11:F2B1",
@@ -2982,12 +2982,12 @@
  {
   "id": "11:F37F",
   "jp": "おきゃくさん、{n}{tEC:57}くださいよ。{end}",
-  "en": ""
+  "en": "Hey, customer, you have to pay properly.{end}"
  },
  {
   "id": "11:F390",
   "jp": "まいど！{n}{tEC:80}よ。{end}",
-  "en": ""
+  "en": "Thanks a lot! {tEC:80}!{end}"
  },
  {
   "id": "11:F39A",
@@ -2997,7 +2997,7 @@
  {
   "id": "11:F39F",
   "jp": "{tEC:6C}{n}{tEC:93}{n}{tEC:A1} にげるやつが いるんだよ。{end}",
-  "en": ""
+  "en": "Please pay for what you bought here before you go. Now and then, some folks run off without paying.{end}"
  },
  {
   "id": "11:F3B6",
@@ -3012,7 +3012,7 @@
  {
   "id": "11:F3C1",
   "jp": "{tEC:80}よ。{end}",
-  "en": ""
+  "en": "{tEC:80}!{end}"
  },
  {
   "id": "11:F3C6",
@@ -3022,7 +3022,7 @@
  {
   "id": "11:F3CE",
   "jp": "{tEC:80}ね。{end}",
-  "en": ""
+  "en": "{tEC:80}!{end}"
  },
  {
   "id": "11:F3D3",
@@ -3032,12 +3032,12 @@
  {
   "id": "11:F3DB",
   "jp": "？{end}",
-  "en": ""
+  "en": "?{end}"
  },
  {
   "id": "11:F427",
   "jp": "わしゃあ、 また しにそこなったわい。{end}",
-  "en": ""
+  "en": "Cheated death again, hah.{end}"
  },
  {
   "id": "11:F43B",
@@ -3047,12 +3047,12 @@
  {
   "id": "11:F441",
   "jp": "ほかに ごようけんは？{n}{f0}{end}",
-  "en": ""
+  "en": "Is there anything else?{f0}{end}"
  },
  {
   "id": "11:F44F",
   "jp": "{tEC:6F}。{n}{tEC:9B}{n}{f0}{end}",
-  "en": ""
+  "en": "{tEC:6F}. {tEC:9B}{f0}{end}"
  },
  {
   "id": "11:F4EC",
@@ -3067,7 +3067,7 @@
  {
   "id": "11:F4F2",
   "jp": "あんたたち、 かねが ないじゃないか。{n}また こんど きてくれよ。{end}",
-  "en": ""
+  "en": "You folks don't have any money. Come back another time.{end}"
  },
  {
   "id": "11:F514",
@@ -3077,61 +3077,61 @@
  {
   "id": "11:F51A",
   "jp": "{tEC:74}{n}ひとり 29Gだけど とまっていくかい？{n}{f0}{end}",
-  "en": ""
+  "en": "{tEC:74} It's 29G each. Staying the night? {f0}{end}"
  },
  {
   "id": "11:F534",
   "jp": "さけは いいもんだぜ。{n}すべてを わすれさせてくれる。{n}ウィップ！！{end}",
-  "en": ""
+  "en": "Booze is a fine thing. It makes you forget everything. Hic!!{end}"
  },
  {
   "id": "11:F557",
   "jp": "{tEC:0C}という へんな おとこが{n}きたぜ。{fe}{tEC:07}へ いくと いっていたが{n}だいじょうぶかなあ。{end}",
-  "en": ""
+  "en": "A strange man called {tEC:0C} came by.{fe}He said he was going to the {tEC:07}. I hope he's all right.{end}"
  },
  {
   "id": "11:F585",
   "jp": "さけを めいっぱい かっくらって、{n}しんだ れんちゅうのことを わすれるんだ。{end}",
-  "en": ""
+  "en": "I'm going to drink all I can and forget about the ones who died.{end}"
  },
  {
   "id": "11:F5AD",
   "jp": "まいっちゃうよ。{n}まるで そうしきのときみたいに{n}みんな くらいんだもん。{end}",
-  "en": ""
+  "en": "I can't stand it. Everyone's so gloomy, like it's a funeral.{end}"
  },
  {
   "id": "11:F5F1",
   "jp": "いつまでも くよくよしていないで、{n}これから がんばるぞ っと・・・。{end}",
-  "en": ""
+  "en": "No more moping around. From now on, I'm going to give it my all...{end}"
  },
  {
   "id": "11:F615",
   "jp": "なぜ、 あの うつくしい {tED:09}が{n}なくなって しまったのじゃ。{end}",
-  "en": ""
+  "en": "Why did beautiful {tED:09} have to be lost?{end}"
  },
  {
   "id": "11:F645",
   "jp": "うすよごれた いぬが まちに{n}まぎれこんできたよ。{fe}かいぬしが しんじまったんだろうね。{n}かわいそうに。{end}",
-  "en": ""
+  "en": "A filthy dog wandered into town.{fe}Its owner must have died. Poor thing.{end}"
  },
  {
   "id": "11:F68A",
   "jp": "おいらの ゆめは、 {n}せかいで いちばんの しょうにんになって、{n}せかいを かけめぐる ことなんだ。{end}",
-  "en": ""
+  "en": "My dream is to become the greatest merchant in the world and travel all over it.{end}"
  },
  {
   "id": "11:F6CD",
   "jp": "わたしの だんなは うみで しんじまった。{n}わたしの むすこは へんな れんちゅうに{n}ころされちまった。{fe}とびおりる {tEC:08}のとうも{n}この あたらしい まちには ないんだよ。{n}かなしいねぇ。{end}",
-  "en": ""
+  "en": "My husband died at sea. My son was killed by those strange people.{fe}And this new town doesn't even have a tower like {tEC:08}'s to jump from. How sad it all is.{end}"
  },
  {
   "id": "11:F756",
   "jp": "ー どこからともなく まばゆい ひかりが{n}  あつまってきた。{end}",
-  "en": ""
+  "en": "A dazzling light gathered from out of nowhere.{end}"
  },
  {
   "id": "11:F776",
   "jp": "ー {hero0}は {tEB:01}をおぼえた。{n}  {hero2}は {tF3:02}をおぼえた。{n}{sync}{fe}ー {hero0}と {hero2}の{n}  さいだい TPが あがった。{sync}{end}",
-  "en": ""
+  "en": "{hero0} learned {tEB:01}.{n}{hero2} learned {tF3:02}.{sync}{fe}{hero0}'s and {hero2}'s max TP went up.{sync}{end}"
  }
 ]
