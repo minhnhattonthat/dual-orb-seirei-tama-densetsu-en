@@ -13,7 +13,8 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 | File | Covers | State |
 |---|---|---|
 | text.md | encoding, glyph table, control codes, map dialogue packages, text sites, ranges, free space | verified (encoding, codes, records); text-site list partly census-based |
-| graphics.md | graphics-text survey | partial: battle/menus/ending rows to confirm with warps |
+| graphics.md | graphics-text survey | rows confirmed with warp shots; "font" rows not yet traced to strings |
+| debug.md | boot, field, door, script, cutscene-step and battle addresses the warp uses | verified unless marked guess |
 
 Prior work: no earlier fan translation of this game found (searched 2026-10-27; only Dual Orb II has English patches).
 Helpers: `tools/peek.py` (decode at offset), `tools/census.py` (text-like runs), `tools/maps.py` (packages),
