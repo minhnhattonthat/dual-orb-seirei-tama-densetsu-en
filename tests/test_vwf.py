@@ -19,11 +19,13 @@ import textmap  # noqa: E402
 from maps import off, w16  # noqa: E402
 
 ORIG = ROM.read_bytes()
-HOOKS = [(0x2EB6, 0x2EE0), (0x00A9, 0x00AD)]  # $00:AEB6 stub, NMI JSL $00E388 -> vwf_nmi
+HOOKS = [(0x2EB6, 0x2EE0), (0x00A9, 0x00AD),  # $00:AEB6 stub, NMI JSL $00E388 -> vwf_nmi
+         (0x298F, 0x2992), (0x2A30, 0x2F63), (0x5680, 0x5753)]  # asm/names.asm: jump, handlers, helpers
+NAME_ARRAYS = (0x3422, 0x5680)  # pointer arrays rewritten by insert.names_far (strings now in bank $3F)
 
 
-def hooked(i):
-    return any(lo <= i < hi for lo, hi in HOOKS)
+def hooked(i, arrays=False):
+    return any(lo <= i < hi for lo, hi in HOOKS + ([NAME_ARRAYS] if arrays else []))
 
 
 @pytest.fixture(scope="module")
@@ -45,7 +47,7 @@ def test_untranslated_en_build_keeps_text(engine, monkeypatch):
     blank = {name: [dict(e, en="") for e in es] for name, es in insert.script().items()}
     monkeypatch.setattr(insert, "script", lambda: blank)
     out = insert.insert(engine, "en")
-    assert all(hooked(i) for i in changed(ORIG, out))
+    assert all(hooked(i, arrays=True) for i in changed(ORIG, out))
 
 
 def test_en_dialogue_reaches_wrapped_english(engine):
@@ -87,3 +89,21 @@ def test_pool_excludes_static():
     tiles = {t for p in pairs for t in (p, p + 1)}
     assert not tiles & {0x16A, 0x48, 0x58, 0x4F, 0x5F, 0x60, 0x70}
     assert max(tiles) < 0x180 and len(pairs) > 150
+
+
+def test_names_hook_sites_match_original():
+    """asm/names.asm patches these exact instruction sequences."""
+    import names
+    for a in [0xAB62 + 0x32 * k for k in range(13)]:
+        o = off(0, a)
+        assert ORIG[o:o + 3] == bytes([0xBD]) + ORIG[o + 1:o + 3]
+        assert names.tables(ORIG)[next(n for n, t in names.TABLES.items() if t == w16(ORIG, o + 1))]
+        assert ORIG[o + 3:o + 7] == bytes.fromhex("8500e220") and ORIG[o + 10:o + 15] == bytes.fromhex("b10099110e")
+    assert ORIG[off(0, 0xAA3F):off(0, 0xAA43)] == bytes.fromhex("8502e220")
+    assert ORIG[off(0, 0xAA46):off(0, 0xAA4B)] == bytes.fromhex("b10299110e")
+    for a in (0xAA83, 0xAAC0, 0xAAFC, 0xAB3E):
+        assert ORIG[off(0, a):off(0, a) + 3] == bytes.fromhex("9d110e")
+    for a in (0xAF35, 0xAF41, 0xAF60):
+        assert ORIG[off(0, a):off(0, a) + 3] == bytes.fromhex("b9110e")
+    assert ORIG[off(0, 0xA98F):off(0, 0xA992)] == bytes.fromhex("20b6ae")
+    assert max(a + 2 * len(s) for _, a, s in names.scan(ORIG)) <= 0xD680  # helpers after the last array

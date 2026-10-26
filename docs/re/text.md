@@ -95,6 +95,20 @@ fixed/grid. Tests: every jp re-encodes to the ROM bytes, names tile their region
 start, every census run in a text-pointer bank is inside an item. Re-running the extractor keeps `en` while `jp`
 is unchanged.
 
+## Names relocated, far jump (phase 7, `asm/names.asm`, verified in game)
+- Only the 13 table handlers ($00:AB55-$ADE3, one per code, `LDA $tbl,X / STA $00 / ... LDA ($00),Y / STA $0E11,Y`)
+  and the 3C handler ($00:AA1B) read the name tables (xref of every table address with a load opcode, whole ROM).
+  The patch makes them read `[$00],Y` with bank `$3F` in `$02`; the pointer arrays stay at their bank $00 addresses
+  and `tools/insert.py names_far` rewrites them; strings (deduplicated) go to `$3F:8000+`. The freed string area
+  after the last array holds the helpers (`$00:D680`).
+- Insert buffer: every writer of `$0E11` (F0, EE, EF, E0-E3, tables, 3C) and the 3 readers (`$00:AF35/AF41/AF60`)
+  go through helpers on `$7F:EF00` (256 bytes); English names/phrases pass 31 bytes.
+- `{jump:XXXXXX}` (code `DF`, free in the English table): the interpreter's glyph call at `$00:A98F` checks it,
+  loads the 24-bit address into `$B3-$B5`, zeroes `$0DF9`. Only `$00` reads `[$B3]` in the whole ROM.
+  System text longer than its slot keeps a stub `DF lo hi bank` + its original terminator in place and is written
+  whole to bank `$3E`; a piece ending in FA gets a jump back to the next piece (menus read on past FA). Address
+  bytes avoid 00/FA/FF (battle code inserts names at 00). Dialogue overflow banks are now $31-$3D.
+
 ## Free space (FF runs at bank ends, candidates only; trap-test before use)
 $0F:E531 (6.8K), $11:F7AD (2.1K), $12:F22E (3.5K), $15:FC88 (0.9K), $0D:F279 (3.4K), $01:F746 (2.2K),
 $1D:F74B (2.2K), $25:F920 (1.7K), $29:FA17 (1.5K), $20:FD5E (0.7K), $21:FCBF (0.8K), $0C:FDC5 (0.6K).

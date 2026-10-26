@@ -17,7 +17,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
+import batches  # noqa: E402
 import font  # noqa: E402
+import names  # noqa: E402
 import textmap  # noqa: E402
 import wrap  # noqa: E402
 from extract import items  # noqa: E402
@@ -26,7 +28,10 @@ from tbl import Table  # noqa: E402
 
 EN = Table.load(ROOT / "tbl" / "en.tbl")
 JP = Table.load(ROOT / "tbl" / "jp.tbl")
-NEW_BANKS = range(0x31, 0x40)
+NEW_BANKS = range(0x31, 0x3E)
+FAR_BANK = 0x3E  # over-long system text (stub {jump} in place, asm/names.asm)
+JUMP = 0xDF
+NAME_BANK = 0x3F  # asm/names.asm !NAMEBANK
 NOP = 0x3A
 FILLER = "The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs. "
 BREAKS = {"n", "fe", "clear", "down", "downn", "pos", "end", "fa", "f0", "f1"}
@@ -154,6 +159,7 @@ def components(its):
 def insert(rom, mode="en"):
     d = bytearray(rom)
     TOP.clear()
+    FAR.clear()
     orig = bytes(rom[:0x180000])
     widths = (font.OUT / "widths.bin").read_bytes()
     sc = script()
@@ -196,8 +202,9 @@ def insert(rom, mode="en"):
         spill = rest
     for i, k in refs.items():
         d[i:i + 3] = moved[k].to_bytes(3, "little")
-    # names and system text: in place
-    for name in ("names.json", "system.json"):
+    names_far(d, orig, sc["names.json"], mode, widths)
+    # system text: in place
+    for name in ("system.json",):
         for e, m in zip(sc[name], model[name]):
             assert e["id"] == m["id"]
             if e.get("kind") == "grid":
@@ -207,13 +214,59 @@ def insert(rom, mode="en"):
                 continue
             if e.get("kind") == "fixed":
                 new = new.rstrip(b"\xff")[:e["size"]].ljust(e["size"], b"\xff")
-            elif len(new) > len(m["data"]) and mode == "en":
-                LONG.append(e["id"])  # shortcut: keeps the JP bytes; phase 7 relocates names/system text
+            elif len(new) > len(m["data"]) and len(m["data"]) >= 5:
+                new = fit(far(d, new, m), m["data"], e["id"])
+            elif len(new) > len(m["data"]):
+                LONG.append(e["id"])  # too short for a jump stub: keeps the JP bytes
                 continue
             else:
                 new = fit(new, m["data"], e["id"])
             d[m["off"]:m["off"] + len(new)] = new
     return bytes(d)
+
+
+def names_far(d, orig, es, mode, widths):
+    """Name/description strings go to bank NAME_BANK (asm/names.asm reads them there); the pointer arrays stay at
+    their bank $00 addresses and are rewritten. Identical strings are stored once."""
+    ptr = {f"{n}:{i:02X}": a + 2 * (i - 1) for n, a, strs in names.scan(orig) for i, _, _ in strs}
+    jp = {f"{n}:{i:02X}": b for n, a, strs in names.scan(orig) for i, _, b in strs}
+    at, top = {}, 0x8000
+    for e in es:
+        b = encode(e, mode, widths) or jp[e["id"]]
+        if b not in at:
+            assert top + len(b) <= 0x10000, "name bank full"
+            o = off(NAME_BANK, top)
+            d[o:o + len(b)] = b
+            at[b], top = top, top + len(b)
+        p = off(0, ptr[e["id"]])
+        d[p:p + 2] = at[b].to_bytes(2, "little")
+
+
+FAR = {}  # far bank -> next free address
+
+
+def plain(b):
+    return b != 0x00 and not 0x39 <= b <= 0x3C and b < JUMP
+
+
+def far(d, new, m):
+    """Write new to FAR_BANK and return the in-place stub {jump} + FF. A string ending in FA gets a jump back to
+    the next piece (menu/credits code reads on past FA). The address bytes are plain glyph codes: battle code
+    copies messages to WRAM $0200 and expands 00 and control codes on the way (an E1 byte became a party name)."""
+    slots = batches.holes(m["data"]) if m.get("block", "").startswith(("battle", "treasure chest")) else []
+    keep = new[:max([i + 2 for i in slots], default=0)]  # name slots code writes by byte offset stay in place
+    new = new[len(keep):]
+    if new[-1] == 0xFA:
+        nxt = int(m["id"].replace(":", ""), 16) + len(m["data"])
+        new += bytes([JUMP]) + nxt.to_bytes(3, "little")
+    top = FAR.get(FAR_BANK, 0x8000)
+    while not (plain(top & 0xFF) and plain(top >> 8)):
+        top += 1
+    assert top + len(new) <= 0x10000, "far text bank full"
+    o = off(FAR_BANK, top)
+    d[o:o + len(new)] = new
+    FAR[FAR_BANK] = top + len(new)
+    return keep + bytes([JUMP]) + (FAR_BANK << 16 | top).to_bytes(3, "little") + m["data"][-1:]  # same terminator
 
 
 TOP = {}  # bank -> next free address

@@ -709,3 +709,5 @@ org $B0A000
 vwf_font:     incbin "../build/vwf/font.bin"     ; 8 KB, $B0:A000-$BFFF
 vwf_shift:    incbin "../build/vwf/shift.bin"    ; 4 KB, $B0:C000-$CFFF
 assert pc() <= $B0D000
+
+incsrc "names.asm"

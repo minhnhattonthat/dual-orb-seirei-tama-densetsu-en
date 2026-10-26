@@ -92,6 +92,7 @@
 3A={nop}
 3B={clear}
 3C={dict:2}
+DF={jump:3}
 E0={hero0}
 E1={hero1}
 E2={hero2}

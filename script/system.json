@@ -1173,7 +1173,7 @@
  {
   "id": "20:9520",
   "jp": "  00 のまほうを おぼえた！{fa}",
-  "en": "__Learned the spell 00!{fa}",
+  "en": "__00 was learned!{fa}",
   "block": "battle: start, results, level up",
   "refs": [
    "mvn 1011F0"
@@ -1601,7 +1601,7 @@
  {
   "id": "20:D850",
   "jp": "{clear}00は「00」をつかった{fa}",
-  "en": "{clear}00 used \"00\"!{fa}",
+  "en": "{clear}00: 00 used!{fa}",
   "block": "battle: actions",
   "refs": [
    "mvn 1054B2"
@@ -1610,7 +1610,7 @@
  {
   "id": "20:D85E",
   "jp": "{clear}00は「00」をとなえた{fa}",
-  "en": "{clear}00 cast \"00\"!{fa}",
+  "en": "{clear}00: 00 cast!{fa}",
   "block": "battle: actions",
   "refs": [
    "mvn 10552A"
@@ -1628,7 +1628,7 @@
  {
   "id": "20:D876",
   "jp": "{clear}00：「ひっさつ！00！！」{fa}",
-  "en": "{clear}00: \"Deadly strike! 00!!\"{fa}",
+  "en": "{clear}00: \"Ha! 00!!\"{fa}",
   "block": "battle: actions",
   "refs": [
    "mvn 1056FE"
@@ -1676,7 +1676,7 @@
  {
   "id": "20:D8DD",
   "jp": "{clear}00の こうげきをうけた！！{fa}",
-  "en": "{clear}Took 00's attack!!{fa}",
+  "en": "{clear}00 landed an attack!!{fa}",
   "block": "battle: actions"
  },
  {
@@ -1706,7 +1706,7 @@
  {
   "id": "20:D927",
   "jp": "{clear}00の きょうれつなダメ―ジ！！{fa}",
-  "en": "{clear}A crushing blow from 00!!{fa}",
+  "en": "{clear}00 dealt a crushing blow!!{fa}",
   "block": "battle: actions"
  },
  {

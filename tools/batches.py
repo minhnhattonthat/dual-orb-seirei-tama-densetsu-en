@@ -201,6 +201,14 @@ def check(name, verbose=True):
     return not errs, out
 
 
+JP = wrap.Table.load(ROOT / "tbl" / "jp.tbl")
+
+
+def holes(b):
+    """Byte offsets of the '00' name slots battle/chest code overwrites (insert.far keeps them in place)."""
+    return [i for i in range(len(b) - 1) if b[i] == 0 and b[i + 1] == 0 and (i == 0 or b[i - 1] != 0)]
+
+
 def entry(kind, e, en, gl):
     """-> (errors, warnings) for one entry's English (also tools/lint.py over the whole script)."""
     k, jp, errs, warns = e["id"], e["jp"], [], []
@@ -221,6 +229,9 @@ def entry(kind, e, en, gl):
             a[t] = b[t]
     if +a != +b:
         errs.append(f"{k}: control codes differ: missing {sorted((a - b).elements())} extra {sorted((b - a).elements())}")
+    if e.get("block", "").startswith(("battle", "treasure chest")):  # code writes names over "00" by byte offset
+        if holes(JP.encode(jp)) != holes(wrap.EN.encode(en)):
+            errs.append(f"{k}: '00' name slots must sit at the JP byte offsets {holes(JP.encode(jp))}")
     if TOK.findall(jp) and not en.endswith(TOK.findall(jp)[-1]):
         errs.append(f"{k}: must end with {TOK.findall(jp)[-1]}")
     if re.search(r"\{(t[0-9A-F]{2}:[0-9A-F]{2}|hero\d)\}(s|st|nd|rd|th|es)\b", en):
