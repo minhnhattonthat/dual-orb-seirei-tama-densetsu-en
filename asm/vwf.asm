@@ -768,3 +768,4 @@ assert pc() <= $B0D000
 
 incsrc "names.asm"
 incsrc "namechart.asm"
+incsrc "menus.asm"

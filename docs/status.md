@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7 (insert, fit) in progress 2026-10-27: relocation done, menus partly fitted.
+- **Phase:** 7 (insert, fit) in progress 2026-10-27: relocation done, menus fitted (field item/magic panels done).
   `tools/build.py` builds VWF + script (`--marker` for the marker build, `--identity` for the byte-identical ROM).
 - **Done:**
   - Step 0: MesenCE 2.2.1 in `tools/mesen/`, guard hook verified (blocks `sed -i`), pre-commit runs `tools/check.py`
@@ -49,13 +49,19 @@ Updated at the end of every session. Keep it to what the next session needs; his
     in game). New scenes: church, church_save/confirm/confirm_no/saved/revive, treasure_game, shop_buy (9999 G),
     menu_item_full (inventory poke). RAM: money `$7E:111B` (32-bit), inventory words `$0F3B..` (lo = item id,
     hi = count?). Warp fakes the APU ack the save waits on (`$21:F7E4`); probe `tools/lua/pcsample.lua`.
+    2026-10-27 (3): field menu info panels (`asm/menus.asm`, `docs/re/windows.md` §Field menu machinery). Items:
+    prompt box + panel merged into one x8 w240 window, icon frame col $0F, name col $13 (88 px), description own
+    row col 2 (224 px), prompts col 2 ("Use it on whom?" padding 1 cell, 21:C098 blank 12 cells; lint
+    `batches.MOVED` allows the C04F `{pos}` move). Magic: panel x112 w136, description col $0F (120 px). Equip uses
+    the 232 px info line (ok). `fieldfit.FIELD` budgets. Scenes: menu_item_list/_long/_long2, menu_magic_list/_long
+    (Theo alive + all spells by poke), menu_equip_info. Probes `tools/lua/{tilestr,windows,nbufidx}.lua`.
+    Fixed (pre-existing since the 256-byte buffer): `church_saved` map check FAIL. The save line's `ED 00` (record
+    after a warp) reads a garbage pointer, the bank-$3F copy ran ~4.5 KB and `$7F:EF00+X` wrapped into bank $80 =
+    direct page. Buffer writers now drop index >= $100 (`asm/names.asm`). `warp_all.py` runs SRAM-writing scenes
+    last and deletes the build's .srm (a mid-run save garbled the file select of the later scenes).
 - **Next (phase 7 rest):**
-  - **Field item/magic/equip info panel** (top right, `menu_item_full`): name field x=168..~236 (68 px) after the
-    icon, description line x=128..~236 (~108 px). Names up to 91 px ("Mystic Mushroom" 88 runs off-screen),
-    descriptions up to 136 px. Engine fix: find the panel's window/column bytes (bank $21, menu code near
-    `$21:C04F` text refs), widen the panel left / start the name nearer the icon; shorten the left prompts box
-    if needed. Then a fieldfit budget for it. Check equip + magic panels the same way (spell list needs a
-    caster with spells: poke).
+  - Magic panel for party slot 3 (table F2, list `$21:B268`) and the "which town" path (`21:C0A3`, h56 record
+    `$21:B330`) not seen in game yet; "use on whom" after a heal spell (icon x `$21:A665/ABE9/AC2A` unchanged).
   - Battle target/magic/item selection lists; intro crawl re-check. `romdiff.py` with allowed ranges. Then
   phase 8 (QA tours + visual-QA gate) and the polish pass (`docs/polish.md`). Battle command buttons
   (アタック/オートバトル/にげる) are graphics: phase 8 graphics list.
@@ -64,7 +70,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   measured, not proven everywhere. A full screen of new VWF cells takes a few frames to appear.
 - **Debug-tool limits:** a record saved after a warp (`church_saved`, SRAM `tools/mesen/Saves/<rom>.srm`) garbles
   the file select when loaded, on the original ROM too (`tools/routes/load1.txt`): story-so-far not reachable yet;
-  delete that .srm after such a run. Scenes are by place, not story chapter (story flags `$7FCF83+n` not mapped). Final boss
+  delete that .srm after such a run (`warp_all.py` does). Scenes are by place, not story chapter (story flags `$7FCF83+n` not mapped). Final boss
   can't be won; ending reached by steps 41/42. Battle-time HP copy not found (GOD clears the dead flags instead).
 - **Open bugs:** none.
 - **Waiting on the user:** nothing. (Non-blocking: sound-test titles are already English in fullwidth brackets;

@@ -23,7 +23,13 @@ HOOKS = [(0x2EB6, 0x2EE0), (0x00A9, 0x00AD),  # $00:AEB6 stub, NMI JSL $00E388 -
          (0x298F, 0x2992), (0x2A30, 0x2F63), (0x5680, 0x5753),  # asm/names.asm: jump, handlers, helpers
          (0x10250F, 0x102510), (0x10F28D, 0x10F291),  # battle panel field column, save confirm cursor x
          (0x10F29E, 0x10F29F), (0x10F2CD, 0x10F2D2), (0x10F1A1, 0x10F1A5),  # file select "New Game" column, window, cursor
-         (0x10E623, 0x10E625), (0x10E719, 0x10E71B), (0x10E739, 0x10E73D), (0x10E985, 0x10E98B)]  # namechart.asm
+         (0x10E623, 0x10E625), (0x10E719, 0x10E71B), (0x10E739, 0x10E73D), (0x10E985, 0x10E98B),  # namechart.asm
+         # menus.asm: magic underlines + description, window records, item icon x/frame, underlines + strings,
+         # icon x (whom/town), prompt columns, item window records
+         (0x10A22F, 0x10A235), (0x10A375, 0x10A3E3), (0x10B324, 0x10B336), (0x10B568, 0x10B56A),
+         (0x10B5F1, 0x10B5F2), (0x10B60C, 0x10B6E0), (0x10B8FF, 0x10B901), (0x10BCB4, 0x10BCB6),
+         (0x10B91D, 0x10B91E), (0x10B990, 0x10B991), (0x10BACE, 0x10BACF), (0x10BDC5, 0x10BDC6),
+         (0x10BF4F, 0x10BF88)]
 NAME_ARRAYS = (0x3422, 0x5680)  # pointer arrays rewritten by insert.names_far (strings now in bank $3F)
 
 

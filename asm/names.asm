@@ -75,15 +75,19 @@ names_setp:
 	lda #!NAMEBANK
 	sta $02
 	rts
-names_wby:
+names_wby:                ; index >= $100 is dropped: a bad table argument (ED 00 in a record saved after a warp)
+	cpy.w #$0100              ; copies until FF from a garbage pointer, and $7F:EF00+X wraps into bank $80 (DP)
+	bcs +
 	phx
 	tyx
 	sta.l !NBUF,x
 	plx
-	rts
++	rts
 names_wbx:
+	cpx.w #$0100
+	bcs +
 	sta.l !NBUF,x
-	rts
++	rts
 names_rby:
 	phx
 	tyx

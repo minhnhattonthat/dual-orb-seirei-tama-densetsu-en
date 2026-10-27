@@ -2,6 +2,10 @@
 
 Collected from reviewer reports (Critical/Important are fixed per batch). Apply line by line in one pass at the end.
 
+## in-game layout
+- Info line (shops, equip) is built as `{name}:{desc}` with no space after the colon ("Hat:Protects you..."); a
+  space needs the builder that writes `$0200` changed (the colon is a code-inserted byte), and 232 px rechecked.
+
 ## names (b001-b006)
 - E6:1A ためらいのつえ "Falter Staff": odd; maybe "Hesitation Staff".
 - 3C6:03 says "gauntlet" for こて (glossary こて = Bracer); item is Gauntlet, fine either way.

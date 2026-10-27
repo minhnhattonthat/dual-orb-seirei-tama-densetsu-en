@@ -21,6 +21,7 @@ BUILD = ROOT / "build"
 MAX_CHARS, MAX_ENTRIES = 3500, 150
 TOK = re.compile(r"\{[^}]*\}|\[[0-9A-F]{2}\]")
 FREE = {"{n}", "{fe}"}  # presentation codes the English may use more or fewer of (dialogue and system)
+MOVED = {"21:C04F": [("{pos:0302}", "{pos:0202}")]}  # layout moved on purpose (asm/menus.asm item panel)
 KATA = r"ァ-ヶー―"
 HONORIFIC = re.compile(rf"(?:[{KATA}]+|\{{hero\d\}}|\{{t[0-9A-F]{{2}}:[0-9A-F]{{2}}\}})(さん|さま|様|くん|ちゃん|どの)")
 SUFFIX = {"さん": "-san", "さま": "-sama", "様": "-sama", "くん": "-kun", "ちゃん": "-chan", "どの": "-dono"}
@@ -227,6 +228,8 @@ def entry(kind, e, en, gl):
     for t in list(a):
         if t.startswith("{tEC:") and b[t] <= a[t]:
             a[t] = b[t]
+    for jt, et in MOVED.get(k, ()):
+        a[jt], a[et] = a[jt] - 1, a[et] + 1
     if +a != +b:
         errs.append(f"{k}: control codes differ: missing {sorted((a - b).elements())} extra {sorted((b - a).elements())}")
     if e.get("block", "").startswith(("battle", "treasure chest")):  # code writes names over "00" by byte offset

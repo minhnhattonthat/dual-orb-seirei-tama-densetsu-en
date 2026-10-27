@@ -8,7 +8,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 - Check:    `python -X utf8 tools/check.py`  (tests + lint; the pre-commit hook runs this)
 - Translate: `python -X utf8 tools/batches.py split|check|merge|pairs` (work/tl/bNNN; briefs `docs/translator-brief.md`, `docs/reviewer-brief.md`; dialogue wrapped at build by `tools/wrap.py`)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/dual_orb_en.sfc --out work/qa/smoke --route tools/routes/boot.txt --smoke`
-- Warp:     `python -X utf8 $SKILL/scripts/emu.py build/dual_orb_en.sfc --out work/qa/warp --script tools/debug/warp.lua --var "SCENE='<name>'" --frames 900 --sheet` (scenes: `tools/debug/scenes.lua`; never ask the user to play to a scene)
+- Warp:     `python -X utf8 $SKILL/scripts/emu.py build/dual_orb_en.sfc --out work/qa/warp --script tools/debug/warp.lua --var "SCENE='<name>'" --frames 900 --sheet` (scenes: `tools/debug/scenes.lua`; never ask the user to play to a scene; several at once, one sheet: `bash tools/debug/shot.sh <scene>...`)
 - Release:  `python -X utf8 tools/release.py` (patch + verify; never publish without the user)
 - Clean:    `python -X utf8 tools/clean.py` (published projects: lists rebuildable/downloadable files; `--yes` deletes)
 

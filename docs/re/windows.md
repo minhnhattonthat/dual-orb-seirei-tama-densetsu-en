@@ -21,6 +21,21 @@ on the JP-text build; pixel checks with `tools/widthgate.py` lines put in `11:85
 | Config | `{pos}` + cell spaces; the cursor brackets sit at the JP option cells | option words within the JP cell count (`Remember` -> `Keep`) |
 | Battle messages with `00` | copied 64 bytes to `$0200`, names written at fixed byte offsets (`$0201`, `$0202`, `$0205`, `$020A`) | slots at the JP offsets (lint error otherwise) |
 
+| Field item menu panel (`asm/menus.asm`) | prompt box + panel merged into one window x8 w240; name col `$13` (`$21:B614`), description col 2 | name 88 px, description 224 px (`fieldfit.FIELD`) |
+| Field magic menu panel | panel x112 w136 (meets the caster box); name col `$15`, description col `$0F` (`$21:A375`), "MP cost:" col `$14` row 8 | name 64 px, description 120 px |
+| Equip menu | the shared `{name}:{desc}` info line in the band y84..120 | 232 px (info line) |
+
+Field menu machinery (bank `$21`): window records = x, y, w, h words + 2 style words, opened by `JSL $00F151`
+(pointer in `$00/$02`; the drawer reads them at `$00:F1E7`, probe `tools/lua/windows.lua`). Item menu records
+`$21:BF1C` (list), `BF4F` (prompt), `BF82` (panel), `BFB5` (party); magic `$21:B2AD/B2E0/B324/B330/B363`.
+Underlines are BG3 tiles `$192/$193` drawn by `$01:8000` from lists of (length, column, row) (`$21:B60C` items,
+`$21:A22C` magic) via the tile-string drawer `$00:D753` (probe `tools/lua/tilestr.lua`); icon frames by `$01:808A`
+from (row, column) lists (`$21:B5F0` items, `$21:A210` magic). Icon sprites: centre x/y words at `$1141+`/`$1161+`
+(item panel icon `$1159`, set at `$21:B567`; moved to slot 0 at `$21:B8FE`/`BCB3`). BG3 shadow `$7F:F000`.
+Inventory: one count byte per item id at `$0F3B + id-1`, listed in the order of `$21:BFFB`. Spells: byte per spell
+at `$0F6B + n-1` (party slot 1, table E4) / `$0F9B` (slot 3, F2), order lists `$21:B252`/`B268`; casters are party
+slots 1 and 3 only.
+
 The battle panel blanks its row and redraws every 3 frames; the VWF now remembers each cell's last pair
 (`!MEMO`/`!OWNER` in `$7F:8900-$8E6B`) so a redrawn cell reuses it instead of churning the pool.
 

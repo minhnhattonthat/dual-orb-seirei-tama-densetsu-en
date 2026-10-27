@@ -2152,7 +2152,7 @@
  {
   "id": "21:C04F",
   "jp": "{pos:0302}どれをつかいますか？{pos:020B}（アイテム）{pos:060F}×{rightn:06}×{rightn:06}×{rightn:06}×{pos:0613}×{rightn:06}×{rightn:06}×{rightn:06}×{pos:0617}×{rightn:06}×{rightn:06}×{rightn:06}×{end}",
-  "en": "{pos:0302}Which will you use?{pos:020B}(Items){pos:060F}x{rightn:06}x{rightn:06}x{rightn:06}x{pos:0613}x{rightn:06}x{rightn:06}x{rightn:06}x{pos:0617}x{rightn:06}x{rightn:06}x{rightn:06}x{end}",
+  "en": "{pos:0202}Which will you use?{pos:020B}(Items){pos:060F}x{rightn:06}x{rightn:06}x{rightn:06}x{pos:0613}x{rightn:06}x{rightn:06}x{rightn:06}x{pos:0617}x{rightn:06}x{rightn:06}x{rightn:06}x{end}",
   "block": "menu: items",
   "refs": [
    "b3 10B4CD",
@@ -2163,7 +2163,7 @@
  {
   "id": "21:C08D",
   "jp": "だれにつかいますか？{end}",
-  "en": "Use it on whom?___{end}",
+  "en": "Use it on whom?_{end}",
   "block": "menu: items",
   "refs": [
    "b3 10B986"
@@ -2172,7 +2172,7 @@
  {
   "id": "21:C098",
   "jp": "          {end}",
-  "en": "",
+  "en": "____________{end}",
   "block": "menu: items",
   "refs": [
    "b3 10B913",

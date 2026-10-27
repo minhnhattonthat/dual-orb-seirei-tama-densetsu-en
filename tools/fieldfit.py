@@ -19,6 +19,9 @@ INFO_PX = 232  # info line: shop/menu top box, text x=14..246 (shop_weapon shot)
 BATTLE = {"E6": 88, "F2": 88, "E4": 88, "F3": 88, "EB": 88}  # third field x=160..248 (asm/names.asm moves it)
 # description x=64..: up to the count/cost at column $19 (x=200, $20:A57C/A5D0) for items/spells/skills
 BATTLE_DESC = {"E6": 184, "F2": 136, "E4": 136, "F3": 136, "EB": 136}
+# field menu panels (asm/menus.asm), (name, description) px: items name col $13..$1D, description col 2..$1D;
+# magic name col $15..$1C, description col $0F..$1D
+FIELD = {"E5": (88, 224), "E4": (64, 120), "F2": (64, 120)}
 
 
 def px(s):
@@ -39,6 +42,10 @@ def check(show_all=False):
                 bad.append((px(n["en"]), n["id"], n["en"], f"battle field {BATTLE[t]} px"))
             if t in BATTLE and dsc and px(dsc["en"]) > BATTLE_DESC[t]:
                 bad.append((px(dsc["en"]), dsc["id"], dsc["en"], f"battle description {BATTLE_DESC[t]} px"))
+            if t in FIELD and px(n["en"]) > FIELD[t][0]:
+                bad.append((px(n["en"]), n["id"], n["en"], f"field panel name {FIELD[t][0]} px"))
+            if t in FIELD and dsc and px(dsc["en"]) > FIELD[t][1]:
+                bad.append((px(dsc["en"]), dsc["id"], dsc["en"], f"field panel description {FIELD[t][1]} px"))
             i += 1
     return bad
 

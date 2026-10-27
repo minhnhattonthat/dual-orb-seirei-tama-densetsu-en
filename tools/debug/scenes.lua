@@ -16,6 +16,8 @@ local function at(base, more)
   for k, v in pairs(more or {}) do o[k] = v end
   return o
 end
+local THEO = { [0x111F] = 2, [0x0E87] = 20, [0x0E8B] = 20, [0x0EAF] = 0 }
+for a = 0x0F6B, 0x0F81, 2 do THEO[a] = 0x0101 end
 -- Field menu (Y or B; X does nothing): magic, items, equip, status, config, direction; n = cursor row.
 local function menu(n) return "6 y;40 -;" .. string.rep("6 down;14 -;", n) .. "6 a;90 -;6 a;90 -" end
 -- Battles: $7FD796 = $FFFF starts one at the next field step ($0C:C018). Boss n: $7FD7B0 = $8000|n ($21:8000).
@@ -33,9 +35,24 @@ SCENE_LIST = {
   menu = at(HOME, { keys = "6 y;90 -" }),
   menu_magic = at(HOME, { keys = menu(0) }),
   menu_item = at(HOME, { keys = menu(1) }),
+  -- casters are party slots 1 and 3 ($21:9F05); party size $111F. Slot 1 (Theo, table E4) knows spell n when
+  -- $0F6B + n-1 is nonzero (slot 3: $0F9B, F2), listed in the order of $21:B252. Here: Theo alive, all 23 spells.
+  menu_magic_list = at(HOME, { keys = "6 y;40 -;6 a;90 -;6 right;30 -;6 a;90 -", pokes = THEO }),
+  -- cursor on Theo's 10th spell (Telepia $17, longest description 120 px)
+  menu_magic_long = at(HOME, { keys = "6 y;40 -;6 a;90 -;6 right;30 -;6 a;90 -;6 down;20 -;6 right;20 -;6 right;20 -;" ..
+                                      "6 right;40 -", pokes = THEO }),
   menu_item_full = at(HOME, { keys = menu(1), pokes = { [0x0F3B] = 0x0201, [0x0F3D] = 0x0403, [0x0F3F] = 0x0605,
                                                         [0x0F41] = 0x0807 } }),
+  menu_item_list = at(HOME, { keys = "6 y;40 -;6 down;14 -;6 a;90 -", pokes = { [0x0F3B] = 0x0201, [0x0F3D] = 0x0403,
+                                                        [0x0F3F] = 0x0605, [0x0F41] = 0x0807 } }),
+  -- inventory = one count byte per item id at $0F3B + id-1, listed in the order of $21:BFFB.
+  -- Longest item name (Mystic Mushroom $20, 88 px) and description (Remote Control $11, 136 px).
+  menu_item_long = at(HOME, { keys = "6 y;40 -;6 down;14 -;6 a;90 -",
+                              pokes = { [0x0F5A] = 0x0001, [0x0F4B] = 0x0001 } }),
+  menu_item_long2 = at(HOME, { keys = "6 y;40 -;6 down;14 -;6 a;90 -;6 right;40 -",
+                               pokes = { [0x0F5A] = 0x0001, [0x0F4B] = 0x0001 } }),
   menu_equip =at(HOME, { keys = menu(2) }),
+  menu_equip_info = at(HOME, { keys = menu(2) .. ";6 right;20 -;6 right;20 -;6 right;40 -;6 a;60 -" }),  -- pick the armour slot
   menu_status = at(HOME, { keys = menu(3) }),
   menu_config = at(HOME, { keys = menu(4) }),
   menu_direction = at(HOME, { keys = menu(5) }),

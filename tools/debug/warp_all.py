@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[2]
 SKILL = Path(subprocess.check_output([sys.executable, str(ROOT / "tools/skill.py")], text=True).strip())
 DEBUG = ROOT / "tools/debug"
 LONG = {"intro": 14000, "credits": 13000}  # frames; everything else is ready well inside 9000
+SAVES = {"church_saved"}  # scenes that write SRAM
 
 
 def scene_names(text):
@@ -53,8 +54,14 @@ def main():
     names = a.scenes or names
     out, states = Path(a.out).resolve(), Path(a.states).resolve()  # Mesen doesn't run in the repo dir
     states.mkdir(parents=True, exist_ok=True)
+    # a record saved after a warp garbles the file select of every later boot: save scenes run last, then the
+    # ROM's battery file (Mesen keeps it per ROM name) is deleted
+    srm = ROOT / "tools/mesen/Saves" / (Path(a.rom).stem + ".srm")
+    srm.unlink(missing_ok=True)
     with ThreadPoolExecutor(a.jobs) as ex:
-        results = list(ex.map(lambda n: run(a.rom, n, out, states), names))
+        results = list(ex.map(lambda n: run(a.rom, n, out, states), [n for n in names if n not in SAVES]))
+    results += [run(a.rom, n, out, states) for n in names if n in SAVES]
+    srm.unlink(missing_ok=True)
     for name, ok, why in results:
         print(f"{'ok  ' if ok else 'FAIL'} {name} {why}")
     shots = [str(out / n / "warp.png") for n, ok, _ in results if (out / n / "warp.png").exists()]
