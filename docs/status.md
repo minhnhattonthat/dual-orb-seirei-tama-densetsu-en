@@ -92,9 +92,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
     line's first word); story08/12/13 text trimmed, gate in `tools/fieldfit.py` (<= 180 cells). All 18 pages
     checked fully typed (`warp.lua --var "STORY_HOLD=true"`, `--frames 2600`). church_saved slot garbage after the
     save = the known save-after-warp limit (JP garbles too), marked ok, not checked with a real save.
+    2026-10-27 (9): graphics sweep done: only tile-drawn text is G6 (battle buttons), English in zoomed cold-boot
+    shots `battle`, `boss00` (ATTACK blinks = selected-button flash); no chapter cards; game over has none (G12);
+    credits/intro are text (verdicts r2). `bash tools/debug/shot.sh battle boss00 credits intro worldmap`.
 - **Next (phase 8):**
-  1. Graphics static sweep (graphics.md): every graphics-text row English in a zoomed cold-boot shot (chapter cards,
-     game over, credits).
   2. Polish pass (`docs/polish.md`; includes the info-line colon space).
   3. Playtest a real save at a church (church_saved risk above). QA noted scenes ending_lab, final_boss, home,
      gameover never show their target (Aleitos's House / lab / overworld / goblin battle): check their warps.
