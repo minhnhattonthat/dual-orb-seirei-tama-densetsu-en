@@ -23,6 +23,7 @@ on the JP-text build; pixel checks with `tools/widthgate.py` lines put in `11:85
 
 | Field item menu panel (`asm/menus.asm`) | prompt box + panel merged into one window x8 w240; name col `$13` (`$21:B614`), description col 2 | name 88 px, description 224 px (`fieldfit.FIELD`) |
 | Field magic menu panel | panel x112 w136 (meets the caster box); name col `$15`, description col `$0F` (`$21:A375`), "MP cost:" col `$14` row 8 | name 64 px, description 120 px |
+| Town picker (Telepiam, "Go to which town?") | 3 x 2 grid -> 2 x 2 (cols 3, 16); index row*2+col+scroll; list = towns with byte `$7FD01C+n` set (`$21:AD26`) | 104 px a column (longest town 81 px) |
 | Equip menu | the shared `{name}:{desc}` info line in the band y84..120 | 232 px (info line) |
 
 Field menu machinery (bank `$21`): window records = x, y, w, h words + 2 style words, opened by `JSL $00F151`

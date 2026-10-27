@@ -143,3 +143,25 @@ org $21A375               ; description string at $028C, drawn at col $10 -> $0F
 	jsr ipanel_draw
 	warnpc $21A3E3
 	padbyte $EA : pad $21A3E3
+
+; Town picker (Telepiam / "Go to which town?", list builder $21:AD26): 3 columns x 2 rows of 72 px -> 2 columns x
+; 2 rows (cols 3 and 16, 104 px each; town names up to 81 px). Index = row * 3 + col + scroll ($7FCF48/46/CEEE).
+org $21ACF3 : db $EA,$EA,$EA,$EA,$EA  ; row * 3 -> row * 2 (drop the ADC row after the ASL): pick, cursor, confirm
+org $21AE90 : db $EA,$EA,$EA,$EA,$EA
+org $21AEC0 : db $EA,$EA,$EA,$EA,$EA
+org $21BD7C : db $EA,$EA,$EA,$EA,$EA
+org $21ADEF : db $02      ; scroll by one row: 3 -> 2
+org $21AE30 : db $02
+org $21AE22 : db $04      ; a page holds 6 -> 4 (scroll-down limit, down arrow)
+org $21AFCB : db $04
+org $21AF27 : db $04      ; names drawn per page
+org $21AE50 : db $01      ; rightmost column 2 -> 1
+org $21AF6B               ; name cells (col, row) per slot
+	dw 3,16,3,16
+org $21AF77
+	dw 19,19,22,22
+org $21AEEE               ; cursor bracket x, y per slot; right bracket at x + $44 -> + $58
+	dw $14,$7C,$14,$7C        ; 2 px further left than the JP $16 (VWF text starts at the cell edge)
+org $21AEFA
+	dw $A0,$A0,$B8,$B8
+org $21AED1 : dw $0058

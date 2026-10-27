@@ -4,7 +4,7 @@ cd "$(dirname "$0")/../.."
 SKILL=$(python tools/skill.py)
 outs=()
 for s in "$@"; do
-  python -X utf8 $SKILL/scripts/emu.py ${ROM:-build/dual_orb_en.sfc} --out work/qa/s_$s --script tools/debug/scenes.lua \
+  python -X utf8 $SKILL/scripts/emu.py "${ROM:-build/dual_orb_en.sfc}" --out work/qa/s_$s --script tools/debug/scenes.lua \
     --script tools/debug/warp.lua --var "SCENE='$s'" --frames ${FRAMES:-1400} | tail -1
   outs+=(work/qa/s_$s/final.png)
 done

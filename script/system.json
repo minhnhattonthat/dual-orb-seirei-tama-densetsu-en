@@ -2098,7 +2098,7 @@
  {
   "id": "21:B393",
   "jp": "だれにつかいますか？{end}",
-  "en": "Use it on whom?_____{end}",
+  "en": "Use it on whom?_{end}",
   "block": "menu: magic",
   "refs": [
    "b3 10A6AA"
@@ -2107,7 +2107,7 @@
  {
   "id": "21:B39E",
   "jp": "          {end}",
-  "en": "",
+  "en": "____________{end}",
   "block": "menu: magic",
   "refs": [
    "b3 10B00F"

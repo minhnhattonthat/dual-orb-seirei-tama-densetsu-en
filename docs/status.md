@@ -59,9 +59,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
     after a warp) reads a garbage pointer, the bank-$3F copy ran ~4.5 KB and `$7F:EF00+X` wrapped into bank $80 =
     direct page. Buffer writers now drop index >= $100 (`asm/names.asm`). `warp_all.py` runs SRAM-writing scenes
     last and deletes the build's .srm (a mid-run save garbled the file select of the later scenes).
+    2026-10-27 (4): magic panel slot 3 ok (`menu_magic_slot3`; `$111F` = party size-1). Town picker (Telepiam /
+    "Go to which town?", `asm/menus.asm`): 3x2 grid of 72 px overlapped -> 2x2 of 104 px (towns <= 81 px), verified
+    scroll and the pick lands where the original's same index does (`menu_magic_town/_town2`, `telepiam_go`).
+    Visited towns: byte per town `$7FD01C+n`. Fixed "Use it on whom?" (21:B393) padding that erased the spell icon
+    frame; its clear string 21:B39E now 12 cells (`menu_magic_whom/_whom_back`). Probe `tools/lua/calls.lua`
+    (log reaches of any ADDR).
 - **Next (phase 7 rest):**
-  - Magic panel for party slot 3 (table F2, list `$21:B268`) and the "which town" path (`21:C0A3`, h56 record
-    `$21:B330`) not seen in game yet; "use on whom" after a heal spell (icon x `$21:A665/ABE9/AC2A` unchanged).
   - Battle target/magic/item selection lists; intro crawl re-check. `romdiff.py` with allowed ranges. Then
   phase 8 (QA tours + visual-QA gate) and the polish pass (`docs/polish.md`). Battle command buttons
   (アタック/オートバトル/にげる) are graphics: phase 8 graphics list.

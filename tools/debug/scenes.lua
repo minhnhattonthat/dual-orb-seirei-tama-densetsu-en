@@ -18,6 +18,13 @@ local function at(base, more)
 end
 local THEO = { [0x111F] = 2, [0x0E87] = 20, [0x0E8B] = 20, [0x0EAF] = 0 }
 for a = 0x0F6B, 0x0F81, 2 do THEO[a] = 0x0101 end
+-- party of 4 ($111F = size-1; cursor moves to slot 3 only when it is 3, $21:9F5A), slot 3 (member base $0EFB) alive and knowing every spell ($0F9B..)
+local SLOT3 = { [0x111F] = 3, [0x0F07] = 20, [0x0F0B] = 20, [0x0F2F] = 0 }
+for a = 0x0F9B, 0x0FB1, 2 do SLOT3[a] = 0x0101 end
+for a, v in pairs(THEO) do if a ~= 0x111F then SLOT3[a] = v end end
+local TOWNS = {}
+for a, v in pairs(SLOT3) do TOWNS[a] = v end
+for a = 0x7FD01C, 0x7FD038, 2 do TOWNS[a] = 0x0101 end
 -- Field menu (Y or B; X does nothing): magic, items, equip, status, config, direction; n = cursor row.
 local function menu(n) return "6 y;40 -;" .. string.rep("6 down;14 -;", n) .. "6 a;90 -;6 a;90 -" end
 -- Battles: $7FD796 = $FFFF starts one at the next field step ($0C:C018). Boss n: $7FD7B0 = $8000|n ($21:8000).
@@ -41,6 +48,16 @@ SCENE_LIST = {
   -- cursor on Theo's 10th spell (Telepia $17, longest description 120 px)
   menu_magic_long = at(HOME, { keys = "6 y;40 -;6 a;90 -;6 right;30 -;6 a;90 -;6 down;20 -;6 right;20 -;6 right;20 -;" ..
                                       "6 right;40 -", pokes = THEO }),
+  menu_magic_whom = at(HOME, { keys = "6 y;40 -;6 a;90 -;6 right;30 -;6 a;90 -;6 a;90 -", pokes = THEO }),  -- Refi -> on whom
+  menu_magic_whom_back = at(HOME, { keys = "6 y;40 -;6 a;90 -;6 right;30 -;6 a;90 -;6 a;90 -;6 b;90 -", pokes = THEO }),
+  menu_magic_slot3 = at(HOME, { keys = "6 y;40 -;6 a;90 -;6 down;30 -;6 right;30 -;6 a;90 -", pokes = SLOT3 }),
+  -- Telepiam's town list: byte per town at $7FD01C + n (n < 30, $21:AD26), all set here
+  menu_magic_town = at(HOME, { keys = "6 y;40 -;6 a;90 -;6 down;30 -;6 right;30 -;6 a;90 -;6 a;90 -", pokes = TOWNS }),
+  -- same, cursor right then down twice: scrolls one row (Pegasion Castle / Gaizen Town at the top), on St. Bacchus's right
+  menu_magic_town2 = at(HOME, { keys = "6 y;40 -;6 a;90 -;6 down;30 -;6 right;30 -;6 a;90 -;6 a;90 -;6 right;30 -;" ..
+                                       "6 down;30 -;6 down;90 -", pokes = TOWNS }),
+  telepiam_go = at(HOME, { keys = "6 y;40 -;6 a;90 -;6 down;30 -;6 right;30 -;6 a;90 -;6 a;90 -;6 right;30 -;" ..
+                                  "6 down;30 -;6 down;90 -;6 a;400 -", pokes = TOWNS, nocheck = true }),  -- -> Polydos Town
   menu_item_full = at(HOME, { keys = menu(1), pokes = { [0x0F3B] = 0x0201, [0x0F3D] = 0x0403, [0x0F3F] = 0x0605,
                                                         [0x0F41] = 0x0807 } }),
   menu_item_list = at(HOME, { keys = "6 y;40 -;6 down;14 -;6 a;90 -", pokes = { [0x0F3B] = 0x0201, [0x0F3D] = 0x0403,
