@@ -10,6 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 import font  # noqa: E402
+import namechart  # noqa: E402
 
 ASAR = ROOT / "tools" / "asar" / "asar.exe"
 SIZE = 0x200000
@@ -19,6 +20,7 @@ def patch(rom: bytes, asm=ROOT / "asm" / "vwf.asm") -> bytes:
     if not ASAR.is_file():
         sys.exit(f"{ASAR} missing: unzip asar191.zip from github.com/RPGHacker/asar/releases (v1.91) there")
     font.build(rom)
+    namechart.build()
     with tempfile.TemporaryDirectory() as tmp:
         p = Path(tmp) / "rom.sfc"
         p.write_bytes(rom.ljust(SIZE, b"\xff"))

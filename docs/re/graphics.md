@@ -15,7 +15,7 @@ Every Japanese element drawn as tiles rather than through the text engine. Statu
 | G6b | Battle | `HP` `TP` labels, digits, messages (`〜が あらわれた`, `ダメージをあたえた!!`) | messages font; HP/TP Latin | messages yes | messages as text |
 | G7 | Field menu (Y/B; warp `menu*`) | `まほう` `アイテム` `そうび` `ステータス` `コンフィグ` `ほうがく`, status/equip/config labels | font (same glyphs as dialogue) | yes | text; find strings |
 | G8 | Shops, inn, save (warp `shop_*`, `inn`, `save`, `exchange`) | headers, `D/G` price column, item names | font | yes | text |
-| G9 | Name entry | none: new game goes title -> intro -> school room with fixed names (`warp1`, `ng4`) | - | - | none |
+| G9 | Name entry | rename screen only (sub-mode 3, scene `name_entry`); new game uses fixed names. Chart tilemaps `$2A:C25B+` hold kana glyph tiles: replaced by text, `asm/namechart.asm` | - | - | done (phase 7) |
 | G10 | World map (warp `worldmap`) | no place-name banner on the world map; towns show the font banner | font | yes (banners) | text (place-name table) |
 | G11 | Ending, credits (warp `ending_lab`, `credits`) | staff roll, play record | text (bank $00) | a few JP nicknames; record labels | translate as text |
 | G12 | Game over | none: a party wipe prints a battle message and respawns at home (`go1`, warp `gameover`) | - | - | none |

@@ -83,7 +83,17 @@ Inserted strings go through the 32-byte buffer `$0E11` (FF-terminated): a name l
   its own immediate). In menu/credits strings the routine reads on past FA, so pieces split at FA stay in order.
   Battle text writes `00` (two 00 bytes) where the engine inserts a monster/actor/item name.
 - **Default hero names** `$21:EF9B`, 4 x 8 bytes FF-padded (ラルフ テオ リズ ルミエス), copied to `$0E3B + $40n`.
-- **Name-entry chart** `$21:ECD5-$ED9D` (200 glyph codes: katakana, hiragana, A-Z, digits, in screen order).
+- **Name-entry chart** `$21:ECD5-$EE2F` (3 pages x 90 codes, page 2 only 41 then code: katakana, hiragana, Latin;
+  the extractor's grid item stops at `$ED9D`). Rename screen = field sub-mode 3 (scenes `rename`, `name_entry`).
+  Pick `$21:E6F5`: index page `$32` x 90 + row `$13D7` x 10 + col `$13D5` (`ADC #$ECD5` at `$E718`), appended to
+  `$7FCF6E`; 7-letter cap via `$0DF9` (the name printer's index). Row 9 = buttons: col < 3 next page, < 5 previous,
+  < 8 delete, else end (all-3F name refused; copies 8 bytes to `$0E3B + $40n`). Page 2 alone keeps rows 0-3
+  (`$21:E61E`). Each page's screen is a compressed tilemap (`$21:E951` -> `$2A:C25B/C3BB/C54E`, unpacked by
+  `$00:D961`, MVN to `$7F:F000` at `$E981`); its letters and labels are kana glyph tiles = VWF pool tiles now.
+- **English chart** (`asm/namechart.asm`, data `tools/namechart.py`): every page 4 rows (`$E623` NOPs), grid in
+  bank $B0, the page draw blanks rows 6-25 x cols 6-25 (`$216A`) and prints letters + labels through `$00:A8BF`;
+  a pick over `wrap.HERO_PX` (42 px, VWF widths, static = 8) buzzes like the 7-letter cap. Verified in game
+  (`work/play/neen`): type, page switch, delete, cap, end.
 - Battle/menu strings in banks $20/$21 are space-padded fixed-width fields (`こうげき   `).
 - Not text (census false hits in text banks): `$00:8FAC` (code), `$21:83B3` (flag table). Banks with no text
   pointer (02-0B, 0D, 0E, 13, 14, 16-1F, 22-2F) have only random census hits.

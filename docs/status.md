@@ -38,8 +38,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
     VWF per-cell pair memo (battle panel churn). Battle name field at column $14. `tools/fieldfit.py` (in check):
     info line 232 px, battle fields. 111/111 warps ok; checked shop, menus, status, rename, battle, battle_win,
     intro, credits, places. Debug probes: `tools/lua/{jumplog,textdump,bblog}.lua`.
-- **Next (phase 7 rest):** name-entry chart (`21:ECD5` grid) still Japanese -> English letters; cap typed names at
-  42 px (`wrap.HERO_PX`). Look at remaining lint width WARNs (597, mostly names in dialogue = fine) by screen:
+    Name entry (rename screen = sub-mode 3, scenes `rename`/`name_entry`): English chart ABC/abc/symbols, 4 rows a
+    page, drawn by text over the kana tilemaps, typed names capped at 42 px (`asm/namechart.asm`,
+    `tools/namechart.py`, `docs/re/text.md`). Verified typing, pages, delete, cap, end (`work/play/neen`).
+- **Next (phase 7 rest):** look at remaining lint width WARNs (597, mostly names in dialogue = fine) by screen:
   field magic menu (spell list?), battle target/magic/item selection lists, save menu ("Record 1..." +56 px),
   treasure-box game, church, story-so-far (+49 px lines), intro crawl. `romdiff.py` with allowed ranges. Then
   phase 8 (QA tours + visual-QA gate) and the polish pass (`docs/polish.md`). Battle command buttons

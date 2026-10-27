@@ -21,7 +21,8 @@ from maps import off, w16  # noqa: E402
 ORIG = ROM.read_bytes()
 HOOKS = [(0x2EB6, 0x2EE0), (0x00A9, 0x00AD),  # $00:AEB6 stub, NMI JSL $00E388 -> vwf_nmi
          (0x298F, 0x2992), (0x2A30, 0x2F63), (0x5680, 0x5753),  # asm/names.asm: jump, handlers, helpers
-         (0x10250F, 0x102510)]  # battle panel field column
+         (0x10250F, 0x102510),  # battle panel field column
+         (0x10E623, 0x10E625), (0x10E719, 0x10E71B), (0x10E739, 0x10E73D), (0x10E985, 0x10E98B)]  # namechart.asm
 NAME_ARRAYS = (0x3422, 0x5680)  # pointer arrays rewritten by insert.names_far (strings now in bank $3F)
 
 
@@ -90,6 +91,17 @@ def test_pool_excludes_static():
     tiles = {t for p in pairs for t in (p, p + 1)}
     assert not tiles & {0x16A, 0x48, 0x58, 0x4F, 0x5F, 0x60, 0x70}
     assert max(tiles) < 0x180 and len(pairs) > 150
+
+
+def test_namechart_sites_match_original():
+    """asm/namechart.asm patches these exact instructions ($21:E61E page-2 row limit, grid base, pick, page draw)."""
+    import namechart
+    at = lambda a, n: ORIG[off(0x21, a):off(0x21, a) + n].hex()  # noqa: E731
+    assert at(0xE61E, 7) == "a532c90200d01c"
+    assert at(0xE718, 3) == "69d5ec" and at(0xE739, 4) == "e230b200"
+    assert at(0xE981, 10) == "547f7eabadd31309e0ff"
+    grid = namechart.build()
+    assert len(grid) == 270 and grid.count(0x3F) == 270 - 3 * 40 + 20  # 4 rows a page; symbols page has 2
 
 
 def test_names_hook_sites_match_original():

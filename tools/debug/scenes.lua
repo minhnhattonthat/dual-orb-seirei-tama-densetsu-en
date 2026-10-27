@@ -38,8 +38,9 @@ SCENE_LIST = {
   menu_config = at(HOME, { keys = menu(4) }),
   menu_direction = at(HOME, { keys = menu(5) }),
   -- field sub-modes ($7FD7AC, $10:81F6); shop id in $7FD7AE
-  shop_sell = shop(1), shop_mode2 = shop(2), save = shop(3), shop_weapon = shop(4), shop_armor = shop(5),
+  shop_sell = shop(1), shop_mode2 = shop(2), rename = shop(3), shop_weapon = shop(4), shop_armor = shop(5),
   shop_item = shop(6), inn = shop(7), exchange = shop(8),
+  name_entry = at(shop(3), { keys = "300 -;6 a;120 -" }),  -- rename: pick Ralph -> the character chart
   -- battles
   battle = { map = 0x13A371, x = 0x2E, y = 0x80, keys = "600 -",
              pokes = { [0x7FCE78] = 7, [0x7FCE7A] = 0, [0x7FD7B0] = 0x000E, [0x7FD796] = 0xFFFF } },
