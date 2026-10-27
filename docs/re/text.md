@@ -94,6 +94,9 @@ Inserted strings go through the 32-byte buffer `$0E11` (FF-terminated): a name l
   bank $B0, the page draw blanks rows 6-25 x cols 6-25 (`$216A`) and prints letters + labels through `$00:A8BF`;
   a pick over `wrap.HERO_PX` (42 px, VWF widths, static = 8) buzzes like the 7-letter cap. Verified in game
   (`work/play/neen`): type, page switch, delete, cap, end.
+- **Compass screen** (field menu "Compass", `$21:9C81`): stored BG3 tilemap `$2A:C03C` (unpacked by `$00:D961` to
+  `$7E:8000`, DMA'd to VRAM `$7C00`) with kana labels in rows 2-3/13-14/24-25 (S = graphic tiles `$1E1-$1E8`).
+  `asm/compass.asm` copies it to `$7F:F800`, blanks those cells and prints English through `$00:A8BF`.
 - Battle/menu strings in banks $20/$21 are space-padded fixed-width fields (`こうげき   `).
 - Not text (census false hits in text banks): `$00:8FAC` (code), `$21:83B3` (flag table). Banks with no text
   pointer (02-0B, 0D, 0E, 13, 14, 16-1F, 22-2F) have only random census hits.

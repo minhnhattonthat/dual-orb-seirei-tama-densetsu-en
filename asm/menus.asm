@@ -4,7 +4,17 @@
 
 org $21BF4F               ; prompt box x16 y8 w96 h32 -> the panel's rectangle (drawn as one window)
 	dw $0008,$0008,$00F0,$0038
-org $1084C7               ; place-name label ($10:8486, text from x16): w80 -> 136 for the longest name (119 px)
+; Field menu (Magic .. Compass): window, text and left cursor bracket 8 px left, so "Compass" (45 px) ends before the
+; right bracket, which sits at a fixed x $F2 ($21:94CE)
+org $2192F0               ; window record x192 w56 -> x184 w64
+	dw $00B8
+org $2192F4
+	dw $0040
+org $21935A               ; LDX #$0019: text column 25 -> 24
+	db $18
+org $2194AB               ; LDA #$00C6: left bracket x -> $BE
+	db $BE
+org $1084C7              ; place-name label ($10:8486, text from x16): w80 -> 136 for the longest name (119 px)
 	dw $0088                ; shortcut: one width for every name; size it to the name if short ones look boxed-in
 org $21BF82               ; info panel x120 w120 -> x8 w240
 	dw $0008

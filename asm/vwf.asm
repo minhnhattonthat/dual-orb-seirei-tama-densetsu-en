@@ -800,5 +800,6 @@ incsrc "names.asm"
 incsrc "namechart.asm"
 incsrc "crawl.asm"
 incsrc "buttons.asm"
+incsrc "compass.asm"
 assert pc() <= $B0FFFF
 incsrc "menus.asm"

@@ -80,27 +80,19 @@ Updated at the end of every session. Keep it to what the next session needs; his
     ATTACK/AUTO/FLEE (`asm/buttons.asm`, `tools/buttons.py`, `gfx/buttons.txt`). Story-so-far reachable: scenes
     `story00-17` (warp `story = n`: new game takes the load path `$21:EE80` -> `$0C:DB4F`, piece forced at
     `$0C:DBE1`); all 18 fit (checked by eye), not yet in the manifest.
-- **Next (phase 8 issues from visual QA, most severe first):**
-  1. VWF upload too slow on menu open: item/magic panels, party names, shop lists show stale pool glyphs (junk) for
-     up to ~130 frames (`menu_item_list`: f780-f910; also menu_magic_*, shop_weapon, telepiam_go). 8 KB at the
-     observed ~64 B/frame: `vwf_nmi` starts near line 254, after the game's DMA. Fix idea: a cell's tilemap entry
-     points at a blank tile until its pair is uploaded, or upload before the game's queue, or a longer forced blank.
-  2. Place-name label box ~88 px; ~16 labels overflow (place06/18/20/22/24/25/30/32/44/49/53/59/64...). Widen the
-     box (find its window record) or size it to the text.
-  3. Compass screen (menu_direction, field menu ほうがく): the 8 direction labels are junk (old kana tiles, not in the
-     script: graphics or glyph-tile sprites; find the source).
-  4. Field menu "Compass": right cursor bracket fixed at x+44 ($2C) overlaps the "s". Brackets = sprites 0xA4-A7
-     written by `$00:D858` (metasprite reader: count, then dx dy tile attr); find the metasprite (candidates not
-     confirmed) or shorten the word.
-  5. Stray "." in money: battle_win "284./G", menu_status "0./G" (JP "284/G").
-  6. intro f000900: one frame of raster garbage as the crawl starts (crawl.asm setup?).
-  7. "Aleitos House" -> "Aleitos's House" (names.json:1885, glossary note).
-  8. shop_buy (money 9999): help line "Restores HP +" then junk where "80" belongs; shop_item (0 G) is fine, so the
-     money digits likely take the help line's pool cells. Shops' fade-in frame (~f660) also shows junk (= issue 1).
-  9. Minor: no space after the colon in shop/equip help lines ("Knife:A knife"); the original has none either.
-  Verdicts: all 11 chunks returned (`work/qa/verdicts/chunk_000-010.tsv`).
-  Then: re-tour changed scenes, `qa_gate.py init` + todo for the re-hashed and story sheets, recheck verdicts,
-  `qa_gate.py check` exit 0; graphics static sweep (graphics.md); polish pass (`docs/polish.md`).
+    2026-10-27 (7): visual-QA issues 1-8 fixed. VWF upload also on idle NMIs (`vwf_idle`, hook `$00:85E8`: menus
+    ready a game frame only every ~5 NMIs; menus/shops now clean at fade-in; also fixed shop_buy "+80" junk; probe
+    `tools/lua/nmiprof.lua`). Place-name label = window record `$10:84C3` w80 -> 136. Compass screen
+    (`asm/compass.asm`): stored tilemap `$2A:C03C` copied into the BG3 buffer bottom half, labels printed in English
+    (North .. Northwest). Field menu window/text/left bracket 8 px left (right bracket fixed x `$F2`, `$21:94CE`).
+    Money "./G": narrow `.` shared the `/` cell. "Aleitos's House". Intro f900 glitch not reproduced frame by frame
+    (f300-1000) on the new build. asar math is left to right: bracket offsets (`!X+(2*$40)`).
+- **Next (phase 8):**
+  1. Re-tour changed scenes (menus, shops, places, compass `menu_direction`, status, battle_win, intro), `qa_gate.py
+     init` + todo for the re-hashed and story sheets, recheck verdicts, `qa_gate.py check` exit 0.
+  2. Minor (polish): no space after the colon in shop/equip help lines ("Knife:A knife"); original has none.
+  3. Graphics static sweep (graphics.md); polish pass (`docs/polish.md`).
+  Verdicts (first tour): `work/qa/verdicts/chunk_000-010.tsv`.
 - **Risks:** other `find_lists` refs may be false like `$13:E69B` (only those read by the map loader `$0C:B40A` are
   proven; probe: `work/tmp_refs.lua` idea, log reads of each ref site). Shadow `$7E:E000` is free in the scenes
   measured, not proven everywhere. A full screen of new VWF cells takes a few frames to appear.
