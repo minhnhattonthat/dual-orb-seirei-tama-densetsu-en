@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7 (insert, fit) done 2026-10-27; phase 8 (QA) next.
+- **Phase:** 8 (QA) done 2026-10-27; phase 9 (release) next.
   `tools/build.py` builds VWF + script (`--marker` for the marker build, `--identity` for the byte-identical ROM).
 - **Done:**
   - Step 0: MesenCE 2.2.1 in `tools/mesen/`, guard hook verified (blocks `sed -i`), pre-commit runs `tools/check.py`
@@ -103,13 +103,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
     `{f0}` (291 entries) lost the JP `{n}` before it, so the choice joined the question line and its fixed-cell cursor
     (cells 1, 5) erased glyphs; `wrap.py` now gives `{f0}` its own line (checked in play, `work/playtest/yn`).
     Warps home/ending_lab/final_boss/gameover reach their targets at 2600 frames (tour cut them short).
-- **Next (phase 8):**
-  0. Playtest leftovers done: slots "File n" (icon cleared; confirm line padded so (Yes)/No brackets fit),
-     church menu "Save Game / Revive Allies" fills the brackets, Panje unquoted everywhere (glossary).
-     "Leech the Leech" is the JP name リ―チザリ―チ (kept). Not checked: one-frame "Re:ord 3" flash after saving.
-  2. (done) Polish pass (`docs/polish.md`; includes the info-line colon space).
-  3. Playtest a real save at a church (church_saved risk above). QA noted scenes ending_lab, final_boss, home,
-     gameover never show their target (Aleitos's House / lab / overworld / goblin battle): check their warps.
+    2026-10-27 (12): playtest leftovers: slots "File n", church menu "Save Game / Revive Allies", Panje unquoted.
+    Full EN re-tour, round r4 (verdicts `r4_chunk_000-010`, `r5_main`), `qa_gate.py check` exit 0. Fixed: shop
+    Clothes description touched the box edge (shortened). Tour is not deterministic run to run (fades, blinking
+    cursor/ATTACK flash change pixels), so a re-tour marks ~90% of sheets changed: re-review is the rule anyway.
+- **Next (phase 9):** `tools/release.py` (patch + verify, `jp_left.py`, debug tool off, README hashes); never
+  publish without the user. Not checked: one-frame "Re:ord 3" flash after saving (now "File"), the one-frame
+  "branc?es" redraw in menu_item_long2 (final frame clean).
 - **Risks:** other `find_lists` refs may be false like `$13:E69B` (only those read by the map loader `$0C:B40A` are
   proven; probe: `work/tmp_refs.lua` idea, log reads of each ref site). Shadow `$7E:E000` is free in the scenes
   measured, not proven everywhere. A full screen of new VWF cells takes a few frames to appear.
