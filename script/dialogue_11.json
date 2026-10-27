@@ -57,7 +57,7 @@
  {
   "id": "11:822C",
   "jp": "すんだ ひとみを もつ、 なんじに つたえたい。{fe}せかいには {tEC:33}というものがある。{n}それは じゃあくな こころの みなもと。{n}みにくい たましいの みなもと。{fe}ひとりの にんげんが、 その ふういんを{n}ときはなった。{fe}{tEC:33}は、{n}5つの フェニックスに すがたをかえ、{n}かぜに とけこみ、 せかいを みだす。{fe}いだいなる ぼうけんしゃよ。{n}なんじに わが たましい{tEC:04}を{n}さずける。{fe}{tEC:04}は {tEC:40} ふういんに{n}かかせぬもの。{fe}にんげんたちの みらいのために{n}なんじを ふくめた 4にんで {tEC:33}を{n}ふういんするがよい。{fe}いだいなる ぼうけんしゃよ。{n}なんじを しんじる。{end}",
-  "en": "You with clear eyes, I wish to tell you this.{fe}In the world there is a thing called the {tEC:33}. It is the source of evil hearts. The source of ugly souls.{fe}One human has broken its seal.{fe}The {tEC:33} takes the form of five Phoenixes, melts into the wind, and throws the world into chaos.{fe}Great adventurer. I grant you my soul, the {tEC:04}.{fe}The {tEC:04} is indispensable for sealing the \"Panje.\"{fe}For the future of humankind, you and three others, four in all, must seal the {tEC:33}.{fe}Great adventurer. I believe in you.{end}"
+  "en": "You with clear eyes, I wish to tell you this.{fe}In the world there is a thing called the {tEC:33}. It is the source of evil hearts. The source of ugly souls.{fe}One human has broken its seal.{fe}The {tEC:33} takes the form of five Phoenixes, melts into the wind, and throws the world into chaos.{fe}Great adventurer, I grant you my soul, the {tEC:04}.{fe}The {tEC:04} is indispensable for sealing the \"Panje.\"{fe}For the future of humankind, you and three others, four in all, must seal the {tEC:33}.{fe}Great adventurer. I believe in you.{end}"
  },
  {
   "id": "11:83BB",
@@ -82,7 +82,7 @@
  {
   "id": "11:83FE",
   "jp": "この {tED:02}は {tED:03}の{n}がっこうなんだよ。{end}",
-  "en": "This {tED:02} is the school of {tED:03}.{end}"
+  "en": "This {tED:02} is {tED:03}'s school.{end}"
  },
  {
   "id": "11:8413",
@@ -507,12 +507,12 @@
  {
   "id": "11:96BA",
   "jp": "ここで しなものの だいきんを せいさんします。{n}せいさんしますか？{n}{f0}{end}",
-  "en": "I settle the bill for goods here. Shall I settle up? {f0}{end}"
+  "en": "You can pay for your purchases here. Shall I ring you up? {f0}{end}"
  },
  {
   "id": "11:96DF",
   "jp": "{tEC:6C}{n}{tEC:93}{n}ときどき にげてく ひとが いるの。{end}",
-  "en": "Please pay here for what you bought. Every now and then someone runs off without paying.{end}"
+  "en": "Please pay here for what you bought before you go. Every now and then someone runs off without paying.{end}"
  },
  {
   "id": "11:96F8",
@@ -612,7 +612,7 @@
  {
   "id": "11:9AAC",
   "jp": "おまえさんが もっている {tEC:42}ブ」は{n}ほんものかい？{n}{f0}{end}",
-  "en": "That dragon's \"Orb\" you've got... is it the real thing? {f0}{end}"
+  "en": "The dragon's \"Orb\" you've got... is it the real thing? {f0}{end}"
  },
  {
   "id": "11:9B0B",
@@ -777,7 +777,7 @@
  {
   "id": "11:9F83",
   "jp": "{tEC:6C}{n}{tEC:93}{n}{tEC:A1} かえっちゃうひとが いるの。{end}",
-  "en": "Please pay here for what you bought. Every now and then someone just leaves like that.{end}"
+  "en": "Please pay here for what you bought before you go. Every now and then someone just leaves like that.{end}"
  },
  {
   "id": "11:9F9B",
@@ -1037,7 +1037,7 @@
  {
   "id": "11:A887",
   "jp": "{tEC:32}に でかけた おんながいたが、{n}いまごろは きっと・・・。{fe}いやっ！ いやっ！ いやっ！{n}そなた いきていたのか！{end}",
-  "en": "A woman went out on the {tEC:32}, but by now she's surely...{fe}Well, well, well! You're alive!{end}"
+  "en": "A woman went out on the {tEC:32}, but by now she's surely...{fe}No, no, no! You're alive!{end}"
  },
  {
   "id": "11:A8C3",
@@ -1152,7 +1152,7 @@
  {
   "id": "11:AE51",
   "jp": "{hero2}は ずうずうしいことを はなす{n}じょせいであった。{fe}ましてや {tEC:A7}スに あったとは・・。{n}ここに おられる おうさまですら ドラゴンは{n}とおい そんざいなのに・・・。{end}",
-  "en": "{hero2} was a young woman who said the most brazen things.{fe}She even claimed she'd met {tEC:A7}... when dragons are distant beings even to the king who sits here...{end}"
+  "en": "{hero2} was a young woman who said the most brazen things.{fe}Dragons are distant beings even to the king who sits here, let alone meeting {tEC:A7}...{end}"
  },
  {
   "id": "11:AEA6",
@@ -1232,7 +1232,7 @@
  {
   "id": "11:B101",
   "jp": "{tED:09}は ひがしじゃ。{n}{tED:05}のはしを わたっていくのじゃ。{end}",
-  "en": "{tED:09} is to the east. Cross the bridge of {tED:05} to get there.{end}"
+  "en": "{tED:09} is to the east. Cross the bridge at {tED:05} to get there.{end}"
  },
  {
   "id": "11:B11E",
@@ -1567,7 +1567,7 @@
  {
   "id": "11:BED6",
   "jp": "おれはみた！{fe}おおきな ながれぼしが {tEC:0A}、{n}{tEC:09}、{tEC:05}、{n}{tED:0A}に ながれていくのを。{end}",
-  "en": "I saw it!{fe}A huge shooting star, falling toward {tEC:0A}, {tEC:09}, {tEC:05} and {tED:0A}.{end}"
+  "en": "I saw it!{fe}A huge shooting star, flowing toward {tEC:0A}, {tEC:09}, {tEC:05} and {tED:0A}.{end}"
  },
  {
   "id": "11:BF02",
@@ -2127,7 +2127,7 @@
  {
   "id": "11:D232",
   "jp": "{tEC:6C}{n}{tEC:93}{n}{tEC:A1} にげるひとがいますから・・。{end}",
-  "en": "Please pay here for what you bought. Every now and then someone runs off...{end}"
+  "en": "Please pay here for what you bought before you go. Every now and then someone runs off...{end}"
  },
  {
   "id": "11:D24A",
@@ -2297,7 +2297,7 @@
  {
   "id": "11:D8FD",
   "jp": "{tEC:5F}{n}おきをつけて。{end}",
-  "en": "{tEC:5F} Be careful.{end}"
+  "en": "{tEC:5F} Stay safe.{end}"
  },
  {
   "id": "11:D908",
@@ -2542,7 +2542,7 @@
  {
   "id": "11:E294",
   "jp": "{tEC:6C}{n}{tEC:93}{n}ときどき にげてく ひとが いるの。{end}",
-  "en": "Please pay here for what you bought. Every now and then someone runs off without paying.{end}"
+  "en": "Please pay here for what you bought before you go. Every now and then someone runs off without paying.{end}"
  },
  {
   "id": "11:E2AD",
@@ -2922,7 +2922,7 @@
  {
   "id": "11:F17B",
   "jp": "パ―ティ―の さいちゅうだった、{n}やつらが おそってきたのは。{end}",
-  "en": "We were in the middle of a party when they attacked.{end}"
+  "en": "They attacked right in the middle of a party.{end}"
  },
  {
   "id": "11:F19B",

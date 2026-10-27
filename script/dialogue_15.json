@@ -202,7 +202,7 @@
  {
   "id": "15:8A56",
   "jp": "まず さきに、 このむらにいた きしたちを{n}ちまつりに あげるんだ。{n}そのいきおいで しろを せめよう！{end}",
-  "en": "First, we'll make an example of the knights who were in this village. Then we'll ride that momentum and storm the castle!{end}"
+  "en": "First, we'll make a blood sacrifice of the knights who were in this village. Then we'll ride that momentum and storm the castle!{end}"
  },
  {
   "id": "15:8A8B",
@@ -302,7 +302,7 @@
  {
   "id": "15:8DAD",
   "jp": "かなしいよなぁ。{n}{tEC:25}のようさいを つくりに いったら{n}かえってくるときは ほとんど ほとけさまだよ。{end}",
-  "en": "It's so sad. Go off to build the {tEC:25} fortress, and you mostly come back a corpse.{end}"
+  "en": "It's so sad. Go off to build the {tEC:25} fortress, and you almost always come back a corpse.{end}"
  },
  {
   "id": "15:8DE1",
@@ -382,7 +382,7 @@
  {
   "id": "15:8FF8",
   "jp": "そろそろ この やくしょも ひっこそうかと{n}おもっています。{fe}ところで、 なまえを へんこうしますか？{n}{f0}{end}",
-  "en": "I'm thinking it's about time this office moved too.{fe}By the way, would you like to change a name?{f0}{end}"
+  "en": "I'm thinking it's about time this office moved too.{fe}By the way, would you like to change any names?{f0}{end}"
  },
  {
   "id": "15:90BA",
@@ -722,7 +722,7 @@
  {
   "id": "15:9C92",
   "jp": "{tEC:37}は 「{tEC:10}」の{n}{tEC:0F}という おとこに そそのかされて{n}せかいを せいふくする つもりらしいんです。{end}",
-  "en": "It seems the {tEC:37} has been led on by a man of the \"{tEC:10}\" named {tEC:0F}, and intends to conquer the world.{end}"
+  "en": "It seems the {tEC:37} means to conquer the world, put up to it by a man of the \"{tEC:10}\" named {tEC:0F}.{end}"
  },
  {
   "id": "15:9CC6",
@@ -762,7 +762,7 @@
  {
   "id": "15:9EB3",
   "jp": "いだいなる ぼうけんしゃたちよ。{n}わたしは {tEC:A7}ス。{fe}わたしの こえが、 なんじの こころに{n}きこえるで あろうか。{fe}{tE5:01}が {tEC:A8}を{n}いちじてきに ふういんした。{fe}なんじが てにいれた {tEC:33}は{n}「ふしん」の{tEC:A8}。{fe}ひとが たがいに しんじあうこと。{n}あらたな せかいを つくるために ひつようだ。{fe}いだいなる ぼうけんしゃたちの{n}さらなる かつやくを きたいする。{end}",
-  "en": "Great adventurers. I am Dragon Larzes.{fe}Can my voice be heard within your hearts?{fe}The {tE5:01} has sealed the {tEC:A8} for the time being.{fe}The {tEC:33} you obtained is the {tEC:A8} of \"Distrust.\"{fe}People trusting one another. That is what a new world needs.{fe}Great adventurers, I look forward to your deeds yet to come.{end}"
+  "en": "Great adventurers, I am Dragon Larzes.{fe}Can my voice be heard within your hearts?{fe}The {tE5:01} has sealed the {tEC:A8} for the time being.{fe}The {tEC:33} you obtained is the {tEC:A8} of \"Distrust.\"{fe}Trust between people - that is what a new world needs.{fe}Great adventurers, I look forward to your deeds yet to come.{end}"
  },
  {
   "id": "15:A17E",
@@ -1177,7 +1177,7 @@
  {
   "id": "15:AFF8",
   "jp": "まだ、 で・す・・・・。{n}まだだと おもいます。{end}",
-  "en": "Not... yet.... I don't think they have yet.{end}"
+  "en": "Not yet.... I think not yet.{end}"
  },
  {
   "id": "15:B011",
@@ -1427,7 +1427,7 @@
  {
   "id": "15:BB39",
   "jp": "{tE5:0C}さえ てにはいれば、{n}とくさんぶつの きぬで しょうばいをして{n}この むらも ゆたかに なるのじゃが。{end}",
-  "en": "If only we could get hold of the {tE5:0C}, we could trade in our local silk and make this village prosperous.{end}"
+  "en": "If only we could get hold of the {tE5:0C}, we could sell our local silk and make this village prosperous.{end}"
  },
  {
   "id": "15:BB9F",
@@ -1447,7 +1447,7 @@
  {
   "id": "15:BBFC",
   "jp": "{tED:22}って ゆたかなまちが{n}みなみに あるんだ。{n}いまでも ゆたかなのかなぁ。{end}",
-  "en": "There's a rich town called {tED:22} to the south. I wonder if it's still rich.{end}"
+  "en": "There's a rich town to the south, {tED:22}. I wonder if it's still rich.{end}"
  },
  {
   "id": "15:BC43",
@@ -1457,7 +1457,7 @@
  {
   "id": "15:BC5F",
   "jp": "むかしは そりゃぁ きれいな きぬが{n}とれたもんだよ。{fe}わかいころの あたしには、{n}きぬのような うつくしい しろが{n}おにあいだったねぇ。{end}",
-  "en": "Why, in the old days we made such beautiful silk.{fe}When I was young, lovely silky white suited me just fine.{end}"
+  "en": "Why, in the old days we made such beautiful silk.{fe}When I was young, a beautiful silk-white suited me just fine.{end}"
  },
  {
   "id": "15:BCB5",
@@ -1827,12 +1827,12 @@
  {
   "id": "15:CAA6",
   "jp": "ささっ。{n}おとおりくだせい。{end}",
-  "en": "P-please. Go right through.{end}"
+  "en": "Please, go right through.{end}"
  },
  {
   "id": "15:CAB5",
   "jp": "ささっ。{n}おとおりくだせい。{end}",
-  "en": "P-please. Go right through.{end}"
+  "en": "Please, go right through.{end}"
  },
  {
   "id": "15:CAC4",
@@ -1862,32 +1862,32 @@
  {
   "id": "15:CB54",
   "jp": "ささっ。{n}おとおりくだせい。{end}",
-  "en": "P-please. Go right through.{end}"
+  "en": "Please, go right through.{end}"
  },
  {
   "id": "15:CB63",
   "jp": "ささっ。{n}おとおりくだせい。{end}",
-  "en": "P-please. Go right through.{end}"
+  "en": "Please, go right through.{end}"
  },
  {
   "id": "15:CB72",
   "jp": "ささっ。{n}おとおりくだせい。{end}",
-  "en": "P-please. Go right through.{end}"
+  "en": "Please, go right through.{end}"
  },
  {
   "id": "15:CB81",
   "jp": "これは {hero0} おやぶんさん。{n}ささっ、 おとおりくだせい。{end}",
-  "en": "Ah, if it ain't Boss {hero0}. Please, go right through.{end}"
+  "en": "Ah, if it ain't Boss {hero0}-san. Please, go right through.{end}"
  },
  {
   "id": "15:CB9E",
   "jp": "ささっ。{n}おとおりくだせい。{end}",
-  "en": "P-please. Go right through.{end}"
+  "en": "Please, go right through.{end}"
  },
  {
   "id": "15:CBAD",
   "jp": "これは {hero0} おやぶんさん。{n}ささっ、 おとおりくだせい。{end}",
-  "en": "Ah, if it ain't Boss {hero0}. Please, go right through.{end}"
+  "en": "Ah, if it ain't Boss {hero0}-san. Please, go right through.{end}"
  },
  {
   "id": "15:CC5C",
@@ -2942,7 +2942,7 @@
  {
   "id": "15:F7D5",
   "jp": "すなおで よろしい。{end}",
-  "en": "Good, you know your place.{end}"
+  "en": "Good, an obedient one.{end}"
  },
  {
   "id": "15:F7E0",

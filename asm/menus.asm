@@ -177,3 +177,8 @@ org $21AEEE               ; cursor bracket x, y per slot; right bracket at x + $
 org $21AEFA
 	dw $A0,$A0,$B8,$B8
 org $21AED1 : dw $0058
+; info line {name}:{desc} at $0200: the code-written colon ($31) -> $60 "：" = colon + word space (fonts/vwf.txt)
+org $01A002 : db $60
+org $01AEA5 : db $60
+org $01BC6B : db $60
+org $21CFBA : db $60      ; equip menu: the same line from a template MVN-copied to $028C ($21:CA6F)

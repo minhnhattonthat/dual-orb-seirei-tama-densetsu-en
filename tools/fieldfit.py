@@ -36,7 +36,7 @@ def check(show_all=False):
         i = 1
         while f"{t}:{i:02X}" in es:
             n, dsc = es[f"{t}:{i:02X}"], es.get(f"{dt}:{i:02X}")
-            w = px(n["en"]) + px(":") + (px(dsc["en"]) if dsc else 0)
+            w = px(n["en"]) + px("：") + (px(dsc["en"]) if dsc else 0)
             if w > INFO_PX or show_all:
                 bad.append((w, n["id"], n["en"], dsc and dsc["en"]))
             if t in BATTLE and px(n["en"]) > BATTLE[t]:

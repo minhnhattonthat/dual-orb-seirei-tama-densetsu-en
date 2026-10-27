@@ -95,8 +95,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
     2026-10-27 (9): graphics sweep done: only tile-drawn text is G6 (battle buttons), English in zoomed cold-boot
     shots `battle`, `boss00` (ATTACK blinks = selected-button flash); no chapter cards; game over has none (G12);
     credits/intro are text (verdicts r2). `bash tools/debug/shot.sh battle boss00 credits intro worldmap`.
+    2026-10-27 (10): polish pass applied (`docs/polish.md`, skips noted there: width/lint limits). Info-line colon
+    space: code $60 "：" (colon + word space, 7 px) written by `$01:A002/AEA5/BC6B` (shops etc.) and the equip
+    template `$21:CFB8` (MVN to `$028C`); found with regwrites on `$7E028C` (bank-$00 range misses long writes).
 - **Next (phase 8):**
-  2. Polish pass (`docs/polish.md`; includes the info-line colon space).
+  2. (done) Polish pass (`docs/polish.md`; includes the info-line colon space).
   3. Playtest a real save at a church (church_saved risk above). QA noted scenes ending_lab, final_boss, home,
      gameover never show their target (Aleitos's House / lab / overworld / goblin battle): check their warps.
 - **Risks:** other `find_lists` refs may be false like `$13:E69B` (only those read by the map loader `$0C:B40A` are

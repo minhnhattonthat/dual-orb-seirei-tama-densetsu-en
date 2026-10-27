@@ -332,7 +332,7 @@
  {
   "id": "12:8E30",
   "jp": "まちの ちょうろうの むかしばなしは{n}おもしろいんだよ。{fe}ぼくって うそつきかなぁ。{end}",
-  "en": "The town elder's old stories are really interesting.{fe}Am I a liar, I wonder?{end}"
+  "en": "The town elder's old stories are sooo interesting.{fe}...Okay, maybe I'm lying.{end}"
  },
  {
   "id": "12:8E5B",
@@ -382,7 +382,7 @@
  {
   "id": "12:91BC",
   "jp": "そなた {tED:09}の にんげんじゃな。{n}むかしばなしを ききたいか？{n}{f0}{f1}{end}",
-  "en": "You're a person from {tED:09}, aren't you? Would you like to hear an old tale? {f0}{f1}{end}"
+  "en": "You're from {tED:09}, aren't you? Would you like to hear an old tale? {f0}{f1}{end}"
  },
  {
   "id": "12:91DF",
@@ -1127,7 +1127,7 @@
  {
   "id": "12:B233",
   "jp": "きいたかしら？{n}{tEC:0C}が {tED:37}の{n}おうじになった ってことを。{fe}おにいさんの {tEC:1C}おうじが、{n}おなくなりになって、 その おとうとの{n}{tEC:0C}が おうじに なったんですって。{fe}{tED:37}を りそうの しろにする って{n}ひとびとに あいされる おうになる って、{n}はりきっていたわ。{fe}いまは {tED:37}には いないらしいの。{n}じぶんの ゆめを じつげんするために{n}べんきょうに でかけたらしいわよ。{fe}すばらしいことね。{end}",
-  "en": "Have you heard? {tEC:0C} has become the prince of {tED:37}.{fe}They say his older brother, Prince {tEC:1C}, passed away, so his younger brother {tEC:0C} became prince.{fe}He was all fired up about making {tED:37} an ideal castle and becoming a king the people love.{fe}It seems he isn't at {tED:37} right now. They say he went off to study to make his dream come true.{fe}Isn't that wonderful?{end}"
+  "en": "Have you heard? {tEC:0C} has become the prince of {tED:37}.{fe}They say his older brother, Prince {tEC:1C}, passed away, and so {tEC:0C} became the new prince.{fe}He was all fired up about making {tED:37} an ideal castle and becoming a king the people love.{fe}It seems he isn't at {tED:37} right now. They say he went off to study to make his dream come true.{fe}Isn't that wonderful?{end}"
  },
  {
   "id": "12:B2FB",
@@ -1787,7 +1787,7 @@
  {
   "id": "12:CBA4",
   "jp": "むかしは ちかくの こうざんで たくさん{n}いろんな ものが とれたのだが、{n}いまでは さっぱりじゃ。{end}",
-  "en": "In the old days, the mine nearby gave up all sorts of things, but now there's nothing.{end}"
+  "en": "In the old days, the mine nearby yielded all sorts of things, but now there's nothing.{end}"
  },
  {
   "id": "12:CBD7",
@@ -2497,7 +2497,7 @@
  {
   "id": "12:E2C5",
   "jp": "{tED:35}。{n}それは にんげんが {tEC:03}に{n}めされて いくところ。{fe}しんだ ひとが いくところなのです。{end}",
-  "en": "The {tED:35}. It is where people are called by the {tEC:03}.{fe}It is where the dead go.{end}"
+  "en": "The {tED:35}. It is where people are summoned by the {tEC:03}.{fe}It is where the dead go.{end}"
  },
  {
   "id": "12:E306",
@@ -2532,7 +2532,7 @@
  {
   "id": "12:E54F",
   "jp": "それは ざんねんだ。{n}もし きふを したくなったら{n}おいでくだされ。{fe}いつでも {tEB:04}を でんじゅしよう。{fe}そして、 かねが すべての このせかいを{n}かえようでは ありませんか。{end}",
-  "en": "That's a shame. If you ever feel like donating, come see me.{fe}I'll teach you the {tEB:04} anytime.{fe}And together, let us change this world where money is everything.{end}"
+  "en": "That's a shame. If you ever feel like donating, come see me.{fe}I'll teach you the {tEB:04} anytime.{fe}And let us change this world where money is everything.{end}"
  },
  {
   "id": "12:E5A8",
@@ -2622,7 +2622,7 @@
  {
   "id": "12:EAE8",
   "jp": "「{tE5:0F}」が もどってきたそうな。{n}りっぱな ゆうしゃが いるもんじゃのぉ。{fe}にんげんも まだまだ {n}すてたもんじゃ ないわい。{end}",
-  "en": "I hear the \"{tE5:0F}\" has come back. There are fine heroes out there after all.{fe}People aren't so bad after all.{end}"
+  "en": "I hear the \"{tE5:0F}\" has come back. There are still fine heroes out there.{fe}People aren't so bad after all.{end}"
  },
  {
   "id": "12:EB28",

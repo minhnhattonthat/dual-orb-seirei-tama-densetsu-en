@@ -1430,7 +1430,7 @@
  {
   "id": "20:BD1A",
   "jp": "{clear}00は どくがまわった{fa}",
-  "en": "{clear}00 is hurt by the poison!{fa}",
+  "en": "{clear}00 feels the poison spread!{fa}",
   "block": "battle: item/MP/TP, status turns"
  },
  {
@@ -2383,7 +2383,7 @@
  {
   "id": "21:DD24",
   "jp": "（そうび）{end}",
-  "en": "(Gear){end}",
+  "en": "(Equip){end}",
   "block": "menu: status",
   "refs": [
    "b3 10D643"

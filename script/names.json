@@ -717,7 +717,7 @@
  {
   "id": "EC:56",
   "jp": "あ~ん、 おきゃくさ~ん。{end}",
-  "en": "Aww, mister customer!{end}"
+  "en": "Aww, customer~!{end}"
  },
  {
   "id": "EC:57",
@@ -2312,7 +2312,7 @@
  {
   "id": "F9:0F",
   "jp": "ビャクオウ{end}",
-  "en": "Byakuoh{end}"
+  "en": "Byakuo{end}"
  },
  {
   "id": "F9:10",
@@ -2417,7 +2417,7 @@
  {
   "id": "F9:24",
   "jp": "ウォンオ―{end}",
-  "en": "Wonoh{end}"
+  "en": "Wono{end}"
  },
  {
   "id": "F9:25",
@@ -3297,7 +3297,7 @@
  {
   "id": "3C3:04",
   "jp": "いきのねを とめる{end}",
-  "en": "Stops a foe's breath{end}"
+  "en": "Finishes off a foe{end}"
  },
  {
   "id": "3C3:05",
@@ -3322,7 +3322,7 @@
  {
   "id": "3C4:04",
   "jp": "かくじつに にげる{end}",
-  "en": "Escape for sure{end}"
+  "en": "Always escapes{end}"
  },
  {
   "id": "3C4:05",
@@ -3347,7 +3347,7 @@
  {
   "id": "3C5:03",
   "jp": "ふしぎな まりょくをもつ ナイフ{end}",
-  "en": "A knife of strange magic power{end}"
+  "en": "A knife with strange magic{end}"
  },
  {
   "id": "3C5:04",
@@ -3412,7 +3412,7 @@
  {
   "id": "3C5:10",
   "jp": "すこし おもいが きょうりょくな やり{end}",
-  "en": "A bit heavy, but a powerful spear{end}"
+  "en": "Heavy, but a powerful spear{end}"
  },
  {
   "id": "3C5:11",
@@ -3567,7 +3567,7 @@
  {
   "id": "3C6:04",
   "jp": "まほうを つかうときに まりょくがUP{end}",
-  "en": "Boosts magic power when casting{end}"
+  "en": "Boosts magic when casting{end}"
  },
  {
   "id": "3C6:05",
@@ -3602,7 +3602,7 @@
  {
   "id": "3C6:0B",
   "jp": "りゅうの うろこで できた たて{end}",
-  "en": "A shield made of dragon scales{end}"
+  "en": "A shield of dragon scales{end}"
  },
  {
   "id": "3C6:0C",
@@ -3852,7 +3852,7 @@
  {
   "id": "3C9:0B",
   "jp": "ラ―ゼスの うろこで できた ブ―ツ{end}",
-  "en": "Boots made of Larzes's scales{end}"
+  "en": "Boots of Larzes's scales{end}"
  },
  {
   "id": "3C9:0C",
