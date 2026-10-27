@@ -1199,7 +1199,7 @@
  {
   "id": "20:954C",
   "jp": "{pos:0403}しょじきん・・・・・・・・・・・・・・・・・/G{leftn:02}{rstr:B11C}{fa}",
-  "en": "{pos:0403}Money_._._._._._._._._./G{leftn:02}{rstr:B11C}{fa}",
+  "en": "{pos:0403}Money_._._._._._._._._/G{leftn:02}{rstr:B11C}{fa}",
   "block": "battle: start, results, level up",
   "refs": [
    "b3 100EE5"
@@ -2320,7 +2320,7 @@
  {
   "id": "21:DB50",
   "jp": "        レベル・・・・・・・・・・・・・{rstr:D913}{n}        HP・・・・・・・・・・・・・・{rstr:E013}/{left}{rstr:DC13}{n}        TP・・・・・・・・・・・・・・{rstr:E813}/{left}{rstr:E413}{n}けいけんち・・・・・・・・・・・・・・・・・・・{rstr:F413}/{left}{rstr:EC13}{n}しょじきん・・・・・・・・・・・・・・・・・/G{leftn:02}{rstr:FC13}{end}",
-  "en": "________Level_._._._._._.{rstr:D913}{n}________HP_._._._._._._.{rstr:E013}/{left}{rstr:DC13}{n}________TP_._._._._._._.{rstr:E813}/{left}{rstr:E413}{n}Experience_._._._._._._._._{rstr:F413}/{left}{rstr:EC13}{n}Money_._._._._._._._._./G{leftn:02}{rstr:FC13}{end}",
+  "en": "________Level_._._._._._.{rstr:D913}{n}________HP_._._._._._._.{rstr:E013}/{left}{rstr:DC13}{n}________TP_._._._._._._.{rstr:E813}/{left}{rstr:E413}{n}Experience_._._._._._._._._{rstr:F413}/{left}{rstr:EC13}{n}Money_._._._._._._._._/G{leftn:02}{rstr:FC13}{end}",
   "block": "menu: status",
   "refs": [
    "b3 10D414"
@@ -2329,7 +2329,7 @@
  {
   "id": "21:DBED",
   "jp": "        レベル・・・・・・・・・・・・・{rstr:D913}{n}        HP・・・・・・・・・・・・・・{rstr:E013}/{left}{rstr:DC13}{n}        MP・・・・・・・・・・・・・・{rstr:E813}/{left}{rstr:E413}{n}けいけんち・・・・・・・・・・・・・・・・・・・{rstr:F413}/{left}{rstr:EC13}{n}しょじきん・・・・・・・・・・・・・・・・・/G{leftn:02}{rstr:FC13}{end}",
-  "en": "________Level_._._._._._.{rstr:D913}{n}________HP_._._._._._._.{rstr:E013}/{left}{rstr:DC13}{n}________MP_._._._._._._.{rstr:E813}/{left}{rstr:E413}{n}Experience_._._._._._._._._{rstr:F413}/{left}{rstr:EC13}{n}Money_._._._._._._._._./G{leftn:02}{rstr:FC13}{end}",
+  "en": "________Level_._._._._._.{rstr:D913}{n}________HP_._._._._._._.{rstr:E013}/{left}{rstr:DC13}{n}________MP_._._._._._._.{rstr:E813}/{left}{rstr:E413}{n}Experience_._._._._._._._._{rstr:F413}/{left}{rstr:EC13}{n}Money_._._._._._._._._/G{leftn:02}{rstr:FC13}{end}",
   "block": "menu: status",
   "refs": [
    "b3 10D420"

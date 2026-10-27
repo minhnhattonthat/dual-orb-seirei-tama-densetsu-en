@@ -34,6 +34,11 @@ box; the VWF (about 5.5 px a letter) fits ~35, close to the JP line count (D4: e
   tilemap rows were lost). `vwf_nmi` replaces the NMI's `JSL $00E388` at `$00:80A9`, after the game's DMA, and
   sends <= $40-byte chunks (<= $400 a frame) while `$4212` bit 7 (vblank) is set. It re-reads `$4212` after each
   DMA: if vblank ended during it, the tail was dropped, so the entry is kept and resent next frame.
+  `vwf_idle` (hook on the NMI timer `$00:85E8`, which runs on every NMI) drains up to $1000 more: in menus the game
+  readies a frame (`$60`) only every ~5 NMIs, and its DMA (`$00:942B`) runs lines 225-254, so the `$80A9` hook alone
+  managed ~64 B a game frame and menus showed stale pool glyphs for ~130 frames. Only NMI code sets `$2116`
+  (`$00:94xx`), so the idle upload can't cut into a main-thread VRAM write. Probe: `tools/lua/nmiprof.lua` (scanline at
+  each NMI step).
 - Findings: the hook starts at scanline ~236-261 (menus ~254-257, a few lines before vblank ends), so chunks must be
   small and checked. Reading `$2137`/`$213D`/`$213F` (H/V counter latch) in the NMI hung the game at file select
   (the wait on `$60` at `$00:897B`). `enqueue` sets `$F82E` (busy) so the NMI never retires an entry mid-merge.
@@ -51,7 +56,8 @@ box; the VWF (about 5.5 px a letter) fits ~35, close to the JP line count (D4: e
 
 ## Limits (shortcuts in the asm)
 - A screen needing more than 182 VWF cells at once garbles one cell per extra cell (forced reuse).
-- Upload rate: a full screen of new cells (~130 pairs, 8 KB) takes several frames to appear (vblank is short).
+- Upload rate: a full screen of new cells (~130 pairs, 4 KB) needs one or two idle NMIs; a screen that readies a
+  game frame on every NMI only gets the ~2-line tail of each vblank.
 - Pool tiles copied by code to other WRAM and restored later would show whatever the pool holds then.
 
 ## Not pointers (guess, phase 5)

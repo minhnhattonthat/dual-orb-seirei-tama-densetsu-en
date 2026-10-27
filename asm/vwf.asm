@@ -37,7 +37,8 @@ incsrc "../build/vwf/defs.asm"
 !CHUNK    = $F824
 !BUDGET   = $F826
 !NMIBYTES = $0400         ; pool tiles uploaded per frame (32 cells), after the game's own DMA
-!CHUNKMAX = $0040         ; bytes per DMA, so one never runs far past the end of vblank
+!IDLEBYTES = $1000        ; per NMI with no game frame ready (vblank from line 225: ~6 KB of DMA)
+!CHUNKMAX = $0040        ; bytes per DMA, so one never runs far past the end of vblank
 !MEMO     = $7F8900       ; byte per cell of $7F:F000-$F7FF (offset >> 1): the pool pair it last showed, FF none
 !OWNER    = $7F8D00       ; word per pool pair (to $8E6B): the cell it was last handed to (blanked-and-redrawn rows reuse it)
 !QV       = $FA00         ; VRAM word address
@@ -54,6 +55,9 @@ assert pc() <= $00AEE0
 
 org $0080A9               ; NMI: JSL $00E388 -> upload queued tiles first
 	jsl vwf_nmi
+
+org $0085E8               ; NMI timer (every NMI, also the ones with no game frame ready): REP #$30; INC $F1
+	jsl vwf_idle
 
 org $B08000
 vwf_draw:
@@ -635,6 +639,26 @@ unpend:
 vwf_nmi:
 	php
 	rep #$30
+	lda #!NMIBYTES
+	jsr upload
+	plp
+	jml $00E388
+
+; NMI timer: menus ready a game frame only every ~5 NMIs, and the idle ones have the whole vblank free (the game's
+; DMA after line 225 left the hook ~2 lines). Only NMI code sets the VRAM address ($00:94xx), so this can't cut in.
+vwf_idle:
+	rep #$30
+	lda #!IDLEBYTES
+	jsr upload
+	rep #$30
+	inc $F1                   ; replaced: DP = 0 in the NMI
+	rtl
+
+; A = byte budget: send queued pool tiles while in vblank
+upload:
+	php
+	rep #$30
+	sta.l $7E0000+!BUDGET
 	phb
 	pea $7E7E
 	plb
@@ -662,8 +686,6 @@ vwf_nmi:
 	bne .out
 	lda.w !BUSY
 	bne .out
-	lda #!NMIBYTES
-	sta.w !BUDGET
 	bra .loop
 .out
 	jmp .done
@@ -735,7 +757,7 @@ vwf_nmi:
 	sta.l $004300
 	plb
 	plp
-	jml $00E388
+	rts
 
 init:
 	ldx #$0000

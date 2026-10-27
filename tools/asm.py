@@ -16,7 +16,7 @@ import buttons  # noqa: E402
 ASAR = ROOT / "tools" / "asar" / "asar.exe"
 SIZE = 0x200000
 # File offset ranges [lo, hi) the asm may change below the expansion banks (tests/test_vwf.py, insert.allowed)
-HOOKS = [(0x2EB6, 0x2EE0), (0x00A9, 0x00AD),  # $00:AEB6 stub, NMI JSL $00E388 -> vwf_nmi
+HOOKS = [(0x2EB6, 0x2EE0), (0x00A9, 0x00AD), (0x05E8, 0x05EC),  # $00:AEB6 stub, NMI -> vwf_nmi, NMI timer -> vwf_idle
          (0x298F, 0x2992), (0x2A30, 0x2F63), (0x5680, 0x5753),  # asm/names.asm: jump, handlers, helpers
          (0x10250F, 0x102510), (0x10F28D, 0x10F291),  # battle panel field column, save confirm cursor x
          (0x10F29E, 0x10F29F), (0x10F2CD, 0x10F2D2), (0x10F1A1, 0x10F1A5),  # file select "New Game" column, window, cursor
@@ -26,7 +26,7 @@ HOOKS = [(0x2EB6, 0x2EE0), (0x00A9, 0x00AD),  # $00:AEB6 stub, NMI JSL $00E388 -
          (0x10A22F, 0x10A235), (0x10A375, 0x10A3E3), (0x10B324, 0x10B336), (0x10B568, 0x10B56A),
          (0x10B5F1, 0x10B5F2), (0x10B60C, 0x10B6E0), (0x10B8FF, 0x10B901), (0x10BCB4, 0x10BCB6),
          (0x10B91D, 0x10B91E), (0x10B990, 0x10B991), (0x10BACE, 0x10BACF), (0x10BDC5, 0x10BDC6),
-         (0x10BF4F, 0x10BF88),
+         (0x10BF4F, 0x10BF88), (0x0804C7, 0x0804C9),  # ... place-name label width
          # menus.asm town picker: index math, scroll/page/column limits, name cells, cursor brackets
          (0x10ACF3, 0x10ACF8), (0x10AE90, 0x10AE95), (0x10AEC0, 0x10AEC5), (0x10BD7C, 0x10BD81),
          (0x10ADEF, 0x10ADF0), (0x10AE30, 0x10AE31), (0x10AE22, 0x10AE23), (0x10AFCB, 0x10AFCC),

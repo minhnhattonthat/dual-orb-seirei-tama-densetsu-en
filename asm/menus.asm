@@ -4,6 +4,8 @@
 
 org $21BF4F               ; prompt box x16 y8 w96 h32 -> the panel's rectangle (drawn as one window)
 	dw $0008,$0008,$00F0,$0038
+org $1084C7               ; place-name label ($10:8486, text from x16): w80 -> 136 for the longest name (119 px)
+	dw $0088                ; shortcut: one width for every name; size it to the name if short ones look boxed-in
 org $21BF82               ; info panel x120 w120 -> x8 w240
 	dw $0008
 org $21BF86
