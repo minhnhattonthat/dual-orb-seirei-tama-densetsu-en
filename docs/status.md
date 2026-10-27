@@ -76,7 +76,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
     `sheet*.png`): EN `--rom build/dual_orb_en.sfc --out work/qa/tour --states work/states/en`, JP `--out
     work/qa/tour_jp`; delete the top-level `sheet*.png` overview before `qa_gate.py init work/qa/manifest.tsv
     work/qa/tour --glob "sheet*.png"`. Brief `docs/visual-qa-brief.md`; chunks 000-010 dispatched (312 sheets),
-    verdicts in `work/qa/verdicts/` (009 may still be missing: re-run `qa_gate.py todo`). Battle buttons (G6) now
+    verdicts in `work/qa/verdicts/`. Battle buttons (G6) now
     ATTACK/AUTO/FLEE (`asm/buttons.asm`, `tools/buttons.py`, `gfx/buttons.txt`). Story-so-far reachable: scenes
     `story00-17` (warp `story = n`: new game takes the load path `$21:EE80` -> `$0C:DB4F`, piece forced at
     `$0C:DBE1`); all 18 fit (checked by eye), not yet in the manifest.
@@ -95,6 +95,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
   5. Stray "." in money: battle_win "284./G", menu_status "0./G" (JP "284/G").
   6. intro f000900: one frame of raster garbage as the crawl starts (crawl.asm setup?).
   7. "Aleitos House" -> "Aleitos's House" (names.json:1885, glossary note).
+  8. shop_buy (money 9999): help line "Restores HP +" then junk where "80" belongs; shop_item (0 G) is fine, so the
+     money digits likely take the help line's pool cells. Shops' fade-in frame (~f660) also shows junk (= issue 1).
+  9. Minor: no space after the colon in shop/equip help lines ("Knife:A knife"); the original has none either.
+  Verdicts: all 11 chunks returned (`work/qa/verdicts/chunk_000-010.tsv`).
   Then: re-tour changed scenes, `qa_gate.py init` + todo for the re-hashed and story sheets, recheck verdicts,
   `qa_gate.py check` exit 0; graphics static sweep (graphics.md); polish pass (`docs/polish.md`).
 - **Risks:** other `find_lists` refs may be false like `$13:E69B` (only those read by the map loader `$0C:B40A` are
