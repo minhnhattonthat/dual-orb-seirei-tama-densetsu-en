@@ -64,6 +64,12 @@ def wrap(text, px=BOX_PX, lines=LINES):
     """-> (wrapped text, problems). Problems: a word wider than the box."""
     out, bad, cur, n_lines = [], [], "", 1
     for part in re.split(r"(\{(?:n|fe|end|f0|f1|fa)\})", text):
+        if part == "{f0}" and cur:  # yes/no goes on its own line: its cursor sits at fixed cells 1 and 5
+            out.append(cur)
+            cur = ""
+            n_lines += 1
+            out.append("{fe}" if n_lines > lines else "{n}")
+            n_lines = 1 if n_lines > lines else n_lines
         if part == "{n}" or part in PAGE_END:
             out.append(cur)
             cur = ""

@@ -19,5 +19,10 @@ def test_forced_breaks_start_new_page_after_three_lines():
     assert wrap.wrap("a{n}b{n}c{n}d{end}")[0] == "a{n}b{n}c{fe}d{end}"
 
 
+def test_yes_no_gets_own_line():
+    assert wrap.wrap("a{f0}{end}")[0] == "a{n}{f0}{end}"
+    assert wrap.wrap("a{n}b{n}c{f0}{end}")[0] == "a{n}b{n}c{fe}{f0}{end}"
+
+
 def test_overwide_word_reported():
     assert wrap.wrap("W" * 40 + "{end}")[1]

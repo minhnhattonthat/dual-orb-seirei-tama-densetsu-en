@@ -98,7 +98,15 @@ Updated at the end of every session. Keep it to what the next session needs; his
     2026-10-27 (10): polish pass applied (`docs/polish.md`, skips noted there: width/lint limits). Info-line colon
     space: code $60 "：" (colon + word space, 7 px) written by `$01:A002/AEA5/BC6B` (shops etc.) and the equip
     template `$21:CFB8` (MVN to `$028C`); found with regwrites on `$7E028C` (bank-$00 range misses long writes).
+    2026-10-27 (11): real church save/load in play (no warp) passes: Nakush church save, power cycle, file select
+    clean, load back in church (`work/playtest/church-save/record1.srm` = a clean save by the priest). Fixed: yes/no
+    `{f0}` (291 entries) lost the JP `{n}` before it, so the choice joined the question line and its fixed-cell cursor
+    (cells 1, 5) erased glyphs; `wrap.py` now gives `{f0}` its own line (checked in play, `work/playtest/yn`).
+    Warps home/ending_lab/final_boss/gameover reach their targets at 2600 frames (tour cut them short).
 - **Next (phase 8):**
+  0. Playtest leftovers: file-select/save-slot face icon covers "1" of "Record 1"; church Save/Revive stray right
+     bracket at x~232 (fixed x, JP item wider); "Leech the Leech appeared!" (check vs JP); one-frame "Re:ord 3"
+     after saving; Larzes lines stiff / "Panje" quote punctuation inconsistent.
   2. (done) Polish pass (`docs/polish.md`; includes the info-line colon space).
   3. Playtest a real save at a church (church_saved risk above). QA noted scenes ending_lab, final_boss, home,
      gameover never show their target (Aleitos's House / lab / overworld / goblin battle): check their warps.
