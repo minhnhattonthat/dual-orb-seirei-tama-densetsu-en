@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8 (QA) done 2026-10-27; phase 9 (release) next.
+- **Phase:** 9 (release) done 2026-10-27: v1.0 published.
   `tools/build.py` builds VWF + script (`--marker` for the marker build, `--identity` for the byte-identical ROM).
 - **Done:**
   - Step 0: MesenCE 2.2.1 in `tools/mesen/`, guard hook verified (blocks `sed -i`), pre-commit runs `tools/check.py`
@@ -107,8 +107,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
     Full EN re-tour, round r4 (verdicts `r4_chunk_000-010`, `r5_main`), `qa_gate.py check` exit 0. Fixed: shop
     Clothes description touched the box edge (shortened). Tour is not deterministic run to run (fades, blinking
     cursor/ATTACK flash change pixels), so a re-tour marks ~90% of sheets changed: re-review is the rule anyway.
-- **Next (phase 9):** `tools/release.py` (patch + verify, `jp_left.py`, debug tool off, README hashes); never
-  publish without the user. Not checked: one-frame "Re:ord 3" flash after saving (now "File"), the one-frame
+  - Phase 9: `tools/release.py` (build, check, smoke, jp_left on the dialogue banks with `tools/jp_known.txt`,
+    qa gate, checksum, BPS re-applied, zip; README template `docs/README.release.txt`). v1.0 published 2026-10-27
+    on github.com/minhnhattonthat/dual-orb-seirei-tama-densetsu-en (user's request).
+- **Next:** player bug reports (GitHub issues). Not checked: one-frame "Re:ord 3" flash after saving (now "File"), the one-frame
   "branc?es" redraw in menu_item_long2 (final frame clean).
 - **Risks:** other `find_lists` refs may be false like `$13:E69B` (only those read by the map loader `$0C:B40A` are
   proven; probe: `work/tmp_refs.lua` idea, log reads of each ref site). Shadow `$7E:E000` is free in the scenes

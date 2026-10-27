@@ -1,0 +1,5 @@
+090003 dialogue bank $12 pointer table (xx 80 words), not text
+0A8000 dialogue bank $15 pointer table
+0A8005 dialogue bank $15 pointer table
+0A801B dialogue bank $15 pointer table
+0A8041 dialogue bank $15 pointer table
