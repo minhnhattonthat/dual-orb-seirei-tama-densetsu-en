@@ -64,7 +64,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
     scroll and the pick lands where the original's same index does (`menu_magic_town/_town2`, `telepiam_go`).
     Visited towns: byte per town `$7FD01C+n`. Fixed "Use it on whom?" (21:B393) padding that erased the spell icon
     frame; its clear string 21:B39E now 12 cells (`menu_magic_whom/_whom_back`). Probe `tools/lua/calls.lua`
-    (log reaches of any ADDR).
+    (log reaches of any ADDR). `warp_all.py` 131/131 ok.
 - **Next (phase 7 rest):**
   - Battle target/magic/item selection lists; intro crawl re-check. `romdiff.py` with allowed ranges. Then
   phase 8 (QA tours + visual-QA gate) and the polish pass (`docs/polish.md`). Battle command buttons
