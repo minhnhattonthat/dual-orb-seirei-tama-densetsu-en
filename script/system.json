@@ -2498,7 +2498,7 @@
  {
   "id": "21:F73B",
   "jp": "きろく1{pos:1107}きろく2{pos:0211}きろく3{pos:1111}きろく4{end}",
-  "en": "Record 1{pos:1107}Record 2{pos:0211}Record 3{pos:1111}Record 4{end}",
+  "en": "File 1{pos:1107}File 2{pos:0211}File 3{pos:1111}File 4{end}",
   "block": "save menu",
   "refs": [
    "b3 10F324"
@@ -2507,7 +2507,7 @@
  {
   "id": "21:F755",
   "jp": "きろく{str:0002} で よろしいですか？      はい いいえ{fa}",
-  "en": "Record {str:0002}. Is that all right?___Yes_No{fa}",
+  "en": "File {str:0002}. Is that all right?______Yes_No{fa}",
   "block": "save menu",
   "refs": [
    "b3 10F1DB"
