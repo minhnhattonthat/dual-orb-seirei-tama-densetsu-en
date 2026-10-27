@@ -5,6 +5,7 @@
 --   KEYS='6 x;60 -'  replace the keys    STEP=42   cutscene step ($1C45)   SCRIPT=0xED35  spawn an event script
 --   MODE=4 SHOP=2    field sub-mode       GOD=1     party never wipes       STATS=255      set the combat stats
 --   WARP_STOP=1      stop at "ready": shot warp.png, WARP_STATE=[[abs path]] saves a state there first
+--   TOUR=1           also shot f<frame>.png every 30 frames until "ready" (warp_all.py --tour)
 -- Logs "warp: ready" once the scene's keys are done, then "warp: check ok|FAIL" (field map pointer $E3 == scene
 -- map). Addresses and how they were found: docs/re/debug.md.
 local mem = emu.memType.snesMemory
@@ -103,7 +104,11 @@ L.on_frame(function(f)
     end
     if WARP_STOP then
       L.shot("warp.png")
+      if TOUR then L.shot(string.format("f%06d.png", f)) end
       if WARP_STATE then L.save_state(WARP_STATE, function() L.finish(0) end) else L.finish(0) end
     end
   end
 end)
+if TOUR then
+  L.on_frame(function(f) if stage ~= "ready" and f % 30 == 0 then L.shot(string.format("f%06d.png", f)) end end)
+end

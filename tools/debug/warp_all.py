@@ -1,6 +1,6 @@
 """Warp to every scene in scenes.lua: shot + savestate per scene, one contact sheet, pass/fail per scene.
 
-    python -X utf8 tools/debug/warp_all.py [--rom ROM] [--jobs 4] [scene ...]
+    python -X utf8 tools/debug/warp_all.py [--rom ROM] [--jobs 4] [--tour] [scene ...]
 
 Writes work/qa/warp_all/<scene>/ (log.txt, warp.png), work/states/<scene>.mss and work/qa/warp_all/sheet.png.
 A scene fails when the run errors, never logs "warp: ready", or logs "warp: check FAIL".
@@ -26,14 +26,17 @@ def scene_names(text):
     return re.findall(r"(\w+)\s*=", body)
 
 
-def run(rom, name, out, states):
+def run(rom, name, out, states, tour=False):
     d = out / name
     state = states / f"{name}.mss"
     cmd = [sys.executable, "-X", "utf8", str(SKILL / "scripts/emu.py"), rom, "--out", str(d),
            "--script", str(DEBUG / "scenes.lua"), "--script", str(DEBUG / "warp.lua"),
            "--var", f"SCENE='{name}'", "--var", "WARP_STOP=1", "--var", f"WARP_STATE=[[{state}]]",
-           "--frames", str(LONG.get(name, 9000))]
+           "--frames", str(LONG.get(name, 9000))] + (["--var", "TOUR=1"] if tour else [])
     p = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True)
+    if tour:  # full-size frames, unchanged ones dropped: one tour sheet (or several pages) per scene
+        subprocess.run([sys.executable, str(SKILL / "scripts/sheet.py"), str(d), "--changed", "0.02", "--div", "1",
+                        "--max", "12", "--out", str(d / "sheet.png")], cwd=ROOT, capture_output=True)
     log = (d / "log.txt").read_text(encoding="utf-8", errors="replace") if (d / "log.txt").exists() else ""
     ok = p.returncode == 0 and "warp: ready" in log and "check FAIL" not in log
     why = "" if ok else (f"exit {p.returncode}" if p.returncode else "not ready" if "warp: ready" not in log
@@ -47,6 +50,7 @@ def main():
     ap.add_argument("--jobs", type=int, default=4)
     ap.add_argument("--out", default=str(ROOT / "work/qa/warp_all"), help="shots and logs (other builds: elsewhere)")
     ap.add_argument("--states", default=str(ROOT / "work/states"), help="savestates (default: the original-ROM set)")
+    ap.add_argument("--tour", action="store_true", help="shots every 30 frames + <scene>/sheet*.png (visual QA)")
     ap.add_argument("scenes", nargs="*")
     a = ap.parse_args()
     names = scene_names((DEBUG / "scenes.lua").read_text(encoding="utf-8"))
@@ -59,8 +63,8 @@ def main():
     srm = ROOT / "tools/mesen/Saves" / (Path(a.rom).stem + ".srm")
     srm.unlink(missing_ok=True)
     with ThreadPoolExecutor(a.jobs) as ex:
-        results = list(ex.map(lambda n: run(a.rom, n, out, states), [n for n in names if n not in SAVES]))
-    results += [run(a.rom, n, out, states) for n in names if n in SAVES]
+        results = list(ex.map(lambda n: run(a.rom, n, out, states, a.tour), [n for n in names if n not in SAVES]))
+    results += [run(a.rom, n, out, states, a.tour) for n in names if n in SAVES]
     srm.unlink(missing_ok=True)
     for name, ok, why in results:
         print(f"{'ok  ' if ok else 'FAIL'} {name} {why}")

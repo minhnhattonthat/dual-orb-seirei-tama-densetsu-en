@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 import font  # noqa: E402
 import namechart  # noqa: E402
+import buttons  # noqa: E402
 
 ASAR = ROOT / "tools" / "asar" / "asar.exe"
 SIZE = 0x200000
@@ -31,7 +32,8 @@ HOOKS = [(0x2EB6, 0x2EE0), (0x00A9, 0x00AD),  # $00:AEB6 stub, NMI JSL $00E388 -
          (0x10ADEF, 0x10ADF0), (0x10AE30, 0x10AE31), (0x10AE22, 0x10AE23), (0x10AFCB, 0x10AFCC),
          (0x10AF27, 0x10AF28), (0x10AE50, 0x10AE51), (0x10AF6B, 0x10AF83), (0x10AEEE, 0x10AF06),
          (0x10AED1, 0x10AED3),
-         (0x065673, 0x06568D)]  # crawl.asm: intro crawl page command -> crawl_page / crawl_tick
+         (0x065673, 0x06568D),  # crawl.asm: intro crawl page command -> crawl_page / crawl_tick
+         (0x000AEE, 0x000AF2)]  # buttons.asm: unpacker entry -> btn_unpack
 NAME_ARRAYS = (0x3422, 0x5680)  # pointer arrays rewritten by insert.names_far (strings now in bank $3F)
 
 
@@ -40,6 +42,7 @@ def patch(rom: bytes, asm=ROOT / "asm" / "vwf.asm") -> bytes:
         sys.exit(f"{ASAR} missing: unzip asar191.zip from github.com/RPGHacker/asar/releases (v1.91) there")
     font.build(rom)
     namechart.build()
+    buttons.build()
     with tempfile.TemporaryDirectory() as tmp:
         p = Path(tmp) / "rom.sfc"
         p.write_bytes(rom.ljust(SIZE, b"\xff"))

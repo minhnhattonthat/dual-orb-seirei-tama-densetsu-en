@@ -11,7 +11,7 @@ Every Japanese element drawn as tiles rather than through the text engine. Statu
 | G3 | File select | `はじめから`, `きろく1-4` | font (text engine) | yes | text, not graphics (find strings) |
 | G4 | Nursery / school sign | 6 glyphs + 5 small marks | map tileset | no: a fictional script, not kana/kanji | leave |
 | G5 | Dialogue box | frame, `▼` page arrow | font codes 2F/30 | no | none |
-| G6 | Battle (warp `battle`, `boss00`) | buttons `アタック` `オートバトル` `にげる` | guess: graphic tiles (orange on striped grey, not the font) | yes | redraw as English tiles (find in VRAM, phase 5) |
+| G6 | Battle (warp `battle`, `boss00`) | buttons `アタック` `オートバトル` `にげる` | 4bpp sprites (palette 2), compressed block `$29:EE12` unpacked to `$7E:8000` by `$00:8AEE` (format not decoded) | done | ATTACK / AUTO / FLEE: `asm/buttons.asm` hooks the unpacker and copies `gfx/buttons.txt` (`tools/buttons.py`) over the Japanese tiles; verified cold boot (`work/qa/g6en`) |
 | G6b | Battle | `HP` `TP` labels, digits, messages (`〜が あらわれた`, `ダメージをあたえた!!`) | messages font; HP/TP Latin | messages yes | messages as text |
 | G7 | Field menu (Y/B; warp `menu*`) | `まほう` `アイテム` `そうび` `ステータス` `コンフィグ` `ほうがく`, status/equip/config labels | font (same glyphs as dialogue) | yes | text; find strings |
 | G8 | Shops, inn, save (warp `shop_*`, `inn`, `save`, `exchange`) | headers, `D/G` price column, item names | font | yes | text |

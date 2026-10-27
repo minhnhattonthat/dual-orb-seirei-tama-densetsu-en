@@ -777,4 +777,6 @@ assert pc() <= $B0D000
 incsrc "names.asm"
 incsrc "namechart.asm"
 incsrc "crawl.asm"
+incsrc "buttons.asm"
+assert pc() <= $B0FFFF
 incsrc "menus.asm"
