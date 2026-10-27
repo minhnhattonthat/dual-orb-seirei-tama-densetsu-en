@@ -1952,7 +1952,7 @@
  {
   "id": "20:FC6C",
   "jp": "ぼうけんのきろく{n}ししゃのふっかつ{end}",
-  "en": "Save{n}Revive{end}",
+  "en": "Save Game{n}Revive Allies{end}",
   "block": "church",
   "refs": [
    "b3 10791B"
