@@ -11,6 +11,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 import asm  # noqa: E402
 import check_rom  # noqa: E402
 import insert  # noqa: E402
+import romdiff  # noqa: E402
 from maps import ROM, off  # noqa: E402
 from textmap import layout, scan  # noqa: E402
 
@@ -51,5 +52,8 @@ if __name__ == "__main__":
     path.parent.mkdir(exist_ok=True)
     path.write_bytes(out)
     print(path.relative_to(ROOT), hashlib.sha1(out).hexdigest(), "identical" if out == orig else "patched")
+    errs, _ = romdiff.check(orig, out, insert.allowed(orig), [])
+    if errs:
+        sys.exit("romdiff: changes outside the allowed ranges (insert.allowed):\n" + "\n".join(errs))
     if insert.LONG:
         print(f"{len(insert.LONG)} in-place entries too long, left Japanese until phase 7: {' '.join(insert.LONG[:12])}")

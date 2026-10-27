@@ -43,6 +43,8 @@ box; the VWF (about 5.5 px a letter) fits ~35, close to the JP line count (D4: e
   since (`!MEMO` byte per cell of the top screen `$7F:F000-$F7FF` at `$7F:8900`, `!OWNER` word per pair at
   `$7F:8D00`; `$7F:8900-$8FFF` is never written in 9 scenes, `tools/lua/wramuse.lua`): the battle panel blanks and
   redraws its row every 3 frames, and fresh pairs each time left the VRAM uploads behind (stale text, phase 7).
+  A cell below the top screen (`.plain`) also records itself as the pair's owner, else a top-screen cell's memo took
+  back a pair a bottom-half cell still showed (intro crawl, page 4 over page 3).
 - Allocation is round-robin; when no pair is free, a sweep of `$7F:F000-$FFFF` frees pairs no cell shows.
 - FastROM: code in `$B0`, writes `$420D = 1` on entry (the game's own banks are $00-$3F, unaffected).
 - Unknown codes (kana) render as a hollow box (tofu), so leftover Japanese is visible.

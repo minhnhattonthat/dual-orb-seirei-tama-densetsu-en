@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7 (insert, fit) in progress 2026-10-27: relocation done, menus fitted (field item/magic panels done).
+- **Phase:** 7 (insert, fit) done 2026-10-27; phase 8 (QA) next.
   `tools/build.py` builds VWF + script (`--marker` for the marker build, `--identity` for the byte-identical ROM).
 - **Done:**
   - Step 0: MesenCE 2.2.1 in `tools/mesen/`, guard hook verified (blocks `sed -i`), pre-commit runs `tools/check.py`
@@ -65,10 +65,17 @@ Updated at the end of every session. Keep it to what the next session needs; his
     Visited towns: byte per town `$7FD01C+n`. Fixed "Use it on whom?" (21:B393) padding that erased the spell icon
     frame; its clear string 21:B39E now 12 cells (`menu_magic_whom/_whom_back`). Probe `tools/lua/calls.lua`
     (log reaches of any ADDR). `warp_all.py` 131/131 ok.
+    2026-10-27 (5): battle lists ok (scene `battle_party`: Theo + every item; panel = down, A on a member, commands
+    cycle with right; magic/item grids show name/description/MP or count fine; targeting has no text). Intro crawl
+    fixed (`asm/crawl.asm`, `docs/re/text.md` §Intro crawl): pages printed whole overflowed the VWF pool (183-260
+    cells vs 182); now a line at a time as it nears the screen, rows above the window blanked. VWF fix: bottom-half
+    cells record `!OWNER` (a top cell's memo stole a shown pair). `build.py` now fails on any change outside
+    `insert.allowed()` (romdiff; hook list moved to `asm.HOOKS`). Probes `tools/lua/{regwrites,hdma,crawllog}.lua`.
+    EN savestates for play sessions: `warp_all.py --rom build/dual_orb_en.sfc --states work/states/en`.
 - **Next (phase 7 rest):**
-  - Battle target/magic/item selection lists; intro crawl re-check. `romdiff.py` with allowed ranges. Then
-  phase 8 (QA tours + visual-QA gate) and the polish pass (`docs/polish.md`). Battle command buttons
-  (アタック/オートバトル/にげる) are graphics: phase 8 graphics list.
+  - Phase 7 done-when met (lint clean, codes matched, romdiff gate). Next: phase 8 (QA tours + visual-QA gate) and
+  the polish pass (`docs/polish.md`). Battle command buttons (アタック/オートバトル/にげる) are graphics: phase 8
+  graphics list. Story-so-far screen not reached yet (VWF cell count unchecked, see text.md).
 - **Risks:** other `find_lists` refs may be false like `$13:E69B` (only those read by the map loader `$0C:B40A` are
   proven; probe: `work/tmp_refs.lua` idea, log reads of each ref site). Shadow `$7E:E000` is free in the scenes
   measured, not proven everywhere. A full screen of new VWF cells takes a few frames to appear.

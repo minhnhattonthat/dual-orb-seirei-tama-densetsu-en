@@ -119,6 +119,18 @@ is unchanged.
   whole to bank `$3E`; a piece ending in FA gets a jump back to the next piece (menus read on past FA). Address
   bytes avoid 00/FA/FF (battle code inserts names at 00). Dialogue overflow banks are now $31-$3D.
 
+## Intro crawl (phase 7, `asm/crawl.asm`, verified in game: `work/qa/intro`)
+- Loop `$0C:D3E9`, time `$26` (+1 a pass), event table `$0C:D45D` (5 bytes: time word, cmd, `$22`, `$24`; FFFF
+  ends). Cmd 1 = page `$24` (pointers `$0C:D696`, 4 pages of 16 lines) at BG3 map row `$22` (0 or $20 = one half
+  of the 32x64 map): the game cleared the half (`$D69E`) and printed the page whole through `$00:A8BF`.
+- BG3 V-scroll `$0D9C` (NMI -> `$2112`); HDMA ch0 on `$212C` shows BG3 only on lines 112-207 (ch1 `$2132` fades the
+  edges). Dirty-row table `$0A67 + row*2` (DEC marks a BG3 map row for upload; `$00:AF1C` marks a box's rows).
+- An English page is 183-260 VWF cells (pool 182) and the other half still held the last page: lines came out
+  shifted/garbled. Now cmd 1 only queues the page (follows the `{jump}` stub); every pass prints the next line
+  (copied to `$7F:EE80`, A8BF's setup with a 2-row box) once it is < 240 px below the scroll, and blanks the map row
+  at screen y 64 (above the window) so the sweep frees its cells. Vars `$7F:EEF0-$EEF7`. Probe `tools/lua/crawllog.lua`.
+- Story-so-far (pieces `$0C:DCF6-$DFAC`) is another screen; not reached yet, so its cell count is unchecked.
+
 ## Free space (FF runs at bank ends, candidates only; trap-test before use)
 $0F:E531 (6.8K), $11:F7AD (2.1K), $12:F22E (3.5K), $15:FC88 (0.9K), $0D:F279 (3.4K), $01:F746 (2.2K),
 $1D:F74B (2.2K), $25:F920 (1.7K), $29:FA17 (1.5K), $20:FD5E (0.7K), $21:FCBF (0.8K), $0C:FDC5 (0.6K).

@@ -29,6 +29,10 @@ for a = 0x7FD01C, 0x7FD038, 2 do TOWNS[a] = 0x0101 end
 local function menu(n) return "6 y;40 -;" .. string.rep("6 down;14 -;", n) .. "6 a;90 -;6 a;90 -" end
 -- Battles: $7FD796 = $FFFF starts one at the next field step ($0C:C018). Boss n: $7FD7B0 = $8000|n ($21:8000).
 -- Normal: background $7FCE78, formation $7FCE7A ($21:80E2 rolls these for random encounters).
+-- battle with Theo (all spells) and one of every item; Ralph's panel: down, A; commands cycle with right
+local BPARTY = { [0x7FCE78] = 7, [0x7FCE7A] = 0, [0x7FD7B0] = 0x000E, [0x7FD796] = 0xFFFF }
+for a, v in pairs(THEO) do BPARTY[a] = v end
+for a = 0x0F3B, 0x0F59, 2 do BPARTY[a] = 0x0101 end
 local function boss(n) return at(HOME, { pokes = { [0x7FD7B0] = 0x8000 | n, [0x7FD796] = 0xFFFF }, keys = "600 -" }) end
 local function shop(mode, id) return at(HOME, { pokes = { [0x7FD7AE] = id or 0, [0x7FD7AC] = 0x8000 | mode }, keys = "300 -" }) end
 
@@ -87,6 +91,7 @@ SCENE_LIST = {
   -- battles
   battle = { map = 0x13A371, x = 0x2E, y = 0x80, keys = "600 -",
              pokes = { [0x7FCE78] = 7, [0x7FCE7A] = 0, [0x7FD7B0] = 0x000E, [0x7FD796] = 0xFFFF } },
+  battle_party = { map = 0x13A371, x = 0x2E, y = 0x80, keys = "600 -", pokes = BPARTY },
   battle_win = at(HOME, { pokes = { [0x7FD7B0] = 0x8000, [0x7FD796] = 0xFFFF }, god = true, stats = 255,
                           keys = mash(40, 114), nocheck = true }),
   gameover = at(HOME, { pokes = { [0x7FD7B0] = 0x8000, [0x7FD796] = 0xFFFF }, keys = mash(8, 114) }),

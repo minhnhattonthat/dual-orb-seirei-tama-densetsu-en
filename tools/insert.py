@@ -17,6 +17,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
+import asm  # noqa: E402
 import batches  # noqa: E402
 import font  # noqa: E402
 import names  # noqa: E402
@@ -223,6 +224,16 @@ def insert(rom, mode="en"):
                 new = fit(new, m["data"], e["id"])
             d[m["off"]:m["off"] + len(new)] = new
     return bytes(d)
+
+
+def allowed(orig):
+    """File offsets a build may change: asm hooks, name pointer arrays, the text banks, map entry pointers, system
+    pieces and the expansion banks $30-$3F. build.py fails on a change anywhere else (tools/romdiff.py)."""
+    banks, refs = textmap.scan(orig)
+    rs = asm.HOOKS + [asm.NAME_ARRAYS, (0x180000, asm.SIZE)]
+    rs += [(off(b, 0x8000), off(b, 0x8000) + 0x8000) for b in banks] + [(i, i + 3) for i in refs]
+    rs += [(m["off"], m["off"] + len(m["data"])) for m in items(orig)["system.json"]]
+    return {i for lo, hi in rs for i in range(lo, hi)}
 
 
 def names_far(d, orig, es, mode, widths):

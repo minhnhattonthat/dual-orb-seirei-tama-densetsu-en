@@ -334,8 +334,8 @@ getpair:
 	sta.w !USED,x
 	rep #$20
 	lda.w !TILE
-	bra .have
-.alloc                     ; the cell shows no pool pair (e.g. its row was blanked): the pair it showed last, if
+	brl .have
+.alloc                    ; the cell shows no pool pair (e.g. its row was blanked): the pair it showed last, if
 	lda.w !CELLX              ; no other cell has been handed it since, else a free one (top 32x32 screen only)
 	and #$0FFF
 	cmp #$0800
@@ -386,6 +386,14 @@ getpair:
 .plain
 	jsr alloc
 	sta.w !TILE
+	tax                       ; claim it, so no top-screen cell's memo takes it back while this cell shows it (crawl)
+	lda.l vwf_tilepair,x
+	and #$00FF
+	asl
+	tax
+	lda.w !CELLX
+	sta.l !OWNER,x
+	lda.w !TILE
 .have
 	jsr clearpair
 	ldx.w !CELLX
@@ -768,4 +776,5 @@ assert pc() <= $B0D000
 
 incsrc "names.asm"
 incsrc "namechart.asm"
+incsrc "crawl.asm"
 incsrc "menus.asm"

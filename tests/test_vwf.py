@@ -19,23 +19,7 @@ import textmap  # noqa: E402
 from maps import off, w16  # noqa: E402
 
 ORIG = ROM.read_bytes()
-HOOKS = [(0x2EB6, 0x2EE0), (0x00A9, 0x00AD),  # $00:AEB6 stub, NMI JSL $00E388 -> vwf_nmi
-         (0x298F, 0x2992), (0x2A30, 0x2F63), (0x5680, 0x5753),  # asm/names.asm: jump, handlers, helpers
-         (0x10250F, 0x102510), (0x10F28D, 0x10F291),  # battle panel field column, save confirm cursor x
-         (0x10F29E, 0x10F29F), (0x10F2CD, 0x10F2D2), (0x10F1A1, 0x10F1A5),  # file select "New Game" column, window, cursor
-         (0x10E623, 0x10E625), (0x10E719, 0x10E71B), (0x10E739, 0x10E73D), (0x10E985, 0x10E98B),  # namechart.asm
-         # menus.asm: magic underlines + description, window records, item icon x/frame, underlines + strings,
-         # icon x (whom/town), prompt columns, item window records
-         (0x10A22F, 0x10A235), (0x10A375, 0x10A3E3), (0x10B324, 0x10B336), (0x10B568, 0x10B56A),
-         (0x10B5F1, 0x10B5F2), (0x10B60C, 0x10B6E0), (0x10B8FF, 0x10B901), (0x10BCB4, 0x10BCB6),
-         (0x10B91D, 0x10B91E), (0x10B990, 0x10B991), (0x10BACE, 0x10BACF), (0x10BDC5, 0x10BDC6),
-         (0x10BF4F, 0x10BF88),
-         # menus.asm town picker: index math, scroll/page/column limits, name cells, cursor brackets
-         (0x10ACF3, 0x10ACF8), (0x10AE90, 0x10AE95), (0x10AEC0, 0x10AEC5), (0x10BD7C, 0x10BD81),
-         (0x10ADEF, 0x10ADF0), (0x10AE30, 0x10AE31), (0x10AE22, 0x10AE23), (0x10AFCB, 0x10AFCC),
-         (0x10AF27, 0x10AF28), (0x10AE50, 0x10AE51), (0x10AF6B, 0x10AF83), (0x10AEEE, 0x10AF06),
-         (0x10AED1, 0x10AED3)]
-NAME_ARRAYS = (0x3422, 0x5680)  # pointer arrays rewritten by insert.names_far (strings now in bank $3F)
+HOOKS, NAME_ARRAYS = asm.HOOKS, asm.NAME_ARRAYS
 
 
 def hooked(i, arrays=False):
@@ -81,6 +65,16 @@ def test_en_dialogue_reaches_wrapped_english(engine):
     assert seen == 40
 
 
+def test_build_changes_only_allowed_ranges(engine):
+    import romdiff
+    ok = insert.allowed(ORIG)
+    out = insert.insert(engine, "en")
+    assert romdiff.check(ORIG, out, ok, [])[0] == []
+    bad = bytearray(out)
+    bad[0x7FC0] ^= 1  # header title: outside every range
+    assert romdiff.check(ORIG, bytes(bad), ok, [])[0]
+
+
 def test_marker_build_reaches_markers(engine):
     out = insert.insert(engine, "marker")
     banks, refs = textmap.scan(ORIG)
@@ -114,6 +108,14 @@ def test_namechart_sites_match_original():
     assert at(0xE981, 10) == "547f7eabadd31309e0ff"
     grid = namechart.build()
     assert len(grid) == 270 and grid.count(0x3F) == 270 - 3 * 40 + 20  # 4 rows a page; symbols page has 2
+
+
+def test_crawl_site_matches_original():
+    """asm/crawl.asm rewrites $0C:D673-$D695 (cmd 1: clear half, print page $24 at row $22); the table at $D696 stays."""
+    o = off(0x0C, 0xD673)
+    assert ORIG[o:o + 0x23].hex() == "a520c90100f00160209ed6a5240aaabd96d6" \
+                                      "85b3a90c0085b5a20400a42222bfa80060"
+    assert [w16(ORIG, off(0x0C, 0xD696) + 2 * i) for i in range(4)] == [0xD6CD, 0xD7E3, 0xD8AE, 0xD9A6]
 
 
 def test_names_hook_sites_match_original():
