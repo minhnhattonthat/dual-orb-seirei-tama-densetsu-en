@@ -104,9 +104,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
     (cells 1, 5) erased glyphs; `wrap.py` now gives `{f0}` its own line (checked in play, `work/playtest/yn`).
     Warps home/ending_lab/final_boss/gameover reach their targets at 2600 frames (tour cut them short).
 - **Next (phase 8):**
-  0. Playtest leftovers: file-select/save-slot face icon covers "1" of "Record 1"; church Save/Revive stray right
-     bracket at x~232 (fixed x, JP item wider); "Leech the Leech appeared!" (check vs JP); one-frame "Re:ord 3"
-     after saving; Larzes lines stiff / "Panje" quote punctuation inconsistent.
+  0. Playtest leftovers done: slots "File n" (icon cleared; confirm line padded so (Yes)/No brackets fit),
+     church menu "Save Game / Revive Allies" fills the brackets, Panje unquoted everywhere (glossary).
+     "Leech the Leech" is the JP name リ―チザリ―チ (kept). Not checked: one-frame "Re:ord 3" flash after saving.
   2. (done) Polish pass (`docs/polish.md`; includes the info-line colon space).
   3. Playtest a real save at a church (church_saved risk above). QA noted scenes ending_lab, final_boss, home,
      gameover never show their target (Aleitos's House / lab / overworld / goblin battle): check their warps.

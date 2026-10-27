@@ -542,7 +542,7 @@
  {
   "id": "EC:33",
   "jp": "「パンジェ」{end}",
-  "en": "\"Panje\"{end}"
+  "en": "Panje{end}"
  },
  {
   "id": "EC:34",
@@ -607,7 +607,7 @@
  {
   "id": "EC:40",
   "jp": "「パンジェ」の{end}",
-  "en": "of the \"Panje\"{end}"
+  "en": "of the Panje{end}"
  },
  {
   "id": "EC:41",
