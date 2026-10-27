@@ -1,0 +1,12 @@
+# with --sav work/states/record1.srm (scene church_saved): file select -> Record 1 -> story so far
+600 -
+6 start
+600 -
+6 start
+300 -
+6 start
+300 -
+6 down
+30 -
+6 a
+900 -

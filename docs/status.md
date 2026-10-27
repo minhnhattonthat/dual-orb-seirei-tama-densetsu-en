@@ -41,15 +41,30 @@ Updated at the end of every session. Keep it to what the next session needs; his
     Name entry (rename screen = sub-mode 3, scenes `rename`/`name_entry`): English chart ABC/abc/symbols, 4 rows a
     page, drawn by text over the kana tilemaps, typed names capped at 42 px (`asm/namechart.asm`,
     `tools/namechart.py`, `docs/re/text.md`). Verified typing, pages, delete, cap, end (`work/play/neen`).
-- **Next (phase 7 rest):** look at remaining lint width WARNs (597, mostly names in dialogue = fine) by screen:
-  field magic menu (spell list?), battle target/magic/item selection lists, save menu ("Record 1..." +56 px),
-  treasure-box game, church, story-so-far (+49 px lines), intro crawl. `romdiff.py` with allowed ranges. Then
+    2026-10-27 (2): lint WARNs (vs JP width) are a poor proxy; checked by screen instead. OK: file select, church
+    (sub-mode 7, not inn), treasure-box game (sub-mode 8, not exchange; "0/G" is the original's), save slots.
+    Fixed: save confirm Yes/No under the cursor sprites (x table `$21:F28D`), "Where will you save" / "Use it on
+    whom?" etc. padded with `_` so a shorter prompt hides the longer one, file-select "New Game" window+cursor
+    widened (`asm/names.asm`). Story-so-far: window x16 w224, text col 3 -> ~208 px; longest line 206 (not seen
+    in game). New scenes: church, church_save/confirm/confirm_no/saved/revive, treasure_game, shop_buy (9999 G),
+    menu_item_full (inventory poke). RAM: money `$7E:111B` (32-bit), inventory words `$0F3B..` (lo = item id,
+    hi = count?). Warp fakes the APU ack the save waits on (`$21:F7E4`); probe `tools/lua/pcsample.lua`.
+- **Next (phase 7 rest):**
+  - **Field item/magic/equip info panel** (top right, `menu_item_full`): name field x=168..~236 (68 px) after the
+    icon, description line x=128..~236 (~108 px). Names up to 91 px ("Mystic Mushroom" 88 runs off-screen),
+    descriptions up to 136 px. Engine fix: find the panel's window/column bytes (bank $21, menu code near
+    `$21:C04F` text refs), widen the panel left / start the name nearer the icon; shorten the left prompts box
+    if needed. Then a fieldfit budget for it. Check equip + magic panels the same way (spell list needs a
+    caster with spells: poke).
+  - Battle target/magic/item selection lists; intro crawl re-check. `romdiff.py` with allowed ranges. Then
   phase 8 (QA tours + visual-QA gate) and the polish pass (`docs/polish.md`). Battle command buttons
   (アタック/オートバトル/にげる) are graphics: phase 8 graphics list.
 - **Risks:** other `find_lists` refs may be false like `$13:E69B` (only those read by the map loader `$0C:B40A` are
   proven; probe: `work/tmp_refs.lua` idea, log reads of each ref site). Shadow `$7E:E000` is free in the scenes
   measured, not proven everywhere. A full screen of new VWF cells takes a few frames to appear.
-- **Debug-tool limits:** scenes are by place, not story chapter (story flags `$7FCF83+n` not mapped). Final boss
+- **Debug-tool limits:** a record saved after a warp (`church_saved`, SRAM `tools/mesen/Saves/<rom>.srm`) garbles
+  the file select when loaded, on the original ROM too (`tools/routes/load1.txt`): story-so-far not reachable yet;
+  delete that .srm after such a run. Scenes are by place, not story chapter (story flags `$7FCF83+n` not mapped). Final boss
   can't be won; ending reached by steps 41/42. Battle-time HP copy not found (GOD clears the dead flags instead).
 - **Open bugs:** none.
 - **Waiting on the user:** nothing. (Non-blocking: sound-test titles are already English in fullwidth brackets;

@@ -55,7 +55,17 @@ org $00AF60
 org $20A50F               ; battle panel, third field (weapon/spell/item/skill name): column $17 -> $14, 88 px
 	db $14                    ; (LDX #$0017 at $20:A50E; the command field before it keeps 40 px)
 
-org $00A98F               ; glyph path of the interpreter (A 8-bit, Y = $0DF9): code DF = jump
+org $21F28D               ; save confirm (21:F755) cursor sprite x: left Yes/No, right Yes/No (was B5 CE CA EB)
+	db $B5,$D4,$CE,$E8       ; brackets round "Yes" at x=184 and "No" at 216 (one `_` cell between)
+
+org $21F29E               ; file select "New Game" (52 px): text column $0D -> $0C (LDX #$000D at $21:F29D)
+	db $0C
+org $21F2CD               ; ... and its window x 100 -> 88, width 48 -> 64 (y 20, h 24 kept)
+	db $58,$00,$14,$00,$40
+org $21F1A1               ; ... and its cursor corners (x of TL TR BL BR, table per slot) 104/144 -> 92/148
+	db $5C,$94,$5C,$94
+
+org $00A98F             ; glyph path of the interpreter (A 8-bit, Y = $0DF9): code DF = jump
 	jsr names_glyph
 
 org $00D680               ; freed: name strings no longer live in bank $00 (after the 3C9 pointer array)

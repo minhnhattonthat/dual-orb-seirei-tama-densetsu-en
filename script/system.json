@@ -2069,7 +2069,7 @@
  {
   "id": "21:B36F",
   "jp": "だれがまほうをつかいますか？{end}",
-  "en": "Who will use magic?{end}",
+  "en": "Who will use magic?_{end}",
   "block": "menu: magic",
   "refs": [
    "b3 109EC4",
@@ -2098,7 +2098,7 @@
  {
   "id": "21:B393",
   "jp": "だれにつかいますか？{end}",
-  "en": "Use it on whom?{end}",
+  "en": "Use it on whom?_____{end}",
   "block": "menu: magic",
   "refs": [
    "b3 10A6AA"
@@ -2163,7 +2163,7 @@
  {
   "id": "21:C08D",
   "jp": "だれにつかいますか？{end}",
-  "en": "Use it on whom?{end}",
+  "en": "Use it on whom?___{end}",
   "block": "menu: items",
   "refs": [
    "b3 10B986"
@@ -2183,7 +2183,7 @@
  {
   "id": "21:C0A3",
   "jp": "どのまちにいどうしますか？{end}",
-  "en": "Go to which town?{end}",
+  "en": "Go to which town?__{end}",
   "block": "menu: items",
   "refs": [
    "b3 10BD19"
@@ -2489,7 +2489,7 @@
  {
   "id": "21:F729",
   "jp": "どこに きろくを かきとめますか？{fa}",
-  "en": "Where will you save your record?{fa}",
+  "en": "Where will you save your record?_____{fa}",
   "block": "save menu",
   "refs": [
    "b3 10F2DC"
@@ -2507,7 +2507,7 @@
  {
   "id": "21:F755",
   "jp": "きろく{str:0002} で よろしいですか？      はい いいえ{fa}",
-  "en": "Record {str:0002}. Is that all right?__Yes No{fa}",
+  "en": "Record {str:0002}. Is that all right?___Yes_No{fa}",
   "block": "save menu",
   "refs": [
    "b3 10F1DB"

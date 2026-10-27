@@ -65,6 +65,11 @@ L.on_exec(0x108148, 0x108148, function()
   L.log(string.format("warp: script %04X f%d", spawn, L.frame))
   spawn = nil
 end)
+-- Saving ($21:F7E4) waits for APU port $2142 to change after the save sound; after a warp it never does (same on
+-- the original ROM), so make the compare fail: DP $B1 = port value + 1.
+L.on_exec(0x21F7E4, 0x21F7E4, function()
+  emu.write(0x00B1, (emu.read(0x2142, mem) + 1) & 0xFF, mem)
+end)
 -- GOD: clear every party member's dead flag (+$34; $0C:A05B wipes the party when all are set) each frame.
 -- STATS=v sets the words +$1A..+$28 (combat stats: 255 wins boss fights at level 1).
 L.on_frame(function()

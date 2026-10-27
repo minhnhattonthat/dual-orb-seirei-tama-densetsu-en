@@ -33,13 +33,22 @@ SCENE_LIST = {
   menu = at(HOME, { keys = "6 y;90 -" }),
   menu_magic = at(HOME, { keys = menu(0) }),
   menu_item = at(HOME, { keys = menu(1) }),
-  menu_equip = at(HOME, { keys = menu(2) }),
+  menu_item_full = at(HOME, { keys = menu(1), pokes = { [0x0F3B] = 0x0201, [0x0F3D] = 0x0403, [0x0F3F] = 0x0605,
+                                                        [0x0F41] = 0x0807 } }),
+  menu_equip =at(HOME, { keys = menu(2) }),
   menu_status = at(HOME, { keys = menu(3) }),
   menu_config = at(HOME, { keys = menu(4) }),
   menu_direction = at(HOME, { keys = menu(5) }),
   -- field sub-modes ($7FD7AC, $10:81F6); shop id in $7FD7AE
   shop_sell = shop(1), shop_mode2 = shop(2), rename = shop(3), shop_weapon = shop(4), shop_armor = shop(5),
-  shop_item = shop(6), inn = shop(7), exchange = shop(8),
+  shop_item = shop(6), church = shop(7), treasure_game = shop(8),
+  shop_buy = at(HOME, { pokes = { [0x7FD7AE] = 0, [0x7FD7AC] = 0x8006, [0x111B] = 9999 },
+                        keys = "300 -;6 a;120 -;6 a;120 -;6 a;120 -;6 a;120 -" }),  -- 9999 G, buy wares row 1
+  church_save =at(shop(7), { keys = "300 -;6 a;300 -" }),           -- Save -> the record slots
+  church_confirm = at(shop(7), { keys = "300 -;6 a;300 -;6 a;120 -;6 left;60 -" }),  -- "Record 1. ...?" on Yes
+  church_confirm_no = at(shop(7), { keys = "300 -;6 a;300 -;6 a;180 -" }),        -- same, cursor on No (default)
+  church_saved = at(shop(7), { keys = "300 -;6 a;300 -;6 a;120 -;6 left;20 -;6 a;600 -" }),  -- writes record 1 (SRAM)
+  church_revive = at(shop(7), { keys = "300 -;6 down;20 -;6 a;300 -" }),
   name_entry = at(shop(3), { keys = "300 -;6 a;120 -" }),  -- rename: pick Ralph -> the character chart
   -- battles
   battle = { map = 0x13A371, x = 0x2E, y = 0x80, keys = "600 -",
