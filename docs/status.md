@@ -87,12 +87,17 @@ Updated at the end of every session. Keep it to what the next session needs; his
     (North .. Northwest). Field menu window/text/left bracket 8 px left (right bracket fixed x `$F2`, `$21:94CE`).
     Money "./G": narrow `.` shared the `/` cell. "Aleitos's House". Intro f900 glitch not reproduced frame by frame
     (f300-1000) on the new build. asar math is left to right: bracket offsets (`!X+(2*$40)`).
+    2026-10-27 (8): full EN re-tour 150/150, 350 sheets, `qa_gate.py check` exit 0 (verdicts `r2_chunk_000-011`,
+    `r3_story`, `r3_controller`). Fixed: story08/12 pages over the VWF pool (197/192 cells; a later cell stole a
+    line's first word); story08/12/13 text trimmed, gate in `tools/fieldfit.py` (<= 180 cells). All 18 pages
+    checked fully typed (`warp.lua --var "STORY_HOLD=true"`, `--frames 2600`). church_saved slot garbage after the
+    save = the known save-after-warp limit (JP garbles too), marked ok, not checked with a real save.
 - **Next (phase 8):**
-  1. Re-tour changed scenes (menus, shops, places, compass `menu_direction`, status, battle_win, intro), `qa_gate.py
-     init` + todo for the re-hashed and story sheets, recheck verdicts, `qa_gate.py check` exit 0.
-  2. Minor (polish): no space after the colon in shop/equip help lines ("Knife:A knife"); original has none.
-  3. Graphics static sweep (graphics.md); polish pass (`docs/polish.md`).
-  Verdicts (first tour): `work/qa/verdicts/chunk_000-010.tsv`.
+  1. Graphics static sweep (graphics.md): every graphics-text row English in a zoomed cold-boot shot (chapter cards,
+     game over, credits).
+  2. Polish pass (`docs/polish.md`; includes the info-line colon space).
+  3. Playtest a real save at a church (church_saved risk above). QA noted scenes ending_lab, final_boss, home,
+     gameover never show their target (Aleitos's House / lab / overworld / goblin battle): check their warps.
 - **Risks:** other `find_lists` refs may be false like `$13:E69B` (only those read by the map loader `$0C:B40A` are
   proven; probe: `work/tmp_refs.lua` idea, log reads of each ref site). Shadow `$7E:E000` is free in the scenes
   measured, not proven everywhere. A full screen of new VWF cells takes a few frames to appear.

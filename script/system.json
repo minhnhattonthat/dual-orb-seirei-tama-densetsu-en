@@ -470,7 +470,7 @@
  {
   "id": "0C:E065",
   "jp": "ドラゴン・ラ―ゼスから じゅうような しめいを{n}うけた {hero0}たちは、 ちかせかいにきた。{n}せかいを ほろぼそうとしている {hero2}の{n}ちちおや、{tEC:02}は {tED:44}で{n}ドラゴン・{tEC:11}の オ―ブによる{n}けっかいを はっていた。{n}{n}{hero0}たちは、 ガルバと たたかうため{n}{tEC:10}との たたかいを けついした。{fa}",
-  "en": "Given a vital mission by Dragon{n}Larzes, {hero0}'s party reached the{n}underground world. {hero2}'s father,{n}{tEC:02}, bent on destroying the world,{n}raised a barrier at {tED:44}{n}with the Orb of Dragon {tEC:11}.{n}{n}To fight Galba, {hero0}'s party{n}resolved to battle the {tEC:10}.{fa}",
+  "en": "Given a mission by Larzes,{n}{hero0}'s party reached the{n}underground world. {hero2}'s father{n}{tEC:02}, out to end the world,{n}had shielded {tED:44}{n}with the Orb of Dragon {tEC:11}.{n}{n}To fight him, {hero0}'s party{n}resolved to battle the {tEC:10}.{fa}",
   "block": "story so far (continue)",
   "refs": [
    "tab 065CD5"
@@ -506,7 +506,7 @@
  {
   "id": "0C:E258",
   "jp": "ラ―ゼスのしめいをうけ、 ちかせかいにきた{n}{hero0}たちは、パンジェをふういんするために{n}{tEC:10}との たたかいを はじめた。{n}{n}{tEC:0F}、ディッシュきょうだいを{n}たおした {hero0}たちは、{n}ろくましょう・ガッシュと たたかうため{n}{tE5:0F}を とりかえし、{n}たたかいに そなえるのであった。{fa}",
-  "en": "Charged with a mission by Larzes,{n}{hero0}'s party reached the{n}underground world and began to fight{n}the {tEC:10} to seal the Panje.{n}{n}Having beaten {tEC:0F} and the Dish{n}brothers, {hero0}'s party recovered{n}the {tE5:0F} and prepared to{n}battle Gash of the Six Generals.{fa}",
+  "en": "Charged with a mission by Larzes,{n}{hero0}'s party reached the{n}underground world and began to fight{n}the {tEC:10} to seal the Panje.{n}{n}Having beaten {tEC:0F} and the Dish{n}brothers, {hero0}'s party took back{n}the {tE5:0F} to face Gash.{fa}",
   "block": "story so far (continue)",
   "refs": [
    "tab 065CDD"
@@ -515,7 +515,7 @@
  {
   "id": "0C:E2DE",
   "jp": "ラ―ゼスのしめいをうけ、 ちかせかいにきた{n}{hero0}たちは、パンジェをふういんするために{n}{tEC:10}との たたかいを はじめた。{n}{n}{tED:3D}で {tE5:11}を てにいれ{n}てつどうを じゆうにつかって せかいをぼうけんし{n}つぎの {tEC:10}に{n}たたかいをいどむのであった。{fa}",
-  "en": "Charged with a mission by Larzes,{n}{hero0}'s party reached the{n}underground world and began to fight{n}the {tEC:10} to seal the Panje.{n}{n}At {tED:3D} they got{n}the {tE5:11}, roamed the world{n}freely by rail, and went on to{n}challenge the next of the {tEC:10}.{fa}",
+  "en": "Charged with a mission by Larzes,{n}{hero0}'s party reached the{n}underground world and began to fight{n}the {tEC:10} to seal the Panje.{n}{n}At {tED:3D} they got the{n}{tE5:11}, rode the rails freely,{n}and went on to face the next General.{fa}",
   "block": "story so far (continue)",
   "refs": [
    "tab 065CDF"

@@ -22,6 +22,7 @@ BATTLE_DESC = {"E6": 184, "F2": 136, "E4": 136, "F3": 136, "EB": 136}
 # field menu panels (asm/menus.asm), (name, description) px: items name col $13..$1D, description col 2..$1D;
 # magic name col $15..$1C, description col $0F..$1D
 FIELD = {"E5": (88, 224), "E4": (64, 120), "F2": (64, 120)}
+STORY_CELLS = 180  # VWF pool 182; names counted at their 42 px cap
 
 
 def px(s):
@@ -47,6 +48,14 @@ def check(show_all=False):
             if t in FIELD and dsc and px(dsc["en"]) > FIELD[t][1]:
                 bad.append((px(dsc["en"]), dsc["id"], dsc["en"], f"field panel description {FIELD[t][1]} px"))
             i += 1
+    # story-so-far: title + one piece on screen at once, each line from a fresh cell; over the VWF pool
+    # (182 pairs, docs/re/vwf.md) a later cell steals a shown one (story08/12 tour)
+    story = [e for e in json.loads((ROOT / "script" / "system.json").read_text(encoding="utf-8"))
+             if e["block"].startswith("story so far")]
+    cells = [sum(-(-px(ln) // 8) for ln in e["en"].split("{n}")) for e in story]
+    for e, c in zip(story[1:], cells[1:]):
+        if cells[0] + c > STORY_CELLS or show_all:
+            bad.append((cells[0] + c, e["id"], e["en"][:40], f"story page cells > {STORY_CELLS}"))
     return bad
 
 

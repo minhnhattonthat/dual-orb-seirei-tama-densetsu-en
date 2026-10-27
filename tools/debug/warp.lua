@@ -41,7 +41,8 @@ L.on_exec(0x0CDBE1, 0x0CDBE1, function()
   if sc.story then emu.setState({ ["cpu.x"] = sc.story }) end
 end)
 L.on_frame(function(f)
-  if sc.story and stage == "intro" and f % 600 == 0 then L.press("a", 6) end
+  -- --var "STORY_HOLD=true" keeps the screen up (shots of a fully typed page)
+  if sc.story and not STORY_HOLD and stage == "intro" and f % 600 == 0 then L.press("a", 6) end
 end)
 -- Intro crawl loop ($0C:D3E9..D413) ends when DP $20 == $FF (sc.intro keeps the crawl).
 L.on_exec(0x0CD40E, 0x0CD40E, function()
