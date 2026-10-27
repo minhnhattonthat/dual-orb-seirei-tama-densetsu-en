@@ -40,6 +40,12 @@ SCENE_LIST = {
   -- boot and story
   intro = { intro = true, keys = "60 -" },             -- title, file select, the full intro crawl (~10k frames)
   opening = { keys = mash(12, 84) },                   -- new game: the school-room opening event
+  -- story-so-far screen (shown when a save loads), piece n of 18 ($0C:DCC5 table); then the plain opening
+  story00 = { story = 0 }, story01 = { story = 1 }, story02 = { story = 2 }, story03 = { story = 3 },
+  story04 = { story = 4 }, story05 = { story = 5 }, story06 = { story = 6 }, story07 = { story = 7 },
+  story08 = { story = 8 }, story09 = { story = 9 }, story10 = { story = 10 }, story11 = { story = 11 },
+  story12 = { story = 12 }, story13 = { story = 13 }, story14 = { story = 14 }, story15 = { story = 15 },
+  story16 = { story = 16 }, story17 = { story = 17 },
   home = HOME,
   worldmap = { map = 0x13A371, x = 0x2E, y = 0x80 },
   -- field menu

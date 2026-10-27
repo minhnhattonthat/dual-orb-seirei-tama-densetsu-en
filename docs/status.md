@@ -72,10 +72,31 @@ Updated at the end of every session. Keep it to what the next session needs; his
     cells record `!OWNER` (a top cell's memo stole a shown pair). `build.py` now fails on any change outside
     `insert.allowed()` (romdiff; hook list moved to `asm.HOOKS`). Probes `tools/lua/{regwrites,hdma,crawllog}.lua`.
     EN savestates for play sessions: `warp_all.py --rom build/dual_orb_en.sfc --states work/states/en`.
-- **Next (phase 7 rest):**
-  - Phase 7 done-when met (lint clean, codes matched, romdiff gate). Next: phase 8 (QA tours + visual-QA gate) and
-  the polish pass (`docs/polish.md`). Battle command buttons (アタック/オートバトル/にげる) are graphics: phase 8
-  graphics list. Story-so-far screen not reached yet (VWF cell count unchecked, see text.md).
+  - Phase 8 (in progress, 2026-10-27 (6)): tour = `warp_all.py --tour` (shot every 30 frames until ready, per-scene
+    `sheet*.png`): EN `--rom build/dual_orb_en.sfc --out work/qa/tour --states work/states/en`, JP `--out
+    work/qa/tour_jp`; delete the top-level `sheet*.png` overview before `qa_gate.py init work/qa/manifest.tsv
+    work/qa/tour --glob "sheet*.png"`. Brief `docs/visual-qa-brief.md`; chunks 000-010 dispatched (312 sheets),
+    verdicts in `work/qa/verdicts/` (009 may still be missing: re-run `qa_gate.py todo`). Battle buttons (G6) now
+    ATTACK/AUTO/FLEE (`asm/buttons.asm`, `tools/buttons.py`, `gfx/buttons.txt`). Story-so-far reachable: scenes
+    `story00-17` (warp `story = n`: new game takes the load path `$21:EE80` -> `$0C:DB4F`, piece forced at
+    `$0C:DBE1`); all 18 fit (checked by eye), not yet in the manifest.
+- **Next (phase 8 issues from visual QA, most severe first):**
+  1. VWF upload too slow on menu open: item/magic panels, party names, shop lists show stale pool glyphs (junk) for
+     up to ~130 frames (`menu_item_list`: f780-f910; also menu_magic_*, shop_weapon, telepiam_go). 8 KB at the
+     observed ~64 B/frame: `vwf_nmi` starts near line 254, after the game's DMA. Fix idea: a cell's tilemap entry
+     points at a blank tile until its pair is uploaded, or upload before the game's queue, or a longer forced blank.
+  2. Place-name label box ~88 px; ~16 labels overflow (place06/18/20/22/24/25/30/32/44/49/53/59/64...). Widen the
+     box (find its window record) or size it to the text.
+  3. Compass screen (menu_direction, field menu ほうがく): the 8 direction labels are junk (old kana tiles, not in the
+     script: graphics or glyph-tile sprites; find the source).
+  4. Field menu "Compass": right cursor bracket fixed at x+44 ($2C) overlaps the "s". Brackets = sprites 0xA4-A7
+     written by `$00:D858` (metasprite reader: count, then dx dy tile attr); find the metasprite (candidates not
+     confirmed) or shorten the word.
+  5. Stray "." in money: battle_win "284./G", menu_status "0./G" (JP "284/G").
+  6. intro f000900: one frame of raster garbage as the crawl starts (crawl.asm setup?).
+  7. "Aleitos House" -> "Aleitos's House" (names.json:1885, glossary note).
+  Then: re-tour changed scenes, `qa_gate.py init` + todo for the re-hashed and story sheets, recheck verdicts,
+  `qa_gate.py check` exit 0; graphics static sweep (graphics.md); polish pass (`docs/polish.md`).
 - **Risks:** other `find_lists` refs may be false like `$13:E69B` (only those read by the map loader `$0C:B40A` are
   proven; probe: `work/tmp_refs.lua` idea, log reads of each ref site). Shadow `$7E:E000` is free in the scenes
   measured, not proven everywhere. A full screen of new VWF cells takes a few frames to appear.

@@ -29,6 +29,20 @@ end)
 L.on_exec(0x21EE69, 0x21EE69, function()
   if stage == "title" then w16(0x1C87, 0); stage = "intro"; L.log("warp: new game f" .. L.frame) end
 end)
+-- sc.story = n: the new game shows the story-so-far screen (piece n, $0C:DB4F; a loaded save's path at $21:EE80)
+-- instead of the intro crawl. The piece index ($0C:DC30 counts story flags into X) is overridden at $0C:DBE1;
+-- A ends the screen.
+L.on_exec(0x21EE77, 0x21EE77, function()
+  if not sc.story then return end
+  emu.setState({ ["cpu.pc"] = 0xEE80 })
+  L.log("warp: story " .. sc.story .. " f" .. L.frame)
+end)
+L.on_exec(0x0CDBE1, 0x0CDBE1, function()
+  if sc.story then emu.setState({ ["cpu.x"] = sc.story }) end
+end)
+L.on_frame(function(f)
+  if sc.story and stage == "intro" and f % 600 == 0 then L.press("a", 6) end
+end)
 -- Intro crawl loop ($0C:D3E9..D413) ends when DP $20 == $FF (sc.intro keeps the crawl).
 L.on_exec(0x0CD40E, 0x0CD40E, function()
   if stage == "intro" and not sc.intro then w16(0x0020, 0x00FF) end
