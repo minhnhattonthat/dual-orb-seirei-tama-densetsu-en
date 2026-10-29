@@ -43,9 +43,15 @@ box; the VWF (about 5.5 px a letter) fits ~35, close to the JP line count (D4: e
   upload between an entry's VMAIN/`$2116` writes and its `$420B` sent the game's map tiles to our address (random
   map corruption after battles). `gdma_on`/`gdma_off` (hooks `$00:9795`/`$97C3`) flag that window and `upload` skips
   while it is set (`tools/lua/dmarace.lua` counts races).
-- `vwf_idle` skips the upload when `vwf_draw` ran since the last NMI (`!DRAWN`): a redrawn cell's pair is cleared and
-  re-rendered glyph by glyph, and an idle upload mid-redraw showed half cells for a frame (battle panel every 3 frames:
-  "It m", "H^+30", issue #1). `vwf_nmi` (game frame ready = drawing done) clears it and always uploads.
+- Half cells (issue #1): a redrawn cell's pair is cleared and re-rendered glyph by glyph, and an idle upload mid-redraw
+  showed half cells for a frame (battle panel every 3 frames: "It m", "H^+30"). `vwf_idle` holds back only the pairs
+  still in progress (`!SKIPOPEN`): when `vwf_draw` ran since the last NMI (`!DRAWN`), the pen's open pair; when the NMI
+  hit inside `vwf_draw` (`!INDRAW`), also `!TILE`/`!TL`/`!TR`. A ring run is sent up to the first held pair
+  (`holds` -> `!LIMIT`): runs merge, so holding the whole run held a shop's whole description. `vwf_nmi` (game frame
+  ready = drawing done) sends everything. First try skipped the whole idle upload while `!DRAWN`: menus and shops draw
+  for ~5 NMIs a frame, so they showed stale pool glyphs for seconds (r6 tour). Check: battle_party with KEYS
+  `600 -;6 down;40 -;6 a;60 -;6 right;40 -;6 a;90 -;6 b;90 -;6 b;90 -`, `--shot-every 1`: v1.0 alternates 2-frame
+  variants at f1250-1350, the fix holds each screen.
 - Findings: the hook starts at scanline ~236-261 (menus ~254-257, a few lines before vblank ends), so chunks must be
   small and checked. Reading `$2137`/`$213D`/`$213F` (H/V counter latch) in the NMI hung the game at file select
   (the wait on `$60` at `$00:897B`). `enqueue` sets `$F82E` (busy) so the NMI never retires an entry mid-merge.

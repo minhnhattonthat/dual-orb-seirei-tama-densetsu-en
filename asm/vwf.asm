@@ -34,6 +34,9 @@ incsrc "../build/vwf/defs.asm"
 !BUSY     = $F82E         ; nonzero while enqueue edits the ring: the NMI skips that frame
 !DRAWN    = $F830         ; nonzero: vwf_draw ran since the last NMI (the main thread may be mid-redraw)
 !GDMA     = $F832         ; byte, nonzero while the game's queue flush is between VMAIN/address and its DMA
+!INDRAW   = $F834         ; nonzero while vwf_draw runs (an NMI there may see a pair half rendered)
+!SKIPOPEN = $F836         ; upload: 1 hold the pen's open pair (more glyphs may join it), 2 also the pairs in render
+!LIMIT    = $F838         ; upload: bytes of the current ring entry it may send now
 !QHEAD    = $F820         ; upload ring: byte offsets 0-$1FE into QV/QS/QN (256 runs)
 !QTAIL    = $F822
 !CHUNK    = $F824
@@ -93,6 +96,7 @@ vwf_draw:
 	jsr init
 +	lda #$0001
 	sta.w !DRAWN
+	sta.w !INDRAW
 	lda.w $0E32
 	and #$FF00
 	asl
@@ -314,7 +318,8 @@ vwf_draw:
 	bne +
 	lda #$FFFF
 	sta.w !OPENT
-+	pla
++	stz.w !INDRAW
+	pla
 	sta $06
 	pla
 	sta $04
@@ -654,25 +659,33 @@ vwf_nmi:
 	rep #$30
 	lda #$0000                ; the game readied this frame: its drawing is complete
 	sta.l $7E0000+!DRAWN
+	sta.l $7E0000+!SKIPOPEN
 	lda #!NMIBYTES
 	jsr upload
 	plp
 	jml $00E388
 
 ; NMI timer: menus ready a game frame only every ~5 NMIs, and the idle ones have the whole vblank free (the game's
-; DMA after line 225 left the hook ~2 lines). Only NMI code sets the VRAM address ($00:94xx), so this can't cut in.
-; Not while the main thread may be mid-redraw (vwf_draw ran since the last NMI): a redrawn cell's pair is cleared
-; and re-rendered glyph by glyph, and sending it then showed half cells for a frame (battle panel, issue #1).
+; DMA after line 225 left the hook ~2 lines). The game's main-thread queue flush is fenced by gdma_on/off.
+; A redrawn cell's pair is cleared and re-rendered glyph by glyph, and sending it half done showed half cells for a
+; frame (battle panel, issue #1). So while the main thread is drawing (vwf_draw ran since the last NMI) the pen's
+; open pair waits, and inside vwf_draw also the pairs it is rendering (SKIPOPEN 1 / 2). Skipping the whole upload
+; then starved menus and shops, which draw for ~5 NMIs a frame (stale glyphs for seconds, r6 tour).
 vwf_idle:
 	rep #$30
-	lda.l $7E0000+!DRAWN
+	lda.l $7E0000+!INDRAW
 	beq +
+	lda #$0002                ; DRAWN stays set: the draw resumes after this NMI
+	bra ++
++	lda.l $7E0000+!DRAWN
+	pha
 	lda #$0000
 	sta.l $7E0000+!DRAWN
-	bra ++
-+	lda #!IDLEBYTES
+	pla
+++	sta.l $7E0000+!SKIPOPEN
+	lda #!IDLEBYTES
 	jsr upload
-++	rep #$30
+	rep #$30
 	inc $F1                   ; replaced: DP = 0 in the NMI
 	rtl
 
@@ -743,10 +756,31 @@ upload:
 	lda.l $004212             ; the hook often starts near line 257: stop when vblank ends, VRAM writes outside it are lost
 	rep #$20
 	bpl .out
-	lda #!CHUNKMAX
-	cmp.w !QN,x
-	bcc +
 	lda.w !QN,x
+	sta.w !LIMIT
+	lda.w !SKIPOPEN           ; a pair still being drawn: send the run only up to it, the rest on a later NMI
+	beq .send
+	cmp #$0002
+	bne .open
+	lda.w !TILE
+	jsr holds
+	lda.w !TL
+	jsr holds
+	lda.w !TR
+	jsr holds
+.open
+	lda.w !PENSUB
+	beq +
+	lda.w !OPENT
+	jsr holds
++	lda.w !LIMIT
+	bne .send
+	jmp .done
+.send
+	lda #!CHUNKMAX
+	cmp.w !LIMIT
+	bcc +
+	lda.w !LIMIT
 +	cmp.w !BUDGET
 	bcc +
 	lda.w !BUDGET
@@ -802,6 +836,25 @@ upload:
 	plb
 	plp
 	rts
+
+; A = top tile ($FFFF none), X = ring entry: if the entry's run [QV, QV + LIMIT/2) holds its pair, LIMIT = the
+; bytes before it
+holds:
+	cmp #$FFFF
+	beq +
+	asl
+	asl
+	asl
+	clc
+	adc #$2000
+	sec
+	sbc.w !QV,x
+	bcc +
+	asl
+	cmp.w !LIMIT
+	bcs +
+	sta.w !LIMIT
++	rts
 
 init:
 	ldx #$0000
