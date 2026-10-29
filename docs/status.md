@@ -110,7 +110,20 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Phase 9: `tools/release.py` (build, check, smoke, jp_left on the dialogue banks with `tools/jp_known.txt`,
     qa gate, checksum, BPS re-applied, zip; README template `docs/README.release.txt`). v1.0 published 2026-10-27
     on github.com/minhnhattonthat/dual-orb-seirei-tama-densetsu-en (user's request).
-- **Next:** player bug reports (GitHub issues). Not checked: one-frame "Re:ord 3" flash after saving (now "File"), the one-frame
+  - Issue #1 (2026-10-29, player report, 7 bugs; screenshots/videos/saves in `work/issues/1/`, Supafaust states not
+    loadable in Mesen): (1) Custom controller screen kana junk -> `asm/controller.asm` (scene `controller`);
+    (2) field menu left column 24 on screen after closing: the 5-item print `$21:9299` and the close clear `$21:93F7`
+    still used column 25 (+ clear now 6 cells; scene `menu_close`); (3) shop greetings ran off the box: 15 EC
+    phrases > 192 px shortened, `lint.py` now measures kept-JP dialogue lines; EC:87/88 got their leading space
+    ("Antidote Herbis yours"); (4) party sprites vanishing during the overflowing shop text: not reproduced (talking
+    to an NPC after a warp does nothing; `tools/debug/talk.sh` reaches the shop rooms), likely the overflow;
+    (5) "- AUTO BATTLE -" 93 px from col 21 past the 10-cell clear -> "AUTO BATTLE" (fieldfit `PIECES`; scene
+    `battle_auto`); (6) map corruption after battles: NMI upload raced the game's main-thread DMA-queue flush
+    (`gdma_on/off`, `docs/re/vwf.md`); (7) flicker: idle-NMI uploads of half-redrawn cells (`!DRAWN` gate).
+    Probes `tools/lua/{cellwrites,vramaddr,dmarace}.lua`. Release script default `--version 1.1`.
+- **Next:** v1.1 release: the full EN re-tour (`warp_all.py --tour`, see Phase 8) was stopped by the host (low
+  memory) before it finished; re-run it (fewer `--jobs`), `qa_gate.py init` + visual-QA chunks (VWF upload timing
+  changed: every text screen), then `tools/release.py` (default 1.1). Then player bug reports. Not checked: one-frame "Re:ord 3" flash after saving (now "File"), the one-frame
   "branc?es" redraw in menu_item_long2 (final frame clean).
 - **Risks:** other `find_lists` refs may be false like `$13:E69B` (only those read by the map loader `$0C:B40A` are
   proven; probe: `work/tmp_refs.lua` idea, log reads of each ref site). Shadow `$7E:E000` is free in the scenes

@@ -742,12 +742,12 @@
  {
   "id": "EC:5B",
   "jp": "おこまりのときは いつでも かみにすがれますよ。{end}",
-  "en": "In times of trouble, you may always turn to the gods.{end}"
+  "en": "In times of trouble, turn to the gods.{end}"
  },
  {
   "id": "EC:5C",
   "jp": "ありがとうございます。 かんしゃの きもちとして{end}",
-  "en": "Thank you so much. As a token of my thanks,{end}"
+  "en": "Many thanks. As a token of thanks,{end}"
  },
  {
   "id": "EC:5D",
@@ -782,7 +782,7 @@
  {
   "id": "EC:63",
   "jp": "みをまもるぼうぐなら そろってるぜ。 みるかい？{end}",
-  "en": "I've got all the armor you need to stay safe. Want a look?{end}"
+  "en": "All the armor you need. Want a look?{end}"
  },
  {
   "id": "EC:64",
@@ -797,7 +797,7 @@
  {
   "id": "EC:66",
   "jp": "うりたいものが あったら うりにきてくださいよ。{end}",
-  "en": "If you have anything to sell, come sell it here.{end}"
+  "en": "Have something to sell? Sell it here.{end}"
  },
  {
   "id": "EC:67",
@@ -822,7 +822,7 @@
  {
   "id": "EC:6B",
   "jp": "かった しなものを せいさんするかい？{end}",
-  "en": "Want to settle up for what you bought?{end}"
+  "en": "Want to pay for what you bought?{end}"
  },
  {
   "id": "EC:6C",
@@ -832,7 +832,7 @@
  {
   "id": "EC:6D",
   "jp": "かった しなものを せいさんしますか？{end}",
-  "en": "Will you settle up for your purchases?{end}"
+  "en": "Will you pay for your purchases?{end}"
  },
  {
   "id": "EC:6E",
@@ -847,7 +847,7 @@
  {
   "id": "EC:70",
   "jp": "ここは いらないものを うるところです。{end}",
-  "en": "This is where you sell what you don't need.{end}"
+  "en": "Sell the things you don't need here.{end}"
  },
  {
   "id": "EC:71",
@@ -872,7 +872,7 @@
  {
   "id": "EC:75",
   "jp": "とくに ようけんが ないようですが、 せめて{end}",
-  "en": "You seem to have no particular business, but at least{end}"
+  "en": "You seem to have no business, but{end}"
  },
  {
   "id": "EC:76",
@@ -887,7 +887,7 @@
  {
   "id": "EC:78",
   "jp": "なにか うりたくなったら いつでもおいで。{end}",
-  "en": "Come anytime you want to sell something.{end}"
+  "en": "Come anytime you want to sell.{end}"
  },
  {
   "id": "EC:79",
@@ -912,7 +912,7 @@
  {
   "id": "EC:7D",
   "jp": "ぶきなら なんでも そろってるぜ。{end}",
-  "en": "If it's weapons you want, I've got 'em all.{end}"
+  "en": "Need weapons? I've got 'em all.{end}"
  },
  {
   "id": "EC:7E",
@@ -922,7 +922,7 @@
  {
   "id": "EC:7F",
   "jp": "また うるものが できたら{end}",
-  "en": "When you have something to sell again,{end}"
+  "en": "When you have more to sell,{end}"
  },
  {
   "id": "EC:80",
@@ -942,12 +942,12 @@
  {
   "id": "EC:83",
   "jp": "ようが ないなら くるんじゃないよ。{end}",
-  "en": "If you've got no business, don't come here.{end}"
+  "en": "No business? Then don't come here.{end}"
  },
  {
   "id": "EC:84",
   "jp": "ようけんが ないようですね。 では きふを{end}",
-  "en": "You seem to have no business. Then, a donation of{end}"
+  "en": "No business? Then as a donation,{end}"
  },
  {
   "id": "EC:85",
@@ -962,12 +962,12 @@
  {
   "id": "EC:87",
   "jp": "を おわたししよう。{end}",
-  "en": "is yours to keep.{end}"
+  "en": " is yours to keep.{end}"
  },
  {
   "id": "EC:88",
   "jp": "を おうけとりください。{end}",
-  "en": "is yours. Please accept it.{end}"
+  "en": " is yours. Do take it.{end}"
  },
  {
   "id": "EC:89",
@@ -1012,7 +1012,7 @@
  {
   "id": "EC:91",
   "jp": "きふを50Gほど いただけませんでしょうか？{end}",
-  "en": "Could you spare a donation of about 50G?{end}"
+  "en": "could you spare a donation of 50G?{end}"
  },
  {
   "id": "EC:92",

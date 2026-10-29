@@ -36,6 +36,15 @@ Known issues
 - A menu description can show one garbled letter for a single frame while it
   redraws after the cursor moves.
 
+Changes in v1.1
+---------------
+- Controller setup screen (Config > Controller > Custom) now in English.
+- Field menu no longer leaves its first letters on screen after closing.
+- Shop greetings fit their box (no text running off the window).
+- "AUTO BATTLE" label no longer leaves pieces on screen after a battle.
+- Fixed flickering letters in battle and menu panels.
+- Fixed random map tile corruption after battles.
+
 Credits
 -------
 Translation, hacking and tools: minhnhattonthat, with AI assistance (Anthropic

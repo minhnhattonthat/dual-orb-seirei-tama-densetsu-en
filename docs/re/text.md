@@ -97,6 +97,12 @@ Inserted strings go through the 32-byte buffer `$0E11` (FF-terminated): a name l
 - **Compass screen** (field menu "Compass", `$21:9C81`): stored BG3 tilemap `$2A:C03C` (unpacked by `$00:D961` to
   `$7E:8000`, DMA'd to VRAM `$7C00`) with kana labels in rows 2-3/13-14/24-25 (S = graphic tiles `$1E1-$1E8`).
   `asm/compass.asm` copies it to `$7F:F800`, blanks those cells and prints English through `$00:A8BF`.
+- **Controller screen** (Config > Controller > Custom, `$21:DDC8`): one of six stored BG3 tilemaps per mode `$1424`
+  (table `$21:DE82`, bank $2A) unpacked to `$7E:8000` and DMA'd to VRAM `$7800` every frame (loop `$21:DE29`); kana
+  labels in rows 3-8 (header col 4; modes at cols 5/13/21, rows 5 and 7); the mode cursor is sprites.
+  `asm/controller.asm` prints English into the BG3 buffer rows 3-8 on entry and copies them over each unpack (#1).
+- **Shop greetings** are dialogue records made only of `{tEC:..}` phrase tokens (`"en": ""`, JP bytes kept), one
+  phrase a line: the EC phrase's English must fit 192 px by itself (`tools/lint.py` measures kept lines, #1).
 - Battle/menu strings in banks $20/$21 are space-padded fixed-width fields (`こうげき   `).
 - Not text (census false hits in text banks): `$00:8FAC` (code), `$21:83B3` (flag table). Banks with no text
   pointer (02-0B, 0D, 0E, 13, 14, 16-1F, 22-2F) have only random census hits.

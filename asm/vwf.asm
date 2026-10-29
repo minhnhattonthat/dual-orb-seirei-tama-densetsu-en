@@ -32,6 +32,8 @@ incsrc "../build/vwf/defs.asm"
 !TILE     = $F82A
 !NTILE    = $F82C         ; NMI's own temp
 !BUSY     = $F82E         ; nonzero while enqueue edits the ring: the NMI skips that frame
+!DRAWN    = $F830         ; nonzero: vwf_draw ran since the last NMI (the main thread may be mid-redraw)
+!GDMA     = $F832         ; byte, nonzero while the game's queue flush is between VMAIN/address and its DMA
 !QHEAD    = $F820         ; upload ring: byte offsets 0-$1FE into QV/QS/QN (256 runs)
 !QTAIL    = $F822
 !CHUNK    = $F824
@@ -59,6 +61,15 @@ org $0080A9               ; NMI: JSL $00E388 -> upload queued tiles first
 org $0085E8               ; NMI timer (every NMI, also the ones with no game frame ready): REP #$30; INC $F1
 	jsl vwf_idle
 
+; The game's DMA-queue flush also runs from the main thread (field loads, after battles). An NMI upload between its
+; VMAIN/VRAM-address writes and its DMA sent the game's tiles to our address and left the map corrupt (issue #1):
+; flag each entry's VMAIN .. DMA, and upload skips while it is set.
+org $009795               ; was: SEP #$20; LDA $05 (D = the queue entry; BEQ after uses the flags)
+	jsl gdma_on
+org $0097C3               ; was: LDA #$80; STA $2115 (after the entry's DMA)
+	jsl gdma_off
+	nop
+
 org $B08000
 vwf_draw:
 	phb
@@ -80,7 +91,9 @@ vwf_draw:
 	cmp #$5756
 	beq +
 	jsr init
-+	lda.w $0E32
++	lda #$0001
+	sta.w !DRAWN
+	lda.w $0E32
 	and #$FF00
 	asl
 	asl
@@ -639,6 +652,8 @@ unpend:
 vwf_nmi:
 	php
 	rep #$30
+	lda #$0000                ; the game readied this frame: its drawing is complete
+	sta.l $7E0000+!DRAWN
 	lda #!NMIBYTES
 	jsr upload
 	plp
@@ -646,17 +661,46 @@ vwf_nmi:
 
 ; NMI timer: menus ready a game frame only every ~5 NMIs, and the idle ones have the whole vblank free (the game's
 ; DMA after line 225 left the hook ~2 lines). Only NMI code sets the VRAM address ($00:94xx), so this can't cut in.
+; Not while the main thread may be mid-redraw (vwf_draw ran since the last NMI): a redrawn cell's pair is cleared
+; and re-rendered glyph by glyph, and sending it then showed half cells for a frame (battle panel, issue #1).
 vwf_idle:
 	rep #$30
-	lda #!IDLEBYTES
+	lda.l $7E0000+!DRAWN
+	beq +
+	lda #$0000
+	sta.l $7E0000+!DRAWN
+	bra ++
++	lda #!IDLEBYTES
 	jsr upload
-	rep #$30
+++	rep #$30
 	inc $F1                   ; replaced: DP = 0 in the NMI
+	rtl
+
+gdma_on:
+	sep #$20
+	lda #$01
+	sta.l $7E0000+!GDMA
+	lda $05
+	rtl
+
+gdma_off:
+	lda #$80
+	sta.l $002115
+	lda #$00
+	sta.l $7E0000+!GDMA
 	rtl
 
 ; A = byte budget: send queued pool tiles while in vblank
 upload:
 	php
+	sep #$20
+	pha
+	lda.l $7E0000+!GDMA       ; WRAM is random at power-on: the boot flush (f26) clears it before any glyph
+	beq +
+	pla
+	plp
+	rts
++	pla
 	rep #$30
 	sta.l $7E0000+!BUDGET
 	phb
@@ -801,5 +845,6 @@ incsrc "namechart.asm"
 incsrc "crawl.asm"
 incsrc "buttons.asm"
 incsrc "compass.asm"
+incsrc "controller.asm"
 assert pc() <= $B0FFFF
 incsrc "menus.asm"

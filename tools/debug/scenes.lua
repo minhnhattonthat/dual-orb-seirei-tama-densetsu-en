@@ -50,6 +50,9 @@ SCENE_LIST = {
   worldmap = { map = 0x13A371, x = 0x2E, y = 0x80 },
   -- field menu
   menu = at(HOME, { keys = "6 y;90 -" }),
+  menu_close = at(HOME, { keys = "6 y;90 -;6 b;120 -" }),           -- issue #1: no letters left after closing
+  controller = at(HOME, { keys = "6 y;40 -;6 down;14 -;6 down;14 -;6 down;14 -;6 down;14 -;6 a;90 -;" ..
+    "6 down;20 -;6 down;20 -;6 down;20 -;6 right;30 -;6 a;150 -" }),  -- Config > Controller > Custom (issue #1)
   menu_magic = at(HOME, { keys = menu(0) }),
   menu_item = at(HOME, { keys = menu(1) }),
   -- casters are party slots 1 and 3 ($21:9F05); party size $111F. Slot 1 (Theo, table E4) knows spell n when
@@ -98,6 +101,8 @@ SCENE_LIST = {
   battle = { map = 0x13A371, x = 0x2E, y = 0x80, keys = "600 -",
              pokes = { [0x7FCE78] = 7, [0x7FCE7A] = 0, [0x7FD7B0] = 0x000E, [0x7FD796] = 0xFFFF } },
   battle_party = { map = 0x13A371, x = 0x2E, y = 0x80, keys = "600 -", pokes = BPARTY },
+  battle_auto = { map = 0x13A371, x = 0x2E, y = 0x80, keys = "600 -;6 right;30 -;6 a;400 -",  -- AUTO: label fits
+                  pokes = { [0x7FCE78] = 7, [0x7FCE7A] = 0, [0x7FD7B0] = 0x000E, [0x7FD796] = 0xFFFF } },
   battle_win = at(HOME, { pokes = { [0x7FD7B0] = 0x8000, [0x7FD796] = 0xFFFF }, god = true, stats = 255,
                           keys = mash(40, 114), nocheck = true }),
   gameover = at(HOME, { pokes = { [0x7FD7B0] = 0x8000, [0x7FD796] = 0xFFFF }, keys = mash(8, 114) }),

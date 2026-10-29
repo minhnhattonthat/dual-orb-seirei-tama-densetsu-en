@@ -23,6 +23,8 @@ BATTLE_DESC = {"E6": 184, "F2": 136, "E4": 136, "F3": 136, "EB": 136}
 # magic name col $15..$1C, description col $0F..$1D
 FIELD = {"E5": (88, 224), "E4": (64, 120), "F2": (64, 120)}
 STORY_CELLS = 180  # VWF pool 182; names counted at their 42 px cap
+# system pieces with a fixed field: auto-battle label at column $15 ($20:8126), its clear (20:936F) is 10 cells
+PIECES = {"20:9364": 80}
 
 
 def px(s):
@@ -56,6 +58,10 @@ def check(show_all=False):
     for e, c in zip(story[1:], cells[1:]):
         if cells[0] + c > STORY_CELLS or show_all:
             bad.append((cells[0] + c, e["id"], e["en"][:40], f"story page cells > {STORY_CELLS}"))
+    sysx = {e["id"]: e for e in json.loads((ROOT / "script" / "system.json").read_text(encoding="utf-8"))}
+    for k, budget in PIECES.items():
+        if px(sysx[k]["en"]) > budget or show_all:
+            bad.append((px(sysx[k]["en"]), k, sysx[k]["en"], f"field {budget} px"))
     return bad
 
 

@@ -36,9 +36,16 @@ box; the VWF (about 5.5 px a letter) fits ~35, close to the JP line count (D4: e
   DMA: if vblank ended during it, the tail was dropped, so the entry is kept and resent next frame.
   `vwf_idle` (hook on the NMI timer `$00:85E8`, which runs on every NMI) drains up to $1000 more: in menus the game
   readies a frame (`$60`) only every ~5 NMIs, and its DMA (`$00:942B`) runs lines 225-254, so the `$80A9` hook alone
-  managed ~64 B a game frame and menus showed stale pool glyphs for ~130 frames. Only NMI code sets `$2116`
-  (`$00:94xx`), so the idle upload can't cut into a main-thread VRAM write. Probe: `tools/lua/nmiprof.lua` (scanline at
-  each NMI step).
+  managed ~64 B a game frame and menus showed stale pool glyphs for ~130 frames. Probe: `tools/lua/nmiprof.lua`
+  (scanline at each NMI step).
+- Wrong (fixed for issue #1): "only NMI code sets `$2116`". The game's DMA-queue flush (`$00:9784..97DE`) also runs
+  from the main thread (field loads, after every battle: ~280 entries a battle, `tools/lua/vramaddr.lua`). An NMI
+  upload between an entry's VMAIN/`$2116` writes and its `$420B` sent the game's map tiles to our address (random
+  map corruption after battles). `gdma_on`/`gdma_off` (hooks `$00:9795`/`$97C3`) flag that window and `upload` skips
+  while it is set (`tools/lua/dmarace.lua` counts races).
+- `vwf_idle` skips the upload when `vwf_draw` ran since the last NMI (`!DRAWN`): a redrawn cell's pair is cleared and
+  re-rendered glyph by glyph, and an idle upload mid-redraw showed half cells for a frame (battle panel every 3 frames:
+  "It m", "H^+30", issue #1). `vwf_nmi` (game frame ready = drawing done) clears it and always uploads.
 - Findings: the hook starts at scanline ~236-261 (menus ~254-257, a few lines before vblank ends), so chunks must be
   small and checked. Reading `$2137`/`$213D`/`$213F` (H/V counter latch) in the NMI hung the game at file select
   (the wait on `$60` at `$00:897B`). `enqueue` sets `$F82E` (busy) so the NMI never retires an entry mid-merge.

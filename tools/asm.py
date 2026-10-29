@@ -17,6 +17,7 @@ ASAR = ROOT / "tools" / "asar" / "asar.exe"
 SIZE = 0x200000
 # File offset ranges [lo, hi) the asm may change below the expansion banks (tests/test_vwf.py, insert.allowed)
 HOOKS = [(0x2EB6, 0x2EE0), (0x00A9, 0x00AD), (0x05E8, 0x05EC),  # $00:AEB6 stub, NMI -> vwf_nmi, NMI timer -> vwf_idle
+         (0x1795, 0x1799), (0x17C3, 0x17C8),  # game DMA-queue flush: gdma_on / gdma_off
          (0x298F, 0x2992), (0x2A30, 0x2F63), (0x5680, 0x5753),  # asm/names.asm: jump, handlers, helpers
          (0x10250F, 0x102510), (0x10F28D, 0x10F291),  # battle panel field column, save confirm cursor x
          (0x10F29E, 0x10F29F), (0x10F2CD, 0x10F2D2), (0x10F1A1, 0x10F1A5),  # file select "New Game" column, window, cursor
@@ -28,6 +29,7 @@ HOOKS = [(0x2EB6, 0x2EE0), (0x00A9, 0x00AD), (0x05E8, 0x05EC),  # $00:AEB6 stub,
          (0x10B91D, 0x10B91E), (0x10B990, 0x10B991), (0x10BACE, 0x10BACF), (0x10BDC5, 0x10BDC6),
          (0x10BF4F, 0x10BF88), (0x0804C7, 0x0804C9),  # ... place-name label width
          (0x1092F0, 0x1092F2), (0x1092F4, 0x1092F6), (0x10935A, 0x10935B), (0x1094AB, 0x1094AC),  # field menu 8 px left
+         (0x10929A, 0x10929B), (0x1093F8, 0x1093F9),  # ... 5-item menu, clear on close
          # menus.asm town picker: index math, scroll/page/column limits, name cells, cursor brackets
          (0x10ACF3, 0x10ACF8), (0x10AE90, 0x10AE95), (0x10AEC0, 0x10AEC5), (0x10BD7C, 0x10BD81),
          (0x10ADEF, 0x10ADF0), (0x10AE30, 0x10AE31), (0x10AE22, 0x10AE23), (0x10AFCB, 0x10AFCC),
@@ -35,7 +37,8 @@ HOOKS = [(0x2EB6, 0x2EE0), (0x00A9, 0x00AD), (0x05E8, 0x05EC),  # $00:AEB6 stub,
          (0x10AED1, 0x10AED3), (0x00A002, 0x00A003), (0x00AEA5, 0x00AEA6), (0x00BC6B, 0x00BC6C), (0x10CFBA, 0x10CFBB),  # info colon
          (0x065673, 0x06568D),  # crawl.asm: intro crawl page command -> crawl_page / crawl_tick
          (0x000AEE, 0x000AF2),  # buttons.asm: unpacker entry -> btn_unpack
-         (0x109CF7, 0x109CFB)]  # compass.asm: tilemap unpack -> compass_draw
+         (0x109CF7, 0x109CFB),  # compass.asm: tilemap unpack -> compass_draw
+         (0x10DDE0, 0x10DDE4), (0x10DE4C, 0x10DE50)]  # controller.asm: tilemap unpacks -> ctl_enter / ctl_frame
 NAME_ARRAYS = (0x3422, 0x5680)  # pointer arrays rewritten by insert.names_far (strings now in bank $3F)
 
 

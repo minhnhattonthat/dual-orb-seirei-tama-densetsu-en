@@ -1001,7 +1001,7 @@
  {
   "id": "20:9364",
   "jp": "ー オ―トバトル ー{fa}",
-  "en": "- AUTO BATTLE -{fa}",
+  "en": "AUTO BATTLE{fa}",
   "block": "battle: start, results, level up",
   "refs": [
    "b3 10011D"
@@ -2060,7 +2060,7 @@
  {
   "id": "21:9D8B",
   "jp": "     {n}     {n}     {n}     {n}     {n}     {n}{pos:1518}         {end}",
-  "en": "",
+  "en": "______{n}______{n}______{n}______{n}______{n}______{n}{pos:1518}_________{end}",
   "block": "field menu",
   "refs": [
    "b3 1093EE"
