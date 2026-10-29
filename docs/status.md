@@ -121,13 +121,25 @@ Updated at the end of every session. Keep it to what the next session needs; his
     `battle_auto`); (6) map corruption after battles: NMI upload raced the game's main-thread DMA-queue flush
     (`gdma_on/off`, `docs/re/vwf.md`); (7) flicker: idle-NMI uploads of half-redrawn cells (`!DRAWN` gate).
     Probes `tools/lua/{cellwrites,vramaddr,dmarace}.lua`. Release script default `--version 1.1`.
-- **Next:** v1.1 release: the full EN re-tour (`warp_all.py --tour`, see Phase 8) was stopped by the host (low
-  memory) before it finished; re-run it (fewer `--jobs`), `qa_gate.py init` + visual-QA chunks (VWF upload timing
-  changed: every text screen), then `tools/release.py` (default 1.1). Then player bug reports. Not checked: one-frame "Re:ord 3" flash after saving (now "File"), the one-frame
+  - v1.1 QA (2026-10-30): re-tour r6 (153 scenes, 357 sheets) found the issue #1 `!DRAWN` gate starved idle uploads:
+    shops and item/magic/equip menus showed stale pool glyphs for seconds (item list never recovered). Fixed in two
+    steps (`asm/vwf.asm`, `docs/re/vwf.md` §Half cells): hold only the pairs still being drawn, send runs up to the
+    held pair, walk past held ring entries, never hold a pair not yet sent (`!SENT`). Battle panel checked frame by
+    frame (flicker stays fixed; `--shot-every 1` check in vwf.md). r7 re-tour left a 1-2 dim-frame stale tail at a
+    shop fade-in (bandwidth limit, now a standing non-bug in the brief) and the whom_back window-close animation
+    (game's own, JP too). Probe `tools/lua/vwfstate.lua`.
+    r8 re-tour 153/153, 357 sheets, all 11 chunks ok (verdicts `r8_*`), `qa_gate.py check` exit 0.
+  - v1.1 release built 2026-10-30: `tools/release.py --version 1.1` passes (build, check, smoke, jp_left 0 runs,
+    gate, BPS re-applied). `release/DualOrb_EN_v1.1.zip` (bps + README), patch sha1 88e1898e..., result crc32
+    282A56CC, playable `build/dual_orb_en_v1.1.sfc` sha1 f72b9158.... Not published (needs the user).
+- **Next:** publishing v1.1 is the user's call (`gh release create` only with their say-so; close issue #1 then).
+  Then player bug reports. Not checked: one-frame "Re:ord 3" flash after saving (now "File"), the one-frame
   "branc?es" redraw in menu_item_long2 (final frame clean).
 - **Risks:** other `find_lists` refs may be false like `$13:E69B` (only those read by the map loader `$0C:B40A` are
   proven; probe: `work/tmp_refs.lua` idea, log reads of each ref site). Shadow `$7E:E000` is free in the scenes
-  measured, not proven everywhere. A full screen of new VWF cells takes a few frames to appear.
+  measured, not proven everywhere. A full screen of new VWF cells takes a few frames to appear; text finished just
+  before a fade-in can show its last cell or two stale for 1-2 dim frames (`docs/re/vwf.md` §Limit).
+  `$7F:8F00-$8FB5` (`!SENT`) assumed free like the rest of `$7F:8900-$8FFF` (measured in 9 scenes).
 - **Debug-tool limits:** a record saved after a warp (`church_saved`, SRAM `tools/mesen/Saves/<rom>.srm`) garbles
   the file select when loaded, on the original ROM too (`tools/routes/load1.txt`): story-so-far not reachable yet;
   delete that .srm after such a run (`warp_all.py` does). Scenes are by place, not story chapter (story flags `$7FCF83+n` not mapped). Final boss
