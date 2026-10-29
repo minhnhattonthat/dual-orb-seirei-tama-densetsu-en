@@ -13,3 +13,4 @@ decision replaces one, mark the old one "replaced by D<n>" instead of deleting i
 | D5 | 2026-10-27 | Graphics text left in Japanese | none (default), list | Translate all of it (titles, menus, banners); leave the Japanese logo only if it has no official English version. |
 | D6 | 2026-10-27 | Specs and plans | need approval, pre-approved | Pre-approved: keep going through every checkpoint; phase per session, commit + push to main at each phase end. Never `gh release create`, never change repo visibility. |
 | D7 | 2026-10-27 | Existing saves/savestates | user saves, none | None provided; build the debug tool. |
+| D8 | 2026-10-30 | Publish v1.1 | publish, hold | Publish: user said "publish to github". gh's default account (nathantonsoniq) can only read the repo; released with the owner account's token (`GH_TOKEN=$(gh auth token -u minhnhattonthat)`). D6's no-release rule still holds for unattended runs. |

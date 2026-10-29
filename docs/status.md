@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9 (release) done 2026-10-27: v1.0 published.
+- **Phase:** 9 (release) done: v1.0 published 2026-10-27, v1.1 published 2026-10-30.
   `tools/build.py` builds VWF + script (`--marker` for the marker build, `--identity` for the byte-identical ROM).
 - **Done:**
   - Step 0: MesenCE 2.2.1 in `tools/mesen/`, guard hook verified (blocks `sed -i`), pre-commit runs `tools/check.py`
@@ -131,9 +131,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
     r8 re-tour 153/153, 357 sheets, all 11 chunks ok (verdicts `r8_*`), `qa_gate.py check` exit 0.
   - v1.1 release built 2026-10-30: `tools/release.py --version 1.1` passes (build, check, smoke, jp_left 0 runs,
     gate, BPS re-applied). `release/DualOrb_EN_v1.1.zip` (bps + README), patch sha1 88e1898e..., result crc32
-    282A56CC, playable `build/dual_orb_en_v1.1.sfc` sha1 f72b9158.... Not published (needs the user).
-- **Next:** publishing v1.1 is the user's call (`gh release create` only with their say-so; close issue #1 then).
-  Then player bug reports. Not checked: one-frame "Re:ord 3" flash after saving (now "File"), the one-frame
+    282A56CC, playable `build/dual_orb_en_v1.1.sfc` sha1 f72b9158.... Published 2026-10-30 at the user's request (tag v1.1 on 5770668).
+- **Next:** player bug reports. Not checked: one-frame "Re:ord 3" flash after saving (now "File"), the one-frame
   "branc?es" redraw in menu_item_long2 (final frame clean).
 - **Risks:** other `find_lists` refs may be false like `$13:E69B` (only those read by the map loader `$0C:B40A` are
   proven; probe: `work/tmp_refs.lua` idea, log reads of each ref site). Shadow `$7E:E000` is free in the scenes
