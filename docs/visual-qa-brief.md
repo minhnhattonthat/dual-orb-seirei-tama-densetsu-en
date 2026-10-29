@@ -37,6 +37,9 @@ Standing non-bugs, `ok`:
 - `0/G` in the treasure-box game (the original's);
 - sound-test titles in brackets;
 - a party member or monster sprite overlapping a box (the original does it too);
+- in the first 1-2 dim frames of a shop/menu fade-in, the last cell or two of the description line not yet right
+  (known VWF upload limit, `docs/re/vwf.md`); the next frame must be clean, else it is an issue;
+- dark window shapes sliding off while a menu window closes (the game's close animation; English windows are wider);
 - anything identical in the original's sheet.
 
 ## Verdicts

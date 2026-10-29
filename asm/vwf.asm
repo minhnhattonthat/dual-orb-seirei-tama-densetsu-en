@@ -32,11 +32,14 @@ incsrc "../build/vwf/defs.asm"
 !TILE     = $F82A
 !NTILE    = $F82C         ; NMI's own temp
 !BUSY     = $F82E         ; nonzero while enqueue edits the ring: the NMI skips that frame
-!DRAWN    = $F830         ; nonzero: vwf_draw ran since the last NMI (the main thread may be mid-redraw)
 !GDMA     = $F832         ; byte, nonzero while the game's queue flush is between VMAIN/address and its DMA
 !INDRAW   = $F834         ; nonzero while vwf_draw runs (an NMI there may see a pair half rendered)
 !SKIPOPEN = $F836         ; upload: 1 hold the pen's open pair (more glyphs may join it), 2 also the pairs in render
+!DRAWN    = $F830         ; nonzero: vwf_draw ran since the last NMI (the main thread may be mid-redraw)
 !LIMIT    = $F838         ; upload: bytes of the current ring entry it may send now
+!CUR      = $F83A         ; upload: ring entry being sent (held entries are passed over, popped once sent)
+!QEND     = $F83C         ; upload: QTAIL when it started (held entries moved to the tail are not met again)
+!SENT     = $7F8F00       ; byte per pool pair (to $8FB5): sent to VRAM since alloc handed it out (else VRAM shows junk)
 !QHEAD    = $F820         ; upload ring: byte offsets 0-$1FE into QV/QS/QN (256 runs)
 !QTAIL    = $F822
 !CHUNK    = $F824
@@ -495,6 +498,8 @@ alloc:
 	sep #$20
 	lda #$01
 	sta.w !USED,x
+	lda #$00
+	sta.l !SENT,x
 	rep #$20
 	txa
 	inc
@@ -645,6 +650,8 @@ unpend:
 	tax
 	sep #$20
 	stz.w !PEND,x
+	lda #$01
+	sta.l !SENT,x
 	rep #$20
 	inc.w !NTILE
 	inc.w !NTILE
@@ -669,8 +676,9 @@ vwf_nmi:
 ; DMA after line 225 left the hook ~2 lines). The game's main-thread queue flush is fenced by gdma_on/off.
 ; A redrawn cell's pair is cleared and re-rendered glyph by glyph, and sending it half done showed half cells for a
 ; frame (battle panel, issue #1). So while the main thread is drawing (vwf_draw ran since the last NMI) the pen's
-; open pair waits, and inside vwf_draw also the pairs it is rendering (SKIPOPEN 1 / 2). Skipping the whole upload
-; then starved menus and shops, which draw for ~5 NMIs a frame (stale glyphs for seconds, r6 tour).
+; open pair waits, and when this NMI cut into vwf_draw also the pairs it is rendering (SKIPOPEN 1 / 2); only pairs
+; VRAM already shows right (!SENT). Skipping the whole upload instead starved menus and shops, which draw for ~5
+; NMIs a frame (stale glyphs for seconds, r6 tour). Without the open-pair hold the battle panel flickers again.
 vwf_idle:
 	rep #$30
 	lda.l $7E0000+!INDRAW
@@ -740,15 +748,21 @@ upload:
 	rep #$20
 	lda.w !SIG                ; WRAM is random until the first glyph runs init
 	cmp #$5756
-	bne .out
+	bne .busy
 	lda.w !BUSY
-	bne .out
+	bne .busy
+	lda.w !QHEAD
+	sta.w !CUR
+	lda.w !QTAIL
+	sta.w !QEND
 	bra .loop
-.out
+.busy
 	jmp .done
+.out
+	jmp .pop
 .loop
-	ldx.w !QHEAD
-	cpx.w !QTAIL
+	ldx.w !CUR
+	cpx.w !QEND
 	beq .out
 	lda.w !BUDGET             ; cap per NMI (latching the H/V counters via $2137 hung the game at file select)
 	beq .out
@@ -757,6 +771,7 @@ upload:
 	rep #$20
 	bpl .out
 	lda.w !QN,x
+	beq .next                 ; sent, waiting for the entries before it
 	sta.w !LIMIT
 	lda.w !SKIPOPEN           ; a pair still being drawn: send the run only up to it, the rest on a later NMI
 	beq .send
@@ -775,7 +790,42 @@ upload:
 	jsr holds
 +	lda.w !LIMIT
 	bne .send
-	jmp .done
+.next                     ; held: go on with the later entries (stopping here starved them, r7 shop fade-in)
+	cpx.w !QHEAD
+	bne .skip
+	lda.w !QN,x               ; the head: retire it if sent, else move what is held to the tail (past QEND)
+	beq .popped
+	ldy.w !QTAIL
+	tya
+	inc
+	inc
+	and #$01FE
+	cmp.w !QHEAD
+	beq .skip                 ; full: leave it
+	pha
+	lda.w !QV,x
+	sta.w !QV,y
+	lda.w !QS,x
+	sta.w !QS,y
+	lda.w !QN,x
+	sta.w !QN,y
+	pla
+	sta.w !QTAIL
+.popped
+	txa
+	inc
+	inc
+	and #$01FE
+	sta.w !QHEAD
+	sta.w !CUR
+	jmp .loop
+.skip
+	txa
+	inc
+	inc
+	and #$01FE
+	sta.w !CUR
+	jmp .loop
 .send
 	lda #!CHUNKMAX
 	cmp.w !LIMIT
@@ -816,13 +866,19 @@ upload:
 	sec
 	sbc.w !CHUNK
 	sta.w !QN,x
-	bne +
+	jmp .loop
+.pop                      ; retire the sent entries at the head
+	ldx.w !QHEAD
+	cpx.w !QTAIL
+	beq .done
+	lda.w !QN,x
+	bne .done
 	txa
 	inc
 	inc
 	and #$01FE
 	sta.w !QHEAD
-+	jmp .loop
+	bra .pop
 .done
 	rep #$20
 	pla
@@ -842,6 +898,17 @@ upload:
 holds:
 	cmp #$FFFF
 	beq +
+	sta.w !NTILE
+	phx
+	tax
+	lda.l vwf_tilepair,x
+	and #$00FF
+	tax
+	lda.l !SENT,x
+	plx
+	and #$00FF
+	beq +                     ; never sent since handed out: VRAM shows junk there, a part drawn beats it
+	lda.w !NTILE
 	asl
 	asl
 	asl
@@ -861,6 +928,8 @@ init:
 	sep #$20
 -	stz.w !USED,x
 	stz.w !PEND,x
+	lda #$00
+	sta.l !SENT,x
 	inx
 	cpx.w #!POOL_N
 	bne -
