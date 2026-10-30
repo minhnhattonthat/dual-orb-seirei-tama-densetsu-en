@@ -9,6 +9,18 @@ no game data you can play; you need your own dump of the Japanese game.
 **Found a bug?** [Report it](../../issues/new/choose): untranslated text, typos, overflow, crashes. Attaching a savestate
 helps most.
 
+## Translation status
+
+| Part | Status |
+|---|---|
+| Dialogue, intro crawl, story-so-far pages | Translated |
+| Menus, items, magic, shops, battle messages | Translated |
+| Title screen and graphics with text | Translated (the "DUAL ORB" logo is English in the original; battle buttons redrawn as ATTACK / AUTO / FLEE) |
+| Name entry | Translated (English letter chart) |
+| Ending and staff credits | Translated |
+
+Known issues: none known; [report one](../../issues/new/choose).
+
 ## What's here
 
 | Path | What it is |
