@@ -16,8 +16,10 @@ org $21929A               ; same for the 5-item menu (no Compass)
 	db $18
 org $2193F8               ; and the clear on close (21:9D8B, 6 cells a row), else column 24 stayed on screen (#1)
 	db $18
-org $2194AB               ; LDA #$00C6: left bracket x -> $BE
-	db $BE
+org $2194AB               ; LDA #$00C6: left bracket x -> $BD (VWF glyphs start at the cell edge: 2 px gap)
+	db $BD
+org $219445               ; same in the other bracket drawer ($21:942C, frames $2A:C1EE), else it overlapped the text (#3)
+	db $BD
 org $1084C7              ; place-name label ($10:8486, text from x16): w80 -> 136 for the longest name (119 px)
 	dw $0088                ; shortcut: one width for every name; size it to the name if short ones look boxed-in
 org $21BF82               ; info panel x120 w120 -> x8 w240

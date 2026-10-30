@@ -132,7 +132,15 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - v1.1 release built 2026-10-30: `tools/release.py --version 1.1` passes (build, check, smoke, jp_left 0 runs,
     gate, BPS re-applied). `release/DualOrb_EN_v1.1.zip` (bps + README), patch sha1 88e1898e..., result crc32
     282A56CC, playable `build/dual_orb_en_v1.1.sfc` sha1 f72b9158.... Published 2026-10-30 at the user's request (tag v1.1 on 5770668).
-- **Next:** player bug reports. Not checked: one-frame "Re:ord 3" flash after saving (now "File"), the one-frame
+  - Issue #3 (2026-10-30, same player, v1.1, Supafaust; media in `work/issues/3/`): (1) controller O.K./CANCEL junk
+    -> VWF labels pasted per mode (`asm/controller.asm`, scenes controller_b/_d); (2) field menu left bracket
+    overlapped the text after moving: second drawer `$21:9445` still had `$C6`, both now `$BD` (scene menu_down);
+    (4) battle panel flicker: VWF upload used DMA ch0 = battle HDMA ch0, HDMA init took our settings when vblank
+    ended mid-upload; now a channel off in `$66` (`asm/vwf.asm`, `docs/re/vwf.md`). Mesen: panel flashes at
+    f1249/1351/1626 gone (JP has none). (3) menu open/close artifacts NOT reproduced in Mesen (BG3 map and OAM clean);
+    the video shows only faint dots in the emulator's black top border for ~6 frames after close: maybe the same
+    HDMA race; ask the player to recheck. Not re-toured (warp_all/visual QA) since the VWF channel change.
+- **Next:** player bug reports; re-tour + `qa_gate.py` before any v1.2 release. Not checked: one-frame "Re:ord 3" flash after saving (now "File"), the one-frame
   "branc?es" redraw in menu_item_long2 (final frame clean).
 - **Risks:** other `find_lists` refs may be false like `$13:E69B` (only those read by the map loader `$0C:B40A` are
   proven; probe: `work/tmp_refs.lua` idea, log reads of each ref site). Shadow `$7E:E000` is free in the scenes
@@ -143,7 +151,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   the file select when loaded, on the original ROM too (`tools/routes/load1.txt`): story-so-far not reachable yet;
   delete that .srm after such a run (`warp_all.py` does). Scenes are by place, not story chapter (story flags `$7FCF83+n` not mapped). Final boss
   can't be won; ending reached by steps 41/42. Battle-time HP copy not found (GOD clears the dead flags instead).
-- **Open bugs:** none.
+- **Open bugs:** #3 part 3 (menu open/close border dots, not reproduced; awaiting the player's recheck).
 - **Waiting on the user:** nothing. (Non-blocking: sound-test titles are already English in fullwidth brackets;
   default plan is to keep their wording and only restyle.)
 - **Gotchas:** `play.py` presses: `a a a --gap N`, not `"-*120"` tokens. Mesen probe addresses print with odd bank

@@ -34,6 +34,11 @@ box; the VWF (about 5.5 px a letter) fits ~35, close to the JP line count (D4: e
   tilemap rows were lost). `vwf_nmi` replaces the NMI's `JSL $00E388` at `$00:80A9`, after the game's DMA, and
   sends <= $40-byte chunks (<= $400 a frame) while `$4212` bit 7 (vblank) is set. It re-reads `$4212` after each
   DMA: if vblank ended during it, the tail was dropped, so the entry is kept and resent next frame.
+  DMA channel (issue #3): the highest one whose bit is clear in the game's HDMA-enable shadow `$66` (written to
+  `$420C` at `$00:9A6B`; the game sets up HDMA on any of 0-7), addressed through D = `$43x0`. It used ch0, which
+  battles run HDMA on (`$66` = 3: panel window/colour): when vblank ended mid-upload, HDMA init read our settings
+  and the panel lost its dark background for that frame (2-frame flashes in Mesen at menu changes, constant
+  flicker in Supafaust). Check: battle_party with the KEYS below, panel strip y200-224 mean per frame, no jump to ~108.
   `vwf_idle` (hook on the NMI timer `$00:85E8`, which runs on every NMI) drains up to $1000 more: in menus the game
   readies a frame (`$60`) only every ~5 NMIs, and its DMA (`$00:942B`) runs lines 225-254, so the `$80A9` hook alone
   managed ~64 B a game frame and menus showed stale pool glyphs for ~130 frames. Probe: `tools/lua/nmiprof.lua`

@@ -101,6 +101,11 @@ Inserted strings go through the 32-byte buffer `$0E11` (FF-terminated): a name l
   (table `$21:DE82`, bank $2A) unpacked to `$7E:8000` and DMA'd to VRAM `$7800` every frame (loop `$21:DE29`); kana
   labels in rows 3-8 (header col 4; modes at cols 5/13/21, rows 5 and 7); the mode cursor is sprites.
   `asm/controller.asm` prints English into the BG3 buffer rows 3-8 on entry and copies them over each unpack (#1).
+  "O.K."/"CANCEL" move per mode (rows 9-27) and use the font's latin tiles O/K `$028/$024`, C A N C E L
+  `$00C..$025` (+$10 bottoms), pool tiles too: junk after other text ran. Printed into hidden rows 28-29 on
+  entry and pasted over the cells each unpack, found by tile `$028` / first `$00C` (#3; scenes controller_b/_d).
+- **Field menu cursor**: the left bracket sprite x is set by two drawers, `$21:9444` and `$21:94AA` (`LDA #$00C6`);
+  both now `$BD` (#3: only the second was moved, the bracket overlapped the first letter; scene menu_down).
 - **Shop greetings** are dialogue records made only of `{tEC:..}` phrase tokens (`"en": ""`, JP bytes kept), one
   phrase a line: the EC phrase's English must fit 192 px by itself (`tools/lint.py` measures kept lines, #1).
 - Battle/menu strings in banks $20/$21 are space-padded fixed-width fields (`こうげき   `).

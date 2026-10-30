@@ -53,6 +53,11 @@ SCENE_LIST = {
   menu_close = at(HOME, { keys = "6 y;90 -;6 b;120 -" }),           -- issue #1: no letters left after closing
   controller = at(HOME, { keys = "6 y;40 -;6 down;14 -;6 down;14 -;6 down;14 -;6 down;14 -;6 a;90 -;" ..
     "6 down;20 -;6 down;20 -;6 down;20 -;6 right;30 -;6 a;150 -" }),  -- Config > Controller > Custom (issue #1)
+  controller_b = at(HOME, { keys = "6 y;40 -;6 down;14 -;6 down;14 -;6 down;14 -;6 down;14 -;6 a;90 -;" ..
+    "6 down;20 -;6 down;20 -;6 down;20 -;6 right;30 -;6 a;150 -;6 down;60 -" }),  -- O.K./CANCEL move per mode (#3)
+  controller_d = at(HOME, { keys = "6 y;40 -;6 down;14 -;6 down;14 -;6 down;14 -;6 down;14 -;6 a;90 -;" ..
+    "6 down;20 -;6 down;20 -;6 down;20 -;6 right;30 -;6 a;150 -;6 down;30 -;6 right;60 -" }),
+  menu_down = at(HOME, { keys = "6 y;40 -;6 down;20 -;6 down;20 -;6 down;20 -;6 up;60 -" }),  -- bracket after moving (#3)
   menu_magic = at(HOME, { keys = menu(0) }),
   menu_item = at(HOME, { keys = menu(1) }),
   -- casters are party slots 1 and 3 ($21:9F05); party size $111F. Slot 1 (Theo, table E4) knows spell n when

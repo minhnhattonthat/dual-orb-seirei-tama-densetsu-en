@@ -39,6 +39,7 @@ incsrc "../build/vwf/defs.asm"
 !LIMIT    = $F838         ; upload: bytes of the current ring entry it may send now
 !CUR      = $F83A         ; upload: ring entry being sent (held entries are passed over, popped once sent)
 !QEND     = $F83C         ; upload: QTAIL when it started (held entries moved to the tail are not met again)
+!CHBIT    = $F83E         ; upload: $420B bit of the DMA channel it uses (one HDMA is off on, D = its $43x0)
 !SENT     = $7F8F00       ; byte per pool pair (to $8FB5): sent to VRAM since alloc handed it out (else VRAM shows junk)
 !QHEAD    = $F820         ; upload ring: byte offsets 0-$1FE into QV/QS/QN (256 runs)
 !QTAIL    = $F822
@@ -724,27 +725,50 @@ upload:
 +	pla
 	rep #$30
 	sta.l $7E0000+!BUDGET
+	; A channel HDMA has on: if vblank ends mid-upload, HDMA starts the frame from our settings and the battle
+	; panel's window/colour HDMA (ch0-1) was lost for that frame (flicker, #3). Take the highest channel off in
+	; the game's HDMA-enable shadow $66 (DP = 0 here).
+	ldx #$0070
+	lda #$0080
+-	bit $66
+	beq +
+	pha
+	txa
+	sec
+	sbc #$0010
+	tax
+	pla
+	lsr
+	bne -
+	plp                       ; all eight on: no upload this NMI
+	rts
++	sta.l $7E0000+!CHBIT
 	phb
+	phd
+	txa
+	clc
+	adc #$4300
+	tcd                       ; D = $43x0: $00-$06 below are the channel's registers
 	pea $7E7E
 	plb
 	plb
-	lda.l $004300             ; the game's code may count on channel 0's settings: keep them
+	lda $00                   ; the game's code may count on the channel's settings: keep them
 	pha
-	lda.l $004302
+	lda $02
 	pha
-	lda.l $004304
+	lda $04
 	pha
-	lda.l $004306
+	lda $06
 	pha
 	sep #$20
 	lda #$80
 	sta.l $002115
 	lda #$01
-	sta.l $004300
+	sta $00
 	lda #$18
-	sta.l $004301
+	sta $01
 	lda #$7E
-	sta.l $004304
+	sta $04
 	rep #$20
 	lda.w !SIG                ; WRAM is random until the first glyph runs init
 	cmp #$5756
@@ -840,13 +864,13 @@ upload:
 	sbc.w !CHUNK
 	sta.w !BUDGET
 	lda.w !CHUNK             ; chunk
-	sta.l $004305
+	sta $05
 	lda.w !QV,x
 	sta.l $002116
 	lda.w !QS,x
-	sta.l $004302
+	sta $02
 	sep #$20
-	lda #$01
+	lda.w !CHBIT
 	sta.l $00420B
 	lda.l $004212             ; vblank ended during the DMA: its tail was dropped, so keep the entry to resend it
 	bmi +
@@ -882,13 +906,14 @@ upload:
 .done
 	rep #$20
 	pla
-	sta.l $004306
+	sta $06
 	pla
-	sta.l $004304
+	sta $04
 	pla
-	sta.l $004302
+	sta $02
 	pla
-	sta.l $004300
+	sta $00
+	pld
 	plb
 	plp
 	rts
