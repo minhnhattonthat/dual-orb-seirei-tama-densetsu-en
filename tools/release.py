@@ -42,7 +42,7 @@ def hashes(data):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--version", default="1.1")
+    ap.add_argument("--version", default="1.2")
     ap.add_argument("--force", action="store_true", help="overwrite this version's existing release files")
     a = ap.parse_args()
     out = ROOT / "release"

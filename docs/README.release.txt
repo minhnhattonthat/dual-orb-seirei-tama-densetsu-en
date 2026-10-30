@@ -36,6 +36,12 @@ Known issues
 - A menu description can show one garbled letter for a single frame while it
   redraws after the cursor moves.
 
+Changes in v1.2
+---------------
+- Controller setup screen: "O.K." and "CANCEL" labels no longer garbled.
+- Field menu cursor bracket no longer overlaps the option text.
+- Fixed the battle panel's dark background flickering (menus and battle end).
+
 Changes in v1.1
 ---------------
 - Controller setup screen (Config > Controller > Custom) now in English.

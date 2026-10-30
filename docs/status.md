@@ -139,8 +139,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
     ended mid-upload; now a channel off in `$66` (`asm/vwf.asm`, `docs/re/vwf.md`). Mesen: panel flashes at
     f1249/1351/1626 gone (JP has none). (3) menu open/close artifacts NOT reproduced in Mesen (BG3 map and OAM clean);
     the video shows only faint dots in the emulator's black top border for ~6 frames after close: maybe the same
-    HDMA race; ask the player to recheck. Not re-toured (warp_all/visual QA) since the VWF channel change.
-- **Next:** player bug reports; re-tour + `qa_gate.py` before any v1.2 release. Not checked: one-frame "Re:ord 3" flash after saving (now "File"), the one-frame
+    HDMA race; ask the player to recheck. r9 visual QA (chunk 000) saw the place-name box leave dashes as it
+    closes, the same in the JP tour: likely that report, the game's own.
+  - v1.2 (2026-10-30): r9 re-tour 156/156, 363 sheets, all 10 chunks ok (verdicts `r9_*`), gate exit 0;
+    `tools/release.py --version 1.2` passes. `release/DualOrb_EN_v1.2.zip`, patch sha1 bdcc9547..., result crc32
+    756264B6. Published 2026-10-30 at the user's request.
+- **Next:** player bug reports. Not checked: one-frame "Re:ord 3" flash after saving (now "File"), the one-frame
   "branc?es" redraw in menu_item_long2 (final frame clean).
 - **Risks:** other `find_lists` refs may be false like `$13:E69B` (only those read by the map loader `$0C:B40A` are
   proven; probe: `work/tmp_refs.lua` idea, log reads of each ref site). Shadow `$7E:E000` is free in the scenes
