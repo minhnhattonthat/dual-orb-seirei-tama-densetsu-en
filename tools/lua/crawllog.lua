@@ -5,7 +5,7 @@ local function w(a) return emu.read(a, mem) | emu.read(a + 1, mem) << 8 end
 L.on_exec(ADDR, ADDR, function()
   local t = {}
   for i = 0, 63 do
-    local b = emu.read(0x7FEE80 + i, mem)
+    local b = emu.read(0x7EEF80 + i, mem)
     if b == 0xFF then break end
     t[#t + 1] = string.format("%02X", b)
   end

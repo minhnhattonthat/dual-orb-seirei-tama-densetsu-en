@@ -36,6 +36,14 @@ Known issues
 - A menu description can show one garbled letter for a single frame while it
   redraws after the cursor moves.
 
+Changes in v1.3
+---------------
+- Fixed map tiles turning to junk after battles in large areas (Underground
+  Waterway, Goblin Den and others).
+- Field menu "(" bracket no longer drawn outside the box after leaving a
+  submenu.
+- Opening crawl: the line "They were spoken of only in legend." now shows.
+
 Changes in v1.2
 ---------------
 - Controller setup screen: "O.K." and "CANCEL" labels no longer garbled.

@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9 (release) done: v1.0 published 2026-10-27, v1.1 published 2026-10-30.
+- **Phase:** 9 (release) done: v1.0 published 2026-10-27, v1.1 + v1.2 2026-10-30, v1.3 2026-11-01.
   `tools/build.py` builds VWF + script (`--marker` for the marker build, `--identity` for the byte-identical ROM).
 - **Done:**
   - Step 0: MesenCE 2.2.1 in `tools/mesen/`, guard hook verified (blocks `sed -i`), pre-commit runs `tools/check.py`
@@ -152,7 +152,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
     JP scenes: `tools/debug/wramscan.sh`. (2) field menu "(" outside the box after backing out of a submenu: the
     5-item redraw's window record `$21:924B` was never moved 8 px left (scene `menu_config_back`).
     Scene `waterway_battle` (random encounter there, won). Probes `tools/lua/{vramrace,wramwho}.lua`.
-- **Next:** release v1.3 after a re-tour (VWF shadow moved: every text screen changed). Player bug reports. Not checked: one-frame "Re:ord 3" flash after saving (now "File"), the one-frame
+  - v1.3 QA (2026-11-01): r10 re-tour 158/158 found the new shadow (pairs 116-119) on the intro crawl's vars
+    `$7F:EE80-$EEF7` (wramscan runs the JP ROM, blind to our own vars): crawl vars moved to `$7E:EF80-$EFF7`. Also an
+    old crawl bug: page 2 started before page 1's last line neared the screen, so "They were spoken of only in
+    legend." never printed; `crawl_page` now flushes the previous page's lines (`asm/crawl.asm`). Verdicts `r10_*`,
+    gate 368/368. `tools/release.py --version 1.3` passes: patch sha1 67e6c8f5..., result crc32 99A74471, playable
+    `build/dual_orb_en_v1.3.sfc` sha1 e42b404d.... Published 2026-11-01 at the user's request.
+- **Next:** player bug reports. Not checked: one-frame "Re:ord 3" flash after saving (now "File"), the one-frame
   "branc?es" redraw in menu_item_long2 (final frame clean).
 - **Risks:** other `find_lists` refs may be false like `$13:E69B` (only those read by the map loader `$0C:B40A` are
   proven; probe: `work/tmp_refs.lua` idea, log reads of each ref site). Shadow `$7F:E000-$EEFF` + `$7E:F040-$F7FF` and
@@ -164,7 +170,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   the file select when loaded, on the original ROM too (`tools/routes/load1.txt`): story-so-far not reachable yet;
   delete that .srm after such a run (`warp_all.py` does). Scenes are by place, not story chapter (story flags `$7FCF83+n` not mapped). Final boss
   can't be won; ending reached by steps 41/42. Battle-time HP copy not found (GOD clears the dead flags instead).
-- **Open bugs:** #4 fixed on main, not released. #3 part 3 (menu open/close border dots, not reproduced; awaiting the player's recheck).
+- **Open bugs:** none new (#4 fixed in v1.3). #3 part 3 (menu open/close border dots, not reproduced; awaiting the player's recheck).
 - **Waiting on the user:** nothing. (Non-blocking: sound-test titles are already English in fullwidth brackets;
   default plan is to keep their wording and only restyle.)
 - **Gotchas:** `play.py` presses: `a a a --gap N`, not `"-*120"` tokens. Mesen probe addresses print with odd bank

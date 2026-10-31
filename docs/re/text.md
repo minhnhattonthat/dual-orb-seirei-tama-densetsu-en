@@ -141,8 +141,8 @@ is unchanged.
   edges). Dirty-row table `$0A67 + row*2` (DEC marks a BG3 map row for upload; `$00:AF1C` marks a box's rows).
 - An English page is 183-260 VWF cells (pool 182) and the other half still held the last page: lines came out
   shifted/garbled. Now cmd 1 only queues the page (follows the `{jump}` stub); every pass prints the next line
-  (copied to `$7F:EE80`, A8BF's setup with a 2-row box) once it is < 240 px below the scroll, and blanks the map row
-  at screen y 64 (above the window) so the sweep frees its cells. Vars `$7F:EEF0-$EEF7`. Probe `tools/lua/crawllog.lua`.
+  (copied to `$7E:EF80`, A8BF's setup with a 2-row box) once it is < 240 px below the scroll, and blanks the map row
+  at screen y 64 (above the window) so the sweep frees its cells. Vars `$7E:EFF0-$EFF7`. Probe `tools/lua/crawllog.lua`.
 - Story-so-far (title `$0C:DCE9` + one of 18 pieces `$0C:DCF6-$E4AA`, all on screen at once): title + piece must fit
   the 182-pair pool. Over it (story08 197, story12 192 cells) a later cell stole a line's first word. Gate:
   `tools/fieldfit.py` (ceil(px/8) per line, names at 42 px, <= 180). Scenes `story00-17`; `--var "STORY_HOLD=true"`

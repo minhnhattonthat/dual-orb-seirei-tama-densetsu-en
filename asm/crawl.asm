@@ -3,10 +3,10 @@
 ; overwritten by its last ones. Now a page is only queued; each loop pass prints its next line once that line nears the
 ; screen bottom, and blanks the map row passing above the window so the sweep can free the cells it showed.
 
-!CPTR   = $7FEEF0         ; next line of the page (24-bit)
-!CROW   = $7FEEF4         ; its BG3 map row (8 px rows, 0-63)
-!CDONE  = $7FEEF6         ; nonzero once the page's FF is read
-!LBUF   = $7FEE80         ; the line, FF-terminated, as the printer's text
+!CPTR   = $7EEFF0         ; next line of the page (24-bit); $7E:EC00-$F03F free (below the VWF shadow, vwf.md)
+!CROW   = $7EEFF4         ; its BG3 map row (8 px rows, 0-63)
+!CDONE  = $7EEFF6         ; nonzero once the page's FF is read
+!LBUF   = $7EEF80         ; the line, FF-terminated, as the printer's text
 !SCROLL = $0D9C           ; BG3 V-scroll (NMI writes it to $2112)
 !DIRTY  = $0A67           ; word per BG3 map row; DEC = upload the row
 
@@ -27,6 +27,14 @@ assert pc() <= $0CD696    ; the page pointer table
 pullpc
 
 crawl_page:               ; A = page address in bank $0C, M/X 16, DB = $0C
+	pha
+	lda $24                   ; page index (0-3); the vars are garbage before page 0
+	beq +
+-	lda.l !CDONE              ; the next page can start before the last line is near the screen: print it now
+	bne +
+	jsr crawl_line
+	bra -
++	pla
 	sta $00
 	lda.w #$000C
 	sta $02

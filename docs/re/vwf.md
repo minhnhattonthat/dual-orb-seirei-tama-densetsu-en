@@ -19,7 +19,9 @@ box; the VWF (about 5.5 px a letter) fits ~35, close to the JP line count (D4: e
   it when `$60` is set. Game peaks at $E3 bytes; region up to `$0A62` (cleared at boot by `$00:DFB0`).
 - Free WRAM (never written in 90 scenes: every place, battles, bosses, menus, shops, credits;
   `bash tools/debug/wramscan.sh` -> `work/qa/wram/free.txt`): `$7E:EC00-$FFFF`, `$7F:E000-$EFFF` (+ scraps
-  `$7F:8900-$8FFF`, `$CA00-$CBFF`, `$DA00`, `$DC00-$DEFF`). Measured, not proven.
+  `$7F:8900-$8FFF`, `$CA00-$CBFF`, `$DA00`, `$DC00-$DEFF`). Measured, not proven. The scan runs the JP ROM, so it
+  can't see our own vars: grep `asm/` for `$7E`/`$7F` before taking any of it (the v1.3 shadow first overlapped the
+  crawl's `$7F:EE80-$EEF7`; crawl moved to `$7E:EF80-$EFF7`, names buffer `$7F:EF00-$EFFF`).
 - Wrong (fixed for issue #4, also issue #1's Goblin Den corruption): "`$7E:E000-$FFFF` is free" (11 small scenes).
   A map's tile graphics are unpacked to a staging buffer from `$7E:9000` (`$01:E140`, via `$2180`) that the game
   DMAs into VRAM as needed (queue flush reads it after battles and while walking). Big tilesets run it to
