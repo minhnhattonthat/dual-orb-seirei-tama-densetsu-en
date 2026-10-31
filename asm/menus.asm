@@ -10,6 +10,10 @@ org $2192F0               ; window record x192 w56 -> x184 w64
 	dw $00B8
 org $2192F4
 	dw $0040
+org $21924B               ; same for the 5-item menu's window (h96), else "(" sat outside it (#4)
+	dw $00B8
+org $21924F
+	dw $0040
 org $21935A               ; LDX #$0019: text column 25 -> 24
 	db $18
 org $21929A               ; same for the 5-item menu (no Compass)

@@ -1,5 +1,5 @@
 -- Dump PPU state plus WRAM at frame DUMP_AT (default FRAMES-1): <out>/vwf.vram.bin, vwf.wram.bin (128 KB),
--- for checking VWF pool tiles: tilemap buffer $7F:F000, shadow $7E:E000, VRAM BG3 chr. tools/vwfcheck.py reads them.
+-- for checking VWF pool tiles: tilemap buffer $7F:F000, shadow $7F:E000 + $7E:F040, VRAM BG3 chr. tools/vwfcheck.py reads them.
 local at = DUMP_AT or (FRAMES - 1)
 L.on_frame(function(f)
   if f ~= at then return end

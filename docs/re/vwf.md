@@ -17,13 +17,21 @@ box; the VWF (about 5.5 px a letter) fits ~35, close to the JP line count (D4: e
   in the tour (`work/qa/dma_*`).
 - Game DMA queue `$0661` (8-byte entries: vram, src, bank | flag<<8, size; FFFF ends), byte index DP `$7B`; NMI runs
   it when `$60` is set. Game peaks at $E3 bytes; region up to `$0A62` (cleared at boot by `$00:DFB0`).
-- Free WRAM (never written in 11 scenes, `tools/lua/wramuse.lua` + `tools/wramfree.py`): `$7E:E000-$FFFF`,
-  `$7F:E000-$EFFF`. Candidate, not proven for every screen.
+- Free WRAM (never written in 90 scenes: every place, battles, bosses, menus, shops, credits;
+  `bash tools/debug/wramscan.sh` -> `work/qa/wram/free.txt`): `$7E:EC00-$FFFF`, `$7F:E000-$EFFF` (+ scraps
+  `$7F:8900-$8FFF`, `$CA00-$CBFF`, `$DA00`, `$DC00-$DEFF`). Measured, not proven.
+- Wrong (fixed for issue #4, also issue #1's Goblin Den corruption): "`$7E:E000-$FFFF` is free" (11 small scenes).
+  A map's tile graphics are unpacked to a staging buffer from `$7E:9000` (`$01:E140`, via `$2180`) that the game
+  DMAs into VRAM as needed (queue flush reads it after battles and while walking). Big tilesets run it to
+  `$7E:EBBF` (places 07 Goblin Den, 20, 22 Underground Waterway, 27, 29, 62, 69); the shadow at `$7E:E000` then
+  overwrote tiles with glyphs (`$7E:E2E6..` after the place-name label) and parts of the map showed junk after a
+  battle until the menu reloaded the map. Probe `tools/lua/wramwho.lua` (writer PCs of a WRAM range).
 - Engine column `$0E0B` only moves by the codes (F4-F8, FD, EF right-align) and per glyph; no auto-wrap.
 
 ## How it works
 - Pool: every glyph-table tile below $180 except static ones = 182 pairs (t, t+1) = top/bottom of a cell.
-  WRAM shadow at `$7E:E000 + t*16`. Vars `$7E:F800`, used flags `$7E:F860`. Check a screen's pool cells with
+  WRAM shadow 32 bytes per pair p (`shaddr`): p < 120 at `$7F:E000 + p*32`, the rest at `$7E:F040 + (p-120)*32`
+  (bank by address: >= `$F000` is `$7E`). Vars `$7E:F800`, used flags `$7E:F860`. Check a screen's pool cells with
   `tools/lua/vwfdump.lua` + `tools/vwfcheck.py` (VRAM == shadow per row); `tools/lua/vramwriters.lua` logs DMAs
   that hit given VRAM words.
 - Draw: if the engine asks for the cell right after the pen's open cell, continue in it (OR); else start fresh at

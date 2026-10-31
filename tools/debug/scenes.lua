@@ -90,6 +90,7 @@ SCENE_LIST = {
   menu_equip_info = at(HOME, { keys = menu(2) .. ";6 right;20 -;6 right;20 -;6 right;40 -;6 a;60 -" }),  -- pick the armour slot
   menu_status = at(HOME, { keys = menu(3) }),
   menu_config = at(HOME, { keys = menu(4) }),
+  menu_config_back = at(HOME, { keys = "6 y;40 -;" .. string.rep("6 down;14 -;", 4) .. "6 a;90 -;6 b;120 -" }),  -- 5-item redraw (#4)
   menu_direction = at(HOME, { keys = menu(5) }),
   -- field sub-modes ($7FD7AC, $10:81F6); shop id in $7FD7AE
   shop_sell = shop(1), shop_mode2 = shop(2), rename = shop(3), shop_weapon = shop(4), shop_armor = shop(5),
@@ -110,6 +111,9 @@ SCENE_LIST = {
                   pokes = { [0x7FCE78] = 7, [0x7FCE7A] = 0, [0x7FD7B0] = 0x000E, [0x7FD796] = 0xFFFF } },
   battle_win = at(HOME, { pokes = { [0x7FD7B0] = 0x8000, [0x7FD796] = 0xFFFF }, god = true, stats = 255,
                           keys = mash(40, 114), nocheck = true }),
+  -- random encounter in the Underground Waterway (place22), won, back on the map: tiles after the battle (#4)
+  waterway_battle = { map = 0x13B77C, x = 0x87, y = 0xA4, pokes = { [0x7FCE78] = 7, [0x7FCE7A] = 0, [0x7FD7B0] = 0x000E, [0x7FD796] = 0xFFFF }, god = true, stats = 255,
+                      keys = "16 down;" .. mash(30, 114) .. "600 -", nocheck = true },
   gameover = at(HOME, { pokes = { [0x7FD7B0] = 0x8000, [0x7FD796] = 0xFFFF }, keys = mash(8, 114) }),
   boss00 = boss(0), boss01 = boss(1), boss02 = boss(2), boss03 = boss(3), boss04 = boss(4), boss05 = boss(5),
   boss06 = boss(6), boss07 = boss(7), boss08 = boss(8), boss09 = boss(9), boss10 = boss(10), boss11 = boss(11),

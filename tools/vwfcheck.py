@@ -15,7 +15,15 @@ vram = (d / "vwf.vram.bin").read_bytes()
 wram = (d / "vwf.wram.bin").read_bytes()
 tilepair = (ROOT / "build/vwf/tilepair.bin").read_bytes()
 w = lambda a: struct.unpack_from("<H", wram, a)[0]  # noqa: E731
-n = len((ROOT / "build/vwf/pairs.bin").read_bytes()) // 2
+PAIRS = (ROOT / "build/vwf/pairs.bin").read_bytes()
+n = len(PAIRS) // 2
+
+
+def shaddr(t):
+    """WRAM offset (from $7E:0000) of tile t's shadow: asm/vwf.asm shaddr, pairs < 120 at $7F:E000, rest $7E:F040."""
+    p = tilepair[t]
+    half = 0 if struct.unpack_from("<H", PAIRS, 2 * p)[0] == t else 16  # top tile, then bottom (top + 1)
+    return (0x1E000 + p * 32 if p < 120 else 0xF040 + (p - 120) * 32) + half
 print(f"sig {w(0xF800):04X} pencell {w(0xF802):04X} sub {w(0xF804)} open {w(0xF806):04X} rover {w(0xF808)}"
       f" used {sum(wram[0xF860:0xF860 + n])} pending {sum(wram[0xF920:0xF920 + n])}"
       f" ring {w(0xF820):X}-{w(0xF822):X}")
@@ -25,7 +33,7 @@ for r in range(64):
     for c in range(32):
         t = buf[r * 32 + c]
         if t < 0x180 and tilepair[t] != 0xFF:
-            sh = wram[0xE000 + t * 16:0xE000 + t * 16 + 16]
+            sh = wram[shaddr(t):shaddr(t) + 16]
             vr = vram[0x4000 + t * 16:0x4000 + t * 16 + 16]
             stats[0] += 1
             stats[1] += sh == vr

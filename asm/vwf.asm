@@ -1,7 +1,7 @@
 ; Dual Orb English: variable-width font for the text engine (docs/re/vwf.md).
 ; Every glyph the engine draws goes through $00:AEB6 (code in A, target cell at [$BB] in the BG3 tilemap buffer
 ; $7F:F000). This replaces it: glyphs are drawn into pool tiles (the old kana/Latin glyph tiles, 2 per cell,
-; top + bottom) shadowed in WRAM at SHADOW + tile*16 and sent to VRAM by vwf_nmi from its own upload ring.
+; top + bottom) shadowed in WRAM (32 bytes per pair, shaddr) and sent to VRAM by vwf_nmi from its own upload ring.
 ; Pool tiles are handed out round-robin; when none is free, a sweep of the tilemap buffer frees every tile no
 ; cell shows. Static glyphs (flags 1: page arrows, cursor, leader dot, cell space) keep their original tiles and
 ; snap to the next cell. The engine's column $0E0B is kept so that its next [$BB] is the cell after the pen.
@@ -9,7 +9,13 @@ lorom
 
 incsrc "../build/vwf/defs.asm"
 
-!SHADOW   = $E000         ; $7E:E000 + tile*16, tiles < $180 (free WRAM: tools/lua/wramuse.lua)
+; Shadow: 32 bytes per pool pair p (top tile, then bottom), in two parts (shaddr). The first home, $7E:E000 + tile*16,
+; sat in the map tile staging buffer ($7E:9000 up, $01:E140; the waterway's runs to $7E:EBBF), which the game
+; re-sends to VRAM after a battle: glyphs there became map tiles (#4). Free over 90 scenes (tools/debug/wramscan.sh):
+; $7F:E000-$EEFF (pairs 0-119) and $7E:EC00-$F7FF (pairs 120-181 at $F040). Bank: address >= $F000 -> $7E, else $7F.
+!SH1      = $E000         ; $7F:E000, pairs 0 .. SH1N-1
+!SH1N     = 120
+!SH2      = $F040         ; $7E:F040, pairs SH1N .. 181 (ends $F800; staging would need 12 more records than the waterway)
 !SIG      = $F800         ; WRAM vars, bank $7E (DB = $7E inside the VWF)
 !PENCELL  = $F802         ; tilemap address of the cell the pen is in
 !PENSUB   = $F804         ; pen px inside that cell (0 = at its left edge, nothing open)
@@ -87,6 +93,7 @@ vwf_draw:
 	pei ($02)
 	pei ($04)
 	pei ($06)
+	pei ($08)
 	pea $7E7E
 	plb
 	plb
@@ -166,26 +173,24 @@ vwf_draw:
 	jsr getpair
 	sta.w !TR
 .render
-	lda.w !TL
-	asl
-	asl
-	asl
-	asl
-	clc
-	adc #!SHADOW
+	lda.w !TL                 ; long pointers: TL at [$03], TR at [$06] (the shadow spans two banks)
+	jsr shaddr
 	sta $03
+	jsr shbank
+	sep #$20
+	sta $05
+	rep #$20
 	lda #!DUMMY
 	ldx.w !TR
 	cpx #$FFFF
 	beq +
 	txa
-	asl
-	asl
-	asl
-	asl
-	clc
-	adc #!SHADOW
-+	sta $05
+	jsr shaddr
++	sta $06
+	jsr shbank
+	sep #$20
+	sta $08
+	rep #$20
 	lda.w !CODE
 	asl
 	asl
@@ -215,12 +220,12 @@ vwf_draw:
 	tax
 	sep #$20
 	lda.l vwf_shift,x
-	ora ($03),y
-	sta ($03),y
+	ora [$03],y
+	sta [$03],y
 	lda.l vwf_shift+1,x
 	beq .next
-	ora ($05),y
-	sta ($05),y
+	ora [$06],y
+	sta [$06],y
 .next
 	rep #$20
 	iny
@@ -323,6 +328,8 @@ vwf_draw:
 	lda #$FFFF
 	sta.w !OPENT
 +	stz.w !INDRAW
+	pla
+	sta $08
 	pla
 	sta $06
 	pla
@@ -447,28 +454,53 @@ blankcell:
 
 ; A = tile: zero its pair's shadow
 clearpair:
-	asl
-	asl
-	asl
-	asl
+	jsr shaddr
 	tax
-	stz.w !SHADOW+$00,x
-	stz.w !SHADOW+$02,x
-	stz.w !SHADOW+$04,x
-	stz.w !SHADOW+$06,x
-	stz.w !SHADOW+$08,x
-	stz.w !SHADOW+$0A,x
-	stz.w !SHADOW+$0C,x
-	stz.w !SHADOW+$0E,x
-	stz.w !SHADOW+$10,x
-	stz.w !SHADOW+$12,x
-	stz.w !SHADOW+$14,x
-	stz.w !SHADOW+$16,x
-	stz.w !SHADOW+$18,x
-	stz.w !SHADOW+$1A,x
-	stz.w !SHADOW+$1C,x
-	stz.w !SHADOW+$1E,x
+	cmp #$F000
+	lda #$0000
+	bcs .e
+	!o = 0
+	while !o < $20
+		sta.l $7F0000+!o,x
+		!o #= !o+2
+	endwhile
 	rts
+.e
+	!o = 0
+	while !o < $20
+		sta.l $7E0000+!o,x
+		!o #= !o+2
+	endwhile
+	rts
+
+; A = top tile of a pool pair -> A = its shadow address (32 bytes: top tile, bottom tile); X, Y kept
+shaddr:
+	phx
+	and #$01FF
+	tax
+	lda.l vwf_tilepair,x
+	and #$00FF
+	asl
+	asl
+	asl
+	asl
+	asl
+	cmp.w #!SH1N*32
+	bcs +
+	adc.w #!SH1               ; C = 0
+	plx
+	rts
++	adc.w #!SH2-(!SH1N*32)-1  ; C = 1
+	plx
+	rts
+
+; A = shadow address (or !DUMMY) -> A = its bank
+shbank:
+	cmp #$F000
+	lda #$007F
+	bcc +
+	dec
++	rts
 
 ; -> A = top tile of a free pool pair (marked used)
 alloc:
@@ -575,16 +607,15 @@ enqueue:
 	sta.w !PEND,y
 	rep #$20
 	txa
+	jsr shaddr
+	sta.w !TMPS               ; DMA source; upload takes its bank from the address (shbank)
+	txa
 	asl
 	asl
 	asl
 	clc
 	adc #$2000
 	sta.w !TMPV
-	asl
-	clc
-	adc #!SHADOW-$4000
-	sta.w !TMPS
 	ldx.w !QTAIL
 	cpx.w !QHEAD
 	beq .new
@@ -767,8 +798,6 @@ upload:
 	sta $00
 	lda #$18
 	sta $01
-	lda #$7E
-	sta $04
 	rep #$20
 	lda.w !SIG                ; WRAM is random until the first glyph runs init
 	cmp #$5756
@@ -869,7 +898,9 @@ upload:
 	sta.l $002116
 	lda.w !QS,x
 	sta $02
+	jsr shbank                ; the shadow spans $7F:E000 and $7E:F040 (a run never crosses: QS merges are contiguous)
 	sep #$20
+	sta $04
 	lda.w !CHBIT
 	sta.l $00420B
 	lda.l $004212             ; vblank ended during the DMA: its tail was dropped, so keep the entry to resend it

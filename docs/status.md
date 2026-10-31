@@ -144,18 +144,27 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - v1.2 (2026-10-30): r9 re-tour 156/156, 363 sheets, all 10 chunks ok (verdicts `r9_*`), gate exit 0;
     `tools/release.py --version 1.2` passes. `release/DualOrb_EN_v1.2.zip`, patch sha1 bdcc9547..., result crc32
     756264B6. Published 2026-10-30 at the user's request.
-- **Next:** player bug reports. Not checked: one-frame "Re:ord 3" flash after saving (now "File"), the one-frame
+  - Issue #4 (2026-10-31, same player, v1.2, Supafaust; media + save in `work/issues/4/`): (1) map tiles junk after
+    random battles in the Underground Waterway (and issue #1's Goblin Den): the VWF shadow `$7E:E000` lay in the
+    map tile staging buffer (`$7E:9000-$EBBF` for big tilesets, places 07/20/22/27/29/62/69), which the game DMAs to
+    VRAM later. Shadow moved to `$7F:E000` (pairs 0-119) + `$7E:F040` (120-181) (`asm/vwf.asm` shaddr/shbank,
+    `docs/re/vwf.md`); staging now == JP in places 07/22/69 (v1.2 differed from `$7E:E2E6`). WRAM union over 90
+    JP scenes: `tools/debug/wramscan.sh`. (2) field menu "(" outside the box after backing out of a submenu: the
+    5-item redraw's window record `$21:924B` was never moved 8 px left (scene `menu_config_back`).
+    Scene `waterway_battle` (random encounter there, won). Probes `tools/lua/{vramrace,wramwho}.lua`.
+- **Next:** release v1.3 after a re-tour (VWF shadow moved: every text screen changed). Player bug reports. Not checked: one-frame "Re:ord 3" flash after saving (now "File"), the one-frame
   "branc?es" redraw in menu_item_long2 (final frame clean).
 - **Risks:** other `find_lists` refs may be false like `$13:E69B` (only those read by the map loader `$0C:B40A` are
-  proven; probe: `work/tmp_refs.lua` idea, log reads of each ref site). Shadow `$7E:E000` is free in the scenes
-  measured, not proven everywhere. A full screen of new VWF cells takes a few frames to appear; text finished just
+  proven; probe: `work/tmp_refs.lua` idea, log reads of each ref site). Shadow `$7F:E000-$EEFF` + `$7E:F040-$F7FF` and
+  vars `$7E:F800` are free in 90 scenes measured, not proven everywhere (staging maxes at `$7E:EBBF`; 12 more
+  0x60-byte records would reach `$F040`). A full screen of new VWF cells takes a few frames to appear; text finished just
   before a fade-in can show its last cell or two stale for 1-2 dim frames (`docs/re/vwf.md` §Limit).
   `$7F:8F00-$8FB5` (`!SENT`) assumed free like the rest of `$7F:8900-$8FFF` (measured in 9 scenes).
 - **Debug-tool limits:** a record saved after a warp (`church_saved`, SRAM `tools/mesen/Saves/<rom>.srm`) garbles
   the file select when loaded, on the original ROM too (`tools/routes/load1.txt`): story-so-far not reachable yet;
   delete that .srm after such a run (`warp_all.py` does). Scenes are by place, not story chapter (story flags `$7FCF83+n` not mapped). Final boss
   can't be won; ending reached by steps 41/42. Battle-time HP copy not found (GOD clears the dead flags instead).
-- **Open bugs:** #3 part 3 (menu open/close border dots, not reproduced; awaiting the player's recheck).
+- **Open bugs:** #4 fixed on main, not released. #3 part 3 (menu open/close border dots, not reproduced; awaiting the player's recheck).
 - **Waiting on the user:** nothing. (Non-blocking: sound-test titles are already English in fullwidth brackets;
   default plan is to keep their wording and only restyle.)
 - **Gotchas:** `play.py` presses: `a a a --gap N`, not `"-*120"` tokens. Mesen probe addresses print with odd bank
