@@ -95,6 +95,10 @@ SCENE_LIST = {
   -- field sub-modes ($7FD7AC, $10:81F6); shop id in $7FD7AE
   shop_sell = shop(1), shop_mode2 = shop(2), rename = shop(3), shop_weapon = shop(4), shop_armor = shop(5),
   shop_item = shop(6), church = shop(7), treasure_game = shop(8),
+  shop_weapon_id = shop(5, SHOP_ID or 0),            -- --var SHOP_ID=n: weapon shop n (mode 5 = weapons, 4 = armour)
+  -- Gipros weapons: Steam Hammer's info line (row 5) then shorter ones over it (#4)
+  shop_steam = at(HOME, { pokes = { [0x7FD7AE] = 19, [0x7FD7AC] = 0x8005 },
+                          keys = "300 -;" .. string.rep("6 down;60 -;", 4) .. "90 -;6 up;90 -;6 down;90 -;6 up;90 -;6 up;90 -" }),
   shop_buy = at(HOME, { pokes = { [0x7FD7AE] = 0, [0x7FD7AC] = 0x8006, [0x111B] = 9999 },
                         keys = "300 -;6 a;120 -;6 a;120 -;6 a;120 -;6 a;120 -" }),  -- 9999 G, buy wares row 1
   church_save =at(shop(7), { keys = "300 -;6 a;300 -" }),           -- Save -> the record slots

@@ -14,7 +14,7 @@ import wrap  # noqa: E402
 
 PAIRS = {"E5": "3C0", "E4": "3C1", "F2": "3C2", "EB": "3C3", "F3": "3C4", "E6": "3C5", "E8": "3C6", "E9": "3C7",
          "E7": "3C8", "EA": "3C9"}  # name table -> description sub-table (same index)
-INFO_PX = 232  # info line: shop/menu top box, text x=14..246 (shop_weapon shot)
+INFO_PX = 224  # info line: text x=16..239; cell x240 isn't cleared when the cursor moves (issue #4, Steam Hammer)
 # battle panel ($20:A44A: JSL $00A8BF at column 8/$0F/$17, row $16; description at column 8, row $19)
 BATTLE = {"E6": 88, "F2": 88, "E4": 88, "F3": 88, "EB": 88}  # third field x=160..248 (asm/names.asm moves it)
 # description x=64..: up to the count/cost at column $19 (x=200, $20:A57C/A5D0) for items/spells/skills

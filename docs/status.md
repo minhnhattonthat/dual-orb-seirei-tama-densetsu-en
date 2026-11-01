@@ -158,7 +158,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
     legend." never printed; `crawl_page` now flushes the previous page's lines (`asm/crawl.asm`). Verdicts `r10_*`,
     gate 368/368. `tools/release.py --version 1.3` passes: patch sha1 67e6c8f5..., result crc32 99A74471, playable
     `build/dual_orb_en_v1.3.sfc` sha1 e42b404d.... Published 2026-11-01 at the user's request.
-- **Next:** player bug reports. Not checked: one-frame "Re:ord 3" flash after saving (now "File"), the one-frame
+  - Issue #4 edit 2 (2026-11-01, v1.3 not yet tried by the player): Gipros weapon shop "Steam Hammer: A hammer
+    powered by steam" touched the box edge and left its last cell when the cursor moved. The info line is cleared
+    only to x239: budget 232 -> 224 px (`fieldfit.INFO_PX`), 12 descriptions shortened. Scenes `shop_steam`
+    (shop 19 = Gipros weapons, verified), `shop_weapon_id` (`--var SHOP_ID=n`, mode 5 = weapons, 4 = armour).
+- **Next:** v1.4 needs a re-tour + visual QA (names.json changed: every item/shop/battle description screen).
+  Player bug reports. Not checked: one-frame "Re:ord 3" flash after saving (now "File"), the one-frame
   "branc?es" redraw in menu_item_long2 (final frame clean).
 - **Risks:** other `find_lists` refs may be false like `$13:E69B` (only those read by the map loader `$0C:B40A` are
   proven; probe: `work/tmp_refs.lua` idea, log reads of each ref site). Shadow `$7F:E000-$EEFF` + `$7E:F040-$F7FF` and
