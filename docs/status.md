@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9 (release) done: v1.0 published 2026-10-27, v1.1 + v1.2 2026-10-30, v1.3 2026-11-01.
+- **Phase:** 9 (release) done: v1.0 published 2026-10-27, v1.1 + v1.2 2026-10-30, v1.3 + v1.4 2026-11-01.
   `tools/build.py` builds VWF + script (`--marker` for the marker build, `--identity` for the byte-identical ROM).
 - **Done:**
   - Step 0: MesenCE 2.2.1 in `tools/mesen/`, guard hook verified (blocks `sed -i`), pre-commit runs `tools/check.py`
@@ -162,8 +162,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
     powered by steam" touched the box edge and left its last cell when the cursor moved. The info line is cleared
     only to x239: budget 232 -> 224 px (`fieldfit.INFO_PX`), 12 descriptions shortened. Scenes `shop_steam`
     (shop 19 = Gipros weapons, verified), `shop_weapon_id` (`--var SHOP_ID=n`, mode 5 = weapons, 4 = armour).
-- **Next:** v1.4 needs a re-tour + visual QA (names.json changed: every item/shop/battle description screen).
-  Player bug reports. Not checked: one-frame "Re:ord 3" flash after saving (now "File"), the one-frame
+  - v1.4 (2026-11-01): r11 re-tour 160/160, 372 sheets, all 9 chunks ok (verdicts `r11_*`), gate exit 0;
+    `tools/release.py --version 1.4` passes: patch sha1 e3701696..., result crc32 790C9264. Published 2026-11-01
+    at the user's request.
+- **Next:** player bug reports. Not checked: one-frame "Re:ord 3" flash after saving (now "File"), the one-frame
   "branc?es" redraw in menu_item_long2 (final frame clean).
 - **Risks:** other `find_lists` refs may be false like `$13:E69B` (only those read by the map loader `$0C:B40A` are
   proven; probe: `work/tmp_refs.lua` idea, log reads of each ref site). Shadow `$7F:E000-$EEFF` + `$7E:F040-$F7FF` and

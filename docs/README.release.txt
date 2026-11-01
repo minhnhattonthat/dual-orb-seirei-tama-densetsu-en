@@ -36,6 +36,11 @@ Known issues
 - A menu description can show one garbled letter for a single frame while it
   redraws after the cursor moves.
 
+Changes in v1.4
+---------------
+- Shop/menu item descriptions no longer reach the box edge or leave a
+  letter behind when the cursor moves (Steam Hammer and 11 others).
+
 Changes in v1.3
 ---------------
 - Fixed map tiles turning to junk after battles in large areas (Underground
