@@ -165,6 +165,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - v1.4 (2026-11-01): r11 re-tour 160/160, 372 sheets, all 9 chunks ok (verdicts `r11_*`), gate exit 0;
     `tools/release.py --version 1.4` passes: patch sha1 e3701696..., result crc32 790C9264. Published 2026-11-01
     at the user's request.
+  - Issue #5 (2026-11-03, same player, v1.4; media + saves in `work/issues/5/`): (1) treasure-box game (casino)
+    left "?" / "G" bits: its erase string `0C:FC90` was JP-sized (17/24 cells, English lines 18/25) -> 25 cells a
+    row; "Now, pick the one" padded over "Watch very closely now!"; rank title padded over "Too bad... empty."
+    (Try again -> Yes redraws with no erase). Scenes `treasure_play/_again/_poor`. Other all-space erase pieces
+    (shops, sound test, battle, church, menus, save) were in tours and look fine. (2) Gold City `♥ホテル♥` signs
+    (map tiles, graphics G13) -> `♥HOTEL♥` (`tools/signs.py`, `gfx/hotel.txt`, hook in `asm/buttons.asm`).
+    (3) Minea Village slowdown: the player sees it on the original ROM too (crowd of ~20 NPCs): the game's own.
 - **Next:** player bug reports. Not checked: one-frame "Re:ord 3" flash after saving (now "File"), the one-frame
   "branc?es" redraw in menu_item_long2 (final frame clean).
 - **Risks:** other `find_lists` refs may be false like `$13:E69B` (only those read by the map loader `$0C:B40A` are

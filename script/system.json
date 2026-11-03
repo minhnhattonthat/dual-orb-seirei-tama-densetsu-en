@@ -875,7 +875,7 @@
  {
   "id": "0C:FBD6",
   "jp": "どのランクに ちょうせんしますか？{n} イ―ジ―・ランク     かけきん   10G{n} ノ―マル・ランク     かけきん  100G{n}  ハ―ド・ランク     かけきん 1000G{end}",
-  "en": "Which rank will you take on?{n}_Easy Rank______Bet_       10G{n}_Normal Rank_____Bet_      100G{n}_Hard Rank______Bet_    1000G{end}",
+  "en": "Which rank will you take on?____{n}_Easy Rank______Bet_       10G{n}_Normal Rank_____Bet_      100G{n}_Hard Rank______Bet_    1000G{end}",
   "block": "treasure-box game",
   "refs": [
    "b3 06715A"
@@ -884,7 +884,7 @@
  {
   "id": "0C:FC33",
   "jp": "どのランクに ちょうせんしますか？{n} イ―ジ―・ランク     かけきん   50G{n} ノ―マル・ランク     かけきん  500G{n}  ハ―ド・ランク     かけきん 5000G{end}",
-  "en": "Which rank will you take on?{n}_Easy Rank______Bet_       50G{n}_Normal Rank_____Bet_      500G{n}_Hard Rank______Bet_    5000G{end}",
+  "en": "Which rank will you take on?____{n}_Easy Rank______Bet_       50G{n}_Normal Rank_____Bet_      500G{n}_Hard Rank______Bet_    5000G{end}",
   "block": "treasure-box game",
   "refs": [
    "b3 067166"
@@ -893,7 +893,7 @@
  {
   "id": "0C:FC90",
   "jp": "                 {n}                        {n}                        {n}                        {end}",
-  "en": "",
+  "en": "_________________________{n}_________________________{n}_________________________{n}_________________________{end}",
   "block": "treasure-box game",
   "refs": [
    "b3 0671A3"
@@ -920,7 +920,7 @@
  {
   "id": "0C:FD10",
   "jp": "さぁ あなたがこれだというのを{n}ひとつ えらんでください{end}",
-  "en": "Now, pick the one{n}you think it is.{end}",
+  "en": "Now, pick the one_____{n}you think it is.{end}",
   "block": "treasure-box game",
   "refs": [
    "b3 06737A"

@@ -36,6 +36,22 @@ btn_unpack:
 	%btn_copy($1800, $01C0, $0280)
 	%btn_copy($1A00, $01C0, $0440)
 .out
+	ldx #$000E                ; Gold City tileset ($28:A87F): "ホテル" sign tiles $215-$21A / $225-$22A (tools/signs.py)
+-	lda.l $7EC2A0,x
+	cmp.l hotel_sig,x
+	bne .out2
+	dex
+	dex
+	bpl -
+	ldx #$00BE
+-	lda.l hotel_data,x
+	sta.l $7EC2A0,x
+	lda.l hotel_data+$C0,x
+	sta.l $7EC4A0,x
+	dex
+	dex
+	bpl -
+.out2
 	plx
 	pla
 	plp
@@ -50,3 +66,5 @@ btn_unpack:
 
 btn_sig:  incbin "../build/vwf/buttons_sig.bin"
 btn_data: incbin "../build/vwf/buttons.bin"
+hotel_sig:  incbin "../build/vwf/hotel_sig.bin"
+hotel_data: incbin "../build/vwf/hotel.bin"

@@ -12,6 +12,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 import font  # noqa: E402
 import namechart  # noqa: E402
 import buttons  # noqa: E402
+import signs  # noqa: E402
 
 ASAR = ROOT / "tools" / "asar" / "asar.exe"
 SIZE = 0x200000
@@ -49,6 +50,7 @@ def patch(rom: bytes, asm=ROOT / "asm" / "vwf.asm") -> bytes:
     font.build(rom)
     namechart.build()
     buttons.build()
+    signs.build()
     with tempfile.TemporaryDirectory() as tmp:
         p = Path(tmp) / "rom.sfc"
         p.write_bytes(rom.ljust(SIZE, b"\xff"))
