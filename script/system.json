@@ -938,7 +938,7 @@
  {
   "id": "0C:FD39",
   "jp": "おめでとうございます！         {n}このしょうひんは あなたのものです！{n}もっと もうけてみませんか？{n}  はい   いいえ{end}",
-  "en": "Congratulations!__________{n}This prize is yours!{n}Want to try winning more?{n}___Yes__No{end}",
+  "en": "Congratulations!__________{n}This prize is yours!{n}Want to try winning more?{n}__Yes__No{end}",
   "block": "treasure-box game",
   "refs": [
    "b3 0673CA"
@@ -947,7 +947,7 @@
  {
   "id": "0C:FD7B",
   "jp": "ざんねんでした。からばこでした。    {n}もういちど ちょうせんしてみますか？{n}{n}  はい   いいえ{end}",
-  "en": "Too bad. The box was empty._{n}Want to try again?{n}{n}___Yes__No{end}",
+  "en": "Too bad. The box was empty._{n}Want to try again?{n}{n}__Yes__No{end}",
   "block": "treasure-box game",
   "refs": [
    "b3 0673D6"
