@@ -172,6 +172,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
     (shops, sound test, battle, church, menus, save) were in tours and look fine. (2) Gold City `♥ホテル♥` signs
     (map tiles, graphics G13) -> `♥HOTEL♥` (`tools/signs.py`, `gfx/hotel.txt`, hook in `asm/buttons.asm`).
     (3) Minea Village slowdown: the player sees it on the original ROM too (crowd of ~20 NPCs): the game's own.
+  - v1.5 (2026-11-03): r12 re-tour 163/163, 382 sheets, 8 chunks; fixed treasure Yes/No under the JP bracket cells
+    (`__Yes__No`); final_boss tour stall was a flake (reruns reach the battle); r13 recheck of 14 sheets ok; gate
+    exit 0. `tools/release.py --version 1.5` passes: patch sha1 9018d5c0..., result crc32 A1B429E9. Published
+    2026-11-03 at the user's request. Not reproduced: r12 tour frame "WhCan't use magic" (menu_magic, the ~30-frame
+    "Can't use magic" box drawn over "Who will use magic?"); frame-by-frame runs on v1.4 and v1.5 show it clean.
 - **Next:** player bug reports. Not checked: one-frame "Re:ord 3" flash after saving (now "File"), the one-frame
   "branc?es" redraw in menu_item_long2 (final frame clean).
 - **Risks:** other `find_lists` refs may be false like `$13:E69B` (only those read by the map loader `$0C:B40A` are
